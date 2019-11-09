@@ -1,0 +1,782 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gu.Localization</name>
+    </assembly>
+    <members>
+        <member name="T:Gu.Localization.CultureChangedEventArgs">
+            <summary>Event data for culture change events.</summary>
+        </member>
+        <member name="M:Gu.Localization.CultureChangedEventArgs.#ctor(System.Globalization.CultureInfo)">
+            <summary>Initializes a new instance of the <see cref="T:Gu.Localization.CultureChangedEventArgs"/> class.</summary>
+            <param name="culture">The culture</param>
+        </member>
+        <member name="P:Gu.Localization.CultureChangedEventArgs.Culture">
+            <summary>Gets the culture.</summary>
+        </member>
+        <member name="T:Gu.Localization.EnumTranslation`1">
+            <summary> Helper for creating enum translations </summary>
+            <typeparam name="T">An enum type</typeparam>
+        </member>
+        <member name="M:Gu.Localization.EnumTranslation`1.Create(System.Resources.ResourceManager,`0,Gu.Localization.ErrorHandling)">
+            <summary> Create a translation for <paramref name="member"/> </summary>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/> with translations for <paramref name="member"/></param>
+            <param name="member"> The member to translate</param>
+            <param name="errorHandling">Specifies how errors are handled.</param>
+            <returns> A <see cref="T:Gu.Localization.Translation"/></returns>
+        </member>
+        <member name="T:Gu.Localization.ErrorHandling">
+            <summary>Specify a strategy for how translation errors are handled.</summary>
+        </member>
+        <member name="F:Gu.Localization.ErrorHandling.Inherit">
+            <summary>Inherits behaviour from <see cref="P:Gu.Localization.Translator.ErrorHandling"/> or defaults to throw.</summary>
+        </member>
+        <member name="F:Gu.Localization.ErrorHandling.Throw">
+            <summary>Throws if something is wrong.</summary>
+        </member>
+        <member name="F:Gu.Localization.ErrorHandling.ReturnErrorInfo">
+            <summary>Returns information about the error in the result.</summary>
+        </member>
+        <member name="F:Gu.Localization.ErrorHandling.ReturnErrorInfoPreserveNeutral">
+            <summary>Returns information about the error in the result but leaves neutral strings intact</summary>
+        </member>
+        <member name="T:Gu.Localization.Errors.MissingTranslation">
+            <summary>A key that does not have a translation to one or more languages.</summary>
+        </member>
+        <member name="P:Gu.Localization.Errors.MissingTranslation.Cultures">
+            <summary> Gets a list of <see cref="T:System.Globalization.CultureInfo"/> for which there is no translation for the Key.</summary>
+        </member>
+        <member name="M:Gu.Localization.Errors.MissingTranslation.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Localization.Errors.FormatError">
+            <summary>
+            A key that has errors in format parameters.
+            Errors can be:
+            'First: {1}' (deos not start at zero)
+            If different languages have different number of parameters
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Errors.FormatError.Formats">
+            <summary>Gets all formats for all cultures</summary>
+        </member>
+        <member name="T:Gu.Localization.Errors.TranslationErrors">
+            <summary>A collection of errors.</summary>
+        </member>
+        <member name="P:Gu.Localization.Errors.TranslationErrors.Count">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.Errors.TranslationErrors.Keys">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.Errors.TranslationErrors.Values">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.Errors.TranslationErrors.Item(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationErrors.ToString(System.String,System.String)">
+            <summary>
+            Dumps the errors to a formatted string
+            </summary>
+            <param name="tabString">The string to use for indentation</param>
+            <param name="newLine">The newline ex. <see cref="P:System.Environment.NewLine"/></param>
+            <returns>A formatted string with all errors or srting.Empty if none.</returns>
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationErrors.GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationErrors.System#Collections#IEnumerable#GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationErrors.ContainsKey(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationErrors.TryGetValue(System.String,System.Collections.Generic.IReadOnlyList{Gu.Localization.Errors.TranslationError}@)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Localization.Errors.TranslationError">
+            <summary>A base class for translation error.</summary>
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationError.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Gu.Localization.Errors.TranslationError"/> class.</summary>
+            <param name="key">The key</param>
+        </member>
+        <member name="P:Gu.Localization.Errors.TranslationError.Key">
+            <summary>Gets the key for which errors were found.</summary>
+        </member>
+        <member name="M:Gu.Localization.Errors.TranslationError.WriteTo(System.CodeDom.Compiler.IndentedTextWriter)">
+            <summary>Append self to <paramref name="writer"/>.</summary>
+            <param name="writer">The writer</param>
+        </member>
+        <member name="T:Gu.Localization.Culture">
+            <summary> Utility class for <see cref="T:System.Globalization.CultureInfo"/> </summary>
+        </member>
+        <member name="M:Gu.Localization.Culture.Exists(System.String)">
+            <summary>Check if <paramref name="name"/> is the name of a culture</summary>
+            <param name="name">The name</param>
+            <returns>True if <paramref name="name"/> is a culture name.</returns>
+        </member>
+        <member name="T:Gu.Localization.CultureInfoComparer">
+            <summary>A comparer for <see cref="T:System.Globalization.CultureInfo"/> </summary>
+        </member>
+        <member name="F:Gu.Localization.CultureInfoComparer.ByTwoLetterIsoLanguageName">
+            <summary> Gets a comparer that compares by <see cref="P:System.Globalization.CultureInfo.TwoLetterISOLanguageName"/> </summary>
+        </member>
+        <member name="F:Gu.Localization.CultureInfoComparer.ByName">
+            <summary> Gets a comparer that compares by <see cref="P:System.Globalization.CultureInfo.Name"/> </summary>
+        </member>
+        <member name="M:Gu.Localization.CultureInfoComparer.Equals(System.Globalization.CultureInfo,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.CultureInfoComparer.GetHashCode(System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Localization.EmptyReadOnlyDictionary`2">
+            <inheritdoc />
+        </member>
+        <member name="F:Gu.Localization.EmptyReadOnlyDictionary`2.Default">
+            <summary> A cached instance </summary>
+        </member>
+        <member name="P:Gu.Localization.EmptyReadOnlyDictionary`2.Count">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.EmptyReadOnlyDictionary`2.Keys">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.EmptyReadOnlyDictionary`2.Values">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.EmptyReadOnlyDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Item(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.EmptyReadOnlyDictionary`2.GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.EmptyReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.EmptyReadOnlyDictionary`2.ContainsKey(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.EmptyReadOnlyDictionary`2.TryGetValue(`0,`1@)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Localization.FormatString">
+            <summary>Optimized this a lot to avoid caching of results.</summary>
+        </member>
+        <member name="M:Gu.Localization.FormatString.IsFormatString(System.String)">
+            <summary>Checks if <paramref name="format"/> has argument placeholders like 'Value: {0}'</summary>
+            <param name="format">A format string.</param>
+            <returns>True if the string contains format placeholders.</returns>
+        </member>
+        <member name="M:Gu.Localization.FormatString.IsValidFormatString(System.String,System.Int32)">
+            <summary>Check if <paramref name="format"/> is a valid format string for <paramref name="numberOfArguments"/></summary>
+            <param name="format">The format string.</param>
+            <param name="numberOfArguments">The number of format arguments.</param>
+            <returns>True if <paramref name="format"/> is well formed and matches <paramref name="numberOfArguments"/></returns>
+        </member>
+        <member name="M:Gu.Localization.FormatString.IsValidFormat(System.String,System.Int32@,System.Nullable{System.Boolean}@)">
+            <summary>
+            Check a format string for errors and other properties.
+            Does not throw nor allocate no need to cache the result as it is about as fast as a dictionary lookup for common strings.
+            </summary>
+            <param name="format">The format string to check</param>
+            <param name="indexCount">The number of format indices or -1 if error</param>
+            <param name="anyItemHasFormat">If any index has formatting i.e: {0:N}</param>
+            <returns>True if <paramref name="format"/> is a valid format string</returns>
+        </member>
+        <member name="T:Gu.Localization.ResourceCultures">
+            <summary>Utility class for finding resources.</summary>
+        </member>
+        <member name="M:Gu.Localization.ResourceCultures.GetAllCultures(System.IO.DirectoryInfo)">
+            <summary>
+            Gets all cultures found in the directory. The search is donde by:
+            1) Enumerate all folders named with valid culture names
+            2) Check that the folder contains resource files
+            The result is not cached
+            </summary>
+            <param name="executingDirectory">The directory to check</param>
+            <returns>The cultures found. If none an empty list is returned.</returns>
+        </member>
+        <member name="M:Gu.Localization.ResourceManagerExt.HasKey(System.Resources.ResourceManager,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Check if the <paramref name="resourceManager"/> has a translation for <paramref name="key"/>
+            This is a pretty expensive call but should only happen in the error path.
+            No memoization is done.
+            </summary>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/></param>
+            <param name="key">The key</param>
+            <param name="culture">The <see cref="T:System.Globalization.CultureInfo"/></param>
+            <returns>True if a translation exists</returns>
+        </member>
+        <member name="M:Gu.Localization.ResourceManagerExt.HasKey(System.Resources.ResourceManager,System.String)">
+            <summary>
+            Check if the <paramref name="resourceManager"/> has a translation for <paramref name="key"/>
+            This is a pretty expensive call but should only happen in the error path.
+            No memoization is done.
+            </summary>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/></param>
+            <param name="key">The key</param>
+            <returns>True if a translation exists</returns>
+        </member>
+        <member name="M:Gu.Localization.ResourceManagerExt.HasCulture(System.Resources.ResourceManager,System.Globalization.CultureInfo)">
+            <summary>
+            Check if the <paramref name="resourceManager"/> has translations for <paramref name="culture"/>
+            This is a pretty expensive call but should only happen in the error path.
+            No memoization is done.
+            </summary>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/></param>
+            <param name="culture">The <see cref="T:System.Globalization.CultureInfo"/></param>
+            <returns>True if a translation exists</returns>
+        </member>
+        <member name="T:Gu.Localization.ResourceManagerExt.CulturesAndKeys.ResourceManagerClone">
+            <summary>Creates a clone of the <see cref="F:Gu.Localization.ResourceManagerExt.CulturesAndKeys.ResourceManagerClone.ResourceManager"/> passed in. Releases all resources on dispose.</summary>
+        </member>
+        <member name="T:Gu.Localization.ITranslation">
+            <summary>
+            A translated key
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.ITranslation.Translated">
+            <summary>
+            Gets the <see cref="P:Gu.Localization.ITranslation.Key"/> Translated to the <see cref="P:Gu.Localization.Translator.CurrentCulture"/>
+            This valus updates when <see cref="P:Gu.Localization.Translator.CurrentCulture"/> changes
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.ITranslation.Key">
+            <summary>Gets the key for the resource in the resourcemanager.</summary>
+        </member>
+        <member name="P:Gu.Localization.ITranslation.ErrorHandling">
+            <summary>Gets the <see cref="P:Gu.Localization.ITranslation.ErrorHandling"/> used by this translation.</summary>
+        </member>
+        <member name="M:Gu.Localization.ITranslation.Translate(System.Globalization.CultureInfo,Gu.Localization.ErrorHandling)">
+            <summary>Calls <see cref="M:Gu.Localization.Translator.Translate(System.Resources.ResourceManager,System.String,System.Globalization.CultureInfo,Gu.Localization.ErrorHandling)"/> with the key.</summary>
+            <param name="culture">The culture.</param>
+            <param name="errorHandlingStrategy">Specifiec how errors are handled</param>
+            <returns>The translated string.</returns>
+        </member>
+        <member name="T:Gu.Localization.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.InvalidFormat">
+            <summary>
+              Looks up a localized string similar to {{&quot;{0}&quot; : {1}}}.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.MissingCultureFormat">
+            <summary>
+              Looks up a localized string similar to ~{0}~.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.MissingKeyFormat">
+            <summary>
+              Looks up a localized string similar to !{0}!.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.MissingResourcesFormat">
+            <summary>
+              Looks up a localized string similar to ?{0}?.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.MissingTranslationFormat">
+            <summary>
+              Looks up a localized string similar to _{0}_.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.NullManagerFormat">
+            <summary>
+              Looks up a localized string similar to ${0}$.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Properties.Resources.UnknownErrorFormat">
+            <summary>
+              Looks up a localized string similar to #{0}#.
+            </summary>
+        </member>
+        <member name="T:Gu.Localization.ResourceManagers">
+            <summary>A cache for resourcemanagers.</summary>
+        </member>
+        <member name="M:Gu.Localization.ResourceManagers.TryGetForType(System.Type,System.Resources.ResourceManager@)">
+            <summary>Tries to get from cache or create a <see cref="T:System.Resources.ResourceManager"/> for <paramref name="resourcesType"/> </summary>
+            <param name="resourcesType">Ex. typeof(Properties.Resources)</param>
+            <param name="result">The <see cref="T:System.Resources.ResourceManager"/></param>
+            <returns>True if a <see cref="T:System.Resources.ResourceManager"/> could be created for <paramref name="resourcesType"/></returns>
+        </member>
+        <member name="M:Gu.Localization.ResourceManagers.ForType(System.Type)">
+            <summary>Call with typeof(Properties.Resources)</summary>
+            <param name="resourcesType">typeof(Properties.Resources)</param>
+            <returns>A resource manager</returns>
+        </member>
+        <member name="T:Gu.Localization.StaticTranslation">
+            <summary>A fake translation that can be used fo nonlocalized strings.</summary>
+        </member>
+        <member name="M:Gu.Localization.StaticTranslation.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gu.Localization.StaticTranslation"/> class.
+            Note that <see cref="P:Gu.Localization.StaticTranslation.Translated"/> does not change when <see cref="P:Gu.Localization.Translator.CurrentCulture"/> changed.
+            </summary>
+            <param name="translated">
+            The text will be used as <see cref="P:Gu.Localization.StaticTranslation.Translated"/> and returned for every culture.
+            </param>
+        </member>
+        <member name="M:Gu.Localization.StaticTranslation.#ctor(System.String,System.String,Gu.Localization.ErrorHandling)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gu.Localization.StaticTranslation"/> class.
+            Note that <see cref="P:Gu.Localization.StaticTranslation.Translated"/> does not change when <see cref="P:Gu.Localization.Translator.CurrentCulture"/> changed.
+            </summary>
+            <param name="translated">
+            The text will be used as <see cref="P:Gu.Localization.StaticTranslation.Translated"/> and returned for every culture.
+            </param>
+            <param name="key">Dunno if there will ever be a use case for setting key on this.</param>
+            <param name="errorHandling">Dunno if there will ever be a use case for setting <see cref="P:Gu.Localization.StaticTranslation.ErrorHandling"/> on this.</param>
+        </member>
+        <member name="E:Gu.Localization.StaticTranslation.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.StaticTranslation.Translated">
+            <summary>Gets the ~translated~ value. Note that this value does not change when <see cref="P:Gu.Localization.Translator.CurrentCulture"/> changed.</summary>
+        </member>
+        <member name="P:Gu.Localization.StaticTranslation.Key">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.StaticTranslation.ErrorHandling">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.StaticTranslation.Translate(System.Globalization.CultureInfo,Gu.Localization.ErrorHandling)">
+            <summary>Returns <see cref="P:Gu.Localization.StaticTranslation.Translated"/> for all inputs.</summary>
+            <param name="culture">The culture is ignored.</param>
+            <param name="errorHandlingStrategy">The errorhandling is ignored.</param>
+            <returns>Returns <see cref="P:Gu.Localization.StaticTranslation.Translated"/>.</returns>
+        </member>
+        <member name="M:Gu.Localization.StaticTranslation.OnPropertyChanged(System.String)">
+            <summary>Use this to notify about a change of the value for the property named <paramref name="propertyName"/>.</summary>
+            <param name="propertyName">The name of the property.</param>
+        </member>
+        <member name="T:Gu.Localization.Translation">
+            <inheritdoc />
+            <summary> Split up nested class  </summary>
+        </member>
+        <member name="E:Gu.Localization.Translation.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.Translation.Translated">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.Translation.Key">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Localization.Translation.ErrorHandling">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.Translation.GetOrCreate(System.Resources.ResourceManager,System.String,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translation.GetOrCreate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey))
+            If <paramref name="resourceManager"/> contains the resource <paramref name="key"/> an <see cref="T:Gu.Localization.Translation"/> is returned.
+            If not a static translation is returned if errorhandling is not throw.
+            </summary>
+            <param name="resourceManager">
+            The resourcemanager with the key
+            </param>
+            <param name="key">
+            The key to translate
+            </param>
+            <param name="errorHandlingStrategy">Specifies how errors are handled.</param>
+            <returns>
+            A <see cref="T:Gu.Localization.Translation"/> that notifies when <see cref="P:Gu.Localization.Translator.Culture"/> changes.
+            </returns>
+        </member>
+        <member name="M:Gu.Localization.Translation.Translate(System.Globalization.CultureInfo,Gu.Localization.ErrorHandling)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Localization.Translation.OnPropertyChanged(System.String)">
+            <summary> Use this to raise propertychanged</summary>
+            <param name="propertyName">The name of the property</param>
+        </member>
+        <member name="M:Gu.Localization.Translation.OnCurrentCultureChanged(System.Globalization.CultureInfo)">
+            <summary> Called when <see cref="P:Gu.Localization.Translator.Culture"/> changes</summary>
+            <param name="culture">The new culture</param>
+        </member>
+        <member name="T:Gu.Localization.Translator">
+            <summary> Class for translating resources </summary>
+        </member>
+        <member name="P:Gu.Localization.Translator.ResourceDirectory">
+            <summary>
+            Gets or sets set the current directory where resources are found.
+            Default is Directory.GetCurrentDirectory()
+            Changing the default is perhaps useful in tests.
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Translator.ErrorHandling">
+            <summary>Gets or sets a value indicating how errors are handled. The default is throw</summary>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate(System.Resources.ResourceManager,System.String)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.CurrentCulture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate(System.Resources.ResourceManager,System.String,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="errorHandling">Specifies how error handling is performed.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.CurrentCulture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate(System.Resources.ResourceManager,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="language">The culture, if null CultureInfo.InvariantCulture is used</param>
+            <returns>The key translated to the <paramref name="language"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate(System.Resources.ResourceManager,System.String,System.Globalization.CultureInfo,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="language">The culture, if null CultureInfo.InvariantCulture is used</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <paramref name="language"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate``1(System.Resources.ResourceManager,System.String,``0,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="arg0">The argument will be used as string.Format(format, <paramref name="arg0"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.Culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate``1(System.Resources.ResourceManager,System.String,System.Globalization.CultureInfo,``0,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="language">The culture.</param>
+            <param name="arg0">The argument will be used as string.Format(format, <paramref name="arg0"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <paramref name="language"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate``2(System.Resources.ResourceManager,System.String,``0,``1,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <typeparam name="T1">The type of <paramref name="arg1"/> generic to avoid boxing</typeparam>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="arg0">The argument will be used as first arguyment in string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="arg1">The argument will be used as second argument string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.Culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.Translate``2(System.Resources.ResourceManager,System.String,System.Globalization.CultureInfo,``0,``1,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <typeparam name="T1">The type of <paramref name="arg1"/> generic to avoid boxing</typeparam>
+            <param name="resourceManager"> The <see cref="T:System.Resources.ResourceManager"/> containing translations.</param>
+            <param name="key">The key in <paramref name="resourceManager"/></param>
+            <param name="language">The culture.</param>
+            <param name="arg0">The argument will be used as first arguyment in string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="arg1">The argument will be used as second argument string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <paramref name="language"/></returns>
+        </member>
+        <member name="E:Gu.Localization.Translator.StaticPropertyChanged">
+            <summary>For binding to static properties in XAML.</summary>
+        </member>
+        <member name="E:Gu.Localization.Translator.CurrentCultureChanged">
+            <summary>Notifies when the current language changes.</summary>
+        </member>
+        <member name="P:Gu.Localization.Translator.Cultures">
+            <summary> Gets a list with all cultures found for the application </summary>
+        </member>
+        <member name="P:Gu.Localization.Translator.Culture">
+            <summary>
+            Gets or sets the culture to translate to.
+            If setting to null CurrentCulture is set to <see cref="P:System.Globalization.CultureInfo.CurrentCulture"/> if there is a translation for it in <see cref="P:Gu.Localization.Translator.Cultures"/>
+            </summary>
+        </member>
+        <member name="P:Gu.Localization.Translator.CurrentCulture">
+            <summary>
+            Gets the culture that is used when translating.
+            Uses a fallback mechanism:
+            1) Culture if not null.
+            2) Any Culture in <see cref="P:Gu.Localization.Translator.Cultures"/> matching <see cref="P:System.Globalization.CultureInfo.CurrentCulture"/> by name.
+            3) Any Culture in <see cref="P:Gu.Localization.Translator.Cultures"/> matching <see cref="P:System.Globalization.CultureInfo.CurrentCulture"/> by name.
+            4) CultureInfo.InvariantCulture
+            </summary>
+            <returns>The effective culture.</returns>
+        </member>
+        <member name="M:Gu.Localization.Translator.ContainsCulture(System.Globalization.CultureInfo)">
+            <summary>Check if <see cref="P:Gu.Localization.Translator.Cultures"/> contains a culture matching <paramref name="language"/>.</summary>
+            <param name="language">The culture to test.</param>
+            <returns>True if <see cref="P:Gu.Localization.Translator.Cultures"/> contains a match for <paramref name="language"/></returns>
+        </member>
+        <member name="T:Gu.Localization.Translator`1">
+            <summary>
+            Sample Translator{Properties.Resources}.Translate(nameof(Properties.Resources.SomeKey));
+            </summary>
+            <typeparam name="TResources">
+            Must be a generated resources file.
+            </typeparam>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate(System.String)">
+            <summary>
+            Call like this Translator&lt;Properties.Resources&gt;.Translate(nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="key">Path to the key. Must be included <typeparamref name="TResources"/>.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.Culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Call like this Translator{Properties.Resources}.Translate(nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="key">Path to the key. Must be included <typeparamref name="TResources"/>.</param>
+            <param name="culture">The culture, if null CultureInfo.InvariantCulture is used</param>
+            <returns>The key translated to the <paramref name="culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate(System.String,Gu.Localization.ErrorHandling)">
+            <summary>
+            Call like this Translator&lt;Properties.Resources&gt;.Translate(nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="key">Path to the key. Must be included <typeparamref name="TResources"/>.</param>
+            <param name="errorHandling">Specifies how errors are handled.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.Culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate(System.String,System.Globalization.CultureInfo,Gu.Localization.ErrorHandling)">
+            <summary>
+            Call like this Translator&lt;Properties.Resources&gt;.Translate(nameof(Properties.Resources.SomeKey));
+            </summary>
+            <param name="key">Path to the key. Must be included <typeparamref name="TResources"/>.</param>
+            <param name="culture">The culture, if null CultureInfo.InvariantCulture is used</param>
+            <param name="errorHandling">Specifies how errors are handled.</param>
+            <returns>The key translated to the <paramref name="culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate``1(System.String,``0,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator&lt;Properties.Resources&gt;.Translate(nameof(Properties.Resources.SomeKey__0__,));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <param name="key">The key in</param>
+            <param name="arg0">The argument will be used as string.Format(format, <paramref name="arg0"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.Culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate``1(System.String,System.Globalization.CultureInfo,``0,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <param name="key">The key in</param>
+            <param name="culture">The culture.</param>
+            <param name="arg0">The argument will be used as string.Format(format, <paramref name="arg0"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <paramref name="culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate``2(System.String,``0,``1,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <typeparam name="T1">The type of <paramref name="arg1"/> generic to avoid boxing</typeparam>
+            <param name="key">The key.</param>
+            <param name="arg0">The argument will be used as first arguyment in string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="arg1">The argument will be used as second argument string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <see cref="P:Gu.Localization.Translator.Culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.Translate``2(System.String,System.Globalization.CultureInfo,``0,``1,Gu.Localization.ErrorHandling)">
+            <summary>
+            Translator.Translate(Properties.Resources.ResourceManager, nameof(Properties.Resources.SomeKey));
+            This assumes that the resource is something like 'Value: {0}' i.e. having one format parameter.
+            </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <typeparam name="T1">The type of <paramref name="arg1"/> generic to avoid boxing</typeparam>
+            <param name="key">The key in <typeparamref name="TResources"/></param>
+            <param name="culture">The culture.</param>
+            <param name="arg0">The argument will be used as first arguyment in string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="arg1">The argument will be used as second argument string.Format(culture, format, <paramref name="arg0"/>, <paramref name="arg1"/>)</param>
+            <param name="errorHandling">Specifies how to handle errors.</param>
+            <returns>The key translated to the <paramref name="culture"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Translator`1.GetOrCreateTranslation(System.String,Gu.Localization.ErrorHandling)">
+            <summary>
+            Create a <see cref="T:Gu.Localization.Translation"/> for <paramref name="key"/>
+            </summary>
+            <param name="key">The key</param>
+            <param name="errorHandling">Specifies how errors are handled.</param>
+            <returns>A <see cref="T:Gu.Localization.Translation"/></returns>
+        </member>
+        <member name="T:Gu.Localization.Validate">
+            <summary>Methods for validating format resources.</summary>
+            <summary>
+            This class is meant to be used in unit tests.
+            Contains helper methods for asserting properties on localization.
+            </summary>
+        </member>
+        <member name="M:Gu.Localization.Validate.Format``1(System.String,``0)">
+            <summary>
+            Call with Validate.IsValidFormat("First: {0:N}", 1.2);
+            Throws a <see cref="T:System.FormatException"/> if error(s) are found.
+            </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <param name="format">The format string ex: 'First: {0:N}</param>
+            <param name="arg0">The argument</param>
+        </member>
+        <member name="M:Gu.Localization.Validate.Format``2(System.String,``0,``1)">
+            <summary>
+            Call with Validate.IsValidFormat("First: {0:N}", 1.2);
+            Throws a <see cref="T:System.FormatException"/> if error(s) are found.
+            </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <typeparam name="T1">The type of <paramref name="arg1"/> generic to avoid boxing</typeparam>
+            <param name="format">The format string ex: 'First: {0:N}</param>
+            <param name="arg0">The first argument.</param>
+            <param name="arg1">The second argument.</param>
+        </member>
+        <member name="M:Gu.Localization.Validate.Format(System.String,System.Object[])">
+            <summary>
+            Call with Validate.IsValidFormat("First: {0:N}", 1, 2, 3..);
+            Throws a <see cref="T:System.FormatException"/> if error(s) are found.
+            </summary>
+            <param name="format">The format string ex: 'First: {0:N}</param>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:Gu.Localization.Validate.IsValidFormat``1(System.String,``0)">
+            <summary>Call with Validate.IsValidFormat("First: {0:N}", 1.2); </summary>
+            <typeparam name="T">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <param name="format">The format string ex: 'First: {0:N}</param>
+            <param name="arg0">The argument</param>
+            <returns>True if <paramref name="format"/> is valid for the argument <paramref name="arg0"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.IsValidFormat``2(System.String,``0,``1)">
+            <summary>Call with Validate.IsValidFormat("First: {0:N}, Second: {1}", 1, 2); </summary>
+            <typeparam name="T0">The type of <paramref name="arg0"/> generic to avoid boxing</typeparam>
+            <typeparam name="T1">The type of <paramref name="arg1"/> generic to avoid boxing</typeparam>
+            <param name="format">The format string ex: 'First: {0:N}</param>
+            <param name="arg0">The first argument.</param>
+            <param name="arg1">The second argument.</param>
+            <returns>True if <paramref name="format"/> is valid for the two arguments <paramref name="arg0"/> and <paramref name="arg1"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.IsValidFormat(System.String,System.Object[])">
+            <summary>Call with Validate.IsValidFormat("First: {0:N}, Second: {1}", 2); </summary>
+            <param name="format">The format string ex: 'First: {0:N}</param>
+            <param name="args">The arguments.</param>
+            <returns>True if <paramref name="format"/> is valid for <paramref name="args"/>.</returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.Translations(System.Resources.ResourceManager)">
+            <summary>
+            This is meant to be used in unit tests.
+            Performance is probably very poor and we load all resources into memory.
+            Checks that:
+            1) All keys in <paramref name="resourceManager"/> have non null values for all cultures in <see cref="P:Gu.Localization.Translator.Cultures"/>
+            2) If the resource is a format string it checks that
+              - All formats have the same number of parameters.
+              - All formats have numbering 0..1..n for the parameters.
+            </summary>
+            <param name="resourceManager">The resource managerr to check</param>
+            <returns>An <see cref="T:Gu.Localization.Errors.TranslationErrors"/> with all errors found in <paramref name="resourceManager"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.Translations(System.Resources.ResourceManager,System.Collections.Generic.IEnumerable{System.Globalization.CultureInfo})">
+            <summary>
+            This is meant to be used in unit tests.
+            Performance is probably very poor and we load all resources into memory.
+            Checks that:
+            1) All keys in <paramref name="resourceManager"/> have non null values for all cultures in <paramref name="cultures"/>
+            2) If the resource is a format string it checks that
+              - All formats have the same number of parameters.
+              - All formats have numbering 0..1..n for the parameters.
+            </summary>
+            <param name="resourceManager">The resource managerr to check</param>
+            <param name="cultures">The cultures to check resources for</param>
+            <returns>An <see cref="T:Gu.Localization.Errors.TranslationErrors"/> with all errors found in <paramref name="resourceManager"/></returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.EnumTranslations``1(System.Resources.ResourceManager)">
+            <summary>
+            This is meant to be used in unit tests.
+            Performance is probably very poor and we load all resources into memory.
+            Checks that all members of <typeparamref name="T"/> have corresponding key in <paramref name="resourceManager"/>
+            and that the key has a non null value for all cultures in <see cref="P:Gu.Localization.Translator.Cultures"/>
+            </summary>
+            <typeparam name="T">An enum type</typeparam>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/> with translations for <typeparamref name="T"/></param>
+            <returns>A list with all members that does not have </returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.EnumTranslations``1(System.Resources.ResourceManager,System.Collections.Generic.IEnumerable{System.Globalization.CultureInfo})">
+            <summary>
+            This is meant to be used in unit tests.
+            Performance is probably very poor and we load all resources into memory.
+            Checks that all members of <typeparamref name="T"/> have corresponding key in <paramref name="resourceManager"/>
+            and that the key has a non null value for all cultures in <see cref="P:Gu.Localization.Translator.Cultures"/>
+            </summary>
+            <typeparam name="T">An enum type</typeparam>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/> with translations for <typeparamref name="T"/></param>
+            <param name="cultures">The cultures to check for.</param>
+            <returns>A list with all members that does not have </returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.Translations(System.Resources.ResourceManager,System.String)">
+            <summary>
+            This is meant to be used in unit tests.
+            Performance is probably very poor and we load all resources into memory.
+            Checks that:
+            1) <paramref name="key"/> has non null values for all cultures in <see cref="P:Gu.Localization.Translator.Cultures"/>
+            2) If the resource is a format string it checks that
+              - All formats have the same number of parameters.
+              - All formats have numbering 0..1..n for the parameters.
+            </summary>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/> with translations for <paramref name="key"/></param>
+            <param name="key">The key</param>
+            <returns>A list with all errors for the key or an empty list if no errors.</returns>
+        </member>
+        <member name="M:Gu.Localization.Validate.Translations(System.Resources.ResourceManager,System.String,System.Collections.Generic.IEnumerable{System.Globalization.CultureInfo})">
+            <summary>
+            This is meant to be used in unit tests.
+            Performance is probably very poor and we load all resources into memory.
+            Checks that:
+            1) <paramref name="key"/> has non null values for all cultures in <see cref="P:Gu.Localization.Translator.Cultures"/>
+            2) If the resource is a format string it checks that
+              - All formats have the same number of parameters.
+              - All formats have numbering 0..1..n for the parameters.
+            </summary>
+            <param name="resourceManager">The <see cref="T:System.Resources.ResourceManager"/> with translations for <paramref name="key"/></param>
+            <param name="key">The key</param>
+            <param name="cultures">The cultures to check</param>
+            <returns>A list with all errors for the key or an empty list if no errors.</returns>
+        </member>
+    </members>
+</doc>

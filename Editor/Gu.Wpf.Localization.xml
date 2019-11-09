@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gu.Wpf.Localization</name>
+    </assembly>
+    <members>
+        <member name="T:Gu.Wpf.Localization.CurrentCultureExtension">
+            <summary>MarkupExtension for binging to <see cref="P:Gu.Localization.Translator.CurrentCulture"/>.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.CurrentCultureExtension.ProvideValue(System.IServiceProvider)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Wpf.Localization.DesignTime">
+            <summary>Designtime properties for the localization extension.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.DesignTime.GetCulture(System.Windows.UIElement)">
+            <summary> The <see cref="T:System.Globalization.CultureInfo"/> to use in designtime </summary>
+        </member>
+        <member name="T:Gu.Wpf.Localization.CurrentXmlLanguageExtension">
+            <summary>MarkupExtension for binging to <see cref="P:Gu.Localization.Translator.CurrentCulture"/>.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.CurrentXmlLanguageExtension.ProvideValue(System.IServiceProvider)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Wpf.Localization.EnumExtension">
+            <summary>
+            A markup extension that translates enum members resources.
+            Usage: Text="{l:Enum ResourceManager={x:Static p:Resources.ResourceManager}, Member={x:Static local:DummyEnum.TranslatedToAll}}"
+            </summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.EnumExtension.ResourceManager">
+            <summary>Gets or sets the <see cref="P:Gu.Wpf.Localization.EnumExtension.ResourceManager"/> with translations for <see cref="P:Gu.Wpf.Localization.EnumExtension.Member"/>.</summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.EnumExtension.Member">
+            <summary>Gets or sets the enum member</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.EnumExtension.ProvideValue(System.IServiceProvider)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Wpf.Localization.ErrorHandling">
+            <summary>Provides an attached property for setting how the <see cref="T:Gu.Wpf.Localization.StaticExtension"/> handles errors</summary>
+        </member>
+        <member name="F:Gu.Wpf.Localization.ErrorHandling.ModeProperty">
+            <summary>
+            Identifies the mode property.
+            Inherits so setting it on window or panel may make sense.
+            Not data bindable.
+            </summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.ErrorHandling.SetMode(System.Windows.DependencyObject,System.Nullable{Gu.Localization.ErrorHandling})">
+            <summary>Sets how translation errors are handled by <see cref="T:Gu.Wpf.Localization.StaticExtension"/> for <paramref name="element"/> and it's children.</summary>
+            <param name="element">The element to set errorhandling for.</param>
+            <param name="value">The value</param>
+        </member>
+        <member name="M:Gu.Wpf.Localization.ErrorHandling.GetMode(System.Windows.DependencyObject)">
+            <summary>Gets how translation errors are handled by <see cref="T:Gu.Wpf.Localization.StaticExtension"/> for <paramref name="element"/> and it's children.</summary>
+            <param name="element">The element to get <see cref="T:Gu.Wpf.Localization.ErrorHandling"/> for</param>
+            <returns>A value indicating how translation errors are handled by the <see cref="T:Gu.Wpf.Localization.StaticExtension"/> for this <paramref name="element"/></returns>
+        </member>
+        <member name="T:Gu.Wpf.Localization.Is">
+            <summary>
+            The design mode.
+            </summary>
+        </member>
+        <member name="F:Gu.Wpf.Localization.Is.DependencyObject">
+            <summary>
+            The dependency object.
+            </summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.Is.DesignMode">
+            <summary>
+            Gets a value indicating whether is design mode.
+            </summary>
+        </member>
+        <member name="T:Gu.Wpf.Localization.Language">
+            <summary>Class exposing a couple of binding friendly properties for a <see cref="T:System.Globalization.CultureInfo"/></summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.Language.#ctor">
+            <summary> Initializes a new instance of the <see cref="T:Gu.Wpf.Localization.Language"/> class.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.Language.#ctor(System.Globalization.CultureInfo)">
+            <summary>Initializes a new instance of the <see cref="T:Gu.Wpf.Localization.Language"/> class.</summary>
+            <param name="culture">The culture</param>
+        </member>
+        <member name="E:Gu.Wpf.Localization.Language.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="P:Gu.Wpf.Localization.Language.Culture">
+            <summary>Gets or sets the <see cref="T:System.Globalization.CultureInfo"/></summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.Language.IsSelected">
+            <summary>Gets or sets a value indicating whether gets or sets if the <see cref="P:Gu.Wpf.Localization.Language.Culture"/> is the same as <see cref="P:Gu.Localization.Translator.Culture"/></summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.Language.CanSelect">
+            <summary>Gets a value indicating whether gets a value indicating wheter the <see cref="P:Gu.Wpf.Localization.Language.Culture"/> can be used as <see cref="P:Gu.Localization.Translator.Culture"/></summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.Language.FlagSource">
+            <summary>
+            Gets or sets the <see cref="T:System.Uri"/> to the flag for the <see cref="P:Gu.Wpf.Localization.Language.Culture"/>
+            </summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.Language.LanguageName">
+            <summary>Gets <see cref="P:Gu.Wpf.Localization.Language.Culture"/> NativeName Titlecased and trimmed to text only</summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.Language.NativeName">
+            <summary>Gets <see cref="P:Gu.Wpf.Localization.Language.Culture"/> NativeName Titlecased</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.Language.OnPropertyChanged(System.String)">
+            <summary>Raises <see cref="E:Gu.Wpf.Localization.Language.PropertyChanged"/></summary>
+            <param name="propertyName">The name of the property</param>
+        </member>
+        <member name="T:Gu.Wpf.Localization.NullImageSourceConverter">
+            <inheritdoc />
+        </member>
+        <member name="F:Gu.Wpf.Localization.NullImageSourceConverter.Default">
+            <summary>The default instance.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.NullImageSourceConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Wpf.Localization.NullImageSourceConverter.System#Windows#Data#IValueConverter#ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Wpf.Localization.StaticExtension">
+            <summary>
+            A markup extension that translates resources.
+            The reason for the name StaticExtension is that it tricks Resharper into providing Intellisense.
+            Usage: Text="{l:Static p:Resources.SomeResource}"
+            </summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.StaticExtension.#ctor">
+            <summary> Initializes a new instance of the <see cref="T:Gu.Wpf.Localization.StaticExtension"/> class.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.StaticExtension.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gu.Wpf.Localization.StaticExtension"/> class using the provided <paramref name="member"/> string.
+            </summary>
+            <param name="member">
+            A string that identifies the member to make a reference to. This string uses the format prefix:typeName.fieldOrPropertyName.
+            prefix is the mapping prefix for a XAML namespace, and is only required to reference static values that are not mapped to the default XAML namespace.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="member"/> is null.
+            </exception>
+        </member>
+        <member name="M:Gu.Wpf.Localization.StaticExtension.ProvideValue(System.IServiceProvider)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gu.Wpf.Localization.LanguageSelector">
+            <summary>
+            Control for selecting language
+            </summary>
+        </member>
+        <member name="F:Gu.Wpf.Localization.LanguageSelector.AutogenerateLanguagesProperty">
+            <summary> Identifies the AutogenerateLanguages property. Default false.</summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.LanguageSelector.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:Gu.Wpf.Localization.LanguageSelector"/> class.</summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.LanguageSelector.AutogenerateLanguages">
+            <summary>
+            Gets or sets a value indicating whether languages should be autogenerated. If true <see cref="P:Gu.Wpf.Localization.LanguageSelector.Languages"/> are kept in sync with <see cref="P:Gu.Localization.Translator.Cultures"/>
+            Default flags are picked from ./Flags/.. if a match is found
+            </summary>
+        </member>
+        <member name="P:Gu.Wpf.Localization.LanguageSelector.Languages">
+            <summary>
+            Gets gets or sets the cultures.
+            </summary>
+        </member>
+        <member name="M:Gu.Wpf.Localization.LanguageSelector.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Gu.Wpf.Localization.LanguageSelector.Dispose(System.Boolean)">
+            <summary>Called by <see cref="M:Gu.Wpf.Localization.LanguageSelector.Dispose"/></summary>
+            <param name="disposing">ugh</param>
+        </member>
+    </members>
+</doc>
