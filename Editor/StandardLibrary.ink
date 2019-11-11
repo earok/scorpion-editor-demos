@@ -280,14 +280,14 @@ VAR Sound = 0
 //`
 VAR Anim = 0
 
-//`### Talkpad_Top
-//`*Write*
+//`### Talkpad
+//`*Read | Write*
 //`
-//``~ Talkpad_Top = true`
+//``~ Talkpad = Talkpad_main`
 //`
-//`Set whether or not the talkpad is at the top of the screen
+//`Set the current panel for printing to. Leave as 0 to print to AmigaDOS.
 //`
-VAR Talkpad_Top = 0
+VAR Talkpad = 0
 
 //`### Talkpad_TextDelay
 //`*Write*
