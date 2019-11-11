@@ -9,9 +9,11 @@ VAR CheckpointType = 0
 VAR CheckpointX = 0
 VAR CheckpointY = 0
 VAR Ammo = 0
-~ yres = 192
 
 === Startup ===
+~ yres = 192
+
+
 ~ checkpointtype = CheckpointNA
 ~ panel=pnl_title
 ~ wait=0
