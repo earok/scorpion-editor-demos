@@ -1,5 +1,36 @@
 -> Startup
 
+CONST True = -1
+CONST False = 0
+CONST Null = 0
+
+CONST Look_UpLeft = 0
+CONST Look_Up = 1
+CONST Look_UpRight = 2
+
+CONST Look_Left = 3
+CONST Look_Center = 4
+CONST Look_Right = 5
+
+CONST Look_DownLeft = 6
+CONST Look_Down = 7
+CONST Look_DownRight = 8
+
+CONST Camera_Follow_Left = 1
+CONST Camera_Follow_Right = 2
+CONST Camera_Follow_Up = 4
+CONST Camera_Follow_Down = 8
+
+CONST Trigger_Attack_Animation = -1
+
+CONST Wait_ForJoystick = 0
+CONST Wait_ForHalfSecond = 25
+CONST Wait_For1Second = 50
+CONST Wait_For2Seconds = 100
+CONST Wait_For3Seconds = 150
+CONST Wait_For4Seconds = 200
+CONST Wait_For5Seconds = 250
+
 //Warning: Do not change this file
 
 //`# Virtual Machine Registers and predefined functions
@@ -280,14 +311,7 @@ VAR Sound = 0
 //`
 VAR Anim = 0
 
-//`### Talkpad
-//`*Read | Write*
-//`
-//``~ Talkpad = Talkpad_main`
-//`
-//`Set the current panel for printing to. Leave as 0 to print to AmigaDOS.
-//`
-VAR Talkpad = 0
+VAR Spare = 0
 
 //`### Talkpad_TextDelay
 //`*Write*
@@ -466,29 +490,6 @@ VAR Param = 0
 //`This does NOT affect the fluidity of Anim5 animations or static screens, only the core game.
 //`
 VAR FrameWait = 1
-
-CONST true = -1
-CONST false = 0
-CONST null = 0
-
-CONST look_upleft = 0
-CONST look_up = 1
-CONST look_upright = 2
-
-CONST look_left = 3
-CONST look_center = 4
-CONST look_right = 5
-
-CONST look_downleft = 6
-CONST look_down = 7
-CONST look_downright = 8
-
-CONST Camera_Follow_Left = 1
-CONST Camera_Follow_Right = 2
-CONST Camera_Follow_Up = 4
-CONST Camera_Follow_Down = 8
-
-CONST Trigger_Attack_Animation = -1
 
 //`
 //`## Standard Functions

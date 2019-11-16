@@ -12,12 +12,10 @@ VAR Ammo = 0
 
 === Startup ===
 ~ yres = 192
-
-
 ~ checkpointtype = CheckpointNA
-~ panel=pnl_title
-~ wait=0
-~ panel=null
+~ panel = pnl_title
+~ wait = Wait_ForJoystick
+~ panel = null
 
 === RestartLevel ===
 ~ music = song
@@ -27,20 +25,20 @@ VAR Ammo = 0
 ~ level = level1
 
 { CheckpointType:
-	~ player_X = CheckpointX
-	~ player_Y = CheckpointY
-	{ CheckpointType == CheckpointWater:
-		-> HitWater
-	}
+    ~ player_X = CheckpointX
+    ~ player_Y = CheckpointY
+    { CheckpointType == CheckpointWater:
+        -> HitWater
+    }
 }
 -> GAME
 
 === entered_checkpoint ===
 { player_Type == AlexKidd:
-	~ CheckpointType = CheckpointLand
+    ~ CheckpointType = CheckpointLand
 }
 { player_Type == AlexKidd_Swim:
-	~ CheckpointType = CheckpointWater
+    ~ CheckpointType = CheckpointWater
 }
 ~ CheckpointX = Block_X * 16 + 8
 ~ CheckpointY = Block_Y * 16 + 8
@@ -51,15 +49,15 @@ VAR Ammo = 0
 ~ musicpos = song_water
 ~ sound = sndwater
 { player_Type == alexkidd :
-	~player_Type = alexkidd_swim
+    ~player_Type = alexkidd_swim
 }
 ~camera_follow = camera_follow_down + camera_follow_right
 -> GAME
 
 === alex_punch ===
 { ammo:
-	~ player_shoot = ringshot
-	~ ammo = ammo - 1
+    ~ player_shoot = ringshot
+    ~ ammo = ammo - 1
 }
 ->GAME
 
@@ -79,16 +77,16 @@ VAR Ammo = 0
 === BreakBlock ===
 -> SpawnBrokenBlock ->
 { block_type == MysteryContainer :
-	~ block_type = Ring
-	-> GAME
+    ~ block_type = Ring
+    -> GAME
 }
 { block_type == StarContainer :
-	~ block_type = Money
-	-> GAME
+    ~ block_type = Money
+    -> GAME
 }
 { block_type == UnderwaterBurgerRock:
-	~ block_type = burger
-	-> GAME
+    ~ block_type = burger
+    -> GAME
 }
 ~ block_type = null
 -> GAME
@@ -116,7 +114,7 @@ VAR Ammo = 0
 === hit_merman ===
 ~ actor_var1 = actor_var1 - 1
 { actor_var1 < 1:
-	-> Kill_Enemy	
+    -> Kill_Enemy    
 }
 -> GAME
 
@@ -124,4 +122,3 @@ VAR Ammo = 0
 ~ musicpos = song_stagecomplete
 ~ level = null
 -> StartUp
-
