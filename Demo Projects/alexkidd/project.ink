@@ -46,10 +46,10 @@ VAR Ammo = 0
 -> GAME
 
 === HitWater ===
-~ musicpos = song_water
-~ sound = sndwater
 { player_Type == alexkidd :
-    ~player_Type = alexkidd_swim
+    ~ musicpos = song_water
+    ~ sound = sndwater
+    ~ player_Type = alexkidd_swim
 }
 ~camera_follow = camera_follow_down + camera_follow_right
 -> GAME
