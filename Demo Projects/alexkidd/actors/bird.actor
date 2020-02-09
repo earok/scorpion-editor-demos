@@ -1,25 +1,68 @@
+ClassType: actor
 DefaultLookDir: right
 Max: 3
 NudgeX: 8
 NudgeY: 8
-Idles: {}
+Idles:
+  UpLeft: 
+  Up: 
+  UpRight: 
+  Left: 
+  Right: 
+  DownLeft: 
+  Down: 
+  DownRight: 
 Moves:
+  UpLeft: 
+  Up: 
+  UpRight: 
   Left: enemy_bird_left
   Right: enemy_bird_right
-Attacks: {}
+  DownLeft: 
+  Down: 
+  DownRight: 
+Attacks:
+  UpLeft: 
+  Up: 
+  UpRight: 
+  Left: 
+  Right: 
+  DownLeft: 
+  Down: 
+  DownRight: 
 CollBox:
   X: -7
   Y: -7
   Width: 15
   Height: 14
-  ScaledWidth: 120
-  ScaledHeight: 112
-HitBox: {}
-TalkBox: {}
+HitBox:
+  X: 0
+  Y: 0
+  Width: 0
+  Height: 0
+TalkBox:
+  X: 0
+  Y: 0
+  Width: 0
+  Height: 0
+MoveType: cpu
+AttackDelay: 0
 SpeedLeft: 0.5
 SpeedRight: 0.5
+SpeedUp: 0
+SpeedDown: 0
+AccelLeft: 
+AccelRight: 
+AccelUp: 
+AccelDown: 
 CollType: bounce
+DivertAttack: 
+DivertSpawn: 
+DivertPlayerDialogue: 
 DivertPlayerCollision: player_kill
 DivertPlayerHit: kill_enemy
 DivertPlayerProjectileCollision: kill_enemy
-UID: 4597993b-2c10-4324-aa99-29abeef5a0bc
+DivertOutOfScreen: 
+DivertTimer: 
+DivertTimerFrames: 0
+TileID: 8

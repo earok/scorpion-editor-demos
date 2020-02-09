@@ -1,29 +1,68 @@
+ClassType: actor
 DefaultLookDir: downleft
+Max: 0
 NudgeX: 8
 NudgeY: 8
-Idles: {}
+Idles:
+  UpLeft: 
+  Up: 
+  UpRight: 
+  Left: 
+  Right: 
+  DownLeft: 
+  Down: 
+  DownRight: 
 Moves:
   UpLeft: enemy_bigfish_left
+  Up: 
   UpRight: enemy_bigfish_right
   Left: enemy_bigfish_left
   Right: enemy_bigfish_right
   DownLeft: enemy_bigfish_left
+  Down: 
   DownRight: enemy_bigfish_right
-Attacks: {}
+Attacks:
+  UpLeft: 
+  Up: 
+  UpRight: 
+  Left: 
+  Right: 
+  DownLeft: 
+  Down: 
+  DownRight: 
 CollBox:
   X: -11
   Y: -9
   Width: 24
   Height: 16
-  ScaledWidth: 192
-  ScaledHeight: 128
-HitBox: {}
-TalkBox: {}
+HitBox:
+  X: 0
+  Y: 0
+  Width: 0
+  Height: 0
+TalkBox:
+  X: 0
+  Y: 0
+  Width: 0
+  Height: 0
+MoveType: cpu
+AttackDelay: 0
 SpeedLeft: 0.5
 SpeedRight: 0.5
 SpeedUp: 1
 SpeedDown: 1
+AccelLeft: 
+AccelRight: 
+AccelUp: 
+AccelDown: 
 CollType: bounce
+DivertAttack: 
+DivertSpawn: 
+DivertPlayerDialogue: 
 DivertPlayerCollision: player_kill
 DivertPlayerHit: kill_enemy
-UID: d5c55ab1-bda7-458f-8204-bf6b71b73092
+DivertPlayerProjectileCollision: 
+DivertOutOfScreen: 
+DivertTimer: 
+DivertTimerFrames: 0
+TileID: 9

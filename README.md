@@ -4,6 +4,6 @@ Note: This is a very early work-in-progress version of the Scorpion Editor for W
 
 The editor itself is not open source - but all of the included demos are.
 
-Documentation needs to be redone, as do the other two demos (Phoenix Wright and Zelda ROTT)
+Documentation still needs to be done.
 
 Please report all bugs to the EAB thread: http://eab.abime.net/showthread.php?p=1357780, or email me directly at earok 3d at gmail dot com
