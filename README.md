@@ -4,6 +4,11 @@ Note: This is a very early work-in-progress version of the Scorpion Editor for W
 
 The editor itself is not open source - but all of the included demos are.
 
+* Zelda: Return of the Hylian demo based on the games by Nintendo and the fan work by Vincent Jouillat. Includes tracker music by Coma28
+* Ace Attorney demo based on the games by Capcom.
+* Alex Kidd demo based on the games by Sega.
+* RepairWare demo ported from the game by Sergio Cornaga.
+
 Documentation still needs to be done.
 
 Please report all bugs to the EAB thread: http://eab.abime.net/showthread.php?p=1357780, or email me directly at earok 3d at gmail dot com

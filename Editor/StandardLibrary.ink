@@ -1,3 +1,5 @@
+//This file should not be edited. It is an integral part of how the Scorpion Engine integrates with the Scorpion Editor, alternations could prevent the game from loading.
+
 -> Startup
 
 CONST True = -1
@@ -397,30 +399,8 @@ VAR Block_Spawn = 0
 VAR Block_X = 0
 VAR Block_Y = 0
 
-//`### Control1_X | Control1_Y
-//`*Read*
-//`
-//``{ Control1_X > 0 : //If the joystick is being held left...`
-//`
-//`The current joystick axes
-VAR Control1_X = 0
-VAR Control1_Y = 0
-
-//`### Control1_Fire
-//`*Read*
-//`
-//``{ Control1_Fire : //If the joystick button is being pressed`
-//`
-//`If the fire buttons for joystick 1 have been pressed
-VAR Control1_Fire = 0
-
-//`### Control1_FireHit
-//`*Read*
-//`
-//``{ Control1_FireHit : //If the joystick button has just been pressed`
-//`
-//`Similar to above, but is only true on the first frame that fire is hit
-VAR Control1_FireHit = 0
+VAR Palette_Pointer = 0
+VAR Palette_Value = 0
 
 //`### Yield
 //`*Write*
@@ -462,18 +442,6 @@ VAR ForceFadeOut = 0
 //``~ Camera_Follow = Camera_Follow_Right + Camera_Follow_Down`
 VAR Camera_Follow = -1
 
-//`### Param
-//`*Read*
-//`
-//```
-//`{ Param == 2 :
-//`-> Level2 
-//`}
-//```
-//`
-//`This is a value set by command line. Eg, 'game.exe 5' would set Param to 5. Useful for testing and development.
-VAR Param = 0
-
 //`### framewait
 //`*Write*
 //`
@@ -490,6 +458,43 @@ VAR Param = 0
 //`This does NOT affect the fluidity of Anim5 animations or static screens, only the core game.
 //`
 VAR FrameWait = 1
+
+//`### Control1_X | Control1_Y
+//`*Read*
+//`
+//``{ Control1_X > 0 : //If the joystick is being held left...`
+//`
+//`The current joystick axes
+VAR Control1_X = 0
+VAR Control1_Y = 0
+
+//`### Control1_Fire
+//`*Read*
+//`
+//``{ Control1_Fire : //If the joystick button is being pressed`
+//`
+//`If the fire buttons for joystick 1 have been pressed
+VAR Control1_Fire = 0
+
+//`### Control1_FireHit
+//`*Read*
+//`
+//``{ Control1_FireHit : //If the joystick button has just been pressed`
+//`
+//`Similar to above, but is only true on the first frame that fire is hit
+VAR Control1_FireHit = 0
+
+//`### Param
+//`*Read*
+//`
+//```
+//`{ Param == 2 :
+//`-> Level2 
+//`}
+//```
+//`
+//`This is a value set by command line. Eg, 'game.exe 5' would set Param to 5. Useful for testing and development.
+VAR Param = 0
 
 //`
 //`## Standard Functions
