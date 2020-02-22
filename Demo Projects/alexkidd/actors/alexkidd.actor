@@ -1,6 +1,7 @@
 ClassType: player
 DefaultLookDir: right
-NudgeX: 8
+Max: 0
+NudgeX: 9
 NudgeY: 4
 Idles:
   UpLeft: ''
@@ -9,6 +10,7 @@ Idles:
   Left: alexkidd_idle_left
   Right: alexkidd_idle_right
   DownLeft: ''
+  Down: 
   DownRight: ''
 Moves:
   UpLeft: alexkidd_jump_left
@@ -17,23 +19,35 @@ Moves:
   Left: alexkidd_walk_left
   Right: alexkidd_walk_right
   DownLeft: alexkidd_jump_left
+  Down: 
   DownRight: alexkidd_jump_right
 Attacks:
   UpLeft: alexkidd_punch_left
+  Up: 
   UpRight: alexkidd_punch_right
   Left: alexkidd_punch_left
   Right: alexkidd_punch_right
   DownLeft: alexkidd_punch_left
+  Down: 
   DownRight: alexkidd_punch_right
 CollBox:
   X: -7
   Y: -5
   Width: 14
   Height: 17
-HitBox: {}
-TalkBox: {}
+HitBox:
+  X: 0
+  Y: 0
+  Width: 0
+  Height: 0
+TalkBox:
+  X: 0
+  Y: 0
+  Width: 0
+  Height: 0
 MoveType: control_platform
 AttackDelay: 1
+ZOrder: 0
 SpeedLeft: 1.5
 SpeedRight: 1.5
 SpeedUp: 3.25
@@ -42,6 +56,14 @@ AccelLeft: 0.10000000000000001
 AccelRight: 0.10000000000000001
 AccelUp: 0.10000000000000001
 AccelDown: 0.10000000000000001
+CollType: block
 DivertAttack: alex_punch
+DivertSpawn: 
+DivertPlayerDialogue: 
+DivertPlayerCollision: 
+DivertPlayerHit: 
+DivertPlayerProjectileCollision: 
 DivertOutOfScreen: snap_to_screen
-UID: 8ad7116c-d75a-4b9e-8fcc-cbd612da11a5
+DivertTimer: 
+DivertTimerFrames: 0
+TileID: 0

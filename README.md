@@ -8,6 +8,9 @@ The editor itself is not open source - but all of the included demos are.
 * Ace Attorney demo based on the games by Capcom.
 * Alex Kidd demo based on the games by Sega.
 * RepairWare demo ported from the game by Sergio Cornaga.
+* Mario demo based on the games by Nintendo and the DOS fan game by Mike Wiering
+
+Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
 
 Documentation still needs to be done.
 

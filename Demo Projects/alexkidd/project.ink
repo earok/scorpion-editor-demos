@@ -62,10 +62,11 @@ VAR Ammo = 0
 ->GAME
 
 === player_kill ===
-~music = null
-~sound = snddie
-~player_type = alexkidd_ghost
-~yield = 100
+~ music = null
+~ sound = snddie
+~ player_lookdir = look_up
+~ player_type = alexkidd_ghost
+~ yield = 100
 -> RestartLevel
 
 === SpawnBrokenBlock ===
