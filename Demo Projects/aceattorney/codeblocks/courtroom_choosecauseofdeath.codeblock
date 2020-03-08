@@ -1,0 +1,1613 @@
+Variables: []
+Commands:
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_warn
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Judge: She died because she was...?'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: causeofdeath_poisoned
+  Comment: 
+  Variable: none
+  Expression: Poisoned
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: causeofdeath_strangled
+  Comment: 
+  Variable: none
+  Expression: Strangled
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: causeofdeath_blunt
+  Comment: 
+  Variable: seen_autopsy
+  Expression: Hit with a blunt object
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: causeofdeath_courtrecord
+  Comment: 
+  Variable: none
+  Expression: View Court Record
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Label
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: causeofdeath_poisoned
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_phoenix_thinking
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: "Phoenix: Oh, right! Wasn't she, um, poisioned by er... poison?"
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_shocked
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: "Judge: You're asking me?"
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_mia_disappointed
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Phoenix: Um... Chief! Help me out!'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Mia: Check the court record. Remember?'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Phoenix: (Geez. Give a guy a break!)'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_warn
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Judge: Let me ask again.'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: courtroom_choosecauseofdeath
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Label
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: causeofdeath_strangled
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_phoenix_thinking
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: "Phoenix: Right... she was strangled, wasn't she?"
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_mia_disappointed
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Mia: Please tell me that was you talking to yourself.'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_warn
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: "Judge: If you wish to hang yourself Mr. Wright, you're welcome to, but not inside my courtroom."
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: "Judge: I suppose there's nothing to do but give you another try:"
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: courtroom_choosecauseofdeath
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Label
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: causeofdeath_courtrecord
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: open_court_record
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: courtroom_choosecauseofdeath
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Label
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: causeofdeath_blunt
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_phoenix_normal
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Phoenix: She was struck once, by a blunt object.'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_normal
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Judge: Correct.'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: "Judge: You've answered all my questions. I see no reason why we shouldn't proceed."
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_warn
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 'Judge: You seem much more relaxed, Mr. Wright. Good for you.'
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_phoenix_nervous
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: show_court_judge_normal
+  Comment: 
+  Variable: none
+  Expression: Thank you (Because I don't FEEL relaxed)
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+CodeBlockEndType: Label
+CodeBlockEndLabel: courtroom_questioning

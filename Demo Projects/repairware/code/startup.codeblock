@@ -1,0 +1,423 @@
+Variables:
+- Name: LevelTimeMax
+  IsConstant: true
+  Value: 50 * 5
+  Notes: Five seconds max per level
+- Name: LVL1_Success
+  IsConstant: false
+  Value: false
+  Notes: ''
+- Name: LVL2_Success
+  IsConstant: false
+  Value: false
+  Notes: 
+- Name: LVL3_Success
+  IsConstant: false
+  Value: false
+  Notes: 
+- Name: LVL4_Success
+  IsConstant: false
+  Value: false
+  Notes: 
+- Name: LVL_Timer_Left
+  IsConstant: false
+  Value: 0
+  Notes: 
+- Name: LVL_Score
+  IsConstant: false
+  Value: 0
+  Notes: 
+- Name: loop_counter_x
+  IsConstant: false
+  Value: 0
+  Notes: 
+- Name: loop_counter_y
+  IsConstant: false
+  Value: 0
+  Notes: 
+Commands:
+- Category: Base
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetYResolution
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: This is the code that runs on startup
+  Variable: actor_animation
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 144
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  BlockPositionString: current block
+- Category: Display
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetYResolution
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: actor_animation
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 144
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Display
+  BasicOperationType: CommentOnly
+  DisplayOperationType: CameraFollow
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: actor_animation
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 144
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: CameraFollow
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: lvl1_success
+  Expression: false
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 211
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: CameraFollow
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: lvl2_success
+  Expression: false
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 211
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: CameraFollow
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: lvl3_success
+  Expression: false
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 211
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: CameraFollow
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: lvl4_success
+  Expression: false
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 211
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Display
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: title
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: snd_repair
+  BlockPositionString: current block
+- Category: Audio
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: snd_repair
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Wait
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Display
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+CodeBlockEndType: Label
+CodeBlockEndLabel: level1

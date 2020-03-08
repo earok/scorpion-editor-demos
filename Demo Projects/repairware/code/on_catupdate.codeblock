@@ -1,0 +1,893 @@
+Variables: []
+Commands:
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: Update the rain
+  Variable: raintimer
+  Expression: raintimer - 1
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: raintimer
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: LessThanOrEqual
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: Change this to update the rain 'framerate'
+  Variable: raintimer
+  Expression: 10
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: animate_rain
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: Have we won the level yet?
+  Variable: lvl2_success
+  Expression: false
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: level
+  Expression: lvl_cat
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: player_x
+  Expression: 64
+  Label: 
+  DiceSides: 2
+  Comparison: LessThanOrEqual
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: level2_win
+  Comment: 
+  Variable: lvl2_success
+  Expression: true
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: level
+  Expression: lvl_cat2
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: player_x
+  Expression: 196
+  Label: 
+  DiceSides: 2
+  Comparison: GreaterThanOrEqual
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Gosub
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: level2_win
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: lvl_timer_left
+  Expression: lvl_timer_left - 1
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: Time is up!
+  Variable: lvl_timer_left
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: LessThanOrEqual
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: level3
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+CodeBlockEndType: Game
+CodeBlockEndLabel: 

@@ -1,0 +1,229 @@
+Variables: []
+Commands:
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: player_type
+  Expression: alexkidd_swim
+  Label: 
+  DiceSides: 2
+  Comparison: NotEquals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Audio
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: SetMusicPos
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: song_water
+  BlockPositionString: current block
+- Category: Audio
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: sndwater
+  Music: none
+  MusicPos: song_water
+  BlockPositionString: current block
+- Category: Player
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: alexkidd_swim
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Display
+  BasicOperationType: CommentOnly
+  DisplayOperationType: CameraFollow
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: true
+  CameraFollowUp: false
+  CameraFollowDown: true
+  CameraFollowValue: 10
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+CodeBlockEndType: Game
+CodeBlockEndLabel: 

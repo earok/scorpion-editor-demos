@@ -47,6 +47,7 @@ TalkBox:
   Height: 0
 MoveType: cpu
 AttackDelay: 0
+ZOrder: 0
 SpeedLeft: 0
 SpeedRight: 0
 SpeedUp: 0.25
@@ -57,10 +58,10 @@ AccelUp:
 AccelDown: 
 CollType: bounce
 DivertAttack: 
-DivertSpawn: merman_spawn
+DivertSpawn: spawn_merman
 DivertPlayerDialogue: 
-DivertPlayerCollision: player_kill
-DivertPlayerHit: hit_merman
+DivertPlayerCollision: on_playerkill
+DivertPlayerHit: on_hitmerman
 DivertPlayerProjectileCollision: 
 DivertOutOfScreen: 
 DivertTimer: 

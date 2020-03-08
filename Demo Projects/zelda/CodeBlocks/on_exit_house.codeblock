@@ -1,0 +1,208 @@
+Variables: []
+Commands:
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: has_shield
+  Expression: false
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: Don't go anywhere without your shield
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: ReturnToGame
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: part2
+  Comment: 
+  Variable: 
+  Expression: " Don't go anywhere without your shield"
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: part3
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  BlockPositionString: current block
+CodeBlockEndType: Label
+CodeBlockEndLabel: part3

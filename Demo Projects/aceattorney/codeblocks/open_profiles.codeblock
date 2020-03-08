@@ -1,0 +1,1213 @@
+Variables: []
+Commands:
+- Category: Base
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: Wrap around profiles
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: LessThan
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: profile_count - 1
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: profile_count
+  Label: 
+  DiceSides: 2
+  Comparison: GreaterThanOrEqual
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Display
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetCameraPosition
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: selected_profile * 16 * 17
+  CameraY: 83*16
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: Mia Fey. Age 27. Female:<br>Chief Attorney at Fey and Co My boss, and a very good defense attorney.
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: 1
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: Larry Butz. Age 23. Male:<br>The defendant in this case. A likeable guy who was my friend in grade school.
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: 2
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: seen_cindy_profile
+  Expression: true
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: Cindy Stone. Age 22. Female:<br>The victim in this case. A model, she lived in an apartment by herself.
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: 3
+  Label: 
+  DiceSides: 2
+  Comparison: Equals
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: Winston Paine. Age 52. Male:<br>The prosecutor for this case. Lacks presence, Generally bad at getting his points across.
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Conditional
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: EndCondition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: next_profile
+  Comment: 
+  Variable: none
+  Expression: Next Record
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: next_profile
+  Comment: 
+  Variable: none
+  Expression: Previous Record
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Dialogue
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: DialogueChoice
+  Goto: open_court_record
+  Comment: 
+  Variable: none
+  Expression: Go back
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Label
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: next_profile
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: selected_profile + 1
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: open_profiles
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Label
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: previous_profile
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: selected_profile
+  Expression: selected_profile - 1
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: Goto
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: open_profiles
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: none
+  Animation: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+CodeBlockEndType: Game
+CodeBlockEndLabel: 

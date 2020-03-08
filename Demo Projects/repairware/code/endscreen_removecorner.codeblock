@@ -1,0 +1,625 @@
+Variables: []
+Commands:
+- Category: Base
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: If we didn't get this corner, remove it.
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: &o0
+    ColorContext: 
+    A: 255
+    R: 0
+    G: 0
+    B: 0
+    ScA: 1
+    ScR: 0
+    ScG: 0
+    ScB: 0
+  Sound: none
+  BlockPositionString: current block
+- Category: Base
+  BasicOperationType: SetVariable
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: end_anyfails
+  Expression: true
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: current block
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 0
+  YPosition: end_removeblock_y + 0
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 0:end_removeblock_y + 0
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 0
+  YPosition: end_removeblock_y + 1
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 0:end_removeblock_y + 1
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 0
+  YPosition: end_removeblock_y + 2
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 0:end_removeblock_y + 2
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 0
+  YPosition: end_removeblock_y + 3
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 0:end_removeblock_y + 3
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 1
+  YPosition: end_removeblock_y + 0
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 1:end_removeblock_y + 0
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 1
+  YPosition: end_removeblock_y + 1
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 1:end_removeblock_y + 1
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 1
+  YPosition: end_removeblock_y + 2
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 1:end_removeblock_y + 2
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 1
+  YPosition: end_removeblock_y + 3
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 1:end_removeblock_y + 3
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 2
+  YPosition: end_removeblock_y + 0
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 2:end_removeblock_y + 0
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 2
+  YPosition: end_removeblock_y + 1
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 2:end_removeblock_y + 1
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 2
+  YPosition: end_removeblock_y + 2
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 2:end_removeblock_y + 2
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 2
+  YPosition: end_removeblock_y + 3
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 2:end_removeblock_y + 3
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 3
+  YPosition: end_removeblock_y + 0
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 3:end_removeblock_y + 0
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 3
+  YPosition: end_removeblock_y + 1
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 3:end_removeblock_y + 1
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 3
+  YPosition: end_removeblock_y + 2
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 3:end_removeblock_y + 2
+- Category: Level
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: SetBlock
+  ActorOperationType: SetType
+  Goto: 
+  Comment: 
+  Variable: 
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: blk_endscreenblank
+  XPosition: end_removeblock_x + 3
+  YPosition: end_removeblock_y + 3
+  ActorType: none
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  BlockPositionString: block at end_removeblock_x + 3:end_removeblock_y + 3
+CodeBlockEndType: GosubReturn
+CodeBlockEndLabel: 

@@ -47,6 +47,7 @@ TalkBox:
   Height: 0
 MoveType: cpu
 AttackDelay: 0
+ZOrder: 0
 SpeedLeft: 0.5
 SpeedRight: 0.5
 SpeedUp: 0
@@ -59,9 +60,9 @@ CollType: bounce
 DivertAttack: 
 DivertSpawn: 
 DivertPlayerDialogue: 
-DivertPlayerCollision: player_kill
-DivertPlayerHit: kill_enemy
-DivertPlayerProjectileCollision: kill_enemy
+DivertPlayerCollision: on_playerkill
+DivertPlayerHit: on_killenemy
+DivertPlayerProjectileCollision: on_killenemy
 DivertOutOfScreen: 
 DivertTimer: 
 DivertTimerFrames: 0
