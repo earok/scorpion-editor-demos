@@ -6,7 +6,7 @@ The editor itself is not open source - but all of the included demos are.
 
 * Zelda: Return of the Hylian demo based on the games by Nintendo and the fan work by Vincent Jouillat. Includes tracker music by Coma28
 * Ace Attorney demo based on the games by Capcom.
-* Alex Kidd demo based on the games by Sega.
+* Alex Kidd demo based on the games by Sega. Includes tracker music by JMD.
 * RepairWare demo ported from the game by Sergio Cornaga.
 * Mario demo based on the games by Nintendo and the DOS fan game by Mike Wiering
 
