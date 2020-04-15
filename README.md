@@ -15,3 +15,5 @@ Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as
 Documentation still needs to be done.
 
 Please report all bugs to the EAB thread: http://eab.abime.net/showthread.php?p=1357780, or email me directly at earok 3d at gmail dot com
+
+Like and follow the project on Facebook: https://www.facebook.com/scorpionengine
