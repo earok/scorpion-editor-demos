@@ -3,17 +3,17 @@
   <image source="blocks.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="name" value="block_coin" type="string" />
+      <property name="Name" value="block_coin" type="string" />
     </properties>
   </tile>
   <tile id="1">
     <properties>
-      <property name="name" value="block_brick" type="string" />
+      <property name="Name" value="block_brick" type="string" />
     </properties>
   </tile>
   <tile id="2">
     <properties>
-      <property name="name" value="block_music" type="string" />
+      <property name="Name" value="block_music" type="string" />
     </properties>
   </tile>
 </tileset>

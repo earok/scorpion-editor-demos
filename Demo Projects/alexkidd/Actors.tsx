@@ -3,57 +3,72 @@
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="name" value="alexkidd" type="string" />
+      <property name="Name" value="alexkidd" type="string" />
     </properties>
   </tile>
   <tile id="1">
     <properties>
-      <property name="name" value="alexkidd_ghost" type="string" />
+      <property name="Name" value="alexkidd_ghost" type="string" />
     </properties>
   </tile>
   <tile id="2">
     <properties>
-      <property name="name" value="alexkidd_swim" type="string" />
+      <property name="Name" value="alexkidd_swim" type="string" />
     </properties>
   </tile>
   <tile id="3">
     <properties>
-      <property name="name" value="blockbreakleft" type="string" />
+      <property name="Name" value="blockbreakleft" type="string" />
     </properties>
   </tile>
   <tile id="4">
     <properties>
-      <property name="name" value="blockbreakright" type="string" />
+      <property name="Name" value="blockbreakright" type="string" />
     </properties>
   </tile>
   <tile id="5">
     <properties>
-      <property name="name" value="killpuff" type="string" />
+      <property name="Name" value="killpuff" type="string" />
     </properties>
   </tile>
   <tile id="6">
     <properties>
-      <property name="name" value="ringshot" type="string" />
+      <property name="Name" value="ringshot" type="string" />
     </properties>
   </tile>
   <tile id="7">
     <properties>
-      <property name="name" value="smallfish" type="string" />
+      <property name="Name" value="smallfish" type="string" />
     </properties>
   </tile>
   <tile id="8">
     <properties>
-      <property name="name" value="bird" type="string" />
+      <property name="Name" value="bird" type="string" />
     </properties>
   </tile>
   <tile id="9">
     <properties>
-      <property name="name" value="bigfish" type="string" />
+      <property name="Name" value="bigfish" type="string" />
     </properties>
   </tile>
   <tile id="10">
     <properties>
-      <property name="name" value="merman" type="string" />
+      <property name="Name" value="merman" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="frog" type="string" />
+    </properties>
+  </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="scorpion" type="string" />
+    </properties>
+  </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="alexkidd_motorcycle" type="string" />
     </properties>
   </tile>
 </tileset>

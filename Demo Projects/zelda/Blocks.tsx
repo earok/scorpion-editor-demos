@@ -4,27 +4,27 @@
   <tile id="0" />
   <tile id="1">
     <properties>
-      <property name="name" value="chest_shield" type="string" />
+      <property name="Name" value="chest_shield" type="string" />
     </properties>
   </tile>
   <tile id="2">
     <properties>
-      <property name="name" value="bush" type="string" />
+      <property name="Name" value="bush" type="string" />
     </properties>
   </tile>
   <tile id="3">
     <properties>
-      <property name="name" value="rupee1" type="string" />
+      <property name="Name" value="rupee1" type="string" />
     </properties>
   </tile>
   <tile id="4">
     <properties>
-      <property name="name" value="chest_empty" type="string" />
+      <property name="Name" value="chest_empty" type="string" />
     </properties>
   </tile>
   <tile id="5">
     <properties>
-      <property name="name" value="chair" type="string" />
+      <property name="Name" value="chair" type="string" />
     </properties>
   </tile>
 </tileset>

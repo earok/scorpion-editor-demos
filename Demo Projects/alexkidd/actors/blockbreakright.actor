@@ -1,6 +1,6 @@
 ClassType: actor
 DefaultLookDir: downright
-Max: 1
+MaxEntities: 1
 NudgeX: 8
 NudgeY: 8
 Idles:
@@ -47,6 +47,7 @@ TalkBox:
   Height: 0
 MoveType: cpu
 AttackDelay: 0
+ZOrder: 0
 SpeedLeft: 0
 SpeedRight: 0.5
 SpeedUp: 0
@@ -62,7 +63,10 @@ DivertPlayerDialogue:
 DivertPlayerCollision: 
 DivertPlayerHit: 
 DivertPlayerProjectileCollision: 
-DivertOutOfScreen: 
+DivertOutOfScreenLeft: destroy_actor
+DivertOutOfScreenRight: destroy_actor
+DivertOutOfScreenUp: destroy_actor
+DivertOutOfScreenDown: destroy_actor
 DivertTimer: 
 DivertTimerFrames: 0
 TileID: 4

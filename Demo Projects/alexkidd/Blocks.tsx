@@ -3,52 +3,62 @@
   <image source="blocks.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="name" value="burger" type="string" />
+      <property name="Name" value="burger" type="string" />
     </properties>
   </tile>
   <tile id="1">
     <properties>
-      <property name="name" value="money" type="string" />
+      <property name="Name" value="money" type="string" />
     </properties>
   </tile>
   <tile id="2">
     <properties>
-      <property name="name" value="mysterycontainer" type="string" />
+      <property name="Name" value="mysterycontainer" type="string" />
     </properties>
   </tile>
   <tile id="3">
     <properties>
-      <property name="name" value="ring" type="string" />
+      <property name="Name" value="ring" type="string" />
     </properties>
   </tile>
   <tile id="4">
     <properties>
-      <property name="name" value="rock" type="string" />
+      <property name="Name" value="rock" type="string" />
     </properties>
   </tile>
   <tile id="5">
     <properties>
-      <property name="name" value="shockcontainer" type="string" />
+      <property name="Name" value="shockcontainer" type="string" />
     </properties>
   </tile>
   <tile id="6">
     <properties>
-      <property name="name" value="starcontainer" type="string" />
+      <property name="Name" value="starcontainer" type="string" />
     </properties>
   </tile>
   <tile id="7">
     <properties>
-      <property name="name" value="underwaterrock" type="string" />
+      <property name="Name" value="underwaterrock" type="string" />
     </properties>
   </tile>
   <tile id="8">
     <properties>
-      <property name="name" value="underwaterburgerrock" type="string" />
+      <property name="Name" value="underwaterburgerrock" type="string" />
     </properties>
   </tile>
   <tile id="9">
     <properties>
-      <property name="name" value="checkpoint" type="string" />
+      <property name="Name" value="checkpoint" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="hardblock" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="acid" type="string" />
     </properties>
   </tile>
 </tileset>

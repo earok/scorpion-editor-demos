@@ -3,12 +3,12 @@
   <image source="blocks.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="name" value="blk_webhole" type="string" />
+      <property name="Name" value="blk_webhole" type="string" />
     </properties>
   </tile>
   <tile id="1">
     <properties>
-      <property name="name" value="blk_endscreenblank" type="string" />
+      <property name="Name" value="blk_endscreenblank" type="string" />
     </properties>
   </tile>
 </tileset>

@@ -10,7 +10,7 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: //If we have the sword already, destroy the sword pickup
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -27,6 +27,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -47,6 +48,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Conditional
   BasicOperationType: CommentOnly
@@ -75,6 +77,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -86,6 +89,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Actor
   BasicOperationType: CommentOnly
@@ -93,11 +97,11 @@ Commands:
   AudioOperationType: PlaySound
   ConditionType: Condition
   LevelOperationType: LoadLevel
-  ActorOperationType: SetAnimation
+  ActorOperationType: SetType
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -114,6 +118,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -125,6 +130,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Conditional
   BasicOperationType: CommentOnly
@@ -153,6 +159,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -164,6 +171,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 CodeBlockEndType: Game
 CodeBlockEndLabel: 

@@ -4,7 +4,7 @@
   <tile id="0" />
   <tile id="1">
     <properties>
-      <property name="name" value="smallmario" type="string" />
+      <property name="Name" value="smallmario" type="string" />
     </properties>
   </tile>
 </tileset>

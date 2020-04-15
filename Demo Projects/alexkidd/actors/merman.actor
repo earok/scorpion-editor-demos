@@ -1,6 +1,6 @@
 ClassType: actor
 DefaultLookDir: up
-Max: 0
+MaxEntities: 0
 NudgeX: 10
 NudgeY: 8
 Idles:
@@ -60,10 +60,13 @@ CollType: bounce
 DivertAttack: 
 DivertSpawn: spawn_merman
 DivertPlayerDialogue: 
-DivertPlayerCollision: on_playerkill
+DivertPlayerCollision: on_playercollide
 DivertPlayerHit: on_hitmerman
 DivertPlayerProjectileCollision: 
-DivertOutOfScreen: 
+DivertOutOfScreenLeft: destroy_actor
+DivertOutOfScreenRight: ''
+DivertOutOfScreenUp: ''
+DivertOutOfScreenDown: ''
 DivertTimer: 
 DivertTimerFrames: 0
 TileID: 10

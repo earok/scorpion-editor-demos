@@ -10,7 +10,7 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -27,6 +27,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -47,6 +48,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Player
   BasicOperationType: CommentOnly
@@ -58,7 +60,7 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -75,6 +77,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -86,6 +89,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Audio
   BasicOperationType: CommentOnly
@@ -97,7 +101,7 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -114,6 +118,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -125,6 +130,7 @@ Commands:
   Sound: snd_happy
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Base
   BasicOperationType: SetVariable
@@ -153,6 +159,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -164,6 +171,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Dialogue
   BasicOperationType: CommentOnly
@@ -175,7 +183,7 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: You found a sword!!!<br><br>You can now fight monsters.
   Label: 
   DiceSides: 2
@@ -192,6 +200,7 @@ Commands:
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -203,6 +212,48 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
+  BlockPositionString: current block
+- Category: Player
+  BasicOperationType: CommentOnly
+  DisplayOperationType: SetPanel
+  AudioOperationType: PlaySound
+  ConditionType: Condition
+  LevelOperationType: LoadLevel
+  ActorOperationType: SetType
+  DialogueOperationType: Speak
+  Goto: 
+  Comment: 
+  Variable: none
+  Expression: 0
+  Label: 
+  DiceSides: 2
+  Comparison: NotZero
+  Level: none
+  NewBlock: none
+  XPosition: 
+  YPosition: 
+  TeleportName: none
+  ActorType: link_sword
+  Animation: link_pickup_sword
+  Panel: none
+  WaitForFireHit: false
+  Frames: 0
+  CameraX: 
+  CameraY: 
+  Anim5: 
+  YRes: 212
+  CameraFollowLeft: false
+  CameraFollowRight: false
+  CameraFollowUp: false
+  CameraFollowDown: false
+  CameraFollowValue: 0
+  ColorIndex: 0
+  Color: *o0
+  Sound: none
+  Music: none
+  MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 CodeBlockEndType: Game
 CodeBlockEndLabel: 

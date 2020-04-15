@@ -4,27 +4,27 @@
   <tile id="0" />
   <tile id="1">
     <properties>
-      <property name="name" value="spider" type="string" />
+      <property name="Name" value="spider" type="string" />
     </properties>
   </tile>
   <tile id="2">
     <properties>
-      <property name="name" value="cat" type="string" />
+      <property name="Name" value="cat" type="string" />
     </properties>
   </tile>
   <tile id="3">
     <properties>
-      <property name="name" value="webfix" type="string" />
+      <property name="Name" value="webfix" type="string" />
     </properties>
   </tile>
   <tile id="4">
     <properties>
-      <property name="name" value="cat_happy" type="string" />
+      <property name="Name" value="cat_happy" type="string" />
     </properties>
   </tile>
   <tile id="5">
     <properties>
-      <property name="name" value="bighand" type="string" />
+      <property name="Name" value="bighand" type="string" />
     </properties>
   </tile>
 </tileset>

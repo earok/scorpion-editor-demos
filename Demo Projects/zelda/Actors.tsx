@@ -3,12 +3,12 @@
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="name" value="link" type="string" />
+      <property name="Name" value="link" type="string" />
     </properties>
   </tile>
   <tile id="1">
     <properties>
-      <property name="name" value="pickup_sword" type="string" />
+      <property name="Name" value="pickup_sword" type="string" />
     </properties>
   </tile>
 </tileset>
