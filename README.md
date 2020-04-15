@@ -2,6 +2,11 @@
 
 Note: This is a very early work-in-progress version of the Scorpion Editor for Windows. It isn't feature complete, is likely to have more than a handful of breaking bugs, and may not work on every Windows configuration - Windows 10 is the recommended OS. Updates will be released on an "early and often" basis.
 
+Downloads: https://github.com/earok/scorpion-editor-demos/releases
+
+
+
+
 The editor itself is not open source - but all of the included demos are.
 
 * Zelda: Return of the Hylian demo based on the games by Nintendo and the fan work by Vincent Jouillat. Includes tracker music by Coma28
