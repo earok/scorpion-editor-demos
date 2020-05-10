@@ -11,6 +11,14 @@ Variables:
   IsConstant: false
   Value: false
   Notes: 
+- Name: max_health
+  IsConstant: false
+  Value: 6
+  Notes: 
+- Name: health
+  IsConstant: false
+  Value: 6
+  Notes: 
 Commands:
 - Category: Audio
   BasicOperationType: CommentOnly
@@ -19,9 +27,10 @@ Commands:
   ConditionType: Condition
   LevelOperationType: LoadLevel
   ActorOperationType: SetType
+  DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -30,13 +39,17 @@ Commands:
   NewBlock: none
   XPosition: 
   YPosition: 
+  TeleportName: none
   ActorType: none
   Animation: none
+  PushXPixels: 0
+  PushYPixels: 0
   Panel: none
   WaitForFireHit: false
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -57,6 +70,7 @@ Commands:
   Sound: none
   Music: mod_intro
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Display
   BasicOperationType: CommentOnly
@@ -65,9 +79,10 @@ Commands:
   ConditionType: Condition
   LevelOperationType: LoadLevel
   ActorOperationType: SetType
+  DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -76,13 +91,17 @@ Commands:
   NewBlock: none
   XPosition: 
   YPosition: 
+  TeleportName: none
   ActorType: none
   Animation: none
+  PushXPixels: 0
+  PushYPixels: 0
   Panel: pic_title
   WaitForFireHit: true
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -94,6 +113,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Audio
   BasicOperationType: CommentOnly
@@ -102,9 +122,10 @@ Commands:
   ConditionType: Condition
   LevelOperationType: LoadLevel
   ActorOperationType: SetType
+  DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -113,13 +134,17 @@ Commands:
   NewBlock: none
   XPosition: 
   YPosition: 
+  TeleportName: none
   ActorType: none
   Animation: none
+  PushXPixels: 0
+  PushYPixels: 0
   Panel: none
   WaitForFireHit: false
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -131,6 +156,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 - Category: Base
   BasicOperationType: Goto
@@ -139,9 +165,10 @@ Commands:
   ConditionType: Condition
   LevelOperationType: LoadLevel
   ActorOperationType: SetType
+  DialogueOperationType: Speak
   Goto: gamemenu
   Comment: 
-  Variable: 
+  Variable: none
   Expression: 0
   Label: 
   DiceSides: 2
@@ -150,13 +177,17 @@ Commands:
   NewBlock: none
   XPosition: 
   YPosition: 
+  TeleportName: none
   ActorType: none
   Animation: none
+  PushXPixels: 0
+  PushYPixels: 0
   Panel: none
   WaitForFireHit: false
   Frames: 0
   CameraX: 
   CameraY: 
+  Anim5: 
   YRes: 212
   CameraFollowLeft: false
   CameraFollowRight: false
@@ -168,6 +199,7 @@ Commands:
   Sound: none
   Music: none
   MusicPos: 0
+  SpeakDelay: 1
   BlockPositionString: current block
 CodeBlockEndType: Game
 CodeBlockEndLabel: 

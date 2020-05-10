@@ -60,11 +60,11 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: player_y
-  Expression: block_y * 16 - 15
+  Variable: player_y - 11
+  Expression: block_y * 16 + 16
   Label: 
   DiceSides: 2
-  Comparison: GreaterThan
+  Comparison: LessThan
   Level: none
   NewBlock: none
   XPosition: 
@@ -101,11 +101,11 @@ Commands:
   DialogueOperationType: Speak
   Goto: 
   Comment: 
-  Variable: player_y
-  Expression: block_y * 16 + 24
+  Variable: player_y + 12
+  Expression: block_y * 16
   Label: 
   DiceSides: 2
-  Comparison: LessThan
+  Comparison: GreaterThanOrEqual
   Level: none
   NewBlock: none
   XPosition: 

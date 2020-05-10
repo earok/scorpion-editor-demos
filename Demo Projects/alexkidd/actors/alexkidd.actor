@@ -1,5 +1,6 @@
 ClassType: player
 DefaultLookDir: right
+MaxEntities: 0
 NudgeX: 9
 NudgeY: 4
 Idles:
@@ -51,12 +52,16 @@ SpeedLeft: 1.5
 SpeedRight: 1.5
 SpeedUp: 3.25
 SpeedDown: 3.25
-AccelLeft: 0.10000000000000001
-AccelRight: 0.10000000000000001
-AccelUp: 0.10000000000000001
-AccelDown: 0.10000000000000001
+AccelLeft: 0.100000001
+AccelRight: 0.100000001
+AccelUp: 0.100000001
+AccelDown: 0.100000001
 CollType: block
-DivertAttack: on_alexpunch
+AttackProjectile: ringshot
+AttackProjectileUseDirection: true
+AttackProjectileAmmoVariable: ammo
+AttackSound: sndshot
+DivertAttack: ''
 DivertSpawn: 
 DivertPlayerDialogue: 
 DivertPlayerCollision: 

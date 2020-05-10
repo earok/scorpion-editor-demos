@@ -1,6 +1,5 @@
-ClassType: player
 DefaultLookDir: down
-Max: 2
+MaxEntities: 0
 NudgeX: 8
 NudgeY: 16
 Idles:
@@ -32,9 +31,9 @@ Attacks:
   DownRight: 
 CollBox:
   X: -8
-  Y: -4
+  Y: -10
   Width: 16
-  Height: 5
+  Height: 10
 HitBox:
   X: 0
   Y: 0
@@ -57,13 +56,20 @@ AccelRight:
 AccelUp: 
 AccelDown: 
 CollType: block
+AttackProjectile: 
+AttackProjectileUseDirection: false
+AttackProjectileAmmoVariable: 
+AttackSound: 
 DivertAttack: 
 DivertSpawn: spawn_link
 DivertPlayerDialogue: 
 DivertPlayerCollision: 
 DivertPlayerHit: 
 DivertPlayerProjectileCollision: 
-DivertOutOfScreen: 
+DivertOutOfScreenLeft: 
+DivertOutOfScreenRight: 
+DivertOutOfScreenUp: 
+DivertOutOfScreenDown: 
 DivertTimer: 
 DivertTimerFrames: 0
 TileID: 0

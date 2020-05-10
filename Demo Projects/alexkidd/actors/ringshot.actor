@@ -1,5 +1,5 @@
-ClassType: playerprojectile
 DefaultLookDir: right
+MaxEntities: 0
 NudgeX: 8
 NudgeY: 8
 Idles:
@@ -35,10 +35,10 @@ CollBox:
   Width: 8
   Height: 8
 HitBox:
-  X: 0
-  Y: 0
-  Width: 0
-  Height: 0
+  X: -8
+  Y: -4
+  Width: 16
+  Height: 8
 TalkBox:
   X: 0
   Y: 0
@@ -56,11 +56,15 @@ AccelRight:
 AccelUp: 
 AccelDown: 
 CollType: destroy
+AttackProjectile: 
+AttackProjectileUseDirection: false
+AttackProjectileAmmoVariable: 
+AttackSound: 
 DivertAttack: 
 DivertSpawn: 
 DivertPlayerDialogue: 
-DivertPlayerCollision: 
-DivertPlayerHit: 
+DivertPlayerCollision: on_playerkill
+DivertPlayerHit: ''
 DivertPlayerProjectileCollision: 
 DivertOutOfScreenLeft: destroy_actor
 DivertOutOfScreenRight: destroy_actor

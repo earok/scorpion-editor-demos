@@ -11,4 +11,19 @@
       <property name="Name" value="pickup_sword" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="enemy_spider" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="killpuff" type="string" />
+    </properties>
+  </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="enemy_tentacles" type="string" />
+    </properties>
+  </tile>
 </tileset>
