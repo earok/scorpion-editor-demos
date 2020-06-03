@@ -1,72 +1,83 @@
-ClassType: player
-DefaultLookDir: right
-MaxEntities: 0
-NudgeX: 9
-NudgeY: 0
-Idles:
-  UpLeft: 
-  Up: 
-  UpRight: 
-  Left: 
-  Right: alexkidd_motorcycle_a
-  DownLeft: 
-  Down: 
-  DownRight: 
-Moves:
-  UpLeft: alexkidd_motorcycle_b
-  Up: alexkidd_motorcycle_b
-  UpRight: alexkidd_motorcycle_b
-  Left: alexkidd_motorcycle_a
-  Right: alexkidd_motorcycle_a
-  DownLeft: alexkidd_motorcycle_b
-  Down: 
-  DownRight: alexkidd_motorcycle_b
-Attacks:
-  UpLeft: 
-  Up: 
-  UpRight: 
-  Left: 
-  Right: 
-  DownLeft: 
-  Down: 
-  DownRight: 
-CollBox:
-  X: -9
-  Y: -8
-  Width: 16
-  Height: 24
-HitBox:
-  X: -9
-  Y: -8
-  Width: 21
-  Height: 24
-TalkBox:
-  X: 0
-  Y: 0
-  Width: 0
-  Height: 0
-MoveType: control_platform
-AttackDelay: 0
-ZOrder: 0
-SpeedLeft: 0
-SpeedRight: 4
-SpeedUp: 5
-SpeedDown: 5
-AccelLeft: 0.0500000007
-AccelRight: 0.200000003
-AccelUp: 
-AccelDown: 0.150000006
-CollType: block
-DivertAttack: on_alexpunch
-DivertSpawn: 
-DivertPlayerDialogue: 
-DivertPlayerCollision: 
-DivertPlayerHit: 
-DivertPlayerProjectileCollision: 
-DivertOutOfScreenLeft: snap_to_screen
-DivertOutOfScreenRight: snap_to_screen
-DivertOutOfScreenUp: snap_to_screen
-DivertOutOfScreenDown: snap_to_screen
-DivertTimer: 
-DivertTimerFrames: 0
-TileID: 13
+{
+  "DefaultLookDir": 5,
+  "MaxEntities": 0,
+  "NudgeX": 9,
+  "NudgeY": 0,
+  "Idles": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": "alexkidd_motorcycle_a",
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Moves": {
+    "UpLeft": "alexkidd_motorcycle_b",
+    "Up": "alexkidd_motorcycle_b",
+    "UpRight": "alexkidd_motorcycle_b",
+    "Left": "alexkidd_motorcycle_a",
+    "Right": "alexkidd_motorcycle_a",
+    "DownLeft": "alexkidd_motorcycle_b",
+    "Down": null,
+    "DownRight": "alexkidd_motorcycle_b"
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "CollBox": {
+    "X": -9,
+    "Y": -8,
+    "Width": 16,
+    "Height": 24
+  },
+  "HitBox": {
+    "X": -9,
+    "Y": -8,
+    "Width": 21,
+    "Height": 24
+  },
+  "TalkBox": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "MoveType": 3,
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 4.0,
+  "SpeedUp": 5.0,
+  "SpeedDown": 5.0,
+  "AccelLeft": 0.05,
+  "AccelRight": 0.2,
+  "AccelUp": null,
+  "AccelDown": 0.15,
+  "CollType": 0,
+  "AttackProjectile": null,
+  "AttackProjectileUseDirection": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "DivertAttack": "on_alexpunch",
+  "DivertSpawn": null,
+  "DivertPlayerDialogue": null,
+  "DivertPlayerCollision": null,
+  "DivertPlayerHit": null,
+  "DivertPlayerProjectileCollision": null,
+  "DivertOutOfScreenLeft": "snap_to_screen",
+  "DivertOutOfScreenRight": "snap_to_screen",
+  "DivertOutOfScreenUp": "snap_to_screen",
+  "DivertOutOfScreenDown": "snap_to_screen",
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
+  "TileID": 13
+}

@@ -1,423 +1,568 @@
-Variables:
-- Name: LevelTimeMax
-  IsConstant: true
-  Value: 50 * 5
-  Notes: Five seconds max per level
-- Name: LVL1_Success
-  IsConstant: false
-  Value: false
-  Notes: ''
-- Name: LVL2_Success
-  IsConstant: false
-  Value: false
-  Notes: 
-- Name: LVL3_Success
-  IsConstant: false
-  Value: false
-  Notes: 
-- Name: LVL4_Success
-  IsConstant: false
-  Value: false
-  Notes: 
-- Name: LVL_Timer_Left
-  IsConstant: false
-  Value: 0
-  Notes: 
-- Name: LVL_Score
-  IsConstant: false
-  Value: 0
-  Notes: 
-- Name: loop_counter_x
-  IsConstant: false
-  Value: 0
-  Notes: 
-- Name: loop_counter_y
-  IsConstant: false
-  Value: 0
-  Notes: 
-Commands:
-- Category: Base
-  BasicOperationType: CommentOnly
-  DisplayOperationType: SetYResolution
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: This is the code that runs on startup
-  Variable: actor_animation
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 144
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: &o0
-    ColorContext: 
-    A: 255
-    R: 0
-    G: 0
-    B: 0
-    ScA: 1
-    ScR: 0
-    ScG: 0
-    ScB: 0
-  Sound: none
-  BlockPositionString: current block
-- Category: Display
-  BasicOperationType: CommentOnly
-  DisplayOperationType: SetYResolution
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: actor_animation
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 144
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Display
-  BasicOperationType: CommentOnly
-  DisplayOperationType: CameraFollow
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: actor_animation
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 144
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Base
-  BasicOperationType: SetVariable
-  DisplayOperationType: CameraFollow
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: lvl1_success
-  Expression: false
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 211
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Base
-  BasicOperationType: SetVariable
-  DisplayOperationType: CameraFollow
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: lvl2_success
-  Expression: false
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 211
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Base
-  BasicOperationType: SetVariable
-  DisplayOperationType: CameraFollow
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: lvl3_success
-  Expression: false
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 211
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Base
-  BasicOperationType: SetVariable
-  DisplayOperationType: CameraFollow
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: lvl4_success
-  Expression: false
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 211
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Display
-  BasicOperationType: CommentOnly
-  DisplayOperationType: SetPanel
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: 
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: title
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 212
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: snd_repair
-  BlockPositionString: current block
-- Category: Audio
-  BasicOperationType: CommentOnly
-  DisplayOperationType: SetPanel
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: 
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 212
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: snd_repair
-  BlockPositionString: current block
-- Category: Base
-  BasicOperationType: Wait
-  DisplayOperationType: SetPanel
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: 
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 212
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-- Category: Display
-  BasicOperationType: CommentOnly
-  DisplayOperationType: SetPanel
-  AudioOperationType: PlaySound
-  ConditionType: Condition
-  LevelOperationType: LoadLevel
-  ActorOperationType: SetType
-  Goto: 
-  Comment: 
-  Variable: 
-  Expression: 0
-  Label: 
-  DiceSides: 2
-  Comparison: NotZero
-  Level: none
-  NewBlock: none
-  XPosition: 
-  YPosition: 
-  ActorType: none
-  Panel: none
-  WaitForFireHit: false
-  Frames: 0
-  CameraX: 
-  CameraY: 
-  YRes: 212
-  CameraFollowLeft: false
-  CameraFollowRight: false
-  CameraFollowUp: false
-  CameraFollowDown: false
-  CameraFollowValue: 0
-  ColorIndex: 0
-  Color: *o0
-  Sound: none
-  BlockPositionString: current block
-CodeBlockEndType: Label
-CodeBlockEndLabel: level1
+{
+  "Variables": [
+    {
+      "Name": "LevelTimeMax",
+      "IsConstant": true,
+      "Value": "50 * 5",
+      "Notes": "Five seconds max per level"
+    },
+    {
+      "Name": "LVL1_Success",
+      "IsConstant": false,
+      "Value": "false",
+      "Notes": ""
+    },
+    {
+      "Name": "LVL2_Success",
+      "IsConstant": false,
+      "Value": "false",
+      "Notes": null
+    },
+    {
+      "Name": "LVL3_Success",
+      "IsConstant": false,
+      "Value": "false",
+      "Notes": null
+    },
+    {
+      "Name": "LVL4_Success",
+      "IsConstant": false,
+      "Value": "false",
+      "Notes": null
+    },
+    {
+      "Name": "LVL_Timer_Left",
+      "IsConstant": false,
+      "Value": "0",
+      "Notes": null
+    },
+    {
+      "Name": "LVL_Score",
+      "IsConstant": false,
+      "Value": "0",
+      "Notes": null
+    },
+    {
+      "Name": "loop_counter_x",
+      "IsConstant": false,
+      "Value": "0",
+      "Notes": null
+    },
+    {
+      "Name": "loop_counter_y",
+      "IsConstant": false,
+      "Value": "0",
+      "Notes": null
+    }
+  ],
+  "Commands": [
+    {
+      "IsInError": false,
+      "Category": 0,
+      "BasicOperationType": 0,
+      "DisplayOperationType": 3,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": "This is the code that runs on startup",
+      "Variable": "actor_animation",
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 144,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 2,
+      "BasicOperationType": 0,
+      "DisplayOperationType": 3,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": "actor_animation",
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 144,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 2,
+      "BasicOperationType": 0,
+      "DisplayOperationType": 4,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": "actor_animation",
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 144,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 0,
+      "BasicOperationType": 5,
+      "DisplayOperationType": 4,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": "lvl1_success",
+      "Expression": "false",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 211,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 0,
+      "BasicOperationType": 5,
+      "DisplayOperationType": 4,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": "lvl2_success",
+      "Expression": "false",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 211,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 0,
+      "BasicOperationType": 5,
+      "DisplayOperationType": 4,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": "lvl3_success",
+      "Expression": "false",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 211,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 0,
+      "BasicOperationType": 5,
+      "DisplayOperationType": 4,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": "lvl4_success",
+      "Expression": "false",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 211,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 2,
+      "BasicOperationType": 0,
+      "DisplayOperationType": 0,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": null,
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "title",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 212,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "snd_repair",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 3,
+      "BasicOperationType": 0,
+      "DisplayOperationType": 0,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": null,
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 212,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "snd_repair",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 0,
+      "BasicOperationType": 7,
+      "DisplayOperationType": 0,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": null,
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 212,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    },
+    {
+      "IsInError": false,
+      "Category": 2,
+      "BasicOperationType": 0,
+      "DisplayOperationType": 0,
+      "AudioOperationType": 0,
+      "ConditionType": 0,
+      "LevelOperationType": 0,
+      "ActorOperationType": 0,
+      "DialogueOperationType": 0,
+      "Goto": null,
+      "Comment": null,
+      "Variable": null,
+      "Expression": "0",
+      "Label": null,
+      "DiceSides": 2,
+      "Comparison": 0,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": null,
+      "ActorType": "none",
+      "Animation": null,
+      "PushXPixels": 0,
+      "PushYPixels": 0,
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": 0,
+      "CameraX": null,
+      "CameraY": null,
+      "Anim5": null,
+      "YRes": 212,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowValue": 0,
+      "ColorIndex": 0,
+      "Color": "#FF000000",
+      "Sound": "none",
+      "Music": null,
+      "MusicPos": null,
+      "SpeakDelay": 0,
+      "BlockPositionString": "current block"
+    }
+  ],
+  "CodeBlockEndType": 3,
+  "CodeBlockEndLabel": "level1"
+}

@@ -1,72 +1,83 @@
-ClassType: actor
-DefaultLookDir: up
-MaxEntities: 0
-NudgeX: 10
-NudgeY: 8
-Idles:
-  UpLeft: 
-  Up: enemy_merman_default
-  UpRight: 
-  Left: 
-  Right: 
-  DownLeft: 
-  Down: enemy_merman_default
-  DownRight: 
-Moves:
-  UpLeft: 
-  Up: 
-  UpRight: 
-  Left: 
-  Right: 
-  DownLeft: 
-  Down: 
-  DownRight: 
-Attacks:
-  UpLeft: 
-  Up: 
-  UpRight: 
-  Left: 
-  Right: 
-  DownLeft: 
-  Down: 
-  DownRight: 
-CollBox:
-  X: -10
-  Y: -14
-  Width: 21
-  Height: 31
-HitBox:
-  X: 0
-  Y: 0
-  Width: 0
-  Height: 0
-TalkBox:
-  X: 0
-  Y: 0
-  Width: 0
-  Height: 0
-MoveType: cpu
-AttackDelay: 0
-ZOrder: 0
-SpeedLeft: 0
-SpeedRight: 0
-SpeedUp: 0.25
-SpeedDown: 0.25
-AccelLeft: 
-AccelRight: 
-AccelUp: 
-AccelDown: 
-CollType: bounce
-DivertAttack: 
-DivertSpawn: spawn_merman
-DivertPlayerDialogue: 
-DivertPlayerCollision: on_playercollide
-DivertPlayerHit: on_hitmerman
-DivertPlayerProjectileCollision: 
-DivertOutOfScreenLeft: destroy_actor
-DivertOutOfScreenRight: ''
-DivertOutOfScreenUp: ''
-DivertOutOfScreenDown: ''
-DivertTimer: 
-DivertTimerFrames: 0
-TileID: 10
+{
+  "DefaultLookDir": 1,
+  "MaxEntities": 0,
+  "NudgeX": 10,
+  "NudgeY": 8,
+  "Idles": {
+    "UpLeft": null,
+    "Up": "enemy_merman_default",
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": "enemy_merman_default",
+    "DownRight": null
+  },
+  "Moves": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "CollBox": {
+    "X": -10,
+    "Y": -14,
+    "Width": 21,
+    "Height": 31
+  },
+  "HitBox": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "TalkBox": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "MoveType": 0,
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
+  "SpeedUp": 0.25,
+  "SpeedDown": 0.25,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": null,
+  "CollType": 2,
+  "AttackProjectile": null,
+  "AttackProjectileUseDirection": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": "spawn_merman",
+  "DivertPlayerDialogue": null,
+  "DivertPlayerCollision": "on_playercollide",
+  "DivertPlayerHit": "on_hitmerman",
+  "DivertPlayerProjectileCollision": null,
+  "DivertOutOfScreenLeft": "destroy_actor",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
+  "TileID": 10
+}

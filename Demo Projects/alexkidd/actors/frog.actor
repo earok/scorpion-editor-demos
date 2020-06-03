@@ -1,72 +1,83 @@
-ClassType: actor
-DefaultLookDir: left
-MaxEntities: 0
-NudgeX: 9
-NudgeY: 0
-Idles:
-  UpLeft: frog_a
-  Up: 
-  UpRight: frog_a
-  Left: frog_a
-  Right: 
-  DownLeft: 
-  Down: 
-  DownRight: 
-Moves:
-  UpLeft: frog_b
-  Up: frog_b
-  UpRight: frog_b
-  Left: 
-  Right: 
-  DownLeft: frog_b
-  Down: frog_b
-  DownRight: frog_b
-Attacks:
-  UpLeft: 
-  Up: 
-  UpRight: 
-  Left: 
-  Right: 
-  DownLeft: 
-  Down: 
-  DownRight: 
-CollBox:
-  X: -9
-  Y: 0
-  Width: 16
-  Height: 16
-HitBox:
-  X: 0
-  Y: 0
-  Width: 0
-  Height: 0
-TalkBox:
-  X: 0
-  Y: 0
-  Width: 0
-  Height: 0
-MoveType: cpu_platform
-AttackDelay: 0
-ZOrder: 0
-SpeedLeft: 0
-SpeedRight: 0
-SpeedUp: 3.5
-SpeedDown: 3.5
-AccelLeft: 
-AccelRight: 
-AccelUp: 
-AccelDown: 0.100000001
-CollType: block
-DivertAttack: 
-DivertSpawn: on_frogjump
-DivertPlayerDialogue: 
-DivertPlayerCollision: on_playercollide
-DivertPlayerHit: on_killenemy
-DivertPlayerProjectileCollision: on_killenemy
-DivertOutOfScreenLeft: 
-DivertOutOfScreenRight: 
-DivertOutOfScreenUp: 
-DivertOutOfScreenDown: 
-DivertTimer: on_frogjump
-DivertTimerFrames: 150
-TileID: 11
+{
+  "DefaultLookDir": 3,
+  "MaxEntities": 0,
+  "NudgeX": 9,
+  "NudgeY": 0,
+  "Idles": {
+    "UpLeft": "frog_a",
+    "Up": null,
+    "UpRight": "frog_a",
+    "Left": "frog_a",
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Moves": {
+    "UpLeft": "frog_b",
+    "Up": "frog_b",
+    "UpRight": "frog_b",
+    "Left": null,
+    "Right": null,
+    "DownLeft": "frog_b",
+    "Down": "frog_b",
+    "DownRight": "frog_b"
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "CollBox": {
+    "X": -9,
+    "Y": 0,
+    "Width": 16,
+    "Height": 16
+  },
+  "HitBox": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "TalkBox": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "MoveType": 2,
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
+  "SpeedUp": 3.5,
+  "SpeedDown": 3.5,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": 0.1,
+  "CollType": 0,
+  "AttackProjectile": null,
+  "AttackProjectileUseDirection": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": "on_frogjump",
+  "DivertPlayerDialogue": null,
+  "DivertPlayerCollision": "on_playercollide",
+  "DivertPlayerHit": "on_killenemy",
+  "DivertPlayerProjectileCollision": "on_killenemy",
+  "DivertOutOfScreenLeft": null,
+  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenDown": null,
+  "DivertTimer": "on_frogjump",
+  "DivertTimerFrames": 150,
+  "TileID": 11
+}
