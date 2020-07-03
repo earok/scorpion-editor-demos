@@ -1,5 +1,7 @@
 # Scorpion Editor
 
+The Scorpion Engine is a fast and flexible game creation kit for Amiga, offering a modern Windows IDE for development. Develop game on Windows and run on emulator or actual hardware.
+
 Note: This is a very early work-in-progress version of the Scorpion Editor for Windows. It isn't feature complete, is likely to have more than a handful of breaking bugs, and may not work on every Windows configuration - Windows 10 is the recommended OS. Updates will be released on an "early and often" basis.
 
 Downloads: https://github.com/earok/scorpion-editor-demos/releases
