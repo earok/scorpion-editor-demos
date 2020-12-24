@@ -1,2 +1,2 @@
 cd Editor
-start scorpion_editor.exe
+start ScorpionEditor.exe
