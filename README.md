@@ -6,6 +6,9 @@ Note: This is an ongoing work-in-progress version of the Scorpion Editor for Win
 
 Downloads: https://github.com/earok/scorpion-editor-demos/releases
 
+Videos:
+- Brief introduction: https://youtu.be/7gm3xcmardw
+- Backbone import: https://youtu.be/Mv30lGq-HTI
 
 The editor itself is not open source - but all of the included demos are.
 
