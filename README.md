@@ -26,6 +26,8 @@ The editor itself is not open source - but all of the included demos are.
 
 * Super Go Down The Hole is ported from the GameMaker game by Sergio Cornaga, featuring music by JMD.
 
+* Slope Demo uses Midi sprite ( https://opengameart.org/content/old-midi-sprite ) by Kelvin Shadewing, and a tiny slice of Sega's Sonic 1 for Sega Master System for the level.
+
 These demo games are archived, will not be maintained, and will eventually be removed from the archive. They're still included for reference.
 
 * Zelda: Return of the Hylian demo based on the games by Nintendo and the fan work by Vincent Jouillat. Includes tracker music by Coma28
