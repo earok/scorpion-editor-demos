@@ -9,6 +9,7 @@ Downloads: https://github.com/earok/scorpion-editor-demos/releases
 Videos:
 - Brief introduction: https://youtu.be/7gm3xcmardw
 - Backbone import: https://youtu.be/Mv30lGq-HTI
+- Slopes and animation loops: https://youtu.be/38YW2abc3qs
 
 The editor itself is not open source - but all of the included demos are.
 
