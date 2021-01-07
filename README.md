@@ -28,6 +28,8 @@ The editor itself is not open source - but all of the included demos are.
 
 * Slope Demo uses Midi sprite ( https://opengameart.org/content/old-midi-sprite ) by Kelvin Shadewing, and a tiny slice of Sega's Sonic 1 for Sega Master System for the level.
 
+* Snake sample derived from https://opengameart.org/content/snake-game-assets by Clear_code
+
 These demo games are archived, will not be maintained, and will eventually be removed from the archive. They're still included for reference.
 
 * Zelda: Return of the Hylian demo based on the games by Nintendo and the fan work by Vincent Jouillat. Includes tracker music by Coma28
