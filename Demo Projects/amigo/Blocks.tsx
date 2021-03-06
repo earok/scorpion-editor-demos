@@ -97,4 +97,20 @@
       <property name="Name" value="block_spiketop" type="string" />
     </properties>
   </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="glitter1" type="string" />
+    </properties>
+  </tile>
+  <tile id="21" />
+  <tile id="22">
+    <properties>
+      <property name="Name" value="glitter2" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="glitter3" type="string" />
+    </properties>
+  </tile>
 </tileset>
