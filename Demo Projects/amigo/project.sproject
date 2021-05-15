@@ -1,13 +1,14 @@
 {
-  "GFXMode": 5,
-  "EmulatedAmiga": "A500",
+  "GFXMode": 4,
+  "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 0,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
   "Uses24BitColor": true,
-  "UseIndex0ForGraphics": false,
+  "AGAFMode": 1,
+  "Implode": true,
   "Fire1Jump": false,
   "Fire2Jump": true,
   "UpJump": true,
@@ -166,6 +167,24 @@
     },
     "anim_plantred_up": {
       "Divert_OnFinish": "plant_out"
+    },
+    "anim_small_outdownpipe": {
+      "Divert_OnFinish": "reset_powerlevel"
+    },
+    "anim_small_outuppipe": {
+      "Divert_OnFinish": "reset_powerlevel"
+    },
+    "anim_big_outdownpipe": {
+      "Divert_OnFinish": "reset_powerlevel"
+    },
+    "anim_big_outuppipe": {
+      "Divert_OnFinish": "reset_powerlevel"
+    },
+    "anim_fire_outdownpipe": {
+      "Divert_OnFinish": "reset_powerlevel"
+    },
+    "anim_fire_outuppipe": {
+      "Divert_OnFinish": "reset_powerlevel"
     }
   },
   "Anim5MetaData": {}

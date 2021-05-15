@@ -8,7 +8,7 @@
   </tile>
   <tile id="1">
     <properties>
-      <property name="Name" value="block_brick" type="string" />
+      <property name="Name" value="tempblock" type="string" />
     </properties>
   </tile>
   <tile id="2">
@@ -111,6 +111,21 @@
   <tile id="23">
     <properties>
       <property name="Name" value="glitter3" type="string" />
+    </properties>
+  </tile>
+  <tile id="24">
+    <properties>
+      <property name="Name" value="block_brick" type="string" />
+    </properties>
+  </tile>
+  <tile id="25">
+    <properties>
+      <property name="Name" value="block_brick2" type="string" />
+    </properties>
+  </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="block_brick3" type="string" />
     </properties>
   </tile>
 </tileset>
