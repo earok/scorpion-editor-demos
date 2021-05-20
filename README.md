@@ -15,12 +15,15 @@ The editor itself is not open source - but all of the included demos are.
 
 * Amigo the Fox is based on a game by Mike Wiering, and includes these assets:
 	- Music by JMD
+	- https://opengameart.org/content/beastlands
 	- http://www.wieringsoftware.nl/mario/source.html
 	- https://opengameart.org/content/harvett-fox-player-character-sheet
 	- https://opengameart.org/content/kenney-16x16
 	- https://opengameart.org/content/super-miyamoto-land-tilesets
 	- https://jdwasabi.itch.io/8-bit-16-bit-sound-effects-pack	
 	
+* Flappy Fox uses many of the same assets as Amigo the Fox
+		
 * Monkey Lad is a game based on Alex Kidd, created around the art assets by surt (https://opengameart.org/content/monkey-lad-in-magical-planet). Featuring music by JMD.
  	
 * RepairWare demo ported from the game by Sergio Cornaga.
@@ -30,11 +33,6 @@ The editor itself is not open source - but all of the included demos are.
 * Slope Demo uses Midi sprite ( https://opengameart.org/content/old-midi-sprite ) by Kelvin Shadewing, and a tiny slice of Sega's Sonic 1 for Sega Master System for the level.
 
 * Snake sample derived from https://opengameart.org/content/snake-game-assets by Clear_code
-
-These demo games are archived, will not be maintained, and will eventually be removed from the archive. They're still included for reference.
-
-* Zelda: Return of the Hylian demo based on the games by Nintendo and the fan work by Vincent Jouillat. Includes tracker music by Coma28
-* Ace Attorney demo based on the games by Capcom.
 
 
 Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
