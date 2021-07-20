@@ -128,4 +128,24 @@
       <property name="Name" value="block_brick3" type="string" />
     </properties>
   </tile>
+  <tile id="27">
+    <properties>
+      <property name="Name" value="door_tl" type="string" />
+    </properties>
+  </tile>
+  <tile id="28">
+    <properties>
+      <property name="Name" value="door_tr" type="string" />
+    </properties>
+  </tile>
+  <tile id="29">
+    <properties>
+      <property name="Name" value="door_bl" type="string" />
+    </properties>
+  </tile>
+  <tile id="30">
+    <properties>
+      <property name="Name" value="door_br" type="string" />
+    </properties>
+  </tile>
 </tileset>

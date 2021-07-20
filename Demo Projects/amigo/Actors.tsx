@@ -46,7 +46,11 @@
       <property name="Name" value="fx_blockfall" type="string" />
     </properties>
   </tile>
-  <tile id="9" />
+  <tile id="9">
+    <properties>
+      <property name="Name" value="star_spawn" type="string" />
+    </properties>
+  </tile>
   <tile id="10" />
   <tile id="11">
     <properties>

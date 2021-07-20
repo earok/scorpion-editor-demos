@@ -34,6 +34,7 @@ The editor itself is not open source - but all of the included demos are.
 
 * Snake sample derived from https://opengameart.org/content/snake-game-assets by Clear_code
 
+* Translucency demo based on the original AMOS demo by bitbeamcannon. https://bitbeamcannon.com/amiga/
 
 Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
 
