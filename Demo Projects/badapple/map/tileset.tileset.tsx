@@ -11,7 +11,7 @@
  <tile id="1">
   <properties>
    <property name="IsPlatform" type="bool" value="false"/>
-   <property name="IsSolid" type="bool" value="false"/>
+   <property name="IsSolid" type="bool" value="true"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
