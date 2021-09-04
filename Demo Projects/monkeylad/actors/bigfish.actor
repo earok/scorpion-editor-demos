@@ -1,5 +1,9 @@
 {
-  "DefaultLookDir": 6,
+  "DivertPlayerProjectileCollision": null,
+  "IsPlayerProjectile": false,
+  "ClassType": "DefaultClass",
+  "DefaultLookDir": "downleft",
+  "Recycle": "Default",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 15,
@@ -33,14 +37,69 @@
     "Down": null,
     "DownRight": null
   },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
   "CollBox": {
     "X": -11,
     "Y": -15,
     "Width": 24,
     "Height": 16
   },
-  "MoveType": 0,
-  "IsPlayerProjectile": false,
+  "MoveType": "cpu",
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 0.5,
@@ -51,19 +110,24 @@
   "AccelRight": null,
   "AccelUp": null,
   "AccelDown": null,
-  "CollType_Left": 2,
-  "CollType_Right": 2,
-  "CollType_Up": 2,
-  "CollType_Down": 2,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
+  "CollType_Left": "bounce",
+  "CollType_Right": "bounce",
+  "CollType_Up": "bounce",
+  "CollType_Down": "bounce",
+  "Flags": 0,
   "AttackProjectile": null,
-  "AttackProjectileUseDirection": false,
+  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
+  "JumpSound": null,
   "DivertAttack": null,
   "DivertSpawn": null,
   "DivertPlayerCollision": "on_playercollide",
   "DivertPlayerHit": "on_killenemy",
-  "DivertPlayerProjectileCollision": null,
+  "DivertHitAgainstPlayer": null,
+  "DivertProjectileCollision": null,
   "DivertOutOfScreenLeft": "",
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",

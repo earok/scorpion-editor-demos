@@ -36,6 +36,10 @@ The editor itself is not open source - but all of the included demos are.
 
 * Translucency demo based on the original AMOS demo by bitbeamcannon. https://bitbeamcannon.com/amiga/
 
+* 2P Demo is based on the kiwijam entry Liminalia https://radnom.itch.io/liminalia
+
+* Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
+
 Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
 
 Documentation still needs to be done, but this video covers the essentials: https://youtu.be/7gm3xcmardw
