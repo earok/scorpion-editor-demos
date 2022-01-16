@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Projectile",
   "DefaultLookDir": "up",
   "Recycle": "Default",
@@ -101,7 +100,7 @@
     "Height": 28
   },
   "AttackDelay": 0,
-  "ZOrder": -999,
+  "ZOrder": 2000,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 8.0,
@@ -133,7 +132,16 @@
   "DivertOutOfScreenRight": "destroy_actor",
   "DivertOutOfScreenUp": "destroy_actor",
   "DivertOutOfScreenDown": "destroy_actor",
+  "DivertPlatformEdge": null,
   "DivertTimer": "fixpos",
   "DivertTimerFrames": 8,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": -1
 }

@@ -13,6 +13,8 @@ Videos:
 
 The editor itself is not open source - but all of the included demos are.
 
+* 2P Demo is based on the kiwijam entry Liminalia https://radnom.itch.io/liminalia
+
 * Amigo the Fox is based on a game by Mike Wiering, and includes these assets:
 	- Music by JMD
 	- https://opengameart.org/content/beastlands
@@ -22,23 +24,28 @@ The editor itself is not open source - but all of the included demos are.
 	- https://opengameart.org/content/super-miyamoto-land-tilesets
 	- https://jdwasabi.itch.io/8-bit-16-bit-sound-effects-pack	
 	
-* Flappy Fox uses many of the same assets as Amigo the Fox
+* Bad Apple is an adaptaton of the popular Touhou project demo, with music by JMD
+
+* Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
+
+* Flighty Fox uses many of the same assets as Amigo the Fox
+		
+* HScroller uses art by Emcee Flesher (https://opengameart.org/content/super-dead-space-gunner-merc-redux-platform-shmup-hero)
+
+* Ladder demo uses art by Buch (https://opengameart.org/content/a-platformer-in-the-forest). "No snap" version by Lemming880.
 		
 * Monkey Lad is a game based on Alex Kidd, created around the art assets by surt (https://opengameart.org/content/monkey-lad-in-magical-planet). Featuring music by JMD.
  	
 * RepairWare demo ported from the game by Sergio Cornaga.
 
-* Super Go Down The Hole is ported from the GameMaker game by Sergio Cornaga, featuring music by JMD.
-
 * Slope Demo uses Midi sprite ( https://opengameart.org/content/old-midi-sprite ) by Kelvin Shadewing, and a tiny slice of Sega's Sonic 1 for Sega Master System for the level.
 
 * Snake sample derived from https://opengameart.org/content/snake-game-assets by Clear_code
 
+* Super Go Down The Hole is ported from the GameMaker game by Sergio Cornaga, featuring music by JMD.
+
 * Translucency demo based on the original AMOS demo by bitbeamcannon. https://bitbeamcannon.com/amiga/
 
-* 2P Demo is based on the kiwijam entry Liminalia https://radnom.itch.io/liminalia
-
-* Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
 
 Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
 

@@ -18,13 +18,13 @@
   "Commands": [
     {
       "DataVersion": 2,
-      "Category": "Base",
+      "Category": "Actor",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
       "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetType",
+      "ActorOperationType": "SetDirection",
       "DialogueOperationType": "Speak",
       "Goto": null,
       "Comment": "",
@@ -45,13 +45,14 @@
       "Animation": "none",
       "PushXPixels": "0",
       "PushYPixels": "0",
-      "LookDirection": "look_upleft",
+      "LookDirection": "move_left",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
         "Left": 0,
         "Right": 0,
@@ -63,6 +64,8 @@
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -73,10 +76,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -108,12 +108,13 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
         "Left": 0,
         "Right": 0,
@@ -125,6 +126,8 @@
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -135,10 +138,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "block at doorx:doory"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -170,12 +170,13 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
         "Left": 0,
         "Right": 0,
@@ -187,6 +188,8 @@
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -197,12 +200,7 @@
       "Sound": "dooropen",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "block at doorx:doory"
+      "SpeakDelay": 1
     }
-  ],
-  "CodeBlockEndType": 0,
-  "CodeBlockEndLabel": null
+  ]
 }
