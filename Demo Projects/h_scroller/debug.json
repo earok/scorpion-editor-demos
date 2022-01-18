@@ -356,6 +356,13 @@
       "DefaultValue": "256",
       "Index": 0,
       "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "handler_drone",
+      "Name": "dronerotation",
+      "DefaultValue": "10",
+      "Index": 0,
+      "MemoryOffset": 0
     }
   ],
   "Variables": [
@@ -2023,402 +2030,480 @@
       "CodeBlock": "projectile_hit",
       "CodeBlockLine": 1,
       "MemoryOffset": 1324,
-      "Description": "Set 'projectile_type' to 'none'"
+      "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "projectile_hit",
       "CodeBlockLine": 2,
       "MemoryOffset": 1330,
-      "Description": "Set 'actor_type' to 'none'"
+      "Description": "If 'projectile_type' NotEquals 'drone' ELSE GOTO 00001370"
     },
     {
       "CodeBlock": "projectile_hit",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1364,
+      "Description": "Set 'projectile_type' to 'none'"
+    },
+    {
+      "CodeBlock": "projectile_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1370,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "handler_drone",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1372,
+      "Description": "HANDLER_DRONE"
+    },
+    {
+      "CodeBlock": "handler_drone",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1372,
+      "Description": "Set 'actor_var2' to 'actor_var2 - dronerotation'"
+    },
+    {
+      "CodeBlock": "handler_drone",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1336,
+      "MemoryOffset": 1396,
+      "Description": "If 'actor_var2' LessThan '0' ELSE GOTO 00001454"
+    },
+    {
+      "CodeBlock": "handler_drone",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1430,
+      "Description": "Set 'actor_var2' to 'actor_var2 + 360'"
+    },
+    {
+      "CodeBlock": "handler_drone",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1454,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1456,
+      "Description": "HANDLER_SPINNER"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1456,
+      "Description": "If 'actor_lookdir' Equals 'look_left'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1490,
+      "Description": "If 'actor_x' LessThan 'player_x' ELSE GOTO 00001628"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1550,
+      "Description": "If 'actor_y' LessThan 'player_y'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1610,
+      "Description": "Set 'actor_lookdir' to 'move_down'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1616,
+      "Description": "GOTO '00001628'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1622,
+      "Description": "Set 'actor_lookdir' to 'move_up'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 1628,
+      "Description": "GOTO '00002082'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 1634,
+      "Description": "If 'actor_lookdir' Equals 'look_up'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 1668,
+      "Description": "If 'actor_y' LessThan 'player_y' ELSE GOTO 00001806"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 1728,
+      "Description": "If 'actor_x' LessThan 'player_x'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 1788,
+      "Description": "Set 'actor_lookdir' to 'move_right'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 1794,
+      "Description": "GOTO '00001806'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 1800,
+      "Description": "Set 'actor_lookdir' to 'move_left'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 1806,
+      "Description": "GOTO '00002082'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 1812,
+      "Description": "If 'actor_lookdir' Equals 'look_right'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 1846,
+      "Description": "If 'actor_x' GreaterThan 'camera_x + 256 + 32' ELSE GOTO 00001904"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 1898,
+      "Description": "Set 'actor_type' to 'none'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 1904,
+      "Description": "GOTO '00002082'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 1910,
+      "Description": "If 'actor_lookdir' Equals 'look_down' ELSE GOTO 00002082"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 1944,
+      "Description": "If 'actor_y' GreaterThan 'player_y' ELSE GOTO 00002082"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 2004,
+      "Description": "If 'actor_x' LessThan 'player_x'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 2064,
+      "Description": "Set 'actor_lookdir' to 'move_right'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 2070,
+      "Description": "GOTO '00002082'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 2076,
+      "Description": "Set 'actor_lookdir' to 'move_left'"
+    },
+    {
+      "CodeBlock": "handler_spinner",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 2082,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1338,
+      "MemoryOffset": 2084,
       "Description": "LEVEL1CODE"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1338,
-      "Description": "Set 'yield' to '50'"
+      "MemoryOffset": 2084,
+      "Description": "Set 'yield_on_level' to '50'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1344,
+      "MemoryOffset": 2090,
       "Description": "Set 'spawn_number' to '4'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1350,
+      "MemoryOffset": 2096,
       "Description": "Set 'spawn_type' to 'spinner'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1356,
+      "MemoryOffset": 2102,
       "Description": "Set 'spawn_y' to '10 * 16'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1368,
-      "Description": "If 'spawn_number' GreaterThan '0' ELSE GOTO 00001452"
+      "MemoryOffset": 2114,
+      "Description": "If 'spawn_number' GreaterThan '0' ELSE GOTO 00002198"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1392,
+      "MemoryOffset": 2138,
       "Description": "Set 'block_spawn' to 'spinner'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1398,
+      "MemoryOffset": 2144,
       "Description": "Set 'new_x' to 'camera_x + 256 + 32'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1416,
+      "MemoryOffset": 2162,
       "Description": "Set 'new_y' to 'spawn_y'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1426,
+      "MemoryOffset": 2172,
       "Description": "Set 'spawn_number' to 'spawn_number - 1'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1440,
-      "Description": "Set 'yield' to '10'"
+      "MemoryOffset": 2186,
+      "Description": "Set 'yield_on_level' to '10'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1446,
-      "Description": "GOTO '00001368'"
+      "MemoryOffset": 2192,
+      "Description": "GOTO '00002114'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1452,
-      "Description": "Set 'yield' to '50'"
+      "MemoryOffset": 2198,
+      "Description": "Set 'yield_on_level' to '50'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 7,
-      "MemoryOffset": 1458,
+      "MemoryOffset": 2204,
       "Description": "Set 'spawn_number' to '4'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 8,
-      "MemoryOffset": 1464,
+      "MemoryOffset": 2210,
       "Description": "Set 'spawn_type' to 'spinner'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 9,
-      "MemoryOffset": 1470,
+      "MemoryOffset": 2216,
       "Description": "Set 'spawn_y' to '2 * 16'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1482,
-      "Description": "If 'spawn_number' GreaterThan '0' ELSE GOTO 00001566"
+      "MemoryOffset": 2228,
+      "Description": "If 'spawn_number' GreaterThan '0' ELSE GOTO 00002312"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1506,
+      "MemoryOffset": 2252,
       "Description": "Set 'block_spawn' to 'spinner'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1512,
+      "MemoryOffset": 2258,
       "Description": "Set 'new_x' to 'camera_x + 256 + 32'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1530,
+      "MemoryOffset": 2276,
       "Description": "Set 'new_y' to 'spawn_y'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1540,
+      "MemoryOffset": 2286,
       "Description": "Set 'spawn_number' to 'spawn_number - 1'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1554,
-      "Description": "Set 'yield' to '10'"
+      "MemoryOffset": 2300,
+      "Description": "Set 'yield_on_level' to '10'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1560,
-      "Description": "GOTO '00001482'"
+      "MemoryOffset": 2306,
+      "Description": "GOTO '00002228'"
     },
     {
       "CodeBlock": "level1code",
       "CodeBlockLine": 10,
-      "MemoryOffset": 1566,
+      "MemoryOffset": 2312,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "spawn_player",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2314,
+      "Description": "SPAWN_PLAYER"
+    },
+    {
+      "CodeBlock": "spawn_player",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2314,
+      "Description": "Set 'player_spawn' to 'drone'"
+    },
+    {
+      "CodeBlock": "spawn_player",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2320,
+      "Description": "Set 'camera_xmax' to 'camera_xmax - 32'"
+    },
+    {
+      "CodeBlock": "spawn_player",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2334,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1568,
+      "MemoryOffset": 2336,
       "Description": "SPAWN_WAVE"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1568,
-      "Description": "If 'spawn_number' GreaterThan '0' ELSE GOTO 00001652"
+      "MemoryOffset": 2336,
+      "Description": "If 'spawn_number' GreaterThan '0' ELSE GOTO 00002420"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1592,
+      "MemoryOffset": 2360,
       "Description": "Set 'block_spawn' to 'spinner'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1598,
+      "MemoryOffset": 2366,
       "Description": "Set 'new_x' to 'camera_x + 256 + 32'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1616,
+      "MemoryOffset": 2384,
       "Description": "Set 'new_y' to 'spawn_y'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1626,
+      "MemoryOffset": 2394,
       "Description": "Set 'spawn_number' to 'spawn_number - 1'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1640,
-      "Description": "Set 'yield' to '10'"
+      "MemoryOffset": 2408,
+      "Description": "Set 'yield_on_level' to '10'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1646,
-      "Description": "GOTO '00001568'"
+      "MemoryOffset": 2414,
+      "Description": "GOTO '00002336'"
     },
     {
       "CodeBlock": "spawn_wave",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1652,
-      "Description": "RETURN TO GAME OR GOSUB"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 0,
-      "MemoryOffset": 1654,
-      "Description": "SPINNER_HANDLER"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 1654,
-      "Description": "If 'actor_lookdir' Equals 'look_left' ELSE GOTO 00001826"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 1688,
-      "Description": "If 'actor_x' LessThan 'player_x' ELSE GOTO 00001826"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 1748,
-      "Description": "If 'actor_y' LessThan 'player_y'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 1808,
-      "Description": "Set 'actor_lookdir' to 'move_down'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 1814,
-      "Description": "GOTO '00001826'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 1820,
-      "Description": "Set 'actor_lookdir' to 'move_up'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 1826,
-      "Description": "If 'actor_lookdir' Equals 'look_up' ELSE GOTO 00001998"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 1860,
-      "Description": "If 'actor_y' LessThan 'player_y' ELSE GOTO 00001998"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 1920,
-      "Description": "If 'actor_x' LessThan 'player_x'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 1980,
-      "Description": "Set 'actor_lookdir' to 'move_right'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 1986,
-      "Description": "GOTO '00001998'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 1992,
-      "Description": "Set 'actor_lookdir' to 'move_left'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 1998,
-      "Description": "If 'actor_lookdir' Equals 'look_right' ELSE GOTO 00002090"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 2032,
-      "Description": "If 'actor_x' GreaterThan 'camera_x + 256 + 32' ELSE GOTO 00002090"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 2084,
-      "Description": "Set 'actor_type' to 'none'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 2090,
-      "Description": "If 'actor_lookdir' Equals 'look_down' ELSE GOTO 00002262"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 2124,
-      "Description": "If 'actor_y' GreaterThan 'player_y' ELSE GOTO 00002262"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 2184,
-      "Description": "If 'actor_x' LessThan 'player_x'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 2244,
-      "Description": "Set 'actor_lookdir' to 'move_right'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 2250,
-      "Description": "GOTO '00002262'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 2256,
-      "Description": "Set 'actor_lookdir' to 'move_left'"
-    },
-    {
-      "CodeBlock": "spinner_handler",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 2262,
+      "MemoryOffset": 2420,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2264,
+      "MemoryOffset": 2422,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2264,
+      "MemoryOffset": 2422,
       "Description": "Set 'level' to 'none'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2270,
+      "MemoryOffset": 2428,
       "Description": "Set 'camera_follow' to '48'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2276,
+      "MemoryOffset": 2434,
       "Description": "Set 'frame_wait' to '2'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2282,
+      "MemoryOffset": 2440,
       "Description": "Set 'yres' to '208'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2288,
-      "Description": "Set 'scroll_x' to '16640'"
+      "MemoryOffset": 2446,
+      "Description": "Set 'scroll_x' to '16512'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2294,
+      "MemoryOffset": 2452,
       "Description": "Set 'level' to 'level1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2300,
+      "MemoryOffset": 2458,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],
@@ -2434,17 +2519,19 @@
   },
   "Actors": {
     "0": "Destroyed actor",
-    "1": "player",
-    "2": "shot1",
-    "3": "spinner"
+    "1": "drone",
+    "2": "player",
+    "3": "shot1",
+    "4": "spinner"
   },
   "Sounds": {
     "0": "No sound played"
   },
   "Animations": {
-    "1": "anim_player",
-    "2": "anim_player_shot",
-    "3": "anim_shot1",
-    "4": "anim_spinner"
+    "1": "anim_drone",
+    "2": "anim_player",
+    "3": "anim_player_shot",
+    "4": "anim_shot1",
+    "5": "anim_spinner"
   }
 }

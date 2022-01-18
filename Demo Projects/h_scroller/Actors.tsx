@@ -16,4 +16,9 @@
       <property name="Name" value="spinner" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="drone" type="string" />
+    </properties>
+  </tile>
 </tileset>
