@@ -24,6 +24,8 @@ The editor itself is not open source - but all of the included demos are.
 	- https://opengameart.org/content/super-miyamoto-land-tilesets
 	- https://jdwasabi.itch.io/8-bit-16-bit-sound-effects-pack	
 	
+* Anim Color Swap uses https://opengameart.org/content/harvett-fox-player-character-sheet
+	
 * Bad Apple is an adaptaton of the popular Touhou project demo, with music by JMD
 
 * Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
@@ -54,3 +56,6 @@ Documentation still needs to be done, but this video covers the essentials: http
 Please report all bugs and other issues through the issues tab: https://github.com/earok/scorpion-editor-demos/issues
 
 Like and follow the project on Facebook: https://www.facebook.com/scorpionengine
+
+EXE2ADF by Bonefish
+
