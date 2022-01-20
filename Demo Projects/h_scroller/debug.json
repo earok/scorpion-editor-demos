@@ -1403,32 +1403,46 @@
       "MemoryOffset": 296
     },
     {
-      "CodeBlock": "spawn_wave",
-      "Name": "spawn_number",
+      "CodeBlock": "vm_registers",
+      "Name": "MapWidth",
       "DefaultValue": "0",
       "Index": 149,
       "MemoryOffset": 298
     },
     {
-      "CodeBlock": "spawn_wave",
-      "Name": "spawn_y",
+      "CodeBlock": "vm_registers",
+      "Name": "MapHeight",
       "DefaultValue": "0",
       "Index": 150,
       "MemoryOffset": 300
     },
     {
       "CodeBlock": "spawn_wave",
-      "Name": "spawn_type",
+      "Name": "spawn_number",
       "DefaultValue": "0",
       "Index": 151,
       "MemoryOffset": 302
     },
     {
-      "CodeBlock": "startup",
-      "Name": "spawny",
+      "CodeBlock": "spawn_wave",
+      "Name": "spawn_y",
       "DefaultValue": "0",
       "Index": 152,
       "MemoryOffset": 304
+    },
+    {
+      "CodeBlock": "spawn_wave",
+      "Name": "spawn_type",
+      "DefaultValue": "0",
+      "Index": 153,
+      "MemoryOffset": 306
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "spawny",
+      "DefaultValue": "0",
+      "Index": 154,
+      "MemoryOffset": 308
     }
   ],
   "Lines": [
@@ -2486,7 +2500,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
       "MemoryOffset": 2432,
-      "Description": "Set 'scroll_x' to '16640'"
+      "Description": "Set 'scroll_x' to '17664'"
     },
     {
       "CodeBlock": "startup",
@@ -2498,12 +2512,126 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
       "MemoryOffset": 2444,
-      "Description": "Set 'camera_xmax' to 'camera_xmax - 32'"
+      "Description": "Set 'camera_xmin' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2458,
+      "MemoryOffset": 2450,
+      "Description": "If 'Camera_XMin' LessThan '0' ELSE GOTO 00002480"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2474,
+      "Description": "Set 'camera_xmin' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2480,
+      "Description": "If 'Camera_XMin' GreaterThan 'MapWidth - XRes' ELSE GOTO 00002526"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2512,
+      "Description": "Set 'camera_xmin' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2526,
+      "Description": "Set 'camera_xmax' to 'MapWidth - 32 - XRes'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2544,
+      "Description": "If 'Camera_XMax' LessThan '0' ELSE GOTO 00002574"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2568,
+      "Description": "Set 'camera_xmax' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2574,
+      "Description": "If 'Camera_XMax' GreaterThan 'MapWidth - XRes' ELSE GOTO 00002620"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2606,
+      "Description": "Set 'camera_xmax' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2620,
+      "Description": "Set 'camera_ymin' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2626,
+      "Description": "If 'Camera_YMin' LessThan '0' ELSE GOTO 00002656"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2650,
+      "Description": "Set 'camera_ymin' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2656,
+      "Description": "If 'Camera_YMin' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002702"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2688,
+      "Description": "Set 'camera_ymin' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2702,
+      "Description": "Set 'camera_ymax' to '0 - YRes'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2716,
+      "Description": "If 'Camera_YMax' LessThan '0' ELSE GOTO 00002746"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2740,
+      "Description": "Set 'camera_ymax' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2746,
+      "Description": "If 'Camera_YMax' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002792"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2778,
+      "Description": "Set 'camera_ymax' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2792,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],
