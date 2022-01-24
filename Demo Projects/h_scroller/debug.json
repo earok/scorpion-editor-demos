@@ -1355,94 +1355,108 @@
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "PlatformSnap",
-      "DefaultValue": "8",
+      "Name": "IsFloppy",
+      "DefaultValue": "0",
       "Index": 142,
       "MemoryOffset": 284
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "EventsToCheck",
-      "DefaultValue": "1",
+      "Name": "PlatformSnap",
+      "DefaultValue": "8",
       "Index": 143,
       "MemoryOffset": 286
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Frame_CountDown",
-      "DefaultValue": "0",
+      "Name": "EventsToCheck",
+      "DefaultValue": "1",
       "Index": 144,
       "MemoryOffset": 288
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "YRes",
-      "DefaultValue": "224",
+      "Name": "Frame_CountDown",
+      "DefaultValue": "0",
       "Index": 145,
       "MemoryOffset": 290
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetX",
-      "DefaultValue": "0",
+      "Name": "YRes",
+      "DefaultValue": "224",
       "Index": 146,
       "MemoryOffset": 292
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetY",
+      "Name": "CameraTargetX",
       "DefaultValue": "0",
       "Index": 147,
       "MemoryOffset": 294
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Panel_Gap",
-      "DefaultValue": "4",
+      "Name": "CameraTargetY",
+      "DefaultValue": "0",
       "Index": 148,
       "MemoryOffset": 296
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MapWidth",
-      "DefaultValue": "0",
+      "Name": "Panel_Gap",
+      "DefaultValue": "4",
       "Index": 149,
       "MemoryOffset": 298
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MapHeight",
+      "Name": "MapWidth",
       "DefaultValue": "0",
       "Index": 150,
       "MemoryOffset": 300
     },
     {
-      "CodeBlock": "spawn_wave",
-      "Name": "spawn_number",
+      "CodeBlock": "vm_registers",
+      "Name": "MapHeight",
       "DefaultValue": "0",
       "Index": 151,
       "MemoryOffset": 302
     },
     {
       "CodeBlock": "spawn_wave",
-      "Name": "spawn_y",
+      "Name": "spawn_number",
       "DefaultValue": "0",
       "Index": 152,
       "MemoryOffset": 304
     },
     {
       "CodeBlock": "spawn_wave",
-      "Name": "spawn_type",
+      "Name": "spawn_y",
       "DefaultValue": "0",
       "Index": 153,
       "MemoryOffset": 306
     },
     {
-      "CodeBlock": "startup",
-      "Name": "spawny",
+      "CodeBlock": "spawn_wave",
+      "Name": "spawn_type",
       "DefaultValue": "0",
       "Index": 154,
       "MemoryOffset": 308
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "spawny",
+      "DefaultValue": "0",
+      "Index": 155,
+      "MemoryOffset": 310
+    },
+    {
+      "CodeBlock": "temp_codeblock",
+      "Name": "dronespawns",
+      "DefaultValue": "3",
+      "Index": 156,
+      "MemoryOffset": 312
     }
   ],
   "Lines": [
@@ -2500,7 +2514,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
       "MemoryOffset": 2432,
-      "Description": "Set 'scroll_x' to '17664'"
+      "Description": "Set 'scroll_x' to '16640'"
     },
     {
       "CodeBlock": "startup",
@@ -2548,90 +2562,120 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
       "MemoryOffset": 2544,
-      "Description": "If 'Camera_XMax' LessThan '0' ELSE GOTO 00002574"
+      "Description": "If 'Camera_XMax' LessThan 'Camera_XMin' ELSE GOTO 00002582"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2568,
-      "Description": "Set 'camera_xmax' to '0'"
+      "MemoryOffset": 2572,
+      "Description": "Set 'camera_xmax' to 'Camera_XMin'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2574,
-      "Description": "If 'Camera_XMax' GreaterThan 'MapWidth - XRes' ELSE GOTO 00002620"
+      "MemoryOffset": 2582,
+      "Description": "If 'Camera_XMax' GreaterThan 'MapWidth - XRes' ELSE GOTO 00002628"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2606,
+      "MemoryOffset": 2614,
       "Description": "Set 'camera_xmax' to 'MapWidth - XRes'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2620,
+      "MemoryOffset": 2628,
       "Description": "Set 'camera_ymin' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2626,
-      "Description": "If 'Camera_YMin' LessThan '0' ELSE GOTO 00002656"
+      "MemoryOffset": 2634,
+      "Description": "If 'Camera_YMin' LessThan '0' ELSE GOTO 00002664"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2650,
+      "MemoryOffset": 2658,
       "Description": "Set 'camera_ymin' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2656,
-      "Description": "If 'Camera_YMin' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002702"
+      "MemoryOffset": 2664,
+      "Description": "If 'Camera_YMin' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002710"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2688,
+      "MemoryOffset": 2696,
       "Description": "Set 'camera_ymin' to 'MapHeight - YRes'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2702,
+      "MemoryOffset": 2710,
       "Description": "Set 'camera_ymax' to '0 - YRes'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2716,
-      "Description": "If 'Camera_YMax' LessThan '0' ELSE GOTO 00002746"
+      "MemoryOffset": 2724,
+      "Description": "If 'Camera_YMax' LessThan 'Camera_XMax' ELSE GOTO 00002762"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2740,
-      "Description": "Set 'camera_ymax' to '0'"
+      "MemoryOffset": 2752,
+      "Description": "Set 'camera_ymax' to 'Camera_XMax'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2746,
-      "Description": "If 'Camera_YMax' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002792"
+      "MemoryOffset": 2762,
+      "Description": "If 'Camera_YMax' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002808"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2778,
+      "MemoryOffset": 2794,
       "Description": "Set 'camera_ymax' to 'MapHeight - YRes'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2792,
+      "MemoryOffset": 2808,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "temp_codeblock",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2810,
+      "Description": "TEMP_CODEBLOCK"
+    },
+    {
+      "CodeBlock": "temp_codeblock",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2810,
+      "Description": "If 'dronespawns' GreaterThan '0' ELSE GOTO 00002854"
+    },
+    {
+      "CodeBlock": "temp_codeblock",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2834,
+      "Description": "Set 'dronespawns' to 'dronespawns - 1'"
+    },
+    {
+      "CodeBlock": "temp_codeblock",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2848,
+      "Description": "Set 'actor_spawn' to 'drone'"
+    },
+    {
+      "CodeBlock": "temp_codeblock",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2854,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],

@@ -1390,87 +1390,108 @@
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "PlatformSnap",
-      "DefaultValue": "8",
+      "Name": "IsFloppy",
+      "DefaultValue": "0",
       "Index": 142,
       "MemoryOffset": 284
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "EventsToCheck",
-      "DefaultValue": "1",
+      "Name": "PlatformSnap",
+      "DefaultValue": "8",
       "Index": 143,
       "MemoryOffset": 286
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Frame_CountDown",
-      "DefaultValue": "0",
+      "Name": "EventsToCheck",
+      "DefaultValue": "1",
       "Index": 144,
       "MemoryOffset": 288
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "YRes",
-      "DefaultValue": "224",
+      "Name": "Frame_CountDown",
+      "DefaultValue": "0",
       "Index": 145,
       "MemoryOffset": 290
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetX",
-      "DefaultValue": "0",
+      "Name": "YRes",
+      "DefaultValue": "224",
       "Index": 146,
       "MemoryOffset": 292
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetY",
+      "Name": "CameraTargetX",
       "DefaultValue": "0",
       "Index": 147,
       "MemoryOffset": 294
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Panel_Gap",
-      "DefaultValue": "4",
+      "Name": "CameraTargetY",
+      "DefaultValue": "0",
       "Index": 148,
       "MemoryOffset": 296
     },
     {
-      "CodeBlock": "startup",
-      "Name": "CheckpointX",
-      "DefaultValue": "0",
+      "CodeBlock": "vm_registers",
+      "Name": "Panel_Gap",
+      "DefaultValue": "4",
       "Index": 149,
       "MemoryOffset": 298
     },
     {
-      "CodeBlock": "startup",
-      "Name": "CheckpointY",
+      "CodeBlock": "vm_registers",
+      "Name": "MapWidth",
       "DefaultValue": "0",
       "Index": 150,
       "MemoryOffset": 300
     },
     {
-      "CodeBlock": "startup",
-      "Name": "CheckpointType",
+      "CodeBlock": "vm_registers",
+      "Name": "MapHeight",
       "DefaultValue": "0",
       "Index": 151,
       "MemoryOffset": 302
     },
     {
       "CodeBlock": "startup",
-      "Name": "Ammo",
+      "Name": "CheckpointX",
       "DefaultValue": "0",
       "Index": 152,
       "MemoryOffset": 304
     },
     {
       "CodeBlock": "startup",
-      "Name": "CurrentLevel",
+      "Name": "CheckpointY",
       "DefaultValue": "0",
       "Index": 153,
       "MemoryOffset": 306
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "CheckpointType",
+      "DefaultValue": "0",
+      "Index": 154,
+      "MemoryOffset": 308
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "Ammo",
+      "DefaultValue": "0",
+      "Index": 155,
+      "MemoryOffset": 310
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "CurrentLevel",
+      "DefaultValue": "0",
+      "Index": 156,
+      "MemoryOffset": 312
     }
   ],
   "Lines": [
@@ -2774,7 +2795,7 @@
       "CodeBlock": "restart_level",
       "CodeBlockLine": 15,
       "MemoryOffset": 2392,
-      "Description": "If 'checkpointtype' NotEquals 'CheckpointNA' ELSE GOTO 00002592"
+      "Description": "If 'checkpointtype' NotEquals 'CheckpointNA' ELSE GOTO 00002628"
     },
     {
       "CodeBlock": "restart_level",
@@ -2852,132 +2873,150 @@
       "CodeBlock": "restart_level",
       "CodeBlockLine": 25,
       "MemoryOffset": 2592,
+      "Description": "If 'level' Equals 'level1' ELSE GOTO 00002628"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 2616,
+      "Description": "Set 'camera_x' to '0'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 2622,
+      "Description": "Set 'camera_follow' to '8'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 2628,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2594,
+      "MemoryOffset": 2630,
       "Description": "SPAWN_MERMAN"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2594,
+      "MemoryOffset": 2630,
       "Description": "Set 'actor_var1' to '5'"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2600,
+      "MemoryOffset": 2636,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2602,
+      "MemoryOffset": 2638,
       "Description": "SPAWNBROKENBLOCK"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2602,
+      "MemoryOffset": 2638,
       "Description": "Set 'sound' to 'sndblock'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2608,
+      "MemoryOffset": 2644,
       "Description": "Set 'block_spawn' to 'blockbreak'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2614,
+      "MemoryOffset": 2650,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2616,
+      "MemoryOffset": 2652,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2618,
+      "MemoryOffset": 2654,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2618,
+      "MemoryOffset": 2654,
       "Description": "Set 'yres' to '192'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2624,
+      "MemoryOffset": 2660,
       "Description": "Set 'camera_boxleft' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2630,
+      "MemoryOffset": 2666,
       "Description": "Set 'camera_boxright' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2636,
+      "MemoryOffset": 2672,
       "Description": "Set 'camera_boxup' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2642,
+      "MemoryOffset": 2678,
       "Description": "Set 'camera_boxdown' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2648,
+      "MemoryOffset": 2684,
       "Description": "Set 'checkpointtype' to 'CheckpointNA'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2654,
+      "MemoryOffset": 2690,
       "Description": "Set 'panel' to 'pnl_title'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2660,
+      "MemoryOffset": 2696,
       "Description": "Set 'wait' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2666,
+      "MemoryOffset": 2702,
       "Description": "Set 'panel' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2672,
+      "MemoryOffset": 2708,
       "Description": "Set 'currentlevel' to 'Level1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2678,
+      "MemoryOffset": 2714,
       "Description": "GOTO 'RESTART_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2684,
+      "MemoryOffset": 2720,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],
