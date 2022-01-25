@@ -1,4 +1,4 @@
-# Scorpion Editor
+# Scorpion Editor and sample games
 
 <a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD</a>
 
