@@ -1,10 +1,10 @@
-# Scorpion Editor
+# Scorpion Editor and sample games
+
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD</a>
 
 [![Overview Video](http://img.youtube.com/vi/7gm3xcmardw/0.jpg)](http://www.youtube.com/watch?v=7gm3xcmardw)
 
 Note: This is an ongoing work-in-progress version of the Scorpion Editor for Windows and the included Commodore Amiga game samples. It isn't feature complete, is likely to have more than a handful of breaking bugs, and may not work on every Windows configuration - Windows 10 is the recommended OS. Updates will be released on an "early and often" basis.
-
-Downloads: https://github.com/earok/scorpion-editor-demos/releases
 
 Videos:
 - Brief introduction: https://youtu.be/7gm3xcmardw
