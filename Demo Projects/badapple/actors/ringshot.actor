@@ -1,10 +1,10 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Projectile",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MaxEntities": 1,
+  "MoveType": "cpu",
+  "MaxEntities": 3,
   "NudgeX": 8,
   "NudgeY": 17,
   "Idles": {
@@ -99,7 +99,6 @@
     "Width": 9,
     "Height": 1
   },
-  "MoveType": "cpu",
   "AttackDelay": 0,
   "ZOrder": 999,
   "SpeedLeft": 4.0,
@@ -112,6 +111,7 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
+  "RotationSpeed": 0.0,
   "CollType_Left": "destroy",
   "CollType_Right": "destroy",
   "CollType_Up": "destroy",
@@ -132,7 +132,17 @@
   "DivertOutOfScreenRight": "destroy_actor",
   "DivertOutOfScreenUp": "destroy_actor",
   "DivertOutOfScreenDown": "destroy_actor",
+  "DivertPlatformEdge": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
-  "TileID": 6
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "TileID": 6,
+  "JumpHeight": null
 }

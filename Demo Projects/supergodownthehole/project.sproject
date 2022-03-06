@@ -10,20 +10,19 @@
   "AGARequired": false,
   "SpriteMode": "Mode_0_16_Wide",
   "SpriteColorBank": 1,
-  "FMode": 0,
+  "FMode": 1,
   "Width": 256,
   "XOffset": 32,
   "Implode": true,
-  "DoubleSmooth": false,
-  "DoubleBlockSpeed": false,
   "MapCache": false,
   "Fire1Jump": true,
   "Fire2Jump": false,
   "UpJump": false,
   "JumpOnHold": false,
+  "XFillSize": 20,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 2,
   "Commands": [
     {
       "Key": "Escape",
@@ -42,59 +41,8 @@
     }
   ],
   "AnimationMetaData": {
-    "anim_hurtstars": {
-      "Divert_OnFinish": "on_hurtstars_end"
-    },
-    "green_push": {
-      "Divert_OnFinish": "slime_slide"
-    },
-    "green_die": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "red_push": {
-      "Divert_OnFinish": "slime_slide"
-    },
-    "anim_buglazer_hit": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "anim_bug_die": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "duck_die_2": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "duck_die_1": {
-      "Divert_OnFinish": "duck_die_finish"
-    },
-    "anim_dust": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "bar_anim": {
-      "Divert_OnFinish": "on_barsopen"
-    },
     "idle_cutscene_right": {
       "Divert_OnFinish": "endcutscene_landed"
-    },
-    "blackness_end": {
-      "Divert_OnFinish": "endcutscene_dark2"
-    },
-    "bow": {
-      "Divert_OnFinish": "endcutscene_endbow"
-    },
-    "anim_sleep": {
-      "Divert_OnFinish": ""
-    },
-    "walk_left": {
-      "Divert_OnFinish": "on_end_walkcycle"
-    },
-    "walk_left_hat": {
-      "Divert_OnFinish": "on_end_walkcycle"
-    },
-    "walk_right": {
-      "Divert_OnFinish": "on_end_walkcycle"
-    },
-    "walk_right_hat": {
-      "Divert_OnFinish": "on_end_walkcycle"
     }
   },
   "Anim5MetaData": {}

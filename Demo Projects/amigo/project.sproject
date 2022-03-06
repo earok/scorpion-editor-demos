@@ -7,23 +7,22 @@
   "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
   "Uses24BitColor": true,
-  "AGARequired": false,
+  "AGARequired": true,
   "SpriteMode": "Mode_0_16_Wide",
   "SpriteColorBank": 1,
   "FMode": 0,
   "Width": 288,
   "XOffset": 16,
   "Implode": true,
-  "DoubleSmooth": false,
-  "DoubleBlockSpeed": false,
   "MapCache": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
   "UpJump": true,
   "JumpOnHold": false,
+  "XFillSize": 22,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 2,
   "Commands": [
     {
       "Key": "Escape",
@@ -129,54 +128,46 @@
       "CD32Yellow": false,
       "OnPress": null,
       "OnRelease": "cheat6"
+    },
+    {
+      "Key": "P",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "vol_down",
+      "OnRelease": null
+    },
+    {
+      "Key": "D",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "debug_dump",
+      "OnRelease": null
     }
   ],
   "AnimationMetaData": {
     "anim_glitter": {
       "Divert_OnFinish": "destroy_actor"
-    },
-    "anim_spring": {
-      "Divert_OnFinish": "handler_springlaunch"
-    },
-    "anim_plant_hide": {
-      "Divert_OnFinish": "plant_up"
-    },
-    "anim_plant": {
-      "Divert_OnFinish": "plant_down"
-    },
-    "anim_plant_down": {
-      "Divert_OnFinish": "plant_hide"
-    },
-    "anim_plant_up": {
-      "Divert_OnFinish": "plant_out"
-    },
-    "anim_plantred": {
-      "Divert_OnFinish": "plant_down"
-    },
-    "anim_plantred_down": {
-      "Divert_OnFinish": "plant_hide"
-    },
-    "anim_plantred_up": {
-      "Divert_OnFinish": "plant_out"
-    },
-    "anim_small_outdownpipe": {
-      "Divert_OnFinish": "reset_powerlevel"
-    },
-    "anim_small_outuppipe": {
-      "Divert_OnFinish": "reset_powerlevel"
-    },
-    "anim_big_outdownpipe": {
-      "Divert_OnFinish": "reset_powerlevel"
-    },
-    "anim_big_outuppipe": {
-      "Divert_OnFinish": "reset_powerlevel"
-    },
-    "anim_fire_outdownpipe": {
-      "Divert_OnFinish": "reset_powerlevel"
-    },
-    "anim_fire_outuppipe": {
-      "Divert_OnFinish": "reset_powerlevel"
     }
   },
-  "Anim5MetaData": {}
+  "Anim5MetaData": {
+    "test": {
+      "FrameSkip": 0
+    }
+  }
 }
