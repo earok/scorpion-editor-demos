@@ -332,14 +332,14 @@
  </tile>
  <tile id="47">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="48">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -2887,21 +2887,21 @@
  </tile>
  <tile id="412">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="413">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="414">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -4231,21 +4231,21 @@
  </tile>
  <tile id="604">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="605">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="606">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>

@@ -332,14 +332,14 @@
  </tile>
  <tile id="47">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="48">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
