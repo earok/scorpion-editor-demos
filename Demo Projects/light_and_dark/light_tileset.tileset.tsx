@@ -336,6 +336,16 @@
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
+  <animation>
+   <frame tileid="60" duration="600"/>
+   <frame tileid="124" duration="600"/>
+   <frame tileid="188" duration="600"/>
+   <frame tileid="252" duration="600"/>
+   <frame tileid="316" duration="600"/>
+   <frame tileid="380" duration="600"/>
+   <frame tileid="444" duration="600"/>
+   <frame tileid="508" duration="600"/>
+  </animation>
  </tile>
  <tile id="48">
   <properties>
@@ -343,6 +353,16 @@
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
+  <animation>
+   <frame tileid="61" duration="600"/>
+   <frame tileid="125" duration="600"/>
+   <frame tileid="189" duration="600"/>
+   <frame tileid="253" duration="600"/>
+   <frame tileid="317" duration="600"/>
+   <frame tileid="381" duration="600"/>
+   <frame tileid="445" duration="600"/>
+   <frame tileid="509" duration="600"/>
+  </animation>
  </tile>
  <tile id="49">
   <properties>
@@ -427,6 +447,16 @@
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
+  <animation>
+   <frame tileid="60" duration="600"/>
+   <frame tileid="124" duration="600"/>
+   <frame tileid="188" duration="600"/>
+   <frame tileid="252" duration="600"/>
+   <frame tileid="316" duration="600"/>
+   <frame tileid="380" duration="600"/>
+   <frame tileid="444" duration="600"/>
+   <frame tileid="508" duration="600"/>
+  </animation>
  </tile>
  <tile id="61">
   <properties>
@@ -434,20 +464,50 @@
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
+  <animation>
+   <frame tileid="61" duration="600"/>
+   <frame tileid="125" duration="600"/>
+   <frame tileid="189" duration="600"/>
+   <frame tileid="253" duration="600"/>
+   <frame tileid="317" duration="600"/>
+   <frame tileid="381" duration="600"/>
+   <frame tileid="445" duration="600"/>
+   <frame tileid="509" duration="600"/>
+  </animation>
  </tile>
  <tile id="62">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
+  <animation>
+   <frame tileid="62" duration="600"/>
+   <frame tileid="126" duration="600"/>
+   <frame tileid="190" duration="600"/>
+   <frame tileid="254" duration="600"/>
+   <frame tileid="318" duration="600"/>
+   <frame tileid="382" duration="600"/>
+   <frame tileid="446" duration="600"/>
+   <frame tileid="510" duration="600"/>
+  </animation>
  </tile>
  <tile id="63">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
+  <animation>
+   <frame tileid="63" duration="600"/>
+   <frame tileid="127" duration="600"/>
+   <frame tileid="191" duration="600"/>
+   <frame tileid="255" duration="600"/>
+   <frame tileid="319" duration="600"/>
+   <frame tileid="383" duration="600"/>
+   <frame tileid="447" duration="600"/>
+   <frame tileid="511" duration="600"/>
+  </animation>
  </tile>
  <tile id="64">
   <properties>
@@ -885,14 +945,14 @@
  </tile>
  <tile id="126">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="127">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -1333,14 +1393,14 @@
  </tile>
  <tile id="190">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="191">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -1781,14 +1841,14 @@
  </tile>
  <tile id="254">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="255">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -2229,14 +2289,14 @@
  </tile>
  <tile id="318">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="319">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -2677,14 +2737,14 @@
  </tile>
  <tile id="382">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="383">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -3125,14 +3185,14 @@
  </tile>
  <tile id="446">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="447">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
@@ -3573,14 +3633,14 @@
  </tile>
  <tile id="510">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
  </tile>
  <tile id="511">
   <properties>
-   <property name="IsPlatform" type="bool" value="false"/>
+   <property name="IsPlatform" type="bool" value="true"/>
    <property name="IsSolid" type="bool" value="false"/>
    <property name="OnAnimFrame" value=""/>
   </properties>
