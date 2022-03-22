@@ -48,28 +48,28 @@
       "Value": "73",
       "Notes": "Used for bit-testing that actor is facing any left direction",
       "PrivateSet": false
-    },	
+    },
     {
       "Name": "LookMask_Right",
       "IsConstant": true,
       "Value": "292",
       "Notes": "Used for bit-testing that actor is facing any right direction",
       "PrivateSet": false
-    },		
+    },
     {
       "Name": "LookMask_Up",
       "IsConstant": true,
       "Value": "7",
       "Notes": "Used for bit-testing that actor is facing any up direction",
       "PrivateSet": false
-    },		
+    },
     {
       "Name": "LookMask_Down",
       "IsConstant": true,
       "Value": "448",
       "Notes": "Used for bit-testing that actor is facing any down direction",
       "PrivateSet": false
-    },		
+    },
     {
       "Name": "Look_UpLeft",
       "IsConstant": true,
@@ -258,7 +258,7 @@
       "Value": "88",
       "Notes": "Constant for strafe down right",
       "PrivateSet": false
-    },	
+    },
     {
       "Name": "resume_moving",
       "IsConstant": true,
@@ -300,7 +300,7 @@
       "Value": "-2",
       "Notes": "Constant for jumping directly up",
       "PrivateSet": false
-    },	
+    },
     {
       "Name": "Left",
       "IsConstant": true,
@@ -342,7 +342,7 @@
       "Value": "-2",
       "Notes": "Cancel the current animation",
       "PrivateSet": false
-    },	
+    },
     {
       "Name": "Trigger_AttackSound",
       "IsConstant": true,
@@ -356,15 +356,21 @@
       "Value": "-2",
       "Notes": "Set sound to this to trigger the actor's jump sound",
       "PrivateSet": false
-    },	
+    },
     {
       "Name": "XRes",
       "IsConstant": true,
       "Value": "256",
       "Notes": "Width of the screen",
       "PrivateSet": false
-    },		
+    },
+    {
+      "Name": "TileMask",
+      "IsConstant": true,
+      "Value": "0xFFF0",
+      "Notes": "Use an AND operation to round to tile coordinates (eg actor_x & tilemask)",
+      "PrivateSet": false
+    }
   ],
-  "Commands": [
-  ]
+  "Commands": []
 }
