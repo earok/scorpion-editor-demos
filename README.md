@@ -48,6 +48,8 @@ The editor itself is not open source - but all of the included demos are.
 
 * Translucency demo based on the original AMOS demo by bitbeamcannon. https://bitbeamcannon.com/amiga/
 
+* WHDLoad slave based on Generic 3.1 Kickstart WHDLoad slave by JOTD and Wepl
+
 EXE2ADF by Bonefish
 
 Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.

@@ -5670,630 +5670,648 @@
       "CodeBlock": "on_rockcollide",
       "CodeBlockLine": 1,
       "MemoryOffset": 6308,
-      "Description": "If 'player_type' Equals 'alexkidd_motorcycle' ELSE GOTO 00006440"
+      "Description": "If 'player_type' Equals 'alexkidd_motorcycle' ELSE GOTO 00006486"
     },
     {
       "CodeBlock": "on_rockcollide",
       "CodeBlockLine": 2,
       "MemoryOffset": 6346,
-      "Description": "If 'player_y' GreaterThanOrEqual 'block_y * 16' ELSE GOTO 00006440"
+      "Description": "If 'player_y' GreaterThanOrEqual 'block_y << 4' ELSE GOTO 00006486"
     },
     {
       "CodeBlock": "on_rockcollide",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6388,
-      "Description": "If 'player_y' LessThanOrEqual 'block_y * 16 + 39' ELSE GOTO 00006440"
+      "MemoryOffset": 6386,
+      "Description": "If 'player_y' LessThanOrEqual 'block_y << 4 + 39'"
     },
     {
       "CodeBlock": "on_rockcollide",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6434,
+      "MemoryOffset": 6430,
       "Description": "GOTO 'ON_BLOCKHIT'"
     },
     {
       "CodeBlock": "on_rockcollide",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6440,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6436,
+      "Description": "GOTO '00006486'"
+    },
+    {
+      "CodeBlock": "on_rockcollide",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6442,
+      "Description": "If 'player_yspeed' LessThan '0' ELSE GOTO 00006486"
+    },
+    {
+      "CodeBlock": "on_rockcollide",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6480,
+      "Description": "GOTO 'ON_BLOCKHIT'"
+    },
+    {
+      "CodeBlock": "on_rockcollide",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6486,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6442,
+      "MemoryOffset": 6488,
       "Description": "RESTART_LEVEL"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6442,
-      "Description": "If 'currentlevel' GreaterThan 'Level2' ELSE GOTO 00006476"
+      "MemoryOffset": 6488,
+      "Description": "If 'currentlevel' GreaterThan 'Level2' ELSE GOTO 00006522"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6470,
+      "MemoryOffset": 6516,
       "Description": "GOTO 'STARTUP'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6476,
+      "MemoryOffset": 6522,
       "Description": "Set 'musicpos' to '0'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6486,
+      "MemoryOffset": 6532,
       "Description": "Set 'music' to 'song'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6496,
+      "MemoryOffset": 6542,
       "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6502,
+      "MemoryOffset": 6548,
       "Description": "Set 'musicpos' to 'song_start'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6512,
+      "MemoryOffset": 6558,
       "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6518,
+      "MemoryOffset": 6564,
       "Description": "Set 'ammo' to '0'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 7,
-      "MemoryOffset": 6528,
-      "Description": "If 'currentlevel' Equals 'level1' ELSE GOTO 00006590"
+      "MemoryOffset": 6574,
+      "Description": "If 'currentlevel' Equals 'level1' ELSE GOTO 00006636"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 8,
-      "MemoryOffset": 6556,
+      "MemoryOffset": 6602,
       "Description": "Set 'newvalue' to 'level1'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 8,
-      "MemoryOffset": 6566,
+      "MemoryOffset": 6612,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6572,
+      "MemoryOffset": 6618,
       "Description": "Set 'camera_follow' to '8'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6582,
+      "MemoryOffset": 6628,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6584,
+      "MemoryOffset": 6630,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6586,
+      "MemoryOffset": 6632,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6588,
+      "MemoryOffset": 6634,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6590,
-      "Description": "If 'currentlevel' Equals 'level2' ELSE GOTO 00006652"
+      "MemoryOffset": 6636,
+      "Description": "If 'currentlevel' Equals 'level2' ELSE GOTO 00006698"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 12,
-      "MemoryOffset": 6618,
+      "MemoryOffset": 6664,
       "Description": "Set 'newvalue' to 'level2'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 12,
-      "MemoryOffset": 6628,
+      "MemoryOffset": 6674,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6634,
+      "MemoryOffset": 6680,
       "Description": "Set 'camera_follow' to '2'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6644,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6646,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6648,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6650,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6652,
-      "Description": "If 'checkpointtype' NotEquals 'CheckpointNA' ELSE GOTO 00006964"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 6680,
-      "Description": "Set 'player_x' to 'CheckpointX'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 16,
       "MemoryOffset": 6690,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
-      "CodeBlockLine": 16,
+      "CodeBlockLine": 13,
       "MemoryOffset": 6692,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
-      "CodeBlockLine": 16,
+      "CodeBlockLine": 13,
       "MemoryOffset": 6694,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6696,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 6698,
+      "Description": "If 'checkpointtype' NotEquals 'CheckpointNA' ELSE GOTO 00007010"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6726,
+      "Description": "Set 'player_x' to 'CheckpointX'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6736,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6738,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6740,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6698,
+      "MemoryOffset": 6744,
       "Description": "Set 'player_y' to 'CheckpointY'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6708,
+      "MemoryOffset": 6754,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6710,
+      "MemoryOffset": 6756,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6712,
+      "MemoryOffset": 6758,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6716,
+      "MemoryOffset": 6762,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6718,
+      "MemoryOffset": 6764,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6720,
+      "MemoryOffset": 6766,
       "Description": "Raw expression 'Camera_follow'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6728,
+      "MemoryOffset": 6774,
       "Description": "Set 'camera_x' to '-128 + player_x'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6752,
+      "MemoryOffset": 6798,
       "Description": "Set 'camera_y' to '0 - YRes / 2 + player_y'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6786,
+      "MemoryOffset": 6832,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 20,
-      "MemoryOffset": 6800,
+      "MemoryOffset": 6846,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 20,
-      "MemoryOffset": 6802,
+      "MemoryOffset": 6848,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 20,
-      "MemoryOffset": 6804,
+      "MemoryOffset": 6850,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6806,
-      "Description": "Set 'player_type' to 'alexkidd'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6816,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6818,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6820,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6824,
-      "Description": "Set 'player_lookdir' to 'reset_movement'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6834,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6836,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6838,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "restart_level",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6842,
-      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 21,
       "MemoryOffset": 6852,
+      "Description": "Set 'player_type' to 'alexkidd'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6862,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 21,
-      "MemoryOffset": 6854,
+      "MemoryOffset": 6864,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 21,
-      "MemoryOffset": 6856,
+      "MemoryOffset": 6866,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6870,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6880,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6882,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6884,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6888,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6898,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6900,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "restart_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 6902,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 22,
-      "MemoryOffset": 6860,
-      "Description": "If 'checkpointtype' Equals 'CheckpointWater' ELSE GOTO 00006894"
+      "MemoryOffset": 6906,
+      "Description": "If 'checkpointtype' Equals 'CheckpointWater' ELSE GOTO 00006940"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 23,
-      "MemoryOffset": 6888,
+      "MemoryOffset": 6934,
       "Description": "GOTO 'ON_ENTERWATER'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 25,
-      "MemoryOffset": 6894,
-      "Description": "If 'level' Equals 'level1' ELSE GOTO 00006964"
+      "MemoryOffset": 6940,
+      "Description": "If 'level' Equals 'level1' ELSE GOTO 00007010"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 26,
-      "MemoryOffset": 6922,
+      "MemoryOffset": 6968,
       "Description": "Set 'camera_x' to '0'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 26,
-      "MemoryOffset": 6932,
+      "MemoryOffset": 6978,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6946,
+      "MemoryOffset": 6992,
       "Description": "Set 'camera_follow' to '8'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6956,
+      "MemoryOffset": 7002,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6958,
+      "MemoryOffset": 7004,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6960,
+      "MemoryOffset": 7006,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6962,
+      "MemoryOffset": 7008,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "restart_level",
       "CodeBlockLine": 29,
-      "MemoryOffset": 6964,
+      "MemoryOffset": 7010,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6966,
+      "MemoryOffset": 7012,
       "Description": "SPAWN_MERMAN"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6966,
+      "MemoryOffset": 7012,
       "Description": "Set 'actor_var1' to '5'"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6976,
+      "MemoryOffset": 7022,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6978,
+      "MemoryOffset": 7024,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6980,
+      "MemoryOffset": 7026,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "spawn_merman",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6984,
+      "MemoryOffset": 7030,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6986,
+      "MemoryOffset": 7032,
       "Description": "SPAWNBROKENBLOCK"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6986,
+      "MemoryOffset": 7032,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6988,
+      "MemoryOffset": 7034,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6990,
+      "MemoryOffset": 7036,
       "Description": "Raw expression 'sndblock'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6998,
+      "MemoryOffset": 7044,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7000,
+      "MemoryOffset": 7046,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7002,
+      "MemoryOffset": 7048,
       "Description": "Raw expression 'blockbreak'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7010,
+      "MemoryOffset": 7056,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7018,
+      "MemoryOffset": 7064,
       "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7026,
+      "MemoryOffset": 7072,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawnbrokenblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7028,
+      "MemoryOffset": 7074,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7030,
+      "MemoryOffset": 7076,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7030,
+      "MemoryOffset": 7076,
       "Description": "Set 'newvalue' to '192'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7040,
+      "MemoryOffset": 7086,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7046,
+      "MemoryOffset": 7092,
       "Description": "Set 'camera_boxleft' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7056,
+      "MemoryOffset": 7102,
       "Description": "Set 'camera_boxright' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7066,
+      "MemoryOffset": 7112,
       "Description": "Set 'camera_boxup' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7076,
+      "MemoryOffset": 7122,
       "Description": "Set 'camera_boxdown' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7086,
+      "MemoryOffset": 7132,
       "Description": "Set 'checkpointtype' to 'CheckpointNA'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7096,
+      "MemoryOffset": 7142,
       "Description": "Set 'newvalue' to 'pnl_title'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7106,
+      "MemoryOffset": 7152,
       "Description": "GOSUB TO 'LOAD_PANEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7112,
-      "Description": "If 'panel' NotEquals '0' ELSE GOTO 00007162"
+      "MemoryOffset": 7158,
+      "Description": "If 'panel' NotEquals '0' ELSE GOTO 00007208"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7140,
+      "MemoryOffset": 7186,
       "Description": "Set 'wait' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7150,
+      "MemoryOffset": 7196,
       "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7156,
+      "MemoryOffset": 7202,
       "Description": "GOSUB TO 'UNLOAD_PANEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7162,
+      "MemoryOffset": 7208,
       "Description": "Set 'currentlevel' to 'Level1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7172,
+      "MemoryOffset": 7218,
       "Description": "GOTO 'RESTART_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7178,
+      "MemoryOffset": 7224,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],
