@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "upleft",
   "Recycle": "Default",
@@ -12,21 +11,21 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "idle_right",
-    "Right": "idle_right",
+    "Left": "idle_l",
+    "Right": "idle_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
   },
   "Moves": {
-    "UpLeft": "jump_left",
+    "UpLeft": "jump_l",
     "Up": null,
-    "UpRight": "idle_right",
-    "Left": "idle_right",
-    "Right": "idle_right",
-    "DownLeft": "fall_left",
+    "UpRight": "jump_r",
+    "Left": "walk_l",
+    "Right": "walk_r",
+    "DownLeft": "fall_l",
     "Down": null,
-    "DownRight": "idle_right"
+    "DownRight": "fall_r"
   },
   "Attacks": {
     "UpLeft": null,
@@ -133,7 +132,17 @@
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
   "DivertTimer": "endcutscene_landed",
   "DivertTimerFrames": 9999,
-  "TileID": 21
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "TileID": 21,
+  "JumpHeight": 53.3333321
 }

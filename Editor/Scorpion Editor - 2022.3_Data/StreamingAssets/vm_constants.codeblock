@@ -1,0 +1,391 @@
+{
+  "DataVersion": 1,
+  "Variables": [
+    {
+      "Name": "True",
+      "Value": "-1",
+      "Notes": "Constant for true",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "False",
+      "Value": "0",
+      "Notes": "Constant for false",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "None",
+      "Value": "0",
+      "Notes": "Constant for none. Can be used for unloading levels etc",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Button_None",
+      "Value": "0",
+      "Notes": "Constant for button is not being pressed (eg, if control1_fire = button_none)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Button_Down",
+      "Value": "-1",
+      "Notes": "Constant for button is being held (eg, if control1_fire = button_down)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Button_Hit",
+      "Value": "1",
+      "Notes": "Constant for button has just been pressed (eg, if control1_fire = button_hit)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "LookMask_Left",
+      "Value": "73",
+      "Notes": "Used for bit-testing that actor is facing any left direction",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "LookMask_Right",
+      "Value": "292",
+      "Notes": "Used for bit-testing that actor is facing any right direction",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "LookMask_Up",
+      "Value": "7",
+      "Notes": "Used for bit-testing that actor is facing any up direction",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "LookMask_Down",
+      "Value": "448",
+      "Notes": "Used for bit-testing that actor is facing any down direction",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_UpLeft",
+      "Value": "0",
+      "Notes": "Constant for look up left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_Up",
+      "Value": "1",
+      "Notes": "Constant for look up",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_UpRight",
+      "Value": "2",
+      "Notes": "Constant for look up right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_Left",
+      "Value": "3",
+      "Notes": "Constant for look left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_Center",
+      "Value": "4",
+      "Notes": "Constant for look center. Should not be used.",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_Right",
+      "Value": "5",
+      "Notes": "Constant for look right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_DownLeft",
+      "Value": "6",
+      "Notes": "Constant for look down left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_Down",
+      "Value": "7",
+      "Notes": "Constant for look down",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Look_DownRight",
+      "Value": "8",
+      "Notes": "Constant for look down right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_UpLeft",
+      "Value": "16",
+      "Notes": "Constant for move up left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_Up",
+      "Value": "17",
+      "Notes": "Constant for move up",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_UpRight",
+      "Value": "18",
+      "Notes": "Constant for move up right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_Left",
+      "Value": "19",
+      "Notes": "Constant for move left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_Center",
+      "Value": "20",
+      "Notes": "Constant for move center (should not be used)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_Right",
+      "Value": "21",
+      "Notes": "Constant for move right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_DownLeft",
+      "Value": "22",
+      "Notes": "Constant for move down left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_Down",
+      "Value": "23",
+      "Notes": "Constant for move down",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Move_DownRight",
+      "Value": "24",
+      "Notes": "Constant for move down right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_UpLeft",
+      "Value": "80",
+      "Notes": "Constant for strafe up left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_Up",
+      "Value": "81",
+      "Notes": "Constant for strafe up",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_UpRight",
+      "Value": "82",
+      "Notes": "Constant for strafe up right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_Left",
+      "Value": "83",
+      "Notes": "Constant for strafe left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_Center",
+      "Value": "84",
+      "Notes": "Constant for strafe center. Should not be used.",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_Right",
+      "Value": "85",
+      "Notes": "Constant for strafe right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_DownLeft",
+      "Value": "86",
+      "Notes": "Constant for strafe down left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_Down",
+      "Value": "87",
+      "Notes": "Constant for strafe down",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Strafe_DownRight",
+      "Value": "88",
+      "Notes": "Constant for strafe down right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "resume_moving",
+      "Value": "31",
+      "Notes": "Constant for resume moving (if stopped)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "stop_moving",
+      "Value": "20",
+      "Notes": "Constant for stop moving",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "look_atplayer",
+      "Value": "32",
+      "Notes": "Constant for look actor at player",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "move_atplayer",
+      "Value": "48",
+      "Notes": "Constant for move actor at player",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "reset_movement",
+      "Value": "-1",
+      "Notes": "Constant for reset movement (as though actor was just spawned)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "jump_movement",
+      "Value": "-2",
+      "Notes": "Constant for jumping directly up",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Left",
+      "Value": "1",
+      "Notes": "Constant for camera left",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Right",
+      "Value": "2",
+      "Notes": "Constant for camera right",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Up",
+      "Value": "4",
+      "Notes": "Constant for camera up",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Down",
+      "Value": "8",
+      "Notes": "Constant for camera down",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Trigger_AttackAnimation",
+      "Value": "-1",
+      "Notes": "Set animation to this to trigger the attack anim",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Trigger_CancelAnimation",
+      "Value": "-2",
+      "Notes": "Cancel the current animation",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Trigger_AttackSound",
+      "Value": "-1",
+      "Notes": "Set sound to this to trigger the actor's attack sound",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "Trigger_JumpSound",
+      "Value": "-2",
+      "Notes": "Set sound to this to trigger the actor's jump sound",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "XRes",
+      "Value": "256",
+      "Notes": "Width of the screen",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "TileMask",
+      "Value": "0xFFF0",
+      "Notes": "Use an AND operation to round to tile coordinates (eg actor_x & tilemask)",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "YResMax",
+      "Value": "224",
+      "Notes": "The maximum y resolution of the main game screen",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    },
+    {
+      "Name": "AGARequired",
+      "Value": "false",
+      "Notes": "Is AGA Required for this project?",
+      "PrivateSet": false,
+      "VariableType": "Constant"
+    }
+  ],
+  "Commands": []
+}

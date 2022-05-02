@@ -1,0 +1,25 @@
+1. Copy scorpion_dev.lha to your Amiberry device.
+2. Copy the following lines into whdboot\game-data\whdload_db.xml after the whdbooter element is opened (should be line 2). Adjust if necessary.
+
+(Use FAST_COPPER=FALSE if glitchy, but this may introduce extreme slowdown on parallax heavy levels)
+
+
+	<game filename="scorpion_dev">
+		<name>Scorpion Dev</name>
+		<subpath>scorpion_dev</subpath>
+		<slave_count>1</slave_count>
+		<slave_default>scorpion_loader.slave</slave_default>
+		<slave_libraries>False</slave_libraries>
+		<slave number="1">
+			<filename>scorpion_loader.slave</filename>
+			<datapath>data</datapath>
+		</slave>
+		<hardware>
+		PRIMARY_CONTROL=JOYSTICK
+		PORT0=CD32
+		PORT1=CD32
+		FAST_COPPER=TRUE
+		CHIPSET=AGA	
+		FAST_RAM=8		
+		</hardware>
+	</game>

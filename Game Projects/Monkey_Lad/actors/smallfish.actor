@@ -1,9 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Default",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 15,
@@ -21,8 +21,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "enemy_smallfish_left",
-    "Right": "enemy_smallfish_right",
+    "Left": "enemy_smallfish_l",
+    "Right": "enemy_smallfish_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -94,12 +94,11 @@
     }
   ],
   "CollBox": {
-    "X": -8,
+    "X": -7,
     "Y": -14,
-    "Width": 15,
+    "Width": 14,
     "Height": 14
   },
-  "MoveType": "cpu",
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 0.5,
@@ -112,6 +111,7 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
+  "RotationSpeed": 0.0,
   "CollType_Left": "bounce",
   "CollType_Right": "bounce",
   "CollType_Up": "block",
@@ -132,7 +132,17 @@
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
+  "DivertPlatformEdge": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
-  "TileID": 7
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "TileID": 7,
+  "JumpHeight": null
 }

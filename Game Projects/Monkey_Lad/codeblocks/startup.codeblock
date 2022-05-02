@@ -1,81 +1,82 @@
 {
+  "DataVersion": 1,
   "Variables": [
     {
       "Name": "Song_Start",
-      "IsConstant": true,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "Song_StageComplete",
-      "IsConstant": true,
       "Value": "16",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "Song_Water",
-      "IsConstant": true,
       "Value": "17",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "CheckpointNA",
-      "IsConstant": true,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "CheckpointLand",
-      "IsConstant": true,
       "Value": "1",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "CheckpointWater",
-      "IsConstant": true,
       "Value": "2",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "CheckpointX",
-      "IsConstant": false,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "CheckpointY",
-      "IsConstant": false,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "CheckpointType",
-      "IsConstant": false,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "Ammo",
-      "IsConstant": false,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "CurrentLevel",
-      "IsConstant": false,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     }
   ],
   "Commands": [
@@ -89,10 +90,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -109,23 +114,31 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 192,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -136,10 +149,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -151,10 +161,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -171,23 +185,31 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 16,
-        "Right": 16,
-        "Up": 16,
-        "Down": 16
+        "Left": "16",
+        "Right": "16",
+        "Up": "16",
+        "Down": "16"
       },
       "YRes": 192,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -198,10 +220,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -213,10 +232,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "checkpointtype",
       "Expression": "CheckpointNA",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -233,23 +256,31 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 212,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -260,10 +291,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -275,10 +303,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -295,23 +327,31 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
       "Panel": "pnl_title",
       "WaitForFireHit": true,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 212,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -322,10 +362,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -337,10 +374,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "currentlevel",
       "Expression": "Level1",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -357,23 +398,31 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 212,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -384,10 +433,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -399,10 +445,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": "restart_level",
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -419,23 +469,31 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 212,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -446,12 +504,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     }
-  ],
-  "CodeBlockEndType": 0,
-  "CodeBlockEndLabel": null
+  ]
 }

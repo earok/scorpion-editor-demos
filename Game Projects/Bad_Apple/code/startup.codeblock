@@ -1,53 +1,54 @@
 {
+  "DataVersion": 1,
   "Variables": [
     {
       "Name": "drawx",
-      "IsConstant": false,
       "Value": "-1",
       "Notes": "",
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "drawy",
-      "IsConstant": false,
       "Value": "0",
       "Notes": "",
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "currenttile",
-      "IsConstant": false,
       "Value": "0",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "pcx",
-      "IsConstant": false,
       "Value": "255",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "pcy",
-      "IsConstant": false,
       "Value": "12",
       "Notes": "",
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "rle",
-      "IsConstant": false,
       "Value": "0",
       "Notes": "",
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     },
     {
       "Name": "bufferx",
-      "IsConstant": false,
       "Value": "16",
       "Notes": "",
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     }
   ],
   "Commands": [
@@ -62,11 +63,13 @@
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -104,6 +107,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -127,11 +134,13 @@
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -169,6 +178,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -192,11 +205,13 @@
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": "",
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -234,6 +249,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -257,11 +276,13 @@
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -299,6 +320,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -322,11 +347,13 @@
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -364,6 +391,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -387,11 +418,13 @@
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
       "Goto": "process_next_tile",
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -429,6 +462,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,

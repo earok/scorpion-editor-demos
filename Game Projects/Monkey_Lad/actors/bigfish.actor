@@ -1,9 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "downleft",
   "Recycle": "Default",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 15,
@@ -18,14 +18,14 @@
     "DownRight": null
   },
   "Moves": {
-    "UpLeft": "enemy_bigfish_left",
+    "UpLeft": "enemy_bigfish_l",
     "Up": null,
-    "UpRight": "enemy_bigfish_right",
-    "Left": "enemy_bigfish_left",
-    "Right": "enemy_bigfish_right",
-    "DownLeft": "enemy_bigfish_left",
+    "UpRight": "enemy_bigfish_r",
+    "Left": "enemy_bigfish_l",
+    "Right": "enemy_bigfish_r",
+    "DownLeft": "enemy_bigfish_l",
     "Down": null,
-    "DownRight": "enemy_bigfish_right"
+    "DownRight": "enemy_bigfish_r"
   },
   "Attacks": {
     "UpLeft": null,
@@ -99,7 +99,6 @@
     "Width": 24,
     "Height": 16
   },
-  "MoveType": "cpu",
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 0.5,
@@ -112,6 +111,7 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
+  "RotationSpeed": 0.0,
   "CollType_Left": "bounce",
   "CollType_Right": "bounce",
   "CollType_Up": "bounce",
@@ -132,7 +132,17 @@
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
+  "DivertPlatformEdge": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
-  "TileID": 9
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "TileID": 9,
+  "JumpHeight": null
 }

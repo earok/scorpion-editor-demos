@@ -1,11 +1,12 @@
 {
+  "DataVersion": 1,
   "Variables": [
     {
       "Name": "shirtcolor",
-      "IsConstant": false,
       "Value": "6",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Variable"
     }
   ],
   "Commands": [
@@ -19,10 +20,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": "",
       "Comment": "",
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
@@ -40,6 +45,7 @@
       "PushYPixels": "",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
+      "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -47,10 +53,10 @@
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": true,
@@ -59,6 +65,10 @@
       "CameraFollowDown": true,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,

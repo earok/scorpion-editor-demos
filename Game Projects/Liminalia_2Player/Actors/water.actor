@@ -1,9 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
@@ -11,21 +11,21 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "water_left",
-    "Right": "water_right",
+    "Left": "water_l",
+    "Right": "water_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
   },
   "Moves": {
-    "UpLeft": "water_left",
+    "UpLeft": "water_l",
     "Up": null,
-    "UpRight": "water_right",
-    "Left": "water_left",
-    "Right": "water_right",
-    "DownLeft": "water_left",
+    "UpRight": "water_r",
+    "Left": "water_l",
+    "Right": "water_r",
+    "DownLeft": "water_l",
     "Down": null,
-    "DownRight": "water_right"
+    "DownRight": "water_r"
   },
   "Attacks": {
     "UpLeft": null,
@@ -99,7 +99,6 @@
     "Width": 8,
     "Height": 8
   },
-  "MoveType": "cpu",
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 0.0,
@@ -112,6 +111,7 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
+  "RotationSpeed": 0.0,
   "CollType_Left": "none",
   "CollType_Right": "none",
   "CollType_Up": "none",
@@ -132,7 +132,17 @@
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
   "DivertTimer": "destroy_actor",
   "DivertTimerFrames": 24,
-  "TileID": 12
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "TileID": 12,
+  "JumpHeight": null
 }

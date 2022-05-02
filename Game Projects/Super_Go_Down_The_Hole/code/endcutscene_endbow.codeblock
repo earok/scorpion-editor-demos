@@ -1,18 +1,19 @@
 {
+  "DataVersion": 1,
   "Variables": [
     {
       "Name": "doorx",
-      "IsConstant": true,
       "Value": "10",
       "Notes": "",
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     },
     {
       "Name": "doory",
-      "IsConstant": true,
       "Value": "9",
       "Notes": null,
-      "PrivateSet": false
+      "PrivateSet": false,
+      "VariableType": "Constant"
     }
   ],
   "Commands": [
@@ -26,10 +27,14 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetDirection",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": "",
       "Variable": "actor_xspeed",
       "Expression": "-1",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -47,6 +52,7 @@
       "PushYPixels": "0",
       "LookDirection": "move_left",
       "ResetMovement": true,
+      "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -54,10 +60,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -66,6 +72,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -88,10 +98,14 @@
       "LevelOperationType": "SpawnOnBlock",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": "",
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -109,6 +123,7 @@
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
+      "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -116,10 +131,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -128,6 +143,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -150,10 +169,14 @@
       "LevelOperationType": "SpawnOnBlock",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": "",
       "Variable": "none",
       "Expression": "0",
+      "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
@@ -171,6 +194,7 @@
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
+      "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -178,10 +202,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -190,6 +214,10 @@
       "CameraFollowDown": false,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
