@@ -4,8 +4,6 @@
 
 [![Overview Video](http://img.youtube.com/vi/7gm3xcmardw/0.jpg)](http://www.youtube.com/watch?v=7gm3xcmardw)
 
-Note: This is an ongoing work-in-progress version of the Scorpion Editor for Windows and the included Commodore Amiga game samples. It isn't feature complete, is likely to have more than a handful of breaking bugs, and may not work on every Windows configuration - Windows 10 is the recommended OS. Updates will be released on an "early and often" basis.
-
 Videos:
 - Brief introduction: https://youtu.be/7gm3xcmardw
 - Backbone import: https://youtu.be/Mv30lGq-HTI
@@ -31,7 +29,9 @@ The editor itself is not open source - but all of the included demos are.
 * Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
 
 * Flighty Fox uses many of the same assets as Amigo the Fox
-		
+
+* GothicVania features art by Tsak and Ansimuz
+
 * HScroller uses art by Emcee Flesher (https://opengameart.org/content/super-dead-space-gunner-merc-redux-platform-shmup-hero)
 
 * Ladder demo uses art by Buch (https://opengameart.org/content/a-platformer-in-the-forest). "No snap" version by Lemming880.
@@ -52,6 +52,10 @@ The editor itself is not open source - but all of the included demos are.
 
 EXE2ADF by Bonefish
 
+FS-UAE by Frode Solheim
+
+WinUAE by Toni Wilen
+
 Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
 
 Documentation still needs to be done, but this video covers the essentials: https://youtu.be/7gm3xcmardw
@@ -60,4 +64,4 @@ Please report all bugs and other issues through the issues tab: https://github.c
 
 Like and follow the project on Facebook: https://www.facebook.com/scorpionengine
 
-
+Support the project on the Patreon page: https://patreon.com/scorpionengine
