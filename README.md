@@ -2,6 +2,8 @@
 
 <a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD</a>
 
+Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
+
 [![Overview Video](http://img.youtube.com/vi/7gm3xcmardw/0.jpg)](http://www.youtube.com/watch?v=7gm3xcmardw)
 
 Videos:
