@@ -148,4 +148,9 @@
       <property name="Name" value="door_br" type="string" />
     </properties>
   </tile>
+  <tile id="31">
+    <properties>
+      <property name="Name" value="block_candle" type="string" />
+    </properties>
+  </tile>
 </tileset>

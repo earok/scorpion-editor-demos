@@ -1,12 +1,12 @@
 {
-  "GFXMode": "BP5",
+  "GFXMode": "BP4",
   "EmulatedAmiga": "A4000/040",
   "EmulatedFastRam": 0,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
-  "Uses24BitColor": false,
+  "Uses24BitColor": true,
   "AGARequired": false,
   "SpriteMode": "Mode_0_16_Wide",
   "SpriteColorBank": 1,
@@ -15,7 +15,7 @@
   "XOffset": 32,
   "SScan2": false,
   "Recompile": true,
-  "Implode": true,
+  "Implode": false,
   "MapCache": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
@@ -132,7 +132,7 @@
       "OnRelease": "cheat6"
     },
     {
-      "Key": "P",
+      "Key": "C",
       "JoystickPort": -1,
       "JoystickX": 0,
       "JoystickY": 0,
@@ -143,7 +143,7 @@
       "CD32Forward": false,
       "CD32Green": false,
       "CD32Yellow": false,
-      "OnPress": "vol_down",
+      "OnPress": "player_noclear",
       "OnRelease": null
     },
     {
@@ -202,5 +202,29 @@
       "FrameSkip": 0
     }
   },
-  "SplashScreen": null
+  "SoundMetaData": {
+    "breakbig": {
+      "LinkedMap": ""
+    },
+    "coincollect": {
+      "LinkedMap": ""
+    },
+    "hurt": {
+      "LinkedMap": ""
+    },
+    "pipedown": {
+      "LinkedMap": ""
+    },
+    "pipeup": {
+      "LinkedMap": ""
+    },
+    "powerup": {
+      "LinkedMap": ""
+    },
+    "spring": {
+      "LinkedMap": ""
+    }
+  },
+  "SplashScreen": null,
+  "DoubleCopper": true
 }

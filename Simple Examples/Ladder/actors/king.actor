@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Player",
   "DefaultLookDir": "left",
   "Recycle": "Default",
@@ -19,14 +18,14 @@
     "DownRight": null
   },
   "Moves": {
-    "UpLeft": "king_jump_left",
+    "UpLeft": "king_jump_l",
     "Up": null,
-    "UpRight": "king_jump_right",
-    "Left": "king_walk_left",
-    "Right": "king_walk_right",
-    "DownLeft": "king_fall_left",
+    "UpRight": "king_jump_r",
+    "Left": "king_walk_l",
+    "Right": "king_walk_r",
+    "DownLeft": "king_fall_l",
     "Down": null,
-    "DownRight": "king_fall_right"
+    "DownRight": "king_fall_r"
   },
   "Attacks": {
     "UpLeft": null,
@@ -133,7 +132,17 @@
   "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": "snap_to_screen",
   "DivertOutOfScreenDown": "startup",
+  "DivertPlatformEdge": null,
   "DivertTimer": "king_handler",
   "DivertTimerFrames": 0,
-  "TileID": 0
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "TileID": 0,
+  "JumpHeight": 40.0
 }

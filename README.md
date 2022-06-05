@@ -38,6 +38,10 @@ The editor itself is not open source - but all of the included demos are.
 
 * Ladder demo uses art by Buch (https://opengameart.org/content/a-platformer-in-the-forest). "No snap" version by Lemming880.
 		
+* Light And Dark demo reuses some of the same assets used in Monkey Lad 
+
+* Render Modes and Palettes demo reuses some of the same assets used in Amigo the Fox
+		
 * Monkey Lad is a game based on Alex Kidd, created around the art assets by surt (https://opengameart.org/content/monkey-lad-in-magical-planet). Featuring music by JMD.
  	
 * RepairWare demo ported from the game by Sergio Cornaga.
@@ -49,6 +53,8 @@ The editor itself is not open source - but all of the included demos are.
 * Super Go Down The Hole is ported from the GameMaker game by Sergio Cornaga, featuring music by JMD.
 
 * Translucency demo based on the original AMOS demo by bitbeamcannon. https://bitbeamcannon.com/amiga/
+
+* Vertical parallax AGA reuses some of the Amigo the Fox assets, as well as art assets derived from https://opengameart.org/content/seamless-blue-256x256 and https://opengameart.org/content/cloud-set
 
 * WHDLoad slave based on Generic 3.1 Kickstart WHDLoad slave by JOTD and Wepl
 
