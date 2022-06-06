@@ -15,6 +15,8 @@ The editor itself is not open source - but all of the included demos are.
 
 * 2P Demo is based on the kiwijam entry Liminalia https://radnom.itch.io/liminalia
 
+* AlarCity related demos by Earok and Tsak
+
 * Amigo the Fox is based on a game by Mike Wiering, and includes these assets:
 	- Music by JMD
 	- https://opengameart.org/content/beastlands
