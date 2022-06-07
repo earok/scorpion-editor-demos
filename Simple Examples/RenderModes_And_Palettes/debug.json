@@ -1611,6 +1611,27 @@
       "DefaultValue": "0",
       "Index": 169,
       "MemoryOffset": 169
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "Name": "target_red",
+      "DefaultValue": "255",
+      "Index": 170,
+      "MemoryOffset": 170
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "Name": "target_blue",
+      "DefaultValue": "255",
+      "Index": 171,
+      "MemoryOffset": 171
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "Name": "target_green",
+      "DefaultValue": "255",
+      "Index": 172,
+      "MemoryOffset": 172
     }
   ],
   "Lines": [
@@ -5426,296 +5447,542 @@
     },
     {
       "CodeBlock": "on_button_press",
-      "CodeBlockLine": 18,
+      "CodeBlockLine": 17,
       "MemoryOffset": 4984,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 4986,
-      "Description": "Set 'color_index' to '1'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 4994,
-      "Description": "If 'color_index' LessThan '32' ELSE GOTO 00005168"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 5020,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 5022,
-      "Description": "Raw expression 'color_index'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 5030,
-      "Description": "If 'red_on' Equals '0' ELSE GOTO 00005066"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 5056,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 5058,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 5066,
-      "Description": "If 'green_on' Equals '0' ELSE GOTO 00005102"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 5092,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 5094,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 5102,
-      "Description": "If 'blue_on' Equals '0' ELSE GOTO 00005138"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 5128,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 5130,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 5138,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 5140,
-      "Description": "Raw expression 'color_index'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 5148,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 5150,
-      "Description": "Set 'color_index' to 'color_index + 1'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 5162,
-      "Description": "GOTO '00004994'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 5162,
-      "Description": "Raw data of type 'BlitzTool.WordOnly'"
-    },
-    {
-      "CodeBlock": "on_button_press",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 5168,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5170,
+      "MemoryOffset": 4986,
       "Description": "ON_BUTTON_PRESSED_UPDATE"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5170,
+      "MemoryOffset": 4986,
       "Description": "If 'player_x >> 4' NotEquals 'block_x'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5210,
+      "MemoryOffset": 5026,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5212,
+      "MemoryOffset": 5028,
       "Description": "Raw expression 'button_extended_bottom'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5218,
+      "MemoryOffset": 5034,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5226,
+      "MemoryOffset": 5042,
       "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5234,
+      "MemoryOffset": 5050,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5236,
+      "MemoryOffset": 5052,
       "Description": "Raw expression 'button_extended_top'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5242,
+      "MemoryOffset": 5058,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5250,
+      "MemoryOffset": 5066,
       "Description": "Raw expression 'block_y - 1'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5260,
-      "Description": "GOTO '00005358'"
+      "MemoryOffset": 5076,
+      "Description": "GOTO '00005174'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5260,
+      "MemoryOffset": 5076,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5266,
-      "Description": "If 'player_y >> 4' NotEquals 'block_y - 1' ELSE GOTO 00005358"
+      "MemoryOffset": 5082,
+      "Description": "If 'player_y >> 4' NotEquals 'block_y - 1' ELSE GOTO 00005174"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5308,
+      "MemoryOffset": 5124,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5310,
+      "MemoryOffset": 5126,
       "Description": "Raw expression 'button_extended_bottom'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5316,
+      "MemoryOffset": 5132,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5324,
+      "MemoryOffset": 5140,
       "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5332,
+      "MemoryOffset": 5148,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5334,
+      "MemoryOffset": 5150,
       "Description": "Raw expression 'button_extended_top'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5340,
+      "MemoryOffset": 5156,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5348,
+      "MemoryOffset": 5164,
       "Description": "Raw expression 'block_y - 1'"
     },
     {
       "CodeBlock": "on_button_pressed_update",
       "CodeBlockLine": 7,
-      "MemoryOffset": 5358,
+      "MemoryOffset": 5174,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 5176,
+      "Description": "UPDATE_CYCLE"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5176,
+      "Description": "If 'red_on' Equals '0'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5202,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5204,
+      "Description": "Set 'target_red' to 'target_red - 8'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5216,
+      "Description": "If 'target_red' LessThan '0' ELSE GOTO 00005252"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5242,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5244,
+      "Description": "Set 'target_red' to '0'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5252,
+      "Description": "GOTO '00005312'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5252,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 5258,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 5260,
+      "Description": "Set 'target_red' to 'target_red + 8'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5272,
+      "Description": "If 'target_red' GreaterThan '255' ELSE GOTO 00005312"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 5300,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 5302,
+      "Description": "Set 'target_red' to '255'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 5312,
+      "Description": "If 'green_on' Equals '0'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 5338,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 5340,
+      "Description": "Set 'target_green' to 'target_green - 8'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 5352,
+      "Description": "If 'target_green' LessThan '0' ELSE GOTO 00005388"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 5378,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 5380,
+      "Description": "Set 'target_green' to '0'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 5388,
+      "Description": "GOTO '00005448'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 5388,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 5394,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 5396,
+      "Description": "Set 'target_green' to 'target_green + 8'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 5408,
+      "Description": "If 'target_green' GreaterThan '255' ELSE GOTO 00005448"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 5436,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 5438,
+      "Description": "Set 'target_green' to '255'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 5448,
+      "Description": "If 'blue_on' Equals '0'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 5474,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 5476,
+      "Description": "Set 'target_blue' to 'target_blue - 8'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 5488,
+      "Description": "If 'target_blue' LessThan '0' ELSE GOTO 00005524"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 5514,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 5516,
+      "Description": "Set 'target_blue' to '0'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 5524,
+      "Description": "GOTO '00005584'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 5524,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 5530,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 5532,
+      "Description": "Set 'target_blue' to 'target_blue + 8'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 5544,
+      "Description": "If 'target_blue' GreaterThan '255' ELSE GOTO 00005584"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 5572,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 5574,
+      "Description": "Set 'target_blue' to '255'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 5584,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 5586,
+      "Description": "Set 'color_index' to '1'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 5594,
+      "Description": "If 'color_index' LessThan '26' ELSE GOTO 00005780"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 40,
+      "MemoryOffset": 5620,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 40,
+      "MemoryOffset": 5622,
+      "Description": "Raw expression 'color_index'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 41,
+      "MemoryOffset": 5630,
+      "Description": "If 'red' GreaterThan 'target_red' ELSE GOTO 00005670"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 5658,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 5660,
+      "Description": "Set 'red' to 'target_red'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 44,
+      "MemoryOffset": 5670,
+      "Description": "If 'green' GreaterThan 'target_green' ELSE GOTO 00005710"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 45,
+      "MemoryOffset": 5698,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 45,
+      "MemoryOffset": 5700,
+      "Description": "Set 'green' to 'target_green'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 47,
+      "MemoryOffset": 5710,
+      "Description": "If 'blue' GreaterThan 'target_blue' ELSE GOTO 00005750"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 48,
+      "MemoryOffset": 5738,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 48,
+      "MemoryOffset": 5740,
+      "Description": "Set 'blue' to 'target_blue'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 50,
+      "MemoryOffset": 5750,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 50,
+      "MemoryOffset": 5752,
+      "Description": "Raw expression 'color_index'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 5760,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 5762,
+      "Description": "Set 'color_index' to 'color_index + 1'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 5774,
+      "Description": "GOTO '00005594'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 5774,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "update_cycle",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 5780,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5360,
+      "MemoryOffset": 5782,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5360,
+      "MemoryOffset": 5782,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5362,
+      "MemoryOffset": 5784,
       "Description": "Set 'newvalue' to 'map1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5370,
+      "MemoryOffset": 5792,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5370,
+      "MemoryOffset": 5792,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5376,
+      "MemoryOffset": 5798,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     }
   ],
