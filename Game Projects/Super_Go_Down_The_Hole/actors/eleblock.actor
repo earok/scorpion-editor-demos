@@ -3,7 +3,7 @@
   "ClassType": "Platform",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 16,
   "NudgeY": 16,
@@ -103,12 +103,12 @@
   "ZOrder": 0,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
-  "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
+  "SpeedUp": 2.0,
+  "SpeedDown": 3.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
-  "AccelDown": null,
+  "AccelDown": 0.1,
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
@@ -133,6 +133,7 @@
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": "elephant_handler",
   "DivertTimerFrames": 0,
   "Vars": [
@@ -143,5 +144,7 @@
     "0",
     "0"
   ],
-  "TileID": 2
+  "TileID": 2,
+  "JumpHeight": 20.0,
+  "SuggestedRecycle": "Always"
 }
