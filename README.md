@@ -42,6 +42,8 @@ The editor itself is not open source - but all of the included demos are.
 		
 * Light And Dark demo reuses some of the same assets used in Monkey Lad 
 
+* Parallax Tricks demos uses environment art (c) BitBeamCannon. These may NOT be used in another project
+
 * Render Modes and Palettes demo reuses some of the same assets used in Amigo the Fox
 		
 * Monkey Lad is a game based on Alex Kidd, created around the art assets by surt (https://opengameart.org/content/monkey-lad-in-magical-planet). Featuring music by JMD.
@@ -53,6 +55,8 @@ The editor itself is not open source - but all of the included demos are.
 * Snake sample derived from https://opengameart.org/content/snake-game-assets by Clear_code
 
 * Super Go Down The Hole is ported from the GameMaker game by Sergio Cornaga, featuring music by JMD.
+
+* Tones demo reuses some of the same assets used in Amigo the Fox
 
 * Translucency demo based on the original AMOS demo by bitbeamcannon. https://bitbeamcannon.com/amiga/
 
