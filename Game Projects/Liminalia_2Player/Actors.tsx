@@ -6,11 +6,7 @@
       <property name="Name" value="autumn1" type="string" />
     </properties>
   </tile>
-  <tile id="1">
-    <properties>
-      <property name="Name" value="autumn2" type="string" />
-    </properties>
-  </tile>
+  <tile id="1" />
   <tile id="2">
     <properties>
       <property name="Name" value="pumpkin" type="string" />
@@ -42,11 +38,7 @@
       <property name="Name" value="snowball" type="string" />
     </properties>
   </tile>
-  <tile id="9">
-    <properties>
-      <property name="Name" value="winter2" type="string" />
-    </properties>
-  </tile>
+  <tile id="9" />
   <tile id="10">
     <properties>
       <property name="Name" value="spring1" type="string" />
@@ -58,11 +50,7 @@
       <property name="Name" value="water" type="string" />
     </properties>
   </tile>
-  <tile id="13">
-    <properties>
-      <property name="Name" value="spring2" type="string" />
-    </properties>
-  </tile>
+  <tile id="13" />
   <tile id="14" />
   <tile id="15" />
   <tile id="16" />
@@ -82,9 +70,10 @@
       <property name="Name" value="beam_r" type="string" />
     </properties>
   </tile>
-  <tile id="21">
+  <tile id="21" />
+  <tile id="22">
     <properties>
-      <property name="Name" value="summer2" type="string" />
+      <property name="Name" value="spawner_player2" type="string" />
     </properties>
   </tile>
 </tileset>

@@ -11,4 +11,14 @@
       <property name="Name" value="king_ladder" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="platform_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="static_king" type="string" />
+    </properties>
+  </tile>
 </tileset>

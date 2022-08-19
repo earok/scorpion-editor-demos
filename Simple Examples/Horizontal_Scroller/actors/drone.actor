@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "ClassType": "Projectile",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "Recycle": "Never",
   "MoveType": "cpu_parentorbit",
   "MaxEntities": 0,
   "NudgeX": 8,
@@ -133,6 +133,7 @@
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": "handler_drone",
   "DivertTimerFrames": 0,
   "Vars": [
@@ -141,7 +142,10 @@
     "32",
     "0",
     "0",
-    "0"
+    "0",
+    "1"
   ],
-  "TileID": 3
+  "TileID": 3,
+  "JumpHeight": null,
+  "SuggestedRecycle": "Never"
 }

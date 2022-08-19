@@ -30,6 +30,11 @@ The editor itself is not open source - but all of the included demos are.
 	
 * Bad Apple is an adaptaton of the popular Touhou project demo, with music by JMD
 
+* Barrel demo:
+	- https://opengameart.org/content/barrels-1
+	- https://opengameart.org/content/ninja-animated-0
+	- https://opengameart.org/content/ninja-throwing-items-kit-32x32
+
 * Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
 
 * Flighty Fox uses many of the same assets as Amigo the Fox
@@ -43,6 +48,8 @@ The editor itself is not open source - but all of the included demos are.
 * Light And Dark demo reuses some of the same assets used in Monkey Lad 
 
 * Parallax Tricks demos uses environment art (c) BitBeamCannon. These may NOT be used in another project
+
+* Performance demo reuses assets from Amigo the Fox demo
 
 * Render Modes and Palettes demo reuses some of the same assets used in Amigo the Fox
 		
