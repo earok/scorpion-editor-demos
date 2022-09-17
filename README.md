@@ -1,6 +1,6 @@
 # Scorpion Editor and sample games
 
-<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD</a>
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2022.7</a>
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
@@ -46,6 +46,11 @@ The editor itself is not open source - but all of the included demos are.
 * Ladder demo uses art by Buch (https://opengameart.org/content/a-platformer-in-the-forest). "No snap" version by Lemming880.
 		
 * Light And Dark demo reuses some of the same assets used in Monkey Lad 
+
+* Mouse sample:
+	- https://opengameart.org/content/industrial-parallax-background
+	- https://opengameart.org/content/simple-crosshairs
+	- https://opengameart.org/content/explosion-animations
 
 * Parallax Tricks demos uses environment art (c) BitBeamCannon. These may NOT be used in another project
 

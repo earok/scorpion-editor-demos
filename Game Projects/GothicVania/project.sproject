@@ -1,5 +1,7 @@
 {
   "GFXMode": "BP6",
+  "GFXModeAGA": "BP6",
+  "TargetPlatform": "amiga_aga",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 0,
   "Talkpad": null,
@@ -7,7 +9,7 @@
   "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
   "Uses24BitColor": true,
-  "AGARequired": true,
+  "AGARequired": false,
   "SpriteMode": "Mode_2_64_Wide",
   "SpriteColorBank": 4,
   "FMode": 1,
@@ -24,9 +26,10 @@
   "XFillSize": 20,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 3,
+  "DataVersion": 4,
   "Commands": [
     {
+      "Compiler": "amiga",
       "Key": "Alpha8",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -42,6 +45,7 @@
       "OnRelease": null
     },
     {
+      "Compiler": "amiga",
       "Key": "Alpha9",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -85,8 +89,8 @@
     }
   },
   "SplashScreen": null,
-  "LogicSpeed": 2,
-  "OutputSpeed": 2,
+  "LogicSpeed": "PAL_50HZ",
+  "OutputSpeed": "PAL_50HZ",
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true
 }
