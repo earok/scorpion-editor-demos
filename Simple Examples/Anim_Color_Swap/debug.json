@@ -2058,13 +2058,13 @@
       "CodeBlock": "project",
       "CodeBlockLine": 0,
       "MemoryOffset": 6,
-      "Description": "Core operation'SetControlMode'"
+      "Description": "Set 'controlmode' to '1'"
     },
     {
       "CodeBlock": "project",
       "CodeBlockLine": 0,
-      "MemoryOffset": 10,
-      "Description": "Raw expression '1'"
+      "MemoryOffset": 12,
+      "Description": "Core operation'SetControlMode'"
     },
     {
       "CodeBlock": "project",
@@ -2142,12 +2142,18 @@
       "CodeBlock": "destroy_all_actors",
       "CodeBlockLine": 1,
       "MemoryOffset": 220,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "destroy_all_actors",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 226,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "destroy_all_actors",
       "CodeBlockLine": 1,
-      "MemoryOffset": 224,
+      "MemoryOffset": 230,
       "Description": "Foreach 'none' do 'destroy_actor'"
     },
     {
@@ -2184,25 +2190,25 @@
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
       "MemoryOffset": 314,
-      "Description": "Core operation'BlockSet'"
-    },
-    {
-      "CodeBlock": "destroy_all_blocks",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 318,
       "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
-      "MemoryOffset": 324,
+      "MemoryOffset": 320,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
-      "MemoryOffset": 334,
+      "MemoryOffset": 330,
       "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 340,
+      "Description": "Core operation'BlockSet'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
@@ -2238,25 +2244,25 @@
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
       "MemoryOffset": 412,
-      "Description": "Core operation'BlockSet'"
-    },
-    {
-      "CodeBlock": "destroy_block",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 416,
       "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 422,
+      "MemoryOffset": 418,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 432,
+      "MemoryOffset": 428,
       "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 438,
+      "Description": "Core operation'BlockSet'"
     },
     {
       "CodeBlock": "do_teleport",
@@ -2322,73 +2328,73 @@
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 8,
       "MemoryOffset": 632,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_type'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 8,
-      "MemoryOffset": 636,
-      "Description": "Raw expression 'player_type'"
+      "MemoryOffset": 652,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 9,
       "MemoryOffset": 656,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var1'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 9,
-      "MemoryOffset": 660,
-      "Description": "Raw expression 'player_var1'"
+      "MemoryOffset": 676,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 10,
       "MemoryOffset": 680,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var2'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 10,
-      "MemoryOffset": 684,
-      "Description": "Raw expression 'player_var2'"
+      "MemoryOffset": 700,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 11,
       "MemoryOffset": 704,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var3'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 11,
-      "MemoryOffset": 708,
-      "Description": "Raw expression 'player_var3'"
+      "MemoryOffset": 724,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 12,
       "MemoryOffset": 728,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var4'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 12,
-      "MemoryOffset": 732,
-      "Description": "Raw expression 'player_var4'"
+      "MemoryOffset": 748,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 13,
       "MemoryOffset": 752,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var5'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 13,
-      "MemoryOffset": 756,
-      "Description": "Raw expression 'player_var5'"
+      "MemoryOffset": 772,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
@@ -4572,132 +4578,108 @@
       "CodeBlock": "function_changecolor",
       "CodeBlockLine": 1,
       "MemoryOffset": 5948,
-      "Description": "If 'targetcolor' NotEquals 'shirtcolor' ELSE GOTO 00006012"
+      "Description": "If 'targetcolor' NotEquals 'shirtcolor' ELSE GOTO 00006010"
     },
     {
       "CodeBlock": "function_changecolor",
       "CodeBlockLine": 3,
       "MemoryOffset": 5966,
-      "Description": "Core operation'TriggerPaletteSwap'"
-    },
-    {
-      "CodeBlock": "function_changecolor",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5970,
-      "Description": "Raw expression 'anim_all'"
-    },
-    {
-      "CodeBlock": "function_changecolor",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5976,
-      "Description": "Raw expression '1'"
-    },
-    {
-      "CodeBlock": "function_changecolor",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5982,
       "Description": "Raw expression 'shirtcolor'"
     },
     {
       "CodeBlock": "function_changecolor",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5992,
+      "MemoryOffset": 5976,
       "Description": "Raw expression 'targetcolor'"
     },
     {
       "CodeBlock": "function_changecolor",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6002,
+      "MemoryOffset": 5986,
+      "Description": "Core operation'ConfigurePaletteSwap'"
+    },
+    {
+      "CodeBlock": "function_changecolor",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5990,
+      "Description": "Raw expression 'anim_all'"
+    },
+    {
+      "CodeBlock": "function_changecolor",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5996,
+      "Description": "Core operation'TriggerPaletteSwap'"
+    },
+    {
+      "CodeBlock": "function_changecolor",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6000,
       "Description": "Set 'shirtcolor' to 'targetcolor'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6044,
+      "MemoryOffset": 6042,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6044,
+      "MemoryOffset": 6042,
       "Description": "Set 'newvalue' to 'map'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6050,
+      "MemoryOffset": 6048,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6070,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6074,
-      "Description": "Raw expression 'player'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6080,
-      "Description": "Raw expression '100'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6086,
-      "Description": "Raw expression '100'"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6124,
+      "MemoryOffset": 6100,
       "Description": "NEW_CODEBLOCK"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6124,
+      "MemoryOffset": 6100,
       "Description": "Set 'actor_animation' to 'anim_down_r'"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6130,
+      "MemoryOffset": 6106,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6134,
+      "MemoryOffset": 6110,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6138,
-      "Description": "If 'player_animation' NotEquals 'anim_down_r' ELSE GOTO 00006206"
+      "MemoryOffset": 6114,
+      "Description": "If 'player_animation' NotEquals 'anim_down_r' ELSE GOTO 00006182"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6170,
+      "MemoryOffset": 6146,
       "Description": "GOSUB TO 'PRE_QUIT'"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6190,
+      "MemoryOffset": 6166,
       "Description": "Core operation'Print'"
     },
     {
       "CodeBlock": "new_codeblock",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6194,
+      "MemoryOffset": 6170,
       "Description": "Print '{player_animation}' on quit"
     }
   ],
