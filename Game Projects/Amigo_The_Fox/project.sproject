@@ -1,31 +1,15 @@
 {
-  "GFXMode": "BP4",
-  "GFXModeAGA": "BP4",
   "TargetPlatform": "amiga_ocs",
-  "EmulatedAmiga": "A1200",
-  "EmulatedFastRam": 2,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
-  "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
-  "Uses24BitColor": true,
-  "AGARequired": false,
-  "SpriteMode": "Mode_0_16_Wide",
-  "SpriteColorBank": 1,
-  "FMode": 0,
-  "Width": 256,
-  "XOffset": 32,
-  "SScan2": false,
   "Recompile": true,
-  "Implode": true,
-  "MapCache": true,
+  "DebugMode": false,
+  "StartupSequenceDirty": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
   "UpJump": true,
   "JumpOnHold": false,
-  "XFillSize": 20,
-  "YFillSize": 16,
-  "Add21K": false,
   "DataVersion": 4,
   "Commands": [
     {
@@ -169,7 +153,7 @@
       "CD32Forward": false,
       "CD32Green": false,
       "CD32Yellow": false,
-      "OnPress": "debugstop",
+      "OnPress": "debug_breakpoint",
       "OnRelease": null
     },
     {
@@ -203,6 +187,22 @@
       "CD32Yellow": false,
       "OnPress": "",
       "OnRelease": "bg2"
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "M",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "music_toggle",
+      "OnRelease": null
     }
   ],
   "AnimationMetaData": {
@@ -238,7 +238,11 @@
       "LinkedMap": ""
     }
   },
-  "NumberFontMetaData": {},
+  "NumberFontMetaData": {
+    "default_numberfont": {
+      "Radix": 10
+    }
+  },
   "FontMetaData": {
     "default_font": {
       "IsMonoSpaced": false,
@@ -248,7 +252,54 @@
   },
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "OutputSpeed": "PAL_50HZ",
-  "DoubleCopper": true,
-  "AllocateMemoryUpfront": true
+  "PlatformData": {
+    "ID": "amiga_ocs",
+    "Data": {
+      "OutputSpeed": "PAL_50HZ",
+      "GFXMode": "BP5",
+      "MemorySaver": "None",
+      "EmulatedAmiga": "A1200",
+      "EmulatedFastRam": 0,
+      "WinUAEConfiguration": null,
+      "SpriteMode": "Mode_0_16_Wide",
+      "Uses24BitColor": false,
+      "SpriteColorBank": 1,
+      "SScan2": false,
+      "FMode": 0,
+      "Width": 256,
+      "XOffset": 32,
+      "XFillSize": 20,
+      "YFillSize": 17,
+      "Implode": true,
+      "MapCache": false,
+      "DoubleCopper": true,
+      "AllocateMemoryUpfront": true,
+      "NTSC": false
+    },
+    "Extension": "platformdata",
+    "GetGFXMode": "BP5",
+    "NTSC": false,
+    "OutputSpeed": "PAL_50HZ",
+    "Uses24BitColor": false,
+    "SpriteColorBank": 1,
+    "SpriteMode": "Mode_0_16_Wide",
+    "GFXMode": "BP5",
+    "EmulatedAmiga": "A1200",
+    "EmulatedFastRam": 0,
+    "WinUAEConfiguration": null,
+    "XFillSize": 20,
+    "YFillSize": 17,
+    "XOffset": 32,
+    "FMode": 0,
+    "Width": 256,
+    "SScan2": false,
+    "MapCache": false,
+    "DoubleCopper": true,
+    "AllocateMemoryUpfront": true,
+    "Implode": true,
+    "MemorySaver": "None",
+    "FolderPath": "C:\\Users\\earok\\OneDrive\\Desktop\\Scorpion\\Projects\\scorpion-editor-demos\\Game Projects\\Amigo_The_Fox\\",
+    "IsDirty": false,
+    "DirtyDelay": 0.0
+  }
 }

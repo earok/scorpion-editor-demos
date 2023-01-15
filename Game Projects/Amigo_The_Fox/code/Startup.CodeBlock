@@ -7,6 +7,7 @@
       "Value": "3",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -14,6 +15,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": true,
       "VariableType": "Variable"
     },
     {
@@ -21,6 +23,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -28,6 +31,7 @@
       "Value": "-7",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Constant"
     },
     {
@@ -35,6 +39,7 @@
       "Value": "1",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -42,6 +47,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -49,13 +55,15 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
       "Name": "Power",
       "Value": "0",
-      "Notes": null,
+      "Notes": "The player's current power level",
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -63,6 +71,7 @@
       "Value": "1",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Constant"
     },
     {
@@ -70,11 +79,13 @@
       "Value": "2",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Constant"
     }
   ],
   "Commands": [
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Audio",
       "BasicOperationType": "CommentOnly",
@@ -96,6 +107,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -147,6 +159,10 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 2,
       "Category": "Display",
       "BasicOperationType": "CommentOnly",
@@ -168,6 +184,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -219,6 +236,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Audio",
       "BasicOperationType": "CommentOnly",
@@ -233,13 +251,14 @@
       "CoreType": "RefreshActorVariable",
       "ControlMode": "Joys_1",
       "Goto": null,
-      "Comment": null,
+      "Comment": "",
       "Variable": "none",
       "Expression": "0",
       "Index": "0",
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -291,6 +310,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Display",
       "BasicOperationType": "CommentOnly",
@@ -312,6 +332,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -363,6 +384,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Display",
       "BasicOperationType": "CommentOnly",
@@ -384,6 +406,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -435,6 +458,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Level",
       "BasicOperationType": "CommentOnly",
@@ -456,6 +480,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -507,6 +532,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -528,6 +554,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -579,6 +606,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -600,6 +628,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -651,6 +680,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -672,6 +702,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -723,6 +754,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -744,6 +776,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -795,6 +828,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -816,6 +850,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -867,6 +902,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Display",
       "BasicOperationType": "CommentOnly",
@@ -888,6 +924,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -939,6 +976,7 @@
       "SpeakDelay": 1
     },
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Goto",
@@ -960,6 +998,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",

@@ -1,9 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
+  "MoveType": "control_platform",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 16,
@@ -99,7 +99,6 @@
     "Width": 8,
     "Height": 8
   },
-  "MoveType": "control_platform",
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 4.0,
@@ -108,10 +107,11 @@
   "SpeedDown": 3.0,
   "AccelLeft": 0.1,
   "AccelRight": 0.1,
-  "AccelUp": null,
+  "AccelUp": 0.3,
   "AccelDown": 0.1,
   "AccelLeftAir": 0.05,
   "AccelRightAir": 0.05,
+  "RotationSpeed": 0.0,
   "CollType_Left": "block",
   "CollType_Right": "block",
   "CollType_Up": "block",
@@ -132,7 +132,21 @@
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
-  "TileID": 0
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 0,
+  "DataVersion": 1,
+  "TileID": 0,
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Jump Cancel Dropoff"
 }

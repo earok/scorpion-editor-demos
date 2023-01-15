@@ -107,7 +107,7 @@
   "SpeedDown": 5.0,
   "AccelLeft": 0.5,
   "AccelRight": 0.5,
-  "AccelUp": null,
+  "AccelUp": 0.75,
   "AccelDown": 0.25,
   "AccelLeftAir": 0.25,
   "AccelRightAir": 0.25,
@@ -128,8 +128,8 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "fixpositions1",
-  "DivertOutOfScreenRight": "fixpositions1",
+  "DivertOutOfScreenLeft": "fallbottom",
+  "DivertOutOfScreenRight": "fallbottom",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": "fallbottom",
   "DivertPlatformEdge": null,
@@ -142,9 +142,11 @@
     "0",
     "0",
     "0",
-    "1"
+    "player"
   ],
   "ControlPort": 1,
+  "DataVersion": 1,
   "TileID": 0,
-  "SuggestedRecycle": "Never"
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Jump Cancel Dropoff"
 }

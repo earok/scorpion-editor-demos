@@ -21,4 +21,14 @@
       <property name="Name" value="static_king" type="string" />
     </properties>
   </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="platform_actor_specialparent" type="string" />
+    </properties>
+  </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="platform_actor_specialorbit" type="string" />
+    </properties>
+  </tile>
 </tileset>
