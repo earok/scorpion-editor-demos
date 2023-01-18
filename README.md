@@ -1,6 +1,6 @@
 # Scorpion Editor and sample games
 
-<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2022.7</a>
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2022.8</a>
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
@@ -36,6 +36,8 @@ The editor itself is not open source - but all of the included demos are.
 	- https://opengameart.org/content/ninja-throwing-items-kit-32x32
 
 * Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
+
+* Elf Spirit Hunters uses content from Toybox Jam 4 - https://itch.io/jam/toy-box-jam-4
 
 * Flighty Fox uses many of the same assets as Amigo the Fox
 
@@ -82,7 +84,7 @@ FS-UAE by Frode Solheim
 
 WinUAE by Toni Wilen
 
-Uses the Silk Icons pack - http://www.famfamfam.com/lab/icons/silk/ - as well as the application icons for FS-UAE, WinUAE and Backbone.
+ADF export uses boot sector by Ross
 
 Documentation still needs to be done, but this video covers the essentials: https://youtu.be/7gm3xcmardw
 
