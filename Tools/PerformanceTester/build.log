@@ -3,7 +3,7 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 37090
+Map gfx (Panel: scorpion_eng_splashscreen): 35930
 Music memory: 0
 BP Buffer memory: 104832
 core sfx/gfx memory: 1520
@@ -14,23 +14,23 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 1316
 Map background memory: 3088
-EXE memory: 211680
-vm memory: 7056
-project memory: 2296
+EXE memory: 201384
+vm memory: 6666
+project memory: 1124
 
-Accounted memory chip: 201042
-Accounted memory other: 225436
-Accounted memory total: 426478
+Accounted memory chip: 199882
+Accounted memory other: 213578
+Accounted memory total: 413460
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 2
-Actor Data Size: 592
+Actor Data Size: 432
 Block Count: 1
 Block Data Size: 52
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
@@ -40,16 +40,75 @@ Animations Data Size: 48
 AnimationFrame Count: 6
 AnimationFrame Data Size: 96
 ImageFrames: 6
-ImageFrame Data Size: 408
+ImageFrame Data Size: 264
+Sprites: 5
+Sprites Data Size: 70
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 30
 Asset bundle 0 (Core project asset bundle) Original size 1520 Crunched size 880
 Asset bundle 1 (level1) Original size 896 Crunched size 304
 Background for map level1 Original size 3088 Crunched size 612
 Tile data for map level1 (mem restrictions:No_Blocks) Original size 1316 Crunched size 184
-Header data for map level1 Original size 8756 Crunched size 238
+Header data for map level1 Original size 7988 Crunched size 234
 Parallax for map level1 Original size 57600 Crunched size 4374
-Project Data Original size 2296 Crunched size 326
+Project Data Original size 1124 Crunched size 314
 Project Header Original size 4040 Crunched size 1190
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel talkpad Original size 16030 Crunched size 2442
-Project virtual machine (codeblocks) Original size 7056 Crunched size 2026
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel talkpad Original size 15374 Crunched size 2646
+Project virtual machine (codeblocks) Original size 6666 Crunched size 2088
 Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 988
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+loop: 218
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+pre_quit: 166
+startup: 166
+flipxmove: 158
+load_panel: 146
+oncollide: 130
+destroy_all_blocks: 124
+unload_level: 114
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+onlanded: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+onupdate: 82
+waitforframes: 78
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+spawn: 60
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

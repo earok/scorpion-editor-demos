@@ -1,4 +1,5 @@
 {
+  "CompileOrder": 0,
   "DataVersion": 1,
   "Variables": [
     {
@@ -6,6 +7,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -13,6 +15,7 @@
       "Value": "255",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -20,6 +23,7 @@
       "Value": "255",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -27,12 +31,14 @@
       "Value": "255",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     }
   ],
   "Commands": [
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Level",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -43,7 +49,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "none",
@@ -52,6 +59,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -103,7 +111,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -114,7 +123,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "maxred",
@@ -123,6 +133,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -174,7 +185,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -185,7 +197,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "maxgreen",
@@ -194,6 +207,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -245,7 +259,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -256,7 +271,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "maxblue",
@@ -265,6 +281,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -316,7 +333,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -327,7 +345,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "palette_index",
@@ -336,6 +355,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -387,7 +407,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Conditional",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -398,7 +419,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "palette_index",
@@ -407,6 +429,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "LessThanOrEqual",
       "Level": "none",
       "NewBlock": "none",
@@ -458,7 +481,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Display",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "ReadColor",
@@ -469,7 +493,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "palette_index",
@@ -478,6 +503,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "LessThanOrEqual",
       "Level": "none",
       "NewBlock": "none",
@@ -529,7 +555,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -540,7 +567,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "red",
@@ -549,6 +577,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -600,7 +629,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -611,7 +641,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "green",
@@ -620,6 +651,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -671,7 +703,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -682,7 +715,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "blue",
@@ -691,6 +725,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -742,7 +777,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Display",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "WriteColor",
@@ -753,7 +789,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "palette_index",
@@ -762,6 +799,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "LessThanOrEqual",
       "Level": "none",
       "NewBlock": "none",
@@ -813,7 +851,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -824,7 +863,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "palette_index",
@@ -833,6 +873,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -884,7 +925,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 4,
       "Category": "Conditional",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -895,7 +937,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "palette_index",
@@ -904,6 +947,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "LessThanOrEqual",
       "Level": "none",
       "NewBlock": "none",

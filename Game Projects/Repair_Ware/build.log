@@ -23,23 +23,23 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 6504
 Map background memory: 2672
-EXE memory: 211680
-vm memory: 10074
-project memory: 5668
+EXE memory: 201336
+vm memory: 9760
+project memory: 3730
 
 Accounted memory chip: 362476
-Accounted memory other: 236598
-Accounted memory total: 599074
+Accounted memory other: 224002
+Accounted memory total: 586478
 
 === Misc ===
 Maps and Asset Bundles Count: 8
 Maps and Asset Bundles Data Size: 96
 Actor Count: 6
-Actor Data Size: 1776
+Actor Data Size: 1296
 Block Count: 3
 Block Data Size: 156
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 7
 Sound Data Size: 224
 Teleporter Count: 1
@@ -49,7 +49,12 @@ Animations Data Size: 272
 AnimationFrame Count: 25
 AnimationFrame Data Size: 400
 ImageFrames: 25
-ImageFrame Data Size: 1700
+ImageFrame Data Size: 1100
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 2
+Attack Data Size: 132
+Misc data size: 30
 Asset bundle 0 (Core project asset bundle) Original size 94156 Crunched size 33558
 Asset bundle 1 (lvl_cat) Original size 19680 Crunched size 3286
 Asset bundle 2 (lvl_cat2) Original size 19520 Crunched size 3298
@@ -72,19 +77,83 @@ Tile data for map lvl_endscreen (mem restrictions:None) Original size 1114 Crunc
 Tile data for map lvl_sew (mem restrictions:None) Original size 6504 Crunched size 2666
 Tile data for map lvl_sew2 (mem restrictions:None) Original size 6504 Crunched size 2682
 Tile data for map lvl_spider (mem restrictions:None) Original size 1114 Crunched size 494
-Header data for map lvl_cat Original size 8756 Crunched size 228
-Header data for map lvl_cat2 Original size 8756 Crunched size 228
-Header data for map lvl_column Original size 8756 Crunched size 228
-Header data for map lvl_endscreen Original size 8756 Crunched size 222
-Header data for map lvl_sew Original size 8756 Crunched size 300
-Header data for map lvl_sew2 Original size 8756 Crunched size 318
-Header data for map lvl_spider Original size 8756 Crunched size 228
-Project Data Original size 5668 Crunched size 1034
-Project Header Original size 4040 Crunched size 1188
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel column_destroy Original size 39810 Crunched size 26906
-Panel column_fix Original size 39810 Crunched size 22264
-Panel title Original size 55010 Crunched size 10502
-Panel tryagain Original size 16610 Crunched size 906
-Project virtual machine (codeblocks) Original size 10074 Crunched size 2750
+Header data for map lvl_cat Original size 7988 Crunched size 212
+Header data for map lvl_cat2 Original size 7988 Crunched size 212
+Header data for map lvl_column Original size 7988 Crunched size 212
+Header data for map lvl_endscreen Original size 7988 Crunched size 206
+Header data for map lvl_sew Original size 7988 Crunched size 272
+Header data for map lvl_sew2 Original size 7988 Crunched size 278
+Header data for map lvl_spider Original size 7988 Crunched size 212
+Project Data Original size 3730 Crunched size 980
+Project Header Original size 4040 Crunched size 1190
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel column_destroy Original size 38650 Crunched size 26870
+Panel column_fix Original size 38650 Crunched size 22206
+Panel title Original size 53850 Crunched size 10462
+Panel tryagain Original size 15450 Crunched size 896
+Project virtual machine (codeblocks) Original size 9760 Crunched size 2882
 Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 988
+endscreen_removecorner: 560
+endscreen: 398
+do_teleport: 362
+on_bighandupdate: 360
+flipscreen_smooth: 346
+level1: 322
+flipxymove: 306
+level3_win: 282
+level3_loop: 256
+on_catupdate: 248
+startup: 226
+level2: 218
+level3: 210
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+animate_rain: 188
+level4_badending: 178
+flipymove: 174
+pre_quit: 166
+flipxmove: 158
+load_panel: 146
+destroy_all_blocks: 124
+unload_level: 114
+level4: 98
+on_holerepaired: 98
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+on_spiderupdate: 94
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+waitforframes: 78
+level2_win: 76
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

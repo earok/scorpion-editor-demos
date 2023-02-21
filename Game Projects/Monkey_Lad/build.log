@@ -49,7 +49,7 @@ Reduce width of sprites\enemy\big2.png by 6 pixels to 16 to reduce sprites by 2
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: pnl_title): 42210
+Map gfx (Panel: pnl_title): 41050
 Music memory: 78332
 BP Buffer memory: 136320
 core sfx/gfx memory: 89570
@@ -60,23 +60,23 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 31552
 Map background memory: 2672
-EXE memory: 211680
-vm memory: 9768
-project memory: 12244
+EXE memory: 201336
+vm memory: 9102
+project memory: 9564
 
-Accounted memory chip: 346432
-Accounted memory other: 267916
-Accounted memory total: 614348
+Accounted memory chip: 345272
+Accounted memory other: 254226
+Accounted memory total: 599498
 
 === Misc ===
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 36
 Actor Count: 14
-Actor Data Size: 4144
+Actor Data Size: 3024
 Block Count: 13
 Block Data Size: 676
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 7
 Sound Data Size: 224
 Teleporter Count: 2
@@ -86,20 +86,98 @@ Animations Data Size: 560
 AnimationFrame Count: 58
 AnimationFrame Data Size: 928
 ImageFrames: 68
-ImageFrame Data Size: 4624
+ImageFrame Data Size: 2992
+Sprites: 56
+Sprites Data Size: 784
+Attack Data: 4
+Attack Data Size: 264
+Misc data size: 58
 Asset bundle 0 (Core project asset bundle) Original size 89570 Crunched size 31866
 Asset bundle 1 (level1) Original size 7360 Crunched size 3078
 Asset bundle 2 (level2) Original size 4640 Crunched size 1602
 Background for map level1 Original size 2672 Crunched size 174
 Background for map level2 Original size 2672 Crunched size 148
 Music file song Original size 78332 Crunched size 46572
-Tile data for map level1 (mem restrictions:None) Original size 31552 Crunched size 2428
+Tile data for map level1 (mem restrictions:None) Original size 31552 Crunched size 2426
 Tile data for map level2 (mem restrictions:None) Original size 20308 Crunched size 1248
-Header data for map level1 Original size 8756 Crunched size 352
-Header data for map level2 Original size 8756 Crunched size 398
-Project Data Original size 12244 Crunched size 3094
-Project Header Original size 4040 Crunched size 1206
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel pnl_title Original size 42210 Crunched size 7102
-Project virtual machine (codeblocks) Original size 9768 Crunched size 2572
+Header data for map level1 Original size 7988 Crunched size 340
+Header data for map level2 Original size 7988 Crunched size 388
+Project Data Original size 9564 Crunched size 3120
+Project Header Original size 4040 Crunched size 1210
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel pnl_title Original size 41050 Crunched size 7092
+Project virtual machine (codeblocks) Original size 9102 Crunched size 2614
 Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 988
+restart_level: 488
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+on_enterwater: 216
+set_yresolution: 200
+startup: 198
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+pre_quit: 166
+on_hardblockcollide: 166
+flipxmove: 158
+on_blockhit: 158
+on_blockhit_mysterycontainer: 158
+on_blockhit_starcontainer: 158
+on_blockhit_underwaterburgerrock: 158
+on_rockcollide: 148
+load_panel: 146
+on_playerkill: 144
+on_entered_checkpoint: 136
+destroy_all_blocks: 124
+on_finishlevel: 122
+blockcheck_hit: 116
+unload_level: 114
+spawnbrokenblock: 108
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+on_punch: 86
+fadeout: 84
+on_hitmerman: 80
+waitforframes: 78
+swapsky: 76
+on_getring: 70
+on_killenemy: 70
+quit: 66
+destroyplayer: 64
+on_getmoney: 64
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+on_playercollide: 60
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+teleport_test: 52
+destroy_block: 48
+on_frogjump: 46
+regenerate_screen_wait: 42
+spawn_merman: 36
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

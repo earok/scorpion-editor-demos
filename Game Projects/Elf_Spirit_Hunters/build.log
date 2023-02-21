@@ -23,7 +23,7 @@ Reduce width of sprites\enemy\witch_caught.png by 14 pixels to 32 to improve bli
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: store): 60172
+Map gfx (Panel: store): 57966
 Music memory: 0
 BP Buffer memory: 96096
 core sfx/gfx memory: 131088
@@ -34,23 +34,23 @@ Map cache memory: 1308
 Map header cache memory: 1308
 Map data memory: 6300
 Map background memory: 2672
-EXE memory: 211680
-vm memory: 16326
-project memory: 13300
+EXE memory: 201336
+vm memory: 15724
+project memory: 9670
 
-Accounted memory chip: 287356
-Accounted memory other: 252894
-Accounted memory total: 540250
+Accounted memory chip: 285150
+Accounted memory other: 238318
+Accounted memory total: 523468
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 25
-Actor Data Size: 7400
+Actor Data Size: 5400
 Block Count: 6
 Block Data Size: 312
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 9
 Sound Data Size: 288
 Teleporter Count: 1
@@ -60,19 +60,101 @@ Animations Data Size: 368
 AnimationFrame Count: 46
 AnimationFrame Data Size: 736
 ImageFrames: 46
-ImageFrame Data Size: 3128
+ImageFrame Data Size: 2024
+Sprites: 14
+Sprites Data Size: 196
+Attack Data: 3
+Attack Data Size: 198
+Misc data size: 114
 Asset bundle 0 (Core project asset bundle) Original size 131088 Crunched size 39226
 Asset bundle 1 (map) Original size 16000 Crunched size 3030
 Background for map map Original size 2672 Crunched size 92
 Tile data for map map (mem restrictions:None) Original size 6300 Crunched size 1308
-Header data for map map Original size 8756 Crunched size 258
-Project Data Original size 13300 Crunched size 2056
-Project Header Original size 4040 Crunched size 1190
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel emptypanel Original size 57070 Crunched size 2696
-Panel main_panel Original size 48610 Crunched size 4568
-Panel store Original size 60172 Crunched size 5610
-Panel title_panel Original size 44130 Crunched size 11094
-Panel ui Original size 20634 Crunched size 3176
-Project virtual machine (codeblocks) Original size 16326 Crunched size 4972
+Header data for map map Original size 7988 Crunched size 252
+Project Data Original size 9670 Crunched size 1958
+Project Header Original size 4040 Crunched size 1192
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel emptypanel Original size 56344 Crunched size 2944
+Panel main_panel Original size 47450 Crunched size 4558
+Panel store Original size 57966 Crunched size 5868
+Panel title_panel Original size 42970 Crunched size 11064
+Panel ui Original size 19204 Crunched size 3452
+Project virtual machine (codeblocks) Original size 15724 Crunched size 5176
 Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+game_loop: 2440
+store_selection: 1056
+load_level: 988
+activate: 500
+random_dir: 498
+beam_cross: 482
+game_over_bank: 448
+beam_collision: 446
+manager_heart: 444
+startup: 426
+manager: 414
+do_teleport: 362
+beam_test_side: 354
+flipscreen_smooth: 346
+flipxymove: 306
+battery_drain: 264
+hunt: 256
+store_manager: 236
+drop_chest: 202
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+flipxlook: 176
+flipymove: 174
+pre_quit: 166
+flipxmove: 158
+load_panel: 146
+celebrate: 132
+destroy_all_blocks: 124
+restart: 124
+unload_level: 114
+hunt_kill: 110
+destroyed_block: 108
+game_over: 100
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+chest_close: 94
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+return_to_northpole: 86
+fadeout: 84
+chest_open: 80
+waitforframes: 78
+chest_collision_left: 74
+chest_collision_right: 74
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+load_panel_finish: 56
+destroy_actor: 54
+kill_elf: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+beam_sfx: 42
+turn_right: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26
