@@ -1,6 +1,6 @@
 # Scorpion Editor and sample games
 
-<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2022.8</a>
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2023.0</a>
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
@@ -35,6 +35,8 @@ The editor itself is not open source - but all of the included demos are.
 	- https://opengameart.org/content/ninja-animated-0
 	- https://opengameart.org/content/ninja-throwing-items-kit-32x32
 
+* Big Ship demo reuses assets from Amigo the Fox demo, as well as the ship from https://opengameart.org/content/rpg-sprite-sheet
+
 * Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
 
 * Elf Spirit Hunters uses content from Toybox Jam 4 - https://itch.io/jam/toy-box-jam-4
@@ -48,6 +50,8 @@ The editor itself is not open source - but all of the included demos are.
 * Ladder demo uses art by Buch (https://opengameart.org/content/a-platformer-in-the-forest). "No snap" version by Lemming880.
 		
 * Light And Dark demo reuses some of the same assets used in Monkey Lad 
+
+* Line Of Sight demo reuses assets from Amigo the Fox demo
 
 * Mouse sample:
 	- https://opengameart.org/content/industrial-parallax-background
