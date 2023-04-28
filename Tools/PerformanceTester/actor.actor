@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Projectile",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Never",
   "MoveType": "cpu_platform",
@@ -20,12 +20,12 @@
   "Moves": {
     "UpLeft": null,
     "Up": null,
-    "UpRight": null,
+    "UpRight": "anim_gooma_r",
     "Left": null,
     "Right": null,
     "DownLeft": null,
     "Down": null,
-    "DownRight": null
+    "DownRight": "anim_gooma_r"
   },
   "Attacks": {
     "UpLeft": null,
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -8,
     "Y": -15,
@@ -116,7 +127,11 @@
   "CollType_Right": "bounce",
   "CollType_Up": "bounce",
   "CollType_Down": "block",
-  "Flags": 0,
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
+  "Flags": "projectile",
   "AttackProjectile": null,
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
@@ -145,8 +160,7 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 1,
-  "TileID": 0,
-  "SuggestedRecycle": "Never",
-  "UpAccelerationName": "Accel Up"
+  "DataVersion": 3,
+  "AutoSpawn": null,
+  "TileID": 0
 }

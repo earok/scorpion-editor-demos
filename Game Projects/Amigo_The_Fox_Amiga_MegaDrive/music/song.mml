@@ -1,0 +1,81 @@
+#title Tremolo Macro + PSG Percussion Test
+#composer Muscises
+#date 2022-10-13
+#platform megadrive
+
+@1 fm 4 0; 2op ep
+	31,0,12,7,0,28,0,0,5,0
+	31,0,2,6,0,0,0,0,2,0
+	31,0,12,7,0,28,0,0,5,0
+	31,0,2,6,0,0,0,0,2,0
+;         @ ML1 ML2 ML3 ML4 TRS
+@64 2op   1   2   2   3   3   0; per.5th
+
+@2 fm 4 3; Ins. 1
+ 31 19  8 10  8  52  2 15  3  0 
+ 27  7 10  6  8  12  1  1  7  0 
+ 30  6 11  6 15  46  2  2  3  0 
+ 30  7  0  7 15   4  2  2  7  0 
+
+@8 fm 4 0; 2op xylophone
+ 31,0,0,7,0,32,0,15,0,0
+ 31,0,12,7,0,0,0,12,0,0
+ 31,0,0,7,0,32,0,15,0,0
+ 31,0,12,7,0,0,0,12,0,0
+
+@3 psg; open hi-hat / tom
+	15>0:24 
+@M1 0>-16:20 -16 ;Pitch Env. for PSG Toms
+
+@4 psg; crash
+	15>0:64 
+
+@5 psg; open hi-hat
+	15>0:22 
+*30 @5v9o9a;  D30a
+*31 @5v6o9a;   D30b
+
+@6 psg; kick
+	15 14 13 12 10 8 6 1 0 / 0
+@M2 0>-6:5 -6    ;Pitch Env. for PSG Kick
+
+@7 psg; Clav
+	15 12 7 5 3 2 1 1 0
+*32 @7v12o7d;  D30c 
+
+;tremolo macro
+*70 'carry' L r16 'tl2 -2''tl4 -2' r32
+				  'tl2 -2''tl4 -2' r32
+				  'tl2 -2''tl4 -2' r32
+				  'tl2 -2''tl4 -2' r32
+				  'tl2 +2''tl4 +2' r32
+				  'tl2 +2''tl4 +2' r32
+				  'tl2 +2''tl4 +2' r32
+				  'tl2 +2''tl4 +2' r32
+
+A t100
+
+AB @64 V20Q8
+DE @64 V32Q8
+F  @2  V5Q8
+G  @3  v15Q8
+H  @7  v13Q8
+J  @4  v12Q8
+
+ABCDEFHM r1
+
+;PSG Perucssion
+G l8.o4M1f<afl8ee16eeM0 L @6M2o2l4[r8.e-8.e-/e-8e-]r16e-8e-16e-8 | r8.e-8.e-e-8e-r8.e-8.e-e-8.e-16e-8
+H L l8.D30[r8ccc4/l8cc]l16cccc
+J 'mode 0'l8.o1eff+8l16@3[e)][f][f+(]4 L 'mode 1' D30l16abaababbababbaaa
+
+;FM Chords
+AB L P70 [l2.o3{g/b}r8{e1/g+1}r8{g/b}/r8{a1/>c+1}r8] | r4l8o3{d/f+}{e/g}r{f+/a}r{b4/>d4}r
+DE K-24r8 L [l2.o3{g/b}r8{e1/g+1}r8{g/b}/r8{a1/>c+1}r8] | r4l8o3{d/f+}{e/g}r{f+/a}r{b4/>d4}r
+F L [l2.o2ar8f+1r8a/r8b1r8] | r4l8earbr>e4r
+
+;Ext CH3
+*100 o5[[er][e-r]/[er][g-r]][dr]l8dergra4b
+C @8 'fm3 0011' L V18*100
+M @8 'fm3 1100' r8 L V26K-20*100
+

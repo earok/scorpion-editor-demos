@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="1" compressionlevel="0">
+  <properties>
+    <property name="solid_left" type="bool" value="false" />
+    <property name="solid_right" type="bool" value="false" />
+  </properties>
+  <tileset firstgid="1" source="..\Actors.tsx" />
+  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="513" source="new_tileset.tileset.tsx" />
+  <layer id="1" name="map" width="16" height="14">
+    <data encoding="csv">
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
+514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514
+</data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="2" name="objects" width="16" height="14">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,257,0,0,0,0,0,0,0,
+0,0,3,0,0,0,3,0,273,0,0,0,0,3,0,0,
+0,0,0,0,0,0,0,0,257,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,273,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,257,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,273,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,257,257,257,0,0,0,0,0,0,
+0,0,0,0,0,0,0,273,273,273,0,0,0,0,0,0,
+0,0,0,0,257,0,257,257,257,257,257,0,0,0,0,0,
+0,0,0,0,273,0,273,273,273,273,273,0,0,0,0,0,
+0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,
+1,0,0,0,273,273,273,273,273,273,273,273,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="3" name="foreground" width="16" height="14">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+      <property name="megadrive" type="bool" value="true" />
+    </properties>
+  </layer>
+  <objectgroup id="5" name="events" />
+</map>
