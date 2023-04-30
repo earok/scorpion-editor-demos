@@ -112,6 +112,10 @@ ADF export uses boot sector by Ross
 
 Documentation still needs to be done, but this video covers the essentials: https://youtu.be/7gm3xcmardw
 
+Amiga output uses the [PT Player](https://eab.abime.net/showthread.php?t=87959) sound driver.
+
+Mega Drive output uses the [MDSDRV](https://github.com/superctr/MDSDRV) sound driver.
+
 Please report all bugs and other issues through the issues tab: https://github.com/earok/scorpion-editor-demos/issues
 
 Like and follow the project on Facebook: https://www.facebook.com/scorpionengine
