@@ -7,9 +7,9 @@
       "Values": {
         "SoundMD": "none"
       },
-      "DataVersion": 5,
-      "Category": "Display",
-      "BasicOperationType": "SetVariable",
+      "DataVersion": 6,
+      "Category": "Base",
+      "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "BackgroundSpritePairs",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
@@ -21,7 +21,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "",
+      "Comment": "Background sprite pairs are no longer supported. Set background flag on the the sprites.",
       "Variable": "backgroundspritepairs",
       "Expression": "4",
       "Index": "0",
@@ -29,7 +29,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -56,7 +64,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,

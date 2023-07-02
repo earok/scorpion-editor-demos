@@ -4,30 +4,30 @@ Reduce width of anims\deadfox.png by 4 pixels to 16 to improve blit performance 
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: md_parallax): 84580
+Map gfx (Panel: scorpion_eng_splashscreen): 35934
 Music memory (song): 76316
-BP Buffer memory: 163840
-core sfx/gfx memory: 15324
+BP Buffer memory: 104500
+core sfx/gfx memory: 15318
 Parallax memory: 41216
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 4080
+Map data memory: 4088
 Map background memory: 3088
-EXE memory: 202096
-vm memory: 8262
-project memory: 3412
+EXE memory: 203028
+vm memory: 8214
+project memory: 3264
 
-Accounted memory chip: 381276
-Accounted memory other: 220938
-Accounted memory total: 602214
+Accounted memory chip: 273284
+Accounted memory other: 221682
+Accounted memory total: 494966
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 11
-Actor Data Size: 2200
+Actor Count: 10
+Actor Data Size: 2000
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 0
@@ -44,37 +44,46 @@ ImageFrames: 11
 ImageFrame Data Size: 484
 Sprites: 7
 Sprites Data Size: 98
-Attack Data: 1
-Attack Data Size: 66
-Misc data size: 30
-Asset bundle 0 (Core project asset bundle) Original size 15324 Crunched size 3922
+Attack Data: 2
+Attack Data Size: 132
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 15318 Crunched size 3922
 Asset bundle 1 (level1) Original size 16360 Crunched size 2438
-Background for map level1 Original size 3088 Crunched size 598
+Background for map level1 Original size 3088 Crunched size 602
 Music file song Original size 76316 Crunched size 46970
-Tile data for map level1 (mem restrictions:No_Blocks) Original size 4080 Crunched size 386
-Header data for map level1 Original size 7996 Crunched size 248
+Tile data for map level1 (mem restrictions:No_Blocks) Original size 4088 Crunched size 386
+Header data for map level1 Original size 7996 Crunched size 250
 Parallax for map level1 Original size 41216 Crunched size 4144
-Project Data Original size 3412 Crunched size 736
+Project Data Original size 3264 Crunched size 708
 Project Header Original size 4032 Crunched size 1194
-Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
-Panel md_parallax Original size 84580 Crunched size 1976
-Panel ui Original size 5688 Crunched size 744
-Panel ui_megadrive Original size 17208 Crunched size 886
-Project virtual machine (codeblocks) Original size 8262 Crunched size 2658
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Panel ui Original size 5674 Crunched size 716
+Project virtual machine (codeblocks) Original size 8214 Crunched size 2640
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+anim_sun
+
+=== Possibly unused Actors ===
+pole1
+pole2
+pole3
+pole4
+pole5
+pole6
 
 === Codeblocks by compiled size ===
 load_level: 1012
 set_yresolution: 448
 levelstartloop: 448
-startup: 382
 do_teleport: 362
 flipscreen_smooth: 346 (Unused?)
+startup: 310
 flipxymove: 306 (Unused?)
 pause: 252 (Unused?)
 poleoffscreen: 234
+pre_startup: 194
 snap_to_screen: 190 (Unused?)
-pre_startup: 188
 flipymove: 174 (Unused?)
 flipxmove: 158 (Unused?)
 playerdead: 156
@@ -83,7 +92,7 @@ pre_quit: 146
 planehandler: 132
 destroy_all_blocks: 124 (Unused?)
 unload_level: 114
-load_panel_bottom: 96
+load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 waitforfireup: 94
 unload_panel: 92
@@ -99,6 +108,7 @@ spawnpole: 86
 fadeout: 84
 destroy_plane_offscreen: 84
 waitforframes: 78
+autoscroll: 74
 quit: 66
 destroy_all_actors: 62 (Unused?)
 jump_actor: 62 (Unused?)
@@ -111,7 +121,6 @@ destroy_actor: 54
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
-autoscroll: 48
 regenerate_screen_wait: 42
 debug_dump: 30 (Unused?)
 vm_registers: 26 (Unused?)

@@ -63,4 +63,9 @@
       <property name="Name" value="alexkidd_motorcycle" type="string" />
     </properties>
   </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="new_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>

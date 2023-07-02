@@ -49,30 +49,30 @@ Reduce width of sprites\enemy\big2.png by 6 pixels to 16 to reduce sprites by 2
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: pnl_title): 41060
+Map gfx (Panel: pnl_title): 41054
 Music memory (song): 78332
 BP Buffer memory: 109056
-core sfx/gfx memory: 82026
+core sfx/gfx memory: 82542
 Parallax memory: 0
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 31564
+Map data memory: 31588
 Map background memory: 2672
-EXE memory: 202096
-vm memory: 9892
-project memory: 9030
+EXE memory: 203028
+vm memory: 9896
+project memory: 9376
 
-Accounted memory chip: 310474
-Accounted memory other: 255254
-Accounted memory total: 565728
+Accounted memory chip: 310984
+Accounted memory other: 256560
+Accounted memory total: 567544
 
 === Misc ===
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 36
-Actor Count: 14
-Actor Data Size: 2800
+Actor Count: 15
+Actor Data Size: 3000
 Block Count: 13
 Block Data Size: 676
 Anim5 Count: 0
@@ -87,29 +87,40 @@ AnimationFrame Count: 58
 AnimationFrame Data Size: 928
 ImageFrames: 65
 ImageFrame Data Size: 2860
-Sprites: 52
-Sprites Data Size: 728
-Attack Data: 3
-Attack Data Size: 198
+Sprites: 53
+Sprites Data Size: 742
+Attack Data: 5
+Attack Data Size: 330
 Misc data size: 58
-Asset bundle 0 (Core project asset bundle) Original size 82026 Crunched size 30412
-Asset bundle 1 (level1) Original size 5632 Crunched size 2756
-Asset bundle 2 (level2) Original size 3584 Crunched size 1354
+Asset bundle 0 (Core project asset bundle) Original size 82542 Crunched size 30440
+Asset bundle 1 (level1) Original size 5632 Crunched size 2808
+Asset bundle 2 (level2) Original size 4352 Crunched size 1726
 Background for map level1 Original size 2672 Crunched size 174
 Background for map level2 Original size 2672 Crunched size 148
 Music file song Original size 78332 Crunched size 46572
-Tile data for map level1 (mem restrictions:None) Original size 31564 Crunched size 2398
-Tile data for map level2 (mem restrictions:None) Original size 23216 Crunched size 1294
-Header data for map level1 Original size 7996 Crunched size 344
-Header data for map level2 Original size 7996 Crunched size 394
-Project Data Original size 9030 Crunched size 2922
+Tile data for map level1 (mem restrictions:None) Original size 31588 Crunched size 2400
+Tile data for map level2 (mem restrictions:None) Original size 23224 Crunched size 1306
+Header data for map level1 Original size 7996 Crunched size 342
+Header data for map level2 Original size 7996 Crunched size 392
+Project Data Original size 9376 Crunched size 3034
 Project Header Original size 4032 Crunched size 1202
-Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
-Panel md_sky1 Original size 7460 Crunched size 392
-Panel md_sky2 Original size 7460 Crunched size 464
-Panel pnl_title Original size 41060 Crunched size 7102
-Project virtual machine (codeblocks) Original size 9892 Crunched size 2946
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Panel pnl_title Original size 41054 Crunched size 7090
+Project virtual machine (codeblocks) Original size 9896 Crunched size 2940
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused blocks ===
+underwaterburgerrock
+
+=== Possibly unused Actors ===
+bigfish
+bird
+frog
+merman
+ringshot
+scorpion
+smallfish
+new_actor
 
 === Codeblocks by compiled size ===
 load_level: 1012
@@ -121,8 +132,8 @@ flipxymove: 306 (Unused?)
 pause: 252 (Unused?)
 on_enterwater: 216
 startup: 206
+pre_startup: 194
 snap_to_screen: 190
-pre_startup: 188
 flipymove: 174 (Unused?)
 on_hardblockcollide: 166
 flipxmove: 158 (Unused?)
@@ -130,9 +141,9 @@ on_blockhit: 158
 on_blockhit_mysterycontainer: 158
 on_blockhit_starcontainer: 158
 on_blockhit_underwaterburgerrock: 158
+on_playerkill: 150
 load_panel: 146
 pre_quit: 146
-on_playerkill: 144
 on_entered_checkpoint: 136
 destroy_all_blocks: 124 (Unused?)
 on_finishlevel: 122

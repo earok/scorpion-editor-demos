@@ -66,4 +66,9 @@
       <property name="Name" value="fish" type="string" />
     </properties>
   </tile>
+  <tile id="17">
+    <properties>
+      <property name="Name" value="fx_glitter" type="string" />
+    </properties>
+  </tile>
 </tileset>

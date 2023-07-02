@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="2" compressionlevel="0">
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="2" compressionlevel="0">
   <properties />
   <tileset firstgid="1" source="..\Actors.tsx" />
   <tileset firstgid="257" source="..\Blocks.tsx" />
   <tileset firstgid="513" source="lvl_column.tileset.tsx" />
-  <layer id="1" name="map" width="16" height="9">
+  <layer id="1" name="map" width="16" height="14">
     <data encoding="csv">
 513,513,513,513,513,513,513,513,513,513,514,515,516,517,518,519,
 513,513,513,513,513,513,513,513,513,513,513,520,521,522,523,524,
@@ -14,15 +14,20 @@
 513,513,513,513,513,513,513,513,513,513,513,534,535,536,513,537,
 513,513,513,513,513,513,513,513,513,513,513,538,539,540,513,541,
 513,513,513,513,513,513,513,513,513,513,513,542,543,544,513,545,
-513,513,513,513,513,513,513,513,513,513,513,546,547,548,549,550
+513,513,513,513,513,513,513,513,513,513,513,546,547,548,549,550,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
-      <property name="megadrive" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
-  <layer id="2" name="objects" width="16" height="9">
+  <layer id="2" name="objects" width="16" height="14">
     <data encoding="csv">
 6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -32,15 +37,20 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
-      <property name="megadrive" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
-  <layer id="3" name="foreground" width="16" height="9">
+  <layer id="3" name="foreground" width="16" height="14">
     <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -50,12 +60,17 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
-      <property name="megadrive" type="bool" value="true" />
-      <property name="foreground" type="bool" value="True" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events" />

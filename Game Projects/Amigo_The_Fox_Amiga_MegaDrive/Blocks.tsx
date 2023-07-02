@@ -153,4 +153,19 @@
       <property name="Name" value="block_candle" type="string" />
     </properties>
   </tile>
+  <tile id="32">
+    <properties>
+      <property name="Name" value="block_coincollect_brick" type="string" />
+    </properties>
+  </tile>
+  <tile id="33">
+    <properties>
+      <property name="Name" value="block_coincollect_collumn" type="string" />
+    </properties>
+  </tile>
+  <tile id="34">
+    <properties>
+      <property name="Name" value="block_coincollect_cave" type="string" />
+    </properties>
+  </tile>
 </tileset>

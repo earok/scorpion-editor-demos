@@ -1,5 +1,5 @@
 {
-  "DataVersion": 3,
+  "DataVersion": 6,
   "FirstCopper": 0,
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
@@ -10,7 +10,7 @@
   "TalkpadY": 16,
   "TalkpadWidth": 272,
   "TalkpadHeight": 8,
-  "PanelImagePath": "panels\\ui.png",
+  "PanelImagePath": "ui.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -25,9 +25,10 @@
       "NumberFont": null,
       "Font": null,
       "BarImage": null,
-      "CounterImage1": "panels\\elf_lives.png",
+      "CounterImage1": "elf_lives.png",
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 5
     },
     {
@@ -38,9 +39,10 @@
       "NumberFont": null,
       "Font": null,
       "BarImage": null,
-      "CounterImage1": "panels\\chest_full.png",
+      "CounterImage1": "chest_full.png",
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 3
     },
     {
@@ -51,9 +53,10 @@
       "NumberFont": null,
       "Font": null,
       "BarImage": null,
-      "CounterImage1": "panels\\elf_dead.png",
+      "CounterImage1": "elf_dead.png",
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 5
     },
     {
@@ -64,9 +67,10 @@
       "NumberFont": null,
       "Font": null,
       "BarImage": null,
-      "CounterImage1": "panels\\chest_lives.png",
+      "CounterImage1": "chest_lives.png",
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 3
     },
     {
@@ -76,10 +80,11 @@
       "Y": 0,
       "NumberFont": null,
       "Font": null,
-      "BarImage": "panels\\battery_bar.png",
-      "CounterImage1": "panels\\battery_lives.png",
+      "BarImage": "battery_bar.png",
+      "CounterImage1": "battery_lives.png",
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 80
     },
     {
@@ -93,6 +98,7 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 32767
     }
   ],
@@ -111,7 +117,20 @@
   "PaletteLines_MegaDrive": 1,
   "StartingPaletteLine_MegaDrive": 3,
   "TalkpadPalLine": 0,
+  "FireIndicatorPalLine": 0,
+  "ChoiceIndicatorPalLine": 0,
   "NumberFontPaletteLine": 0,
   "ParallaxMultiplierX": 0.5,
-  "ParallaxMultiplierY": 0.0
+  "ParallaxMultiplierY": 0.0,
+  "SliceMode": "Unsliced",
+  "PanelSlices": [
+    {
+      "Left": -0.5,
+      "Idle": 0.0,
+      "Right": 0.5,
+      "Top": 0
+    }
+  ],
+  "ParallaxOverlayPath": null,
+  "Gap": 4
 }

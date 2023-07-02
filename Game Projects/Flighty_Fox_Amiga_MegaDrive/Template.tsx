@@ -46,9 +46,4 @@
       <property name="Name" value="plane_dead" type="string" />
     </properties>
   </tile>
-  <tile id="9">
-    <properties>
-      <property name="Name" value="sun" type="string" />
-    </properties>
-  </tile>
 </tileset>
