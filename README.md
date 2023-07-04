@@ -1,4 +1,4 @@
-![image](https://github.com/earok/scorpion-editor-demos/assets/4329047/03e52c0a-8214-4ba7-8f7f-98456d556f7e)# Scorpion Editor and sample games
+# Scorpion Editor and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports both the Commodore Amiga and Sega Mega Drive / Genesis.
 
