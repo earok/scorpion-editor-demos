@@ -5439,6 +5439,7 @@
   <animation>
    <frame tileid="1086" duration="1000"/>
    <frame tileid="1098" duration="1000"/>
+   <frame tileid="3" duration="1000"/>
   </animation>
  </tile>
  <tile id="453">
@@ -5455,6 +5456,7 @@
   <animation>
    <frame tileid="1098" duration="1000"/>
    <frame tileid="1086" duration="1000"/>
+   <frame tileid="3" duration="1000"/>
   </animation>
  </tile>
  <tile id="454">

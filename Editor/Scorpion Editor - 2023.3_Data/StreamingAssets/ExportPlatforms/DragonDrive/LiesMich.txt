@@ -1,0 +1,47 @@
+Flashkit - ein einfaches Tool, um DragonDrive-Karten mit Krikzz Flashkit zu flashen
+-----------------------------------------------------------------------------------
+--- Windows Version ---
+
+Dieses Programm wurde erstellt, um mit den DragonDrive-Karten benutzt zu werden.
+Falls Du Krikzz Flashkarten verwendest, lade bitte sein eigenes Tool herunter.
+
+
+Anwendung
+---------
+
+Dieses Programm hat eine grafische Oberfläche und muss daher von der Kommandozeile benutzt werden.
+Wenn es ohne weitere Parameter gestartet wird, zeigt es eine Kurzinfo, die eigentlich selbsterklärend sein sollte:
+
+-d <ttydevice>      (default /dev/ttyS2, which would be COM-Port 3)
+-r <file> [size]    dump the cart (default 4MB)
+-w <file> [size]    flash the cart (file size)
+-e <size>           erase (rounds to block size)
+-a <start_address>  cart start address (default 0)
+-v                  verify written data
+-i                  get info about the flash chip
+
+Was Du rausfinden musst, ist, welchen COM-Port Windows dem Flashkit zugeordnet hat.
+Das kann man im Gerätemanager nachschauen.
+
+Die Werte, die Du verwenden musst, sind:
+COM1: /dev/ttyS0
+COM2: /dev/ttyS1
+COM3: /dev/ttyS2 (der Standartwert)
+COM4: /dev/ttyS3
+... und so weiter, ich denke, Du hast das verstanden :)
+
+Um ein ROM auf die Karte zu flashen, musst Du einfach nur folgendes eintippen:
+
+flashkit.exe -d /dev/ttySX -w YOUR-ROM.bin
+oder
+flashkit.exe -d /dev/ttySX -v -w YOUR-ROM.bin
+
+Mit dem -v Parameter wird einfach nochmal überprüft, ob das ROM korrekt auf die Karte geschrieben wurde.
+Das X musst Du entsprechend Deinem COM-Port anpassen.
+Wenn COM-Port 3 verwendet wird, kann der -d Parameter komplett weggelassen werden.
+
+Und das wars auch schon :)
+
+Hinweis:
+Sollte die Antwort "unexpected CFI response: ffff ffff ffff" kommen, ist die Flashkarte verkehrt herum im Flasher drin.
+Die geht aber dadurch nicht kaputt - einfach anders rum reinstecken und nochmal flashen :)

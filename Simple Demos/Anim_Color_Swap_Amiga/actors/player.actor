@@ -3,10 +3,10 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "control_tilebased",
   "MaxEntities": 0,
   "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeY": -5,
   "Idles": {
     "UpLeft": "anim_up_l",
     "Up": "anim_up",
@@ -93,9 +93,20 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -8,
-    "Y": -8,
+    "Y": 5,
     "Width": 16,
     "Height": 16
   },
@@ -122,7 +133,6 @@
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -151,7 +161,6 @@
   "ControlPort": 1,
   "DataVersion": 3,
   "AutoSpawn": null,
-  "TileID": 0,
-  "SuggestedRecycle": "Never",
-  "UpAccelerationName": "Accel Up"
+  "AutoNavigate": false,
+  "TileID": 0
 }
