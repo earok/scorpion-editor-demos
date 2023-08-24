@@ -13,7 +13,7 @@ Special thanks to our generous Patreon backers that have made Scorpion possible,
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
-[![Overview Video](http://img.youtube.com/vi/7gm3xcmardw/0.jpg)](http://www.youtube.com/watch?v=7gm3xcmardw)
+[<img src="https://i.ytimg.com/vi/pDGaP30KCDU/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=pDGaP30KCDU)
 
 Videos:
 - Brief introduction: https://youtu.be/7gm3xcmardw
