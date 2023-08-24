@@ -4,7 +4,7 @@ The Scorpion Engine is the world's first game creation engine and IDE that suppo
 
 Special thanks to our generous Patreon backers that have made Scorpion possible, including:
 
-[Acidbottle](https://acidbottle.itch.io/), [Alexis Chacon](https://weapon121.itch.io/), BitBeamCannon,[CRIAPOLIS](https://twitter.com/_fabdigital_), Daniel Voelkel, [DomKid](https://z-team.itch.io/), Dustin Smith, Goldblat Alex, Iain McNulty, Jacek Nockowski, Jim Weinhart, John Kevan, [Lemming880](https://lemming880.itch.io/), Mahen, Master Linkuei (P.H.G.F), Matteo Trevisan, Michael Jurisch, Mixel, [msmalik681](https://www.youtube.com/channel/UCifkM8Bw0ltxy3AghXhDhAA), Nigel Critten, Ole Johnny Devik, [Predseda](https://www.lemonamiga.com), Rainer Koschnick, Raptor Games, The Amiga Show, Yado
+[Acidbottle](https://acidbottle.itch.io/), [Alexis Chacon](https://weapon121.itch.io/), aZtOcKdOg, BitBeamCannon,[CRIAPOLIS](https://twitter.com/_fabdigital_), Cyberian, Daniel Voelkel, [DomKid](https://z-team.itch.io/), Dustin Smith, Goldblat Alex, Iain McNulty, Jacek Nockowski, Jim Weinhart, John Kevan, [Lemming880](https://lemming880.itch.io/), Mahen, Master Linkuei (P.H.G.F), Matteo Trevisan, Michael Jurisch, Mixel, [msmalik681](https://www.youtube.com/channel/UCifkM8Bw0ltxy3AghXhDhAA), Nigel Critten, Ole Johnny Devik, [Predseda](https://www.lemonamiga.com), Rainer Koschnick, Raptor Games, The Amiga Show, Yado
 
 (If I've missed your name on the list - please get in touch on Patreon)
 
@@ -17,7 +17,6 @@ Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon<
 
 Videos:
 - Brief introduction: https://youtu.be/7gm3xcmardw
-- Backbone import: https://youtu.be/Mv30lGq-HTI
 - Slopes and animation loops: https://youtu.be/38YW2abc3qs
 
 The editor and engine itself is not open source - all of the included demos are.
@@ -82,7 +81,9 @@ The editor and engine itself is not open source - all of the included demos are.
 * Platformer modes demo reuses some of the same assets used in Amigo the Fox
 
 * Render Modes and Palettes demo reuses some of the same assets used in Amigo the Fox
-		
+
+* RetroAnimator demo features art by Tsak
+  
 * Monkey Lad is a game based on Alex Kidd, created around the art assets by surt (https://opengameart.org/content/monkey-lad-in-magical-planet). Featuring music by JMD.
  	
 * RepairWare demo ported from the game by Sergio Cornaga.
@@ -103,11 +104,11 @@ The editor and engine itself is not open source - all of the included demos are.
 
 * WHDLoad slave based on Generic 3.1 Kickstart WHDLoad slave by JOTD and Wepl
 
-EXE2ADF by Bonefish
+[EXE2ADF](https://www.exe2adf.com/) by Bonefish
 
-FS-UAE by Frode Solheim
+[FS-UAE](https://fs-uae.net/) by Frode Solheim
 
-WinUAE by Toni Wilen
+[WinUAE](https://www.winuae.net/) by Toni Wilen
 
 ADF export uses boot sector by Ross
 
@@ -116,6 +117,8 @@ Documentation still needs to be done, but this video covers the essentials: http
 Amiga output uses the [PT Player](https://eab.abime.net/showthread.php?t=87959) sound driver.
 
 Mega Drive output uses the [MDSDRV](https://github.com/superctr/MDSDRV) sound driver.
+
+Default palette is [Go-Line](https://lospec.com/palette-list/go-line).
 
 Please report all bugs and other issues through the issues tab: https://github.com/earok/scorpion-editor-demos/issues
 
