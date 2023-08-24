@@ -13,11 +13,8 @@ Special thanks to our generous Patreon backers that have made Scorpion possible,
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
+Brief introduction video:
 [<img src="https://img.youtube.com/vi/pDGaP30KCDU/0.jpg" width="50%">](https://www.youtube.com/watch?v=pDGaP30KCDU)
-
-Videos:
-- Brief introduction: https://youtu.be/7gm3xcmardw
-- Slopes and animation loops: https://youtu.be/38YW2abc3qs
 
 The editor and engine itself is not open source - all of the included demos are.
 
