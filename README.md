@@ -114,7 +114,9 @@ Documentation still needs to be done, but this video covers the essentials: http
 
 Amiga output uses the [PT Player](https://eab.abime.net/showthread.php?t=87959) sound driver.
 
-Mega Drive output uses the [MDSDRV](https://github.com/superctr/MDSDRV) sound driver.
+Mega Drive [MDSDRV](https://github.com/superctr/MDSDRV) sound driver by Ian Karlsson.
+
+Mega Drive XGM sound driver (part of [SGDK](https://github.com/Stephane-D/SGDK) by Stef), based on the [NextBasic](https://alcatstudio.blogspot.com/p/nextbasic-compiler.html) implementation of XGM, thanks to Luiz Mendoza and Matheus Castellar.
 
 Default palette is [Go-Line](https://lospec.com/palette-list/go-line).
 
