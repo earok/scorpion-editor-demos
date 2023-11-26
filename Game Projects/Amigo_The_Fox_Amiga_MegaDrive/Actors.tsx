@@ -51,7 +51,11 @@
       <property name="Name" value="star_spawn" type="string" />
     </properties>
   </tile>
-  <tile id="10" />
+  <tile id="10">
+    <properties>
+      <property name="Name" value="evil_mushroom" type="string" />
+    </properties>
+  </tile>
   <tile id="11">
     <properties>
       <property name="Name" value="turtle" type="string" />

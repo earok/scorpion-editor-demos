@@ -2,7 +2,7 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="10" nextobjectid="1" compressionlevel="0">
   <properties>
     <property name="divert_timer" value="" />
-    <property name="solid_top" type="bool" value="true" />
+    <property name="padding_top" type="int" value="1" />
   </properties>
   <tileset firstgid="1" source="..\Actors.tsx" />
   <tileset firstgid="257" source="..\Blocks.tsx" />
@@ -31,6 +31,7 @@
       <property name="amiga_ocs_cdtv" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="megadrive_32x" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="7" name="detail" width="32" height="16">
@@ -57,6 +58,7 @@
       <property name="amiga_ocs_cdtv" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="megadrive_32x" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="foreground" width="32" height="16">
@@ -83,6 +85,7 @@
       <property name="amiga_ocs_cdtv" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="megadrive_32x" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="32" height="16">
@@ -109,6 +112,7 @@
       <property name="amiga_ocs_cdtv" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="megadrive_32x" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events" />

@@ -8,33 +8,33 @@
   "NudgeX": 9,
   "NudgeY": 16,
   "Idles": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "spring_idle_l",
     "Right": "spring_idle_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": "spring_jump_l",
-    "Up": null,
+    "Up": "",
     "UpRight": "spring_jump_r",
     "Left": "spring_walk_l",
     "Right": "spring_walk_r",
     "DownLeft": "spring_jump_l",
-    "Down": null,
+    "Down": "",
     "DownRight": "spring_jump_r"
   },
   "Attacks": {
     "UpLeft": "spring_crouch_l",
-    "Up": null,
+    "Up": "",
     "UpRight": "spring_crouch_r",
     "Left": "spring_crouch_l",
     "Right": "spring_crouch_r",
     "DownLeft": "spring_crouch_l",
-    "Down": null,
+    "Down": "",
     "DownRight": "spring_crouch_r"
   },
   "ProjectileOffsets": [
@@ -93,6 +93,17 @@
       "sqrMagnitude": 386
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -3,
     "Y": -16,
@@ -117,23 +128,23 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
+  "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": "water",
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": "sndshot",
   "JumpSound": null,
-  "DivertAttack": null,
+  "DivertAttack": "",
   "DivertSpawn": "",
   "DivertPlayerCollision": "collider_with_player",
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": "fallbottom",
   "DivertOutOfScreenRight": "fallbottom",
-  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "fallbottom",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
@@ -149,7 +160,7 @@
   ],
   "ControlPort": 1,
   "DataVersion": 3,
-  "TileID": 10,
-  "SuggestedRecycle": "Never",
-  "UpAccelerationName": "Jump Cancel Dropoff"
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": 10
 }

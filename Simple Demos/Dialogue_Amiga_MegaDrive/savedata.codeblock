@@ -25,6 +25,7 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
@@ -36,14 +37,7 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "IsOR": false,
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": ""
-        }
-      ],
+      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -56,10 +50,10 @@
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
-      "ResetMovement": true,
+      "ResetMovement": false,
       "ResetAnimations": true,
       "ShootDirType": "actor_direction",
-      "Panel": "none",
+      "Panel": "panel_talkpad",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "",
@@ -70,7 +64,13 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": "224",
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
       "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
@@ -78,10 +78,6 @@
       "CameraFollowDown": true,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
-      "Fire1Jump": false,
-      "Fire2Jump": true,
-      "UpJump": true,
-      "JumpOnHold": false,
       "ColorIndex": "0",
       "Color": {
         "r": 0,
