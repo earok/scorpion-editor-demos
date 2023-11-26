@@ -1,4 +1,4 @@
-# Scorpion Editor 2023.3 and sample games
+# Scorpion Editor 2023.4 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports both the Commodore Amiga and Sega Mega Drive / Genesis.
 
@@ -9,7 +9,7 @@ Special thanks to our generous Patreon backers that have made Scorpion possible,
 (If I've missed your name on the list - please get in touch on Patreon)
 
 
-<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2023.3</a>
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2023.4</a>
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
