@@ -116,9 +116,16 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "LeftSide": "isamiga",
-          "Comparison": "NotZero",
-          "RightSide": "",
+          "LeftSide": "audiodriver",
+          "Comparison": "Equals",
+          "RightSide": "audiodriver_ptplayer",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "audiodriver",
+          "Comparison": "Equals",
+          "RightSide": "audiodriver_mdsdrv",
           "ComparisonNext": "End",
           "IsValid": true
         }
