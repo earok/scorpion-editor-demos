@@ -15,16 +15,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 5092
 Map background memory: 2052
-EXE memory: 210108
-vm memory: 8284
+EXE memory: 211412
+vm memory: 8448
 project memory: 1474
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 435608
-Accounted memory other: 240970
-Accounted memory total: 676578
+Accounted memory other: 242438
+Accounted memory total: 678046
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -50,16 +50,16 @@ Sprites Data Size: 56
 Attack Data: 2
 Attack Data Size: 132
 Misc data size: 16
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
+Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
 Header data for map new_map Original size 7992 Crunched size 252
 Tile data for map new_map (mem restrictions:None) Original size 5092 Crunched size 930
 Background for map new_map Original size 2052 Crunched size 448
 Parallax for map new_map Original size 57600 Crunched size 8218
 Asset bundle 0 (Core project asset bundle) Original size 3608 Crunched size 688
 Asset bundle 1 (new_map) Original size 38080 Crunched size 17652
-Project Header Original size 4036 Crunched size 1192
-Project Data Original size 1474 Crunched size 372
-Project virtual machine (codeblocks) Original size 8284 Crunched size 2526
+Project Header Original size 4032 Crunched size 1188
+Project Data Original size 1474 Crunched size 368
+Project virtual machine (codeblocks) Original size 8448 Crunched size 2600
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -67,21 +67,22 @@ player
 playershot
 
 === Codeblocks by compiled size ===
-load_level: 986
+load_level: 726
 set_yresolution: 446 (Unused?)
-do_teleport: 320
+do_teleport: 368
 flipscreen_smooth: 306 (Unused?)
-pre_startup: 290
 levelmanager: 264
-pause: 252 (Unused?)
 flipxymove: 250 (Unused?)
+pre_startup: 206
+check_talkpad: 188 (Unused?)
 waitforframes: 186
+startup: 180
+pause: 164 (Unused?)
 snap_to_screen: 158
 flipymove: 146 (Unused?)
 load_panel: 146
 pre_quit: 144
 enemyshotspawn: 136
-startup: 132
 flipxmove: 130 (Unused?)
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
@@ -92,10 +93,12 @@ unload_level: 114
 palette_cycle: 110
 waitforfireup: 106
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_destroy_actor: 106
+fadein: 102
 waitforfiredown: 102
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 unload_panel: 92
+destroy_child_actors: 90 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 fadeout: 84
@@ -107,21 +110,25 @@ wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 flipscreen: 70 (Unused?)
 quit: 66
+load_music_finish: 64
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-fadein: 58
 destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
 destroy_actor: 54
-load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
 regenerate_screen_wait: 42
+freeze_actor: 36 (Unused?)
+unfreeze_actor: 36 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)

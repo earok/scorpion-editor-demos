@@ -15,16 +15,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 31600
 Map background memory: 1396
-EXE memory: 210108
-vm memory: 10596
-project memory: 8992
+EXE memory: 211412
+vm memory: 11334
+project memory: 8926
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 515788
-Accounted memory other: 276652
-Accounted memory total: 792440
+Accounted memory other: 278628
+Accounted memory total: 794416
 
 === Misc ===
 Maps and Asset Bundles Count: 3
@@ -47,12 +47,12 @@ ImageFrames: 55
 ImageFrame Data Size: 2420
 Sprites: 53
 Sprites Data Size: 742
-Attack Data: 5
-Attack Data Size: 330
+Attack Data: 4
+Attack Data Size: 264
 Misc data size: 58
 Music file song Original size 78332 Crunched size 46572
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
-Panel pnl_title Original size 41058 Crunched size 7090
+Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
+Panel pnl_title Original size 41058 Crunched size 7092
 Header data for map level1 Original size 7992 Crunched size 338
 Tile data for map level1 (mem restrictions:None) Original size 31600 Crunched size 2398
 Background for map level1 Original size 1396 Crunched size 164
@@ -62,9 +62,9 @@ Background for map level2 Original size 1396 Crunched size 136
 Asset bundle 0 (Core project asset bundle) Original size 82542 Crunched size 30442
 Asset bundle 1 (level1) Original size 5632 Crunched size 2808
 Asset bundle 2 (level2) Original size 4352 Crunched size 1726
-Project Header Original size 4036 Crunched size 1204
-Project Data Original size 8992 Crunched size 2904
-Project virtual machine (codeblocks) Original size 10596 Crunched size 3054
+Project Header Original size 4032 Crunched size 1200
+Project Data Original size 8926 Crunched size 2898
+Project virtual machine (codeblocks) Original size 11334 Crunched size 3204
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused blocks ===
@@ -81,17 +81,18 @@ scorpion
 smallfish
 
 === Codeblocks by compiled size ===
-load_level: 986
-restart_level: 486
+load_level: 726
+restart_level: 582
 set_yresolution: 446
-do_teleport: 320
+do_teleport: 368
 flipscreen_smooth: 306 (Unused?)
-pre_startup: 290
-pause: 252 (Unused?)
 flipxymove: 250 (Unused?)
 startup: 236
 on_enterwater: 208
+pre_startup: 206
+check_talkpad: 188 (Unused?)
 waitforframes: 186
+pause: 164 (Unused?)
 on_playerkill: 160
 snap_to_screen: 158
 flipymove: 146 (Unused?)
@@ -111,17 +112,25 @@ on_entered_checkpoint: 120
 load_music: 118
 pre_load_level: 118
 unload_level: 114
+on_rockcollide: 112
 waitforfireup: 106
 spawnbrokenblock: 104
+fadein: 102
 waitforfiredown: 102
 blockcheck_hit: 98 (Unused?)
-on_rockcollide: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 unload_panel: 92
+destroy_child_actors: 90 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
+autogen_alexkidd_punch_jump_l_0: 86
+autogen_alexkidd_punch_l_0: 86
+autogen_alexkidd_swim_attack_r_0: 86
+autogen_alexkidd_swim_attack_l_0: 86
 fadeout: 84
+autogen_alexkidd_punch_jump_r_0: 84
+autogen_alexkidd_punch_r_0: 84
 on_punch: 84
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 78
 wrap_screen_bottom: 76 (Unused?)
@@ -135,17 +144,16 @@ on_getring: 70
 on_killenemy: 70
 quit: 66
 on_hitmerman: 66
+load_music_finish: 64
 on_getmoney: 64
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
 zzz_cameratrack: 62 (Unused?)
-fadein: 58
 destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
 destroy_actor: 54
 on_playercollide: 54
-load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
 teleport_test: 52
@@ -153,10 +161,15 @@ AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 50
 destroy_block: 48 (Unused?)
 on_frogjump: 46
 regenerate_screen_wait: 42
+freeze_actor: 36 (Unused?)
+unfreeze_actor: 36 (Unused?)
 spawn_merman: 36
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)

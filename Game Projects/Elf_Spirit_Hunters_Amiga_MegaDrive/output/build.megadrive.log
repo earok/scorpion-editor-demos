@@ -1,20 +1,36 @@
-MDS Bin file Original size 8204 Crunched size 8204
-MDS Sequence file Original size 290 Crunched size 290
+XGM Null sound Original size 256 Crunched size 256
+XGM Null song Original size 172 Crunched size 172
+Dynamic pattern data for 1 Original size 32 Crunched size 32
+Map path node data for map Original size 12 Crunched size 12
+Map event data for map Original size 32 Crunched size 32
+XGM PCM sound Original size 1536 Crunched size 1536
+XGM 68K Plugin Driver Original size 804 Crunched size 804
+Map tile data  map Original size 2244 Crunched size 69
+Map block data for map Original size 2244 Crunched size 102
+Teleporters Original size 8 Crunched size 8
+Commands for Joystick 1 Original size 12 Crunched size 12
+XGM PCM sound Original size 48384 Crunched size 48384
+XGM Core Driver Original size 5888 Crunched size 5888
+XGM PCM sound Original size 67072 Crunched size 67072
+XGM PCM sound Original size 13824 Crunched size 13824
+XGM PCM sound Original size 1280 Crunched size 1280
+XGM PCM sound Original size 2048 Crunched size 2048
+XGM PCM sound Original size 6144 Crunched size 6144
+XGM PCM sound Original size 8704 Crunched size 8704
 Project sound Original size 252 Crunched size 252
 Default MD font Original size 2048 Crunched size 2048
 Default MD number font Original size 320 Crunched size 320
-Project virtual machine (codeblocks) Original size 16082 Crunched size 16082
-Font for panel 1 Original size 2048 Crunched size 2048
-Number font for panel 3 Original size 320 Crunched size 320
-Number font for panel 5 Original size 320 Crunched size 320
-MDS PCM file Original size 70445 Crunched size 70445
+Project virtual machine (codeblocks) Original size 16212 Crunched size 16212
 Panel  Original size 10332 Crunched size 10332
+Font for panel 1 Original size 2048 Crunched size 2048
 Panel emptypanel Original size 3164 Crunched size 3164
 Panel main_panel Original size 4156 Crunched size 4156
 Font for panel 3 Original size 2048 Crunched size 2048
+Number font for panel 3 Original size 320 Crunched size 320
 Panel store Original size 5586 Crunched size 5586
 Panel title_panel Original size 29404 Crunched size 29404
 Font for panel 5 Original size 2048 Crunched size 2048
+Number font for panel 5 Original size 320 Crunched size 320
 Panel ui Original size 2896 Crunched size 2896
 Project blocks Original size 408 Crunched size 408
 Project actors Original size 4700 Crunched size 4700
@@ -22,25 +38,19 @@ Project patterns Original size 26240 Crunched size 26240
 Pattern data for 1 Original size 934 Crunched size 934
 Map header map Original size 11992 Crunched size 11992
 Get Y lookup table map Original size 408 Crunched size 408
-Map tile data  map Original size 2244 Crunched size 69
-Map block data for map Original size 2244 Crunched size 102
-Map path node data for map Original size 12 Crunched size 12
-Map event data for map Original size 32 Crunched size 32
 Project name table Original size 1072 Crunched size 1072
 Streamed project patterns Original size 9984 Crunched size 9984
 Images Original size 1738 Crunched size 1738
 Animations Original size 368 Crunched size 368
 Animation Frames Original size 736 Crunched size 736
-Mega Drive header Original size 3664 Crunched size 3664
-Teleporters Original size 8 Crunched size 8
+Mega Drive header Original size 2894 Crunched size 2894
 Var Data Original size 114 Crunched size 114
 Attack Data Original size 132 Crunched size 132
-Commands for Joystick 1 Original size 12 Crunched size 12
 
 === Codeblocks by compiled size ===
 game_loop: 2416
-store_selection: 994
-load_level: 966
+store_selection: 1042
+load_level: 686
 game_over_bank: 444
 activate: 432
 beam_cross: 430
@@ -50,39 +60,42 @@ set_yresolution: 386 (Unused?)
 manager_heart: 376
 manager: 372
 beam_collision: 366
+do_teleport: 348
 beam_test_side: 326
 flipscreen_smooth: 306 (Unused?)
-do_teleport: 300
-pre_startup: 270
-pause: 252
 flipxymove: 250 (Unused?)
 battery_drain: 242
 store_manager: 236
 hunt: 206
 waitforframes: 186
+pre_startup: 182
 drop_chest: 174
+check_talkpad: 168 (Unused?)
+restart: 160 (Unused?)
 snap_to_screen: 158 (Unused?)
 flipxlook: 148
 flipymove: 146 (Unused?)
 load_panel: 146
 pre_quit: 144 (Unused?)
 flipxmove: 130 (Unused?)
+pause: 126
 destroy_all_blocks: 120 (Unused?)
 celebrate: 120
 load_music: 118 (Unused?)
 pre_load_level: 118
 unload_level: 114
-restart: 112 (Unused?)
 destroyed_block: 108
 waitforfireup: 106
 chest_close: 106
 hunt_kill: 106
+fadein: 102
 waitforfiredown: 102
 game_over: 100
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 unload_panel: 92
 chest_open: 92
+destroy_child_actors: 90 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 return_to_northpole: 86
@@ -92,17 +105,16 @@ wrap_screen_right: 76 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 flipscreen: 70 (Unused?)
+load_music_finish: 64
 chest_collision_left: 64
 chest_collision_right: 64
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-fadein: 58
 destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
 destroy_actor: 54
 kill_elf: 54
-load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
@@ -110,9 +122,14 @@ quit: 46 (Unused?)
 regenerate_screen_wait: 42
 beam_sfx: 42
 turn_right: 42
+freeze_actor: 36 (Unused?)
+unfreeze_actor: 36 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)

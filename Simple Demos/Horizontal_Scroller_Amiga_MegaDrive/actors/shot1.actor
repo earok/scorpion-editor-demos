@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Trash",
   "MoveType": "cpu",
@@ -8,14 +7,14 @@
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
-    "UpLeft": "anim_shot1",
-    "Up": "anim_shot1",
-    "UpRight": "anim_shot1",
-    "Left": "anim_shot1",
-    "Right": "anim_shot1",
-    "DownLeft": "anim_shot1",
-    "Down": "anim_shot1",
-    "DownRight": "anim_shot1"
+    "UpLeft": "anim_player_shot_u_l",
+    "Up": "anim_shot1_r",
+    "UpRight": "anim_player_shot_u_r",
+    "Left": "anim_shot1_l",
+    "Right": "anim_shot1_r",
+    "DownLeft": "anim_player_shot_d_l",
+    "Down": "anim_shot1_r",
+    "DownRight": "anim_player_shot_d_r"
   },
   "Moves": {
     "UpLeft": "",
@@ -95,13 +94,13 @@
   ],
   "InvalidDirections": [
     false,
+    true,
     false,
     false,
     false,
     false,
     false,
-    false,
-    false,
+    true,
     false
   ],
   "CollBox": {
@@ -113,7 +112,7 @@
   "AttackDelay": 0,
   "ZOrder": 1000,
   "SpeedLeft": 0.0,
-  "SpeedRight": 16.0,
+  "SpeedRight": 0.0,
   "SpeedUp": 0.0,
   "SpeedDown": 0.0,
   "AccelLeft": null,
@@ -128,9 +127,10 @@
   "CollType_Up": "none",
   "CollType_Down": "none",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
-  "AutoScroll": false,
+  "AutoScroll": true,
   "Flags": "projectile",
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
@@ -149,7 +149,7 @@
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "destroy_actor",
-  "DivertTimerFrames": 4,
+  "DivertTimerFrames": 10,
   "Vars": [
     "0",
     "0",

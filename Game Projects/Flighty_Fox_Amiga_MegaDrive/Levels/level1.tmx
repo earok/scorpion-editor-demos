@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="52" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1" compressionlevel="0">
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="52" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="2" compressionlevel="0">
   <properties>
     <property name="divert_timer" value="autoscroll" />
-    <property name="md_parallax" type="string" value="md_parallax" />
+    <property name="divert_timerframes" type="int" value="10" />
+    <property name="md_parallax" value="md_parallax" />
     <property name="override_palette" type="file" value="" />
+    <property name="padding_bottom" type="int" value="5" />
     <property name="parallax_path" type="file" value="parallaxbase.parallax.png" />
     <property name="solid_bottom" type="bool" value="false" />
     <property name="solid_left" type="bool" value="false" />
     <property name="solid_right" type="bool" value="false" />
     <property name="solid_top" type="bool" value="false" />
-    <property name="divert_timerframes" type="int" value="10" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="base_tileset.tileset.tsx" />
   <layer id="2" name="objects" width="52" height="16">
     <data encoding="csv">
@@ -64,5 +65,9 @@
       <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
-  <objectgroup id="5" name="events" />
+  <objectgroup id="5" name="events">
+    <object id="1" gid="0" x="153.682" y="107.38" width="0" height="0" template="../templates/new_actor.tx">
+      <properties />
+    </object>
+  </objectgroup>
 </map>

@@ -6,25 +6,25 @@ For chip:
 Map gfx (Panel: ui_title): 53858
 Music memory (song): 52260
 BP Buffer memory: 102400
-core sfx/gfx memory: 70290
+core sfx/gfx memory: 70295
 Parallax memory: 45144
 OS/other estimated: 99328
 
 For other:
-Map cache memory: 0
-Map header cache memory: 0
+Map cache memory: 3470
+Map header cache memory: 486
 Map data memory: 48450
 Map background memory: 2344
-EXE memory: 210108
-vm memory: 23698
+EXE memory: 211412
+vm memory: 23778
 project memory: 31332
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 528752
-Accounted memory other: 329892
-Accounted memory total: 858644
+Accounted memory chip: 528757
+Accounted memory other: 335232
+Accounted memory total: 863989
 
 === Misc ===
 Maps and Asset Bundles Count: 7
@@ -51,43 +51,43 @@ Attack Data: 2
 Attack Data Size: 132
 Misc data size: 16
 Music file song Original size 52260 Crunched size 27830
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
+Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
 Panel hud Original size 7926 Crunched size 986
 Panel ui_title Original size 53858 Crunched size 6536
-Header data for map level1 Original size 7992 Crunched size 384
+Header data for map level1 Original size 7992 Crunched size 382
 Tile data for map level1 (mem restrictions:None) Original size 30000 Crunched size 1826
-Background for map level1 Original size 2344 Crunched size 606
+Background for map level1 Original size 2344 Crunched size 604
 Parallax for map level1 Original size 45144 Crunched size 7014
-Header data for map level2 Original size 7992 Crunched size 482
+Header data for map level2 Original size 7992 Crunched size 486
 Tile data for map level2 (mem restrictions:None) Original size 35700 Crunched size 3470
-Background for map level2 Original size 1692 Crunched size 418
+Background for map level2 Original size 1692 Crunched size 416
 Parallax for map level2 Original size 40144 Crunched size 4268
 Header data for map level3 Original size 7992 Crunched size 408
 Tile data for map level3 (mem restrictions:None) Original size 23850 Crunched size 1768
-Background for map level3 Original size 2228 Crunched size 546
+Background for map level3 Original size 2228 Crunched size 544
 Parallax for map level3 Original size 43472 Crunched size 4852
 Header data for map level4 Original size 7992 Crunched size 380
 Tile data for map level4 (mem restrictions:None) Original size 32400 Crunched size 1850
 Background for map level4 Original size 2260 Crunched size 536
 Parallax for map level4 Original size 43472 Crunched size 4798
-Header data for map level5 Original size 7992 Crunched size 420
+Header data for map level5 Original size 7992 Crunched size 422
 Tile data for map level5 (mem restrictions:None) Original size 29250 Crunched size 1904
-Background for map level5 Original size 2124 Crunched size 488
+Background for map level5 Original size 2124 Crunched size 486
 Parallax for map level5 Original size 43472 Crunched size 3610
 Header data for map level6 Original size 7992 Crunched size 344
 Tile data for map level6 (mem restrictions:None) Original size 48450 Crunched size 3210
 Background for map level6 Original size 1688 Crunched size 362
 Parallax for map level6 Original size 30096 Crunched size 1390
-Asset bundle 0 (Core project asset bundle) Original size 70290 Crunched size 28600
+Asset bundle 0 (Core project asset bundle) Original size 70295 Crunched size 30950
 Asset bundle 1 (level1) Original size 17408 Crunched size 5904
 Asset bundle 2 (level2) Original size 33024 Crunched size 11660
 Asset bundle 3 (level3) Original size 16384 Crunched size 5702
 Asset bundle 4 (level4) Original size 14592 Crunched size 4514
 Asset bundle 5 (level5) Original size 15744 Crunched size 5236
 Asset bundle 6 (level6) Original size 7680 Crunched size 2012
-Project Header Original size 4036 Crunched size 1230
-Project Data Original size 31332 Crunched size 7720
-Project virtual machine (codeblocks) Original size 23698 Crunched size 6050
+Project Header Original size 4032 Crunched size 1204
+Project Data Original size 31332 Crunched size 7610
+Project virtual machine (codeblocks) Original size 23778 Crunched size 6094
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused blocks ===
@@ -108,43 +108,44 @@ lavaball
 === Codeblocks by compiled size ===
 go_thru_pipe: 2464
 reset_level_bounds: 1544
-load_level: 986
 block_bump: 968
+load_level: 726
 playerhitsbigmushroom: 602
 set_yresolution: 446
 thru_door: 446
 startup: 406
+do_teleport: 368
 playerhitsturtleshell: 352
 killmonster: 344
-do_teleport: 320
 flipscreen_smooth: 306 (Unused?)
 flipmonster: 302
 fn_up_in_pipe: 302
-pre_startup: 290
+candle_lit: 280
 fn_down_in_pipe: 274
 handler_fallblock: 274
 fn_down_out_pipe: 266
 fn_up_out_pipe: 266
 turtleshell_hits_block: 256
-pause: 252
-candle_lit: 252
 handler_fxblock: 252
 flipxymove: 250 (Unused?)
 lifelost: 248
 plant_up: 246
 mushroom_spawn_finished: 236
+startlevel: 228
 player_collected_coin_fromblock: 222
 killturtleshell: 216
 function_setblockmeta: 212
+pre_startup: 206
 flash_fx_trigger: 200
 projectilehitmonster: 196
 spawnglitter_actor: 194
+check_talkpad: 188 (Unused?)
 waitforframes: 186
 plant_down: 184
-startlevel: 180
 addcoin: 168
 nextlevel: 168
 player_collected_flower: 168
+pause: 164
 candle_extinguish: 162
 snap_to_screen: 158 (Unused?)
 hurtplayer: 154
@@ -158,7 +159,6 @@ pre_quit: 144
 plant_out: 134
 flipxmove: 130 (Unused?)
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
-bg1: 130
 spawnglitter_player: 130
 playerhitsblock: 126
 destroy_all_blocks: 120 (Unused?)
@@ -174,6 +174,7 @@ playerhitsmonster: 110
 waitforfireup: 106
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_destroy_actor: 106
 player_invincible: 106
+fadein: 102
 waitforfiredown: 102
 flower_spawn_finished: 100
 killplayer: 100
@@ -181,12 +182,13 @@ load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 plant_spawn: 94
 unload_panel: 92
-player_noclear: 88
+destroy_child_actors: 90 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 playerhitsplant: 86
 fadeout: 84
 playerhits_fallblock: 82
+autogen_anim_plant_0: 78
 AUTOGEN_OUTOFSCREEN_None_None_destroy_actor_destroy_actor: 78
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -197,21 +199,21 @@ cover_spawn: 72
 flipscreen: 70 (Unused?)
 player_collected_coin: 68
 quit: 66 (Unused?)
+load_music_finish: 64
 music_toggle: 64 (Unused?)
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
 gameover: 62
-fadein: 58
 parallax_spawn: 58 (Unused?)
 destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
+autogen_anim_fish_0: 56
 destroy_actor: 54
 AUTOGEN_OUTOFSCREEN_None_None_None_lifelost: 54
 AUTOGEN_OUTOFSCREEN_None_None_None_keep_on_screen_bottom: 54
 AUTOGEN_OUTOFSCREEN_None_None_None_destroy_actor: 54
 plant_hide: 54
-load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
 function_centercamera: 52
@@ -223,14 +225,18 @@ vol_down: 40 (Unused?)
 cheat1: 38 (Unused?)
 cheat2: 38 (Unused?)
 cheat3: 38 (Unused?)
-cheat4: 38
-cheat5: 38
-cheat6: 38
+cheat4: 38 (Unused?)
+cheat5: 38 (Unused?)
+cheat6: 38 (Unused?)
+freeze_actor: 36 (Unused?)
+unfreeze_actor: 36 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
-debug_breakpoint: 26
+debug_breakpoint: 26 (Unused?)
+vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-bg2: 26

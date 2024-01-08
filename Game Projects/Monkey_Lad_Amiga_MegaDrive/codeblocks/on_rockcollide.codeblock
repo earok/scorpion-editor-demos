@@ -28,15 +28,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "player_type",
-          "Comparison": "Equals",
-          "RightSide": "alexkidd_motorcycle",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -87,7 +78,16 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Conditions": [
+        {
+          "LeftSide": "player_type",
+          "Comparison": "Equals",
+          "RightSide": "alexkidd_motorcycle",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -114,15 +114,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "player_y",
-          "Comparison": "GreaterThanOrEqual",
-          "RightSide": "block_y << 4",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -173,7 +164,16 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Conditions": [
+        {
+          "LeftSide": "player_y",
+          "Comparison": "GreaterThanOrEqual",
+          "RightSide": "block_y << 4",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -200,6 +200,57 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "0",
+      "PushYPixels": "0",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": null,
+      "CameraY": null,
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "212",
+      "FrameWait": "",
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
       "Conditions": [
         {
           "LeftSide": "player_y",
@@ -208,64 +259,13 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": null,
-      "YPosition": null,
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "0",
-      "PushYPixels": "0",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": null,
-      "CameraY": null,
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "212",
-      "FrameWait": "",
-      "CameraFollowLeft": false,
-      "CameraFollowRight": false,
-      "CameraFollowUp": false,
-      "CameraFollowDown": false,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "none",
-      "Music": "none",
-      "MusicPos": "0",
-      "SpeakDelay": 1
+      ]
     },
     {
       "Values": {},
       "DataVersion": 6,
       "Category": "Base",
-      "BasicOperationType": "Goto",
+      "BasicOperationType": "Gosub",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
@@ -286,6 +286,57 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "0",
+      "PushYPixels": "0",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": null,
+      "CameraY": null,
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "212",
+      "FrameWait": "",
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
       "Conditions": [
         {
           "LeftSide": "",
@@ -294,239 +345,16 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": null,
-      "YPosition": null,
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "0",
-      "PushYPixels": "0",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": null,
-      "CameraY": null,
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "212",
-      "FrameWait": "",
-      "CameraFollowLeft": false,
-      "CameraFollowRight": false,
-      "CameraFollowUp": false,
-      "CameraFollowDown": false,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "none",
-      "Music": "none",
-      "MusicPos": "0",
-      "SpeakDelay": 1
-    },
-    {
-      "Values": {},
-      "DataVersion": 6,
-      "Category": "Conditional",
-      "BasicOperationType": "CommentOnly",
-      "DisplayOperationType": "SetPanel",
-      "AudioOperationType": "PlaySound",
-      "ConditionType": "ElseIf",
-      "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetType",
-      "DialogueOperationType": "Speak",
-      "DataOperationType": "Load",
-      "ControlOperationType": "JumpControls",
-      "PaletteOperationType": "SetColor",
-      "CoreType": "ActorSetType",
-      "ControlMode": "Joys_1",
-      "Goto": "",
-      "Comment": null,
-      "Variable": "player_yspeed",
-      "Expression": "0",
-      "Index": "0",
-      "Label": "",
-      "DiceSides": 2,
-      "Disabled": true,
-      "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "player_yspeed",
-          "Comparison": "LessThan",
-          "RightSide": "0",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": null,
-      "YPosition": null,
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "0",
-      "PushYPixels": "0",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": null,
-      "CameraY": null,
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "212",
-      "FrameWait": "",
-      "CameraFollowLeft": false,
-      "CameraFollowRight": false,
-      "CameraFollowUp": false,
-      "CameraFollowDown": false,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "none",
-      "Music": "none",
-      "MusicPos": "0",
-      "SpeakDelay": 1
+      ]
     },
     {
       "Values": {},
       "DataVersion": 6,
       "Category": "Base",
-      "BasicOperationType": "Goto",
+      "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
-      "LevelOperationType": "SetBlock",
-      "ActorOperationType": "SetType",
-      "DialogueOperationType": "Speak",
-      "DataOperationType": "Load",
-      "ControlOperationType": "JumpControls",
-      "PaletteOperationType": "SetColor",
-      "CoreType": "ActorSetType",
-      "ControlMode": "Joys_1",
-      "Goto": "on_blockhit",
-      "Comment": null,
-      "Variable": "none",
-      "Expression": "0",
-      "Index": "0",
-      "Label": "",
-      "DiceSides": 2,
-      "Disabled": false,
-      "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": null,
-      "YPosition": null,
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "0",
-      "PushYPixels": "0",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": null,
-      "CameraY": null,
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "212",
-      "FrameWait": "",
-      "CameraFollowLeft": false,
-      "CameraFollowRight": false,
-      "CameraFollowUp": false,
-      "CameraFollowDown": false,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "none",
-      "Music": "none",
-      "MusicPos": "0",
-      "SpeakDelay": 1
-    },
-    {
-      "Values": {},
-      "DataVersion": 6,
-      "Category": "Conditional",
-      "BasicOperationType": "CommentOnly",
-      "DisplayOperationType": "SetPanel",
-      "AudioOperationType": "PlaySound",
-      "ConditionType": "EndCondition",
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
@@ -536,34 +364,25 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": null,
-      "Variable": "none",
-      "Expression": "0",
+      "Comment": "",
+      "Variable": "block_collision",
+      "Expression": "false",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": null,
-      "YPosition": null,
+      "XPosition": "",
+      "YPosition": "",
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "0",
-      "PushYPixels": "0",
+      "PushXPixels": "",
+      "PushYPixels": "",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
@@ -571,8 +390,8 @@
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
-      "CameraX": null,
-      "CameraY": null,
+      "CameraX": "",
+      "CameraY": "",
       "CameraBox": {
         "Left": "0",
         "Right": "0",
@@ -585,12 +404,12 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": "212",
+      "YRes": "",
       "FrameWait": "",
-      "CameraFollowLeft": false,
-      "CameraFollowRight": false,
-      "CameraFollowUp": false,
-      "CameraFollowDown": false,
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
       "CameraFollowInterpolateCamera": false,
       "CameraFollowInterpolateSprites": false,
       "ColorIndex": "0",
@@ -600,10 +419,11 @@
         "b": 0,
         "a": 255
       },
-      "Sound": "none",
-      "Music": "none",
+      "Sound": "",
+      "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Conditions": []
     },
     {
       "Values": {},
@@ -630,15 +450,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -689,7 +500,16 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -716,15 +536,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -775,7 +586,16 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -802,15 +622,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -861,7 +672,16 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     }
   ]
 }

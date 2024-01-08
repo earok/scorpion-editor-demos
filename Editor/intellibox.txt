@@ -1,0 +1,76 @@
+If a command isn't below, the intellibox will assume you simply want a comment. Otherwise:
+
+AUDIO:
+* [Music name] -> Play Music [Music name]
+* [Sound name] -> Play Sound [Sound name]
+* Play [Music name] -> Play Music [Music name]
+* Play [Sound name] -> Play Sound [Sound name]
+
+ACTORS:
+(Substitute 'Actor' for 'New', 'Player' or 'Projectile' appropriately)
+* [Actor type] -> Set actor to [actor name]
+* Actor [Actor type] -> Set actor to [actor name]
+* DestroyActor / Destroy Actor
+* [Animation name] -> Play animation [animation name] on actor
+* Actor [Animation name] -> Play animation [animation name] on actor
+* Spawn [actor type] -> Spawn actor in level
+
+BLOCKS:
+* [Block name] -> Set Block to [Block name]
+* Block [Block name] -> Set Block to [Block name]
+* DestroyBlock / Destroy Block
+
+CONDITIONAL:
+* If [expression]
+* While [expression]
+* Else
+* Else [expression] / ElseIf / Else If -> Else If [expression]
+* End / End If / EndIf / End Condition -> End Condition
+
+FLOW:
+* [label name] -> Gosub [label name]
+* Gosub [label name] -> Gosub [label name]
+* Goto [label name] -> Goto [label name]
+* Inline [label name] -> Inline [label name]
+* Return
+* Wait -> Wait for fire button
+* Wait [frames] -> Wait for [frames]
+* Yield [frames] -> Yield on level for [frames]
+* Quit [message] -> Quit with message [message]
+
+MAPS:
+* [map name] -> Load Level [map name]
+* Load [map name] -> Load Level [map name]
+* Unload Map / Unload Level
+
+PANELS:
+(Panel commands attempt to automatically set top/bottom/main load)
+* [panel name] -> Load Panel [panel name]
+* Load [panel name] -> Load Panel [panel name]
+* Unload Panel / Unload Panel Top / Unload Panel Bottom / Unload Top Panel / Unload Bottom Panel
+
+VARIABLES:
+* [variable Name] [expression] -> Set [variable name] to [expression]
+* [variable name] ++ -> Set [variable name] to [variable name] + 1
+* [variable name] -- -> Set [variable name] to [variable name] - 1
+* [variable Name] = [expression] -> Set [variable name] to [expression]
+* [variable Name] + [expression] -> Set [variable name] to [variable name] + [expression]
+* [variable Name] += [expression] -> Set [variable name] to [variable name] + [expression]
+* [variable Name] - [expression] -> Set [variable name] to [variable name] - [expression]
+* [variable Name] -= [expression] -> Set [variable name] to [variable name] - [expression]
+* [variable Name] * [expression] -> Set [variable name] to [variable name] * [expression]
+* [variable Name] *= [expression] -> Set [variable name] to [variable name] * [expression]
+* [variable Name] / [expression] -> Set [variable name] to [variable name] / [expression]
+* [variable Name] /= [expression] -> Set [variable name] to [variable name] / [expression]
+* [variable Name] % [expression] -> Set [variable name] to [variable name] % [expression]
+* [variable Name] %= [expression] -> Set [variable name] to [variable name] % [expression]
+* [variable Name] & [expression] -> Set [variable name] to [variable name] & [expression]
+* [variable Name] &= [expression] -> Set [variable name] to [variable name] & [expression]
+* [variable Name] | [expression] -> Set [variable name] to [variable name] | [expression]
+* [variable Name] |= [expression] -> Set [variable name] to [variable name] | [expression]
+* [variable Name] >> [expression] -> Set [variable name] to [variable name] >> [expression]
+* [variable Name] >>= [expression] -> Set [variable name] to [variable name] >> [expression]
+* [variable Name] << [expression] -> Set [variable name] to [variable name] << [expression]
+* [variable Name] <<= [expression] -> Set [variable name] to [variable name] << [expression]
+
+

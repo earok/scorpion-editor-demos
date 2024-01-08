@@ -8,14 +8,14 @@
   "NudgeX": 12,
   "NudgeY": 14,
   "Idles": {
-    "UpLeft": "anim_player",
-    "Up": "anim_player",
-    "UpRight": "anim_player",
-    "Left": "anim_player",
-    "Right": "anim_player",
-    "DownLeft": "anim_player",
-    "Down": "anim_player",
-    "DownRight": "anim_player"
+    "UpLeft": "anim_player_r",
+    "Up": "anim_player_r",
+    "UpRight": "anim_player_r",
+    "Left": "anim_player_l",
+    "Right": "anim_player_r",
+    "DownLeft": "anim_player_r",
+    "Down": "anim_player_r",
+    "DownRight": "anim_player_r"
   },
   "Moves": {
     "UpLeft": "",
@@ -28,14 +28,14 @@
     "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": "anim_player_shot",
-    "Up": "anim_player_shot",
-    "UpRight": "anim_player_shot",
-    "Left": "anim_player_shot",
-    "Right": "anim_player_shot",
-    "DownLeft": "anim_player_shot",
-    "Down": "anim_player_shot",
-    "DownRight": "anim_player_shot"
+    "UpLeft": "anim_player_shot_r",
+    "Up": "anim_player_shot_r",
+    "UpRight": "anim_player_shot_r",
+    "Left": "anim_player_shot_l",
+    "Right": "anim_player_shot_r",
+    "DownLeft": "anim_player_shot_r",
+    "Down": "anim_player_shot_r",
+    "DownRight": "anim_player_shot_r"
   },
   "ProjectileOffsets": [
     {
@@ -69,10 +69,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 20,
-      "y": -6,
-      "magnitude": 20.8806133,
-      "sqrMagnitude": 436
+      "x": 0,
+      "y": -20,
+      "magnitude": 20.0,
+      "sqrMagnitude": 400
     },
     {
       "x": 20,
@@ -94,15 +94,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
+    true,
+    true,
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true,
+    true,
+    true
   ],
   "CollBox": {
     "X": -12,
@@ -110,7 +110,7 @@
     "Width": 16,
     "Height": 32
   },
-  "AttackDelay": 1,
+  "AttackDelay": 5,
   "ZOrder": 0,
   "SpeedLeft": 4.0,
   "SpeedRight": 4.0,
@@ -136,7 +136,7 @@
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": "player_shot",
+  "DivertAttack": "",
   "DivertSpawn": "spawn_player",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",

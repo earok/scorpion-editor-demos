@@ -28,15 +28,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "maxred",
-          "Comparison": "GreaterThanOrEqual",
-          "RightSide": "255",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -87,7 +78,31 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "maxred",
+          "Comparison": "GreaterThanOrEqual",
+          "RightSide": "128",
+          "ComparisonNext": "And",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "maxgreen",
+          "Comparison": "GreaterThanOrEqual",
+          "RightSide": "128",
+          "ComparisonNext": "And",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "maxblue",
+          "Comparison": "GreaterThanOrEqual",
+          "RightSide": "128",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -114,15 +129,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -173,7 +179,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -200,15 +216,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -259,7 +266,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -286,15 +303,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -345,7 +353,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -366,21 +384,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "maxgreen",
-      "Expression": "maxgreen + 8",
+      "Expression": "maxgreen + 4",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -431,7 +440,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -458,15 +477,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -517,7 +527,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -544,66 +564,67 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "224",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "maxred",
           "Comparison": "GreaterThanOrEqual",
-          "RightSide": "255",
+          "RightSide": "128",
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": "",
-      "YPosition": "",
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "",
-      "PushYPixels": "",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": "",
-      "CameraY": "",
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "224",
-      "FrameWait": "",
-      "CameraFollowLeft": true,
-      "CameraFollowRight": true,
-      "CameraFollowUp": true,
-      "CameraFollowDown": true,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "none",
-      "Music": "none",
-      "MusicPos": "0",
-      "SpeakDelay": 1
+      ]
     },
     {
       "Values": {},
@@ -624,21 +645,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "maxred",
-      "Expression": "255",
+      "Expression": "128",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -689,7 +701,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -716,15 +738,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -775,7 +788,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -802,66 +825,67 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "224",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "maxgreen",
           "Comparison": "GreaterThanOrEqual",
-          "RightSide": "255",
+          "RightSide": "128",
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": "",
-      "YPosition": "",
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "",
-      "PushYPixels": "",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": "",
-      "CameraY": "",
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "224",
-      "FrameWait": "",
-      "CameraFollowLeft": true,
-      "CameraFollowRight": true,
-      "CameraFollowUp": true,
-      "CameraFollowDown": true,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "none",
-      "Music": "none",
-      "MusicPos": "0",
-      "SpeakDelay": 1
+      ]
     },
     {
       "Values": {},
@@ -882,21 +906,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "maxgreen",
-      "Expression": "255",
+      "Expression": "128",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -947,7 +962,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -974,15 +999,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1033,7 +1049,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1060,15 +1086,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "maxblue",
-          "Comparison": "GreaterThanOrEqual",
-          "RightSide": "255",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1119,7 +1136,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "maxblue",
+          "Comparison": "GreaterThanOrEqual",
+          "RightSide": "128",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -1140,21 +1167,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "maxblue",
-      "Expression": "255",
+      "Expression": "128",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1205,7 +1223,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1232,15 +1260,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1291,7 +1310,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1318,15 +1347,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1377,7 +1397,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1404,15 +1434,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "palette_index",
-          "Comparison": "LessThanOrEqual",
-          "RightSide": "27",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1463,7 +1484,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "palette_index",
+          "Comparison": "LessThanOrEqual",
+          "RightSide": "27",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -1490,15 +1521,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1549,7 +1571,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1570,21 +1602,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "red",
-      "Expression": "red * maxred >> 8",
+      "Expression": "red * maxred >> 7",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1635,7 +1658,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1656,21 +1689,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "green",
-      "Expression": "green * maxgreen >> 8",
+      "Expression": "green * maxgreen >> 7",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1721,7 +1745,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1742,21 +1776,12 @@
       "Goto": "",
       "Comment": "",
       "Variable": "blue",
-      "Expression": "blue * maxblue >> 8",
+      "Expression": "blue * maxblue >> 7",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1807,7 +1832,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1834,15 +1869,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1893,7 +1919,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1920,15 +1956,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1979,7 +2006,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -2006,15 +2043,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2065,7 +2093,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     }
   ]
 }

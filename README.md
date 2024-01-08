@@ -1,4 +1,4 @@
-# Scorpion Editor 2023.4 and sample games
+# Scorpion Editor 2023.5 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports both the Commodore Amiga and Sega Mega Drive / Genesis.
 
@@ -64,6 +64,8 @@ The editor and engine itself is not open source - all of the included demos are.
 * Light And Dark demo reuses some of the same assets used in Monkey Lad 
 
 * Line Of Sight demo reuses assets from Amigo the Fox demo
+
+* Merry XMas game based around holiday expansion art (https://opengameart.org/content/holiday-expansion-set).
 
 * Mouse sample:
 	- https://opengameart.org/content/industrial-parallax-background

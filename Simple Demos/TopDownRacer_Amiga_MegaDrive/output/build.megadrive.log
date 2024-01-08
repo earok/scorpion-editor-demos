@@ -1,13 +1,13 @@
-Project sound Original size 28 Crunched size 28
 Default MD font Original size 2048 Crunched size 2048
 Default MD number font Original size 320 Crunched size 320
-Project virtual machine (codeblocks) Original size 7186 Crunched size 7186
+Project virtual machine (codeblocks) Original size 7268 Crunched size 7268
 Panel  Original size 10332 Crunched size 10332
 Panel megadrive_panel Original size 5948 Crunched size 5948
 Project blocks Original size 68 Crunched size 68
 Project actors Original size 376 Crunched size 376
 Project patterns Original size 32 Crunched size 32
 Pattern data for 1 Original size 162 Crunched size 162
+Dynamic pattern data for 1 Original size 32 Crunched size 32
 Map header map Original size 12088 Crunched size 12088
 Get Y lookup table map Original size 264 Crunched size 264
 Map tile data  map Original size 2244 Crunched size 14
@@ -19,7 +19,7 @@ Streamed project patterns Original size 1856 Crunched size 1856
 Images Original size 26 Crunched size 26
 Animations Original size 32 Crunched size 32
 Animation Frames Original size 48 Crunched size 48
-Mega Drive header Original size 3664 Crunched size 3664
+Mega Drive header Original size 2894 Crunched size 2894
 Teleporters Original size 8 Crunched size 8
 Var Data Original size 16 Crunched size 16
 Attack Data Original size 66 Crunched size 66
@@ -28,29 +28,32 @@ Attack Data Original size 66 Crunched size 66
 p1
 
 === Codeblocks by compiled size ===
-load_level: 966
+load_level: 686
 set_yresolution: 386 (Unused?)
+do_teleport: 348
 flipscreen_smooth: 306 (Unused?)
-do_teleport: 300
-pre_startup: 270
-pause: 252 (Unused?)
 flipxymove: 250 (Unused?)
 waitforframes: 186
+pre_startup: 182
+startup: 182
+check_talkpad: 168 (Unused?)
 snap_to_screen: 158 (Unused?)
 flipymove: 146 (Unused?)
 load_panel: 146
 pre_quit: 144 (Unused?)
-startup: 134
 flipxmove: 130 (Unused?)
+pause: 126 (Unused?)
 destroy_all_blocks: 120 (Unused?)
 load_music: 118 (Unused?)
 pre_load_level: 118
 unload_level: 114
 waitforfireup: 106
+fadein: 102
 waitforfiredown: 102
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 unload_panel: 92
+destroy_child_actors: 90 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 level_loop: 86
@@ -60,22 +63,26 @@ wrap_screen_right: 76 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 flipscreen: 70 (Unused?)
+load_music_finish: 64
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-fadein: 58
 destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
 destroy_actor: 54
-load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
 quit: 46 (Unused?)
 regenerate_screen_wait: 42
+freeze_actor: 36 (Unused?)
+unfreeze_actor: 36 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)
