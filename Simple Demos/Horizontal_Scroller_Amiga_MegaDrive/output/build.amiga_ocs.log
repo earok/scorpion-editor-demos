@@ -3,10 +3,10 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 35158
+Map gfx (Panel: scorpion_eng_splashscreen): 35160
 Music memory (): 0
 BP Buffer memory: 105600
-core sfx/gfx memory: 9792
+core sfx/gfx memory: 9748
 Parallax memory: 26752
 OS/other estimated: 99328
 
@@ -14,17 +14,17 @@ For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 4412
-Map background memory: 1492
-EXE memory: 211412
-vm memory: 9834
-project memory: 2862
+Map background memory: 1496
+EXE memory: 210300
+vm memory: 10344
+project memory: 2904
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 382102
-Accounted memory other: 243972
-Accounted memory total: 626074
+Accounted memory chip: 382060
+Accounted memory other: 243416
+Accounted memory total: 625476
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -43,94 +43,98 @@ Animations Count: 13
 Animations Data Size: 208
 AnimationFrame Count: 21
 AnimationFrame Data Size: 336
-ImageFrames: 20
-ImageFrame Data Size: 880
+ImageFrames: 21
+ImageFrame Data Size: 924
 Sprites: 10
 Sprites Data Size: 140
 Attack Data: 3
 Attack Data Size: 198
-Misc data size: 30
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
-Header data for map level1 Original size 7992 Crunched size 256
-Tile data for map level1 (mem restrictions:No_Blocks) Original size 4412 Crunched size 452
-Background for map level1 Original size 1492 Crunched size 312
+Misc data size: 28
+Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3262
+Header data for map level1 Original size 7996 Crunched size 256
+Tile data for map level1 (mem restrictions:No_Blocks) Original size 4412 Crunched size 466
+Background for map level1 Original size 1496 Crunched size 316
 Parallax for map level1 Original size 26752 Crunched size 4294
-Asset bundle 0 (Core project asset bundle) Original size 9792 Crunched size 4956
-Asset bundle 1 (level1) Original size 5760 Crunched size 2216
-Project Header Original size 4032 Crunched size 1192
-Project Data Original size 2862 Crunched size 876
-Project virtual machine (codeblocks) Original size 9834 Crunched size 2888
+Asset bundle 0 (Core project asset bundle) Original size 9748 Crunched size 4954
+Asset bundle 1 (level1) Original size 5352 Crunched size 2200
+Project Header Original size 4036 Crunched size 1194
+Project Data Original size 2904 Crunched size 870
+Project virtual machine (codeblocks) Original size 10344 Crunched size 2996
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
 player
 
 === Codeblocks by compiled size ===
-load_level: 726
-startup: 460
-set_yresolution: 446
-handler_spinner: 408
-do_teleport: 368
-autogen_anim_player_shot_l_0: 358
-autogen_anim_player_shot_r_0: 350
-level1code: 334
-flipscreen_smooth: 306 (Unused?)
-flipxymove: 250 (Unused?)
-pre_startup: 206
-check_talkpad: 188 (Unused?)
-waitforframes: 186
-pause: 164
+load_level: 764
+startup: 480
+set_yresolution: 458
+handler_spinner: 436
+do_teleport: 424
+autogen_anim_player_shot_r_0: 376
+autogen_anim_player_shot_l_0: 376
+level1code: 342
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+pre_startup: 204
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+pause: 176
+flipymove: 162 (Unused?)
+player_shot: 162 (Unused?)
 snap_to_screen: 158
-flipymove: 146 (Unused?)
+pre_quit: 152
 load_panel: 146
-pre_quit: 144
-spawn_wave: 138 (Unused?)
-flipxmove: 130 (Unused?)
-handler_drone: 130
-destroy_all_blocks: 120 (Unused?)
-load_music: 118 (Unused?)
-pre_load_level: 118
-player_shot: 116 (Unused?)
-unload_level: 114
-waitforfireup: 106
-fadein: 102
-waitforfiredown: 102
-projectile_hit: 98
+flipxmove: 142 (Unused?)
+unload_level: 142
+spawn_wave: 142 (Unused?)
+handler_drone: 138
+load_music: 130 (Unused?)
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 122
+waitforfireup: 114
+fadein: 112
+waitforfiredown: 110
+unload_panel: 106
+projectile_hit: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
-unload_panel: 92
-destroy_child_actors: 90 (Unused?)
+destroy_child_actors: 94 (Unused?)
+fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-fadeout: 84
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 78
+load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-flipscreen: 70 (Unused?)
-quit: 66 (Unused?)
-load_music_finish: 64
-jump_actor: 62 (Unused?)
+quit: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
 unload_panel_bottom: 62
 unload_panel_top: 62
-destroy_all_actors: 56 (Unused?)
-load_panel_finish: 56
-destroy_actor: 54
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
 AUTOGEN_OUTOFSCREEN_None_destroy_actor_None_None: 54
-regenerate_screen: 52
+destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-destroy_block: 48 (Unused?)
-regenerate_screen_wait: 42
-spawn_player: 42
-freeze_actor: 36 (Unused?)
-unfreeze_actor: 36 (Unused?)
+regenerate_screen_wait: 46
+spawn_player: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
 player_handler: 36
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+hardware_megadrive: 26 (Unused?)
 vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)

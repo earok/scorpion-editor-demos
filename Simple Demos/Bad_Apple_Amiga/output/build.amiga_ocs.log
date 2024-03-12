@@ -3,10 +3,10 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: title): 43618
+Map gfx (Panel: title): 43620
 Music memory (bedappol_00111231125261_nocounter): 86022
 BP Buffer memory: 81920
-core sfx/gfx memory: 8080
+core sfx/gfx memory: 7880
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -14,17 +14,17 @@ For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 319368
-Map background memory: 1396
-EXE memory: 211412
-vm memory: 8756
-project memory: 18760
+Map background memory: 1400
+EXE memory: 210300
+vm memory: 9150
+project memory: 18802
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 424440
-Accounted memory other: 573652
-Accounted memory total: 998092
+Accounted memory chip: 424242
+Accounted memory other: 572980
+Accounted memory total: 997222
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -43,24 +43,24 @@ Animations Count: 11
 Animations Data Size: 176
 AnimationFrame Count: 18
 AnimationFrame Data Size: 288
-ImageFrames: 17
-ImageFrame Data Size: 748
+ImageFrames: 18
+ImageFrame Data Size: 792
 Sprites: 17
 Sprites Data Size: 238
 Attack Data: 2
 Attack Data Size: 132
-Misc data size: 16
+Misc data size: 14
 Music file bedappol_00111231125261_nocounter Original size 86022 Crunched size 58902
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
-Panel title Original size 43618 Crunched size 2688
-Header data for map new_map Original size 7992 Crunched size 208
+Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3262
+Panel title Original size 43620 Crunched size 2686
+Header data for map new_map Original size 7996 Crunched size 210
 Tile data for map new_map (mem restrictions:None) Original size 319368 Crunched size 50794
-Background for map new_map Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 8080 Crunched size 2838
+Background for map new_map Original size 1400 Crunched size 80
+Asset bundle 0 (Core project asset bundle) Original size 7880 Crunched size 2824
 Asset bundle 1 (new_map) Original size 32 Crunched size 32
-Project Header Original size 4032 Crunched size 1194
-Project Data Original size 18760 Crunched size 1664
-Project virtual machine (codeblocks) Original size 8756 Crunched size 2742
+Project Header Original size 4036 Crunched size 1200
+Project Data Original size 18802 Crunched size 1670
+Project virtual machine (codeblocks) Original size 9150 Crunched size 2828
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -68,66 +68,70 @@ alexkidd
 ringshot
 
 === Codeblocks by compiled size ===
-load_level: 726
-set_yresolution: 446
-process_next_tile: 396
-do_teleport: 368
-startup: 350
-flipscreen_smooth: 306 (Unused?)
-flipxymove: 250 (Unused?)
-pre_startup: 206
+load_level: 764
+set_yresolution: 458
+do_teleport: 424
+process_next_tile: 408
+startup: 384
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+pre_startup: 204
 bufferswap: 202
-check_talkpad: 188 (Unused?)
-waitforframes: 186
-pause: 164
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+pause: 176
+flipymove: 162 (Unused?)
 snap_to_screen: 158
-flipymove: 146 (Unused?)
+pre_quit: 152
 load_panel: 146
-pre_quit: 144
+flipxmove: 142 (Unused?)
+unload_level: 142
 set_tile_parameters: 142
-flipxmove: 130 (Unused?)
+load_music: 130
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
-destroy_all_blocks: 120
-load_music: 118
-pre_load_level: 118
-unload_level: 114
-waitforfireup: 106
-fadein: 102
-waitforfiredown: 102
+destroy_all_blocks: 124
+pre_load_level: 122
+waitforfireup: 114
+fadein: 112
+waitforfiredown: 110
+unload_panel: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
-unload_panel: 92
-destroy_child_actors: 90 (Unused?)
+destroy_child_actors: 94 (Unused?)
+autogen_alexkidd_punch_l_0: 90
+fadeout: 88
+autogen_alexkidd_punch_r_0: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-autogen_alexkidd_punch_l_0: 86
-fadeout: 84
-autogen_alexkidd_punch_r_0: 84
+load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-flipscreen: 70 (Unused?)
-quit: 66
-load_music_finish: 64
-jump_actor: 62 (Unused?)
+quit: 70
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
 unload_panel_bottom: 62
 unload_panel_top: 62
-destroy_all_actors: 56 (Unused?)
-load_panel_finish: 56
-destroy_actor: 54
-regenerate_screen: 52
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+destroy_block: 52
 return: 52 (Unused?)
-destroy_block: 48
-regenerate_screen_wait: 42
-freeze_actor: 36 (Unused?)
-unfreeze_actor: 36 (Unused?)
+regenerate_screen_wait: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+hardware_megadrive: 26 (Unused?)
 vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)

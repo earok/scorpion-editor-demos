@@ -10,6 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
+  "OverrideGamePalette": true,
   "PanelImagePath": "md_parallax_5.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
@@ -28,6 +29,7 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9
     },
     {
@@ -41,13 +43,13 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 99
     }
   ],
   "GFXMode": "BP5",
   "PanelSlot": "Parallax_MD",
   "PanelOptionSound": "none",
-  "PanelOptionSoundMD": "none",
   "OverlapsGameView": false,
   "CenterAdjustments": {
     "0": 0,
@@ -57,7 +59,7 @@
   },
   "CenterAdjust_MegaDrive": 0,
   "PaletteLines_MegaDrive": 1,
-  "StartingPaletteLine_MegaDrive": 2,
+  "StartingPaletteLine_MegaDrive": 3,
   "TalkpadPalLine": 0,
   "FireIndicatorPalLine": 0,
   "ChoiceIndicatorPalLine": 0,
@@ -70,21 +72,30 @@
       "Left": 0.0,
       "Idle": 0.0,
       "Right": 0.0,
+      "Pseudo3DDistance": 0.0,
+      "Pseudo3DSpeed": 0.0,
       "Top": 0
     },
     {
       "Left": 0.1,
       "Idle": 0.1,
       "Right": 0.1,
+      "Pseudo3DDistance": 0.0,
+      "Pseudo3DSpeed": 0.0,
       "Top": 40
     },
     {
       "Left": -1.0,
       "Idle": 0.0,
       "Right": 1.0,
+      "Pseudo3DDistance": 0.0,
+      "Pseudo3DSpeed": 0.0,
       "Top": 192
     }
   ],
   "ParallaxOverlayPath": "md_overlay_water.png",
-  "Gap": 4
+  "Gap": 4,
+  "MarsRenderMode": "ForegroundAlpha16bit",
+  "OnType": null,
+  "IsRightAligned": false
 }

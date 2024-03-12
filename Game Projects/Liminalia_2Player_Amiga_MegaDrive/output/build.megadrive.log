@@ -1,40 +1,42 @@
+RAM reserved for level tiles: 3920 bytes (largest level: map)
+
 XGM Null song Original size 172 Crunched size 172
+Project patterns Original size 32 Crunched size 32
 Map block data for map Original size 1960 Crunched size 7
+Map path node data for map Original size 12 Crunched size 12
+Teleporters Original size 8 Crunched size 8
 XGM Null sound Original size 256 Crunched size 256
 XGM 68K Plugin Driver Original size 804 Crunched size 804
 Project sound Original size 112 Crunched size 112
 Project blocks Original size 68 Crunched size 68
-Project patterns Original size 32 Crunched size 32
+Map event data for map Original size 32 Crunched size 32
 XGM PCM sound Original size 4096 Crunched size 4096
 XGM Core Driver Original size 5888 Crunched size 5888
 XGM PCM sound Original size 3072 Crunched size 3072
 XGM PCM sound Original size 6400 Crunched size 6400
 Default MD font Original size 2048 Crunched size 2048
 Default MD number font Original size 320 Crunched size 320
-Project virtual machine (codeblocks) Original size 12716 Crunched size 12716
-Panel  Original size 10332 Crunched size 10332
+Project virtual machine (codeblocks) Original size 13442 Crunched size 13442
+Panel  Original size 10334 Crunched size 10334
 Number font for panel 1 Original size 320 Crunched size 320
-Panel scorepanel Original size 1016 Crunched size 1016
+Panel scorepanel Original size 1022 Crunched size 1022
 Font for panel 2 Original size 2048 Crunched size 2048
-Panel talkpad Original size 956 Crunched size 956
+Panel talkpad Original size 958 Crunched size 958
 Font for panel 3 Original size 2048 Crunched size 2048
 Number font for panel 3 Original size 320 Crunched size 320
-Panel titlepanel Original size 17182 Crunched size 17182
+Panel titlepanel Original size 17154 Crunched size 17154
 Project actors Original size 2632 Crunched size 2632
 Dynamic pattern data for 1 Original size 54144 Crunched size 54144
-Map header map Original size 10680 Crunched size 10680
+Map header map Original size 10684 Crunched size 10684
 Get Y lookup table map Original size 80 Crunched size 80
 Map tile data  map Original size 1960 Crunched size 70
-Map path node data for map Original size 12 Crunched size 12
-Map event data for map Original size 32 Crunched size 32
 Project name table Original size 9048 Crunched size 9048
 Streamed project patterns Original size 4256 Crunched size 4256
-Images Original size 1318 Crunched size 1318
+Images Original size 1558 Crunched size 1558
 Animations Original size 672 Crunched size 672
 Animation Frames Original size 1088 Crunched size 1088
-Mega Drive header Original size 2894 Crunched size 2894
-Teleporters Original size 8 Crunched size 8
-Var Data Original size 30 Crunched size 30
+Mega Drive header Original size 2902 Crunched size 2902
+Var Data Original size 16 Crunched size 16
 Attack Data Original size 330 Crunched size 330
 
 === Possibly unused Actors ===
@@ -43,90 +45,94 @@ spawner_player2
 water
 
 === Codeblocks by compiled size ===
-startup: 878
-load_level: 686
-season_next: 650
-fallbottom: 474
-set_yresolution: 386
-do_teleport: 348
-update_season: 346
-flipscreen_smooth: 306 (Unused?)
-pumpkin_hit: 290
-flipxymove: 250 (Unused?)
-shoot_lazer_dir: 216
-snowball_hit: 204
-push_actor: 196
-push_player: 194
-waitforframes: 186
-pre_startup: 182
-check_talkpad: 168
+startup: 964
+load_level: 724
+season_next: 680
+fallbottom: 504
+do_teleport: 404
+set_yresolution: 398
+update_season: 366
+pumpkin_hit: 340
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+shoot_lazer_dir: 232
+snowball_hit: 216
+pre_startup: 212
+push_actor: 202
+push_player: 200
+waitforframes: 194
+check_talkpad: 172
+reset_seasonchanger: 168
+flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
-reset_seasonchanger: 148
-flipymove: 146 (Unused?)
+shoot_snowball: 154
+pre_quit: 152 (Unused?)
 load_panel: 146
-pre_quit: 144 (Unused?)
-shoot_snowball: 134
-flipxmove: 130 (Unused?)
+flipxmove: 142 (Unused?)
+unload_level: 142
+pause: 138 (Unused?)
+orb_bottom: 134
+shoot_lazer: 132
+load_music: 130 (Unused?)
 AUTOGEN_OUTOFSCREEN_keep_onscreen_keep_onscreen_destroy_actor_destroy_actor: 130
 AUTOGEN_OUTOFSCREEN_orb_left_orb_right_orb_top_orb_bottom: 130
-pause: 126 (Unused?)
-shoot_lazer: 124
-orb_bottom: 122
-destroy_all_blocks: 120 (Unused?)
-load_music: 118 (Unused?)
-pre_load_level: 118
-unload_level: 114
-waitforfireup: 106
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 122
+orb_left: 118
+orb_right: 118
+orb_top: 118
+waitforfireup: 114
+fadein: 112
+shoot_pumpkin: 112
+waitforfiredown: 110
+unload_panel: 106
 AUTOGEN_OUTOFSCREEN_fallbottom_fallbottom_None_fallbottom: 106
 AUTOGEN_OUTOFSCREEN_keep_onscreen_keep_onscreen_None_destroy_actor: 106
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_destroy_actor: 106
-orb_left: 106
-orb_right: 106
-orb_top: 106
-fadein: 102
-waitforfiredown: 102
 collider_with_player: 100
+spawn_player2: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
-shoot_pumpkin: 96
-unload_panel: 92
-destroy_child_actors: 90 (Unused?)
+destroy_child_actors: 94 (Unused?)
+fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-spawn_player2: 86
-fadeout: 84
-keep_onscreen: 80
+keep_onscreen: 82
+jump1: 80 (Unused?)
+jump2: 80 (Unused?)
+load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
 wrap_bottom: 74 (Unused?)
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-jump1: 72 (Unused?)
-jump2: 72 (Unused?)
-flipscreen: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
 wrap_top: 66 (Unused?)
-load_music_finish: 64
 wrap_left: 64 (Unused?)
 wrap_right: 64 (Unused?)
-jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-destroy_all_actors: 56 (Unused?)
-load_panel_finish: 56
-destroy_actor: 54
-pumpkin_vanish: 54
-regenerate_screen: 52
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+pumpkin_vanish: 58
+destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-destroy_block: 48 (Unused?)
-quit: 46 (Unused?)
-regenerate_screen_wait: 42
-freeze_actor: 36 (Unused?)
-unfreeze_actor: 36 (Unused?)
+quit: 50 (Unused?)
+regenerate_screen_wait: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+hardware_megadrive: 26 (Unused?)
+set_ntsc: 26
 vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)

@@ -1,7 +1,46 @@
 {
   "Frames": [
     {
-      "Events": [],
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "Scale": "1",
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 9,
+              "Y": -17,
+              "Width": 18,
+              "Height": 18
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -9,13 +48,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "goomba1.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": -15,
       "XFlipped": true,
@@ -25,7 +57,9 @@
       "IsBlank": false
     },
     {
-      "Events": [],
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -33,13 +67,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "goomba2.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": -14,
       "XFlipped": true,
@@ -53,9 +80,9 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }

@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "amiga_ocs",
+  "TargetPlatform": "megadrive",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -22,6 +22,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": null,
       "OnRelease": "nextlevel",
       "buttonState": 0
@@ -43,6 +47,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "pause",
       "OnRelease": null,
       "buttonState": 0
@@ -64,6 +72,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": true,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "nextlevel",
       "OnRelease": null,
       "buttonState": 8
@@ -206,9 +218,11 @@
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
   "StartingPaletteLine": 0,
-  "PaletteLines": 2,
+  "PaletteLines": 4,
   "ReadCD32Buttons": true,
-  "MDRegion": "E",
+  "ReadMD6Buttons": true,
+  "MDRegion": "Europe",
   "MDSoundDriver": "MDSDRV",
-  "SplashScreenFrames": 50
+  "SplashScreenFrames": 50,
+  "TestLevel": ""
 }
