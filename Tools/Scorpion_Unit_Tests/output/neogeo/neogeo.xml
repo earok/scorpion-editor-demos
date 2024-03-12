@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
+  <software name="Scorpion_Unit_Tests">
+    <description>Scorpion Engine game for Neo Geo</description>
+    <year>2024</year>
+    <publisher>PixelGlass</publisher>
+    <sharedfeat name="release" value="MVS,AES" />
+    <sharedfeat name="compatibility" value="MVS,AES" />
+    <part name="cart" interface="neo_cart">
+      <dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="1beebb40" sha1="300e5e2463cb8e830db3e01154415d5e0ed31509" />
+      </dataarea>
+      <dataarea name="fixed" size="0x040000">
+        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="920f5a69" sha1="998f2d7667cd898499a26a86671e2dd2101fe076" />
+      </dataarea>
+      <dataarea name="audiocpu" size="0x020000" />
+      <dataarea name="sprites" size="0x400000" />
+    </part>
+  </software>
+</softwarelist>
