@@ -1,10 +1,12 @@
-# Scorpion Editor 2023.5 and sample games
+# Scorpion Editor 2024.0 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports both the Commodore Amiga and Sega Mega Drive / Genesis.
 
+Scorpion Engine is sponsored by BitBeamCannon and DragonBox.de
+
 Special thanks to our generous Patreon backers that have made Scorpion possible, including:
 
-[Acidbottle](https://acidbottle.itch.io/), [Alexis Chacon](https://weapon121.itch.io/), aZtOcKdOg, BitBeamCannon,[CRIAPOLIS](https://twitter.com/_fabdigital_), Cyberian, Daniel Voelkel, [DomKid](https://z-team.itch.io/), Dustin Smith, Goldblat Alex, Iain McNulty, Jacek Nockowski, Jim Weinhart, John Kevan, [Lemming880](https://lemming880.itch.io/), Mahen, [Marcus Fernström](https://marcusfernstrom.com), Master Linkuei (P.H.G.F), Matteo Trevisan, Michael Jurisch, Mixel, [msmalik681](https://www.youtube.com/channel/UCifkM8Bw0ltxy3AghXhDhAA), Nigel Critten, Ole Johnny Devik, [Predseda](https://www.lemonamiga.com), Rainer Koschnick, Raptor Games, The Amiga Show, Yado
+[Acidbottle](https://acidbottle.itch.io/), [Alexis Chacon](https://weapon121.itch.io/), aZtOcKdOg, [CRIAPOLIS](https://twitter.com/_fabdigital_), Cyberian, Daniel Voelkel, [DomKid](https://z-team.itch.io/), Dustin Smith, Goldblat Alex, Iain McNulty, Jacek Nockowski, Jim Weinhart, John Kevan, [Lemming880](https://lemming880.itch.io/), Mahen, [Marcus Fernström](https://marcusfernstrom.com), Master Linkuei (P.H.G.F), Matteo Trevisan, Michael Jurisch, Mixel, [msmalik681](https://www.youtube.com/channel/UCifkM8Bw0ltxy3AghXhDhAA), Nigel Critten, Ole Johnny Devik, [Predseda](https://www.lemonamiga.com), Rainer Koschnick, Raptor Games, The Amiga Show, Yado
 
 (If I've missed your name on the list - please get in touch on Patreon)
 
