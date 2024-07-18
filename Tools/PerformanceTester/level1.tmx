@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1" compressionlevel="0">
   <properties>
+    <property name="md_parallax" value="md_parallax" />
+    <property name="padding_bottom" type="int" value="2" />
+    <property name="padding_left" type="int" value="1" />
+    <property name="padding_right" type="int" value="1" />
+    <property name="padding_top" type="int" value="1" />
     <property name="parallax_path" type="file" value="parallaxbase.parallax.png" />
     <property name="solid_bottom" type="bool" value="false" />
     <property name="solid_left" type="bool" value="false" />
     <property name="solid_right" type="bool" value="false" />
     <property name="solid_top" type="bool" value="false" />
-    <property name="md_parallax" type="string" value="md_parallax" />
-    <property name="padding_top" type="int" value="1" />
-    <property name="padding_left" type="int" value="1" />
-    <property name="padding_right" type="int" value="1" />
-    <property name="padding_bottom" type="int" value="2" />
   </properties>
   <tileset firstgid="1" source="Actors.tsx" />
   <tileset firstgid="257" source="Blocks.tsx" />
@@ -33,11 +33,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
+      <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
-      <property name="amiga_aga" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_cd" type="bool" value="true" />
+      <property name="pico" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="20" height="14">
@@ -58,11 +61,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
+      <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
-      <property name="amiga_aga" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_cd" type="bool" value="true" />
+      <property name="pico" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="20" height="14">
@@ -83,11 +89,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
+      <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
       <property name="megadrive" type="bool" value="true" />
-      <property name="amiga_aga" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_cd" type="bool" value="true" />
+      <property name="pico" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events" />

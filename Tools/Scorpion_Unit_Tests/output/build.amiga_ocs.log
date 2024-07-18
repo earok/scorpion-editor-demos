@@ -1,36 +1,13 @@
-=== Image optimisations ===
-
-=== Estimated memory usages ===
-
-For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 35160
-Music memory (): 0
-BP Buffer memory: 131040
-core sfx/gfx memory: 4
-Parallax memory: 0
-OS/other estimated: 99328
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 5724
-Map background memory: 1400
-EXE memory: 210300
-vm memory: 10904
-project memory: 800
-memory reserved for active actors on screen (32): 4744
-memory reserved for dormant actors in map (256): 9216
-OS/other estimated: 105472
-
-Accounted memory chip: 371004
-Accounted memory other: 243088
-Accounted memory total: 614092
+Compiled on Thursday, 18 July 2024 7:54:55 p.m.
+Version string: SE2024.1.240717.15.39.EX
 
 === Misc ===
+ImageFrames: 2
+ImageFrame Data Size: 88
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 2
-Actor Data Size: 376
+Actor Data Size: 360
 Block Count: 1
 Block Data Size: 68
 Anim5 Count: 0
@@ -43,35 +20,65 @@ Animations Count: 2
 Animations Data Size: 32
 AnimationFrame Count: 5
 AnimationFrame Data Size: 80
-ImageFrames: 2
-ImageFrame Data Size: 88
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 1
-Attack Data Size: 66
+Attack Data: 2
+Attack Data Size: 176
 Misc data size: 14
-Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3262
-Header data for map new_map Original size 7996 Crunched size 210
-Tile data for map new_map (mem restrictions:No_Blocks) Original size 5724 Crunched size 1488
-Background for map new_map Original size 1400 Crunched size 80
+=== Image optimisations ===
+Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
+Project virtual machine (codeblocks) Original size 11384 Crunched size 3672
+Header data for map new_map Original size 8000 Crunched size 212
+Tile data for map new_map (mem restrictions:No_Blocks) Original size 5732 Crunched size 1494
+Background for map new_map Original size 1396 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 4 Crunched size 4
 Asset bundle 1 (new_map) Original size 23036 Crunched size 11214
-Project Header Original size 4036 Crunched size 1184
-Project Data Original size 800 Crunched size 148
-Project virtual machine (codeblocks) Original size 10904 Crunched size 3468
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4036 Crunched size 1186
+Project Data Original size 894 Crunched size 166
 Project virtual machine redirects Original size 4 Crunched size 4
 
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 55172
+Music memory (): 0
+BP Buffer memory: 131040
+core sfx/gfx memory: 4
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 5732
+Map background memory: 1396
+EXE memory: 217120
+vm memory: 11384
+project memory: 894
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 285544
+Accounted memory other: 355830
+Accounted memory total: 641374
+
 === Codeblocks by compiled size ===
-tests: 2068
-load_level: 764
-startup: 744
-set_yresolution: 458 (Unused?)
+tests: 2392
+startup: 848
+load_level: 568
 do_teleport: 424
+pre_startup: 354
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
-pre_startup: 204
+block_find: 206 (Unused?)
+set_yresolution: 202 (Unused?)
 waitforframes: 194
 check_talkpad: 192 (Unused?)
+new_actor_autogen_attack: 184
+block_count: 178 (Unused?)
 pause: 176 (Unused?)
 flipymove: 162 (Unused?)
 assert: 160
@@ -82,8 +89,7 @@ pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
-load_music: 130 (Unused?)
-destroy_all_blocks: 124 (Unused?)
+destroy_all_blocks: 128 (Unused?)
 pre_load_level: 122
 waitforfireup: 114
 fadein: 112
@@ -95,6 +101,7 @@ destroy_child_actors: 94 (Unused?)
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
+load_music: 78 (Unused?)
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -119,12 +126,5 @@ block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-hardware_amiga: 26 (Unused?)
-hardware_megadrive: 26 (Unused?)
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

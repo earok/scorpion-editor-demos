@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
 <softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
-  <software name="Scorpion_Unit_Tests">
+  <software name="scorpion_unit_tests">
     <description>Scorpion Engine game for Neo Geo</description>
     <year>2024</year>
     <publisher>PixelGlass</publisher>
@@ -9,13 +9,21 @@
     <sharedfeat name="compatibility" value="MVS,AES" />
     <part name="cart" interface="neo_cart">
       <dataarea name="maincpu" width="16" endianness="big" size="0x100000">
-        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="1beebb40" sha1="300e5e2463cb8e830db3e01154415d5e0ed31509" />
+        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="8b9a93c2" sha1="cc9ae1a9c42e8489ada21374355f74f1718d8938" />
       </dataarea>
-      <dataarea name="fixed" size="0x040000">
-        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="920f5a69" sha1="998f2d7667cd898499a26a86671e2dd2101fe076" />
+      <dataarea name="fixed" size="0x020000">
+        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="f16ea574" sha1="47243c844e4bc2f435f37fda9d0b69a044d4b00a" />
       </dataarea>
-      <dataarea name="audiocpu" size="0x020000" />
-      <dataarea name="sprites" size="0x400000" />
+      <dataarea name="sprites" size="0x800000">
+        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x020000" crc="d2a0aa00" sha1="cbab6b5e6c811139e93f3b50b971e0027f687052" />
+        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x020000" crc="d74261f4" sha1="86905d6cf1e66781d1b13cab8d541c92619fe9be" />
+      </dataarea>
+      <dataarea name="audiocpu" size="0x020000">
+        <rom name="mzs_driver.m1" offset="0x000000" size="0x010000" crc="be9b2861" sha1="73fcdb56593fe06ef93b1a3bbf94d3b79f1d192c" />
+      </dataarea>
+      <dataarea name="ymsnd" size="0x400000">
+        <rom name="scorpion.v1" offset="0x000000" size="0x020000" crc="7ee8cdcd" sha1="67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19" />
+      </dataarea>
     </part>
   </software>
 </softwarelist>

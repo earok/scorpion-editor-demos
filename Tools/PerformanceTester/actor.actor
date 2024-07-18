@@ -3,7 +3,7 @@
   "DefaultLookDir": "left",
   "Recycle": "Never",
   "MoveType": "cpu_platform",
-  "MaxEntities": 32,
+  "MaxEntities": 64,
   "NudgeX": 16,
   "NudgeY": 15,
   "Idles": {
@@ -159,8 +159,40 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 3,
+  "DataVersion": 4,
+  "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "DontSpawnIfTooMany": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": null,
   "TileID": 0
 }

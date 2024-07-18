@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
+  <software name="flighty_fox">
+    <description>Scorpion Engine game for Neo Geo</description>
+    <year>2024</year>
+    <publisher>PixelGlass</publisher>
+    <sharedfeat name="release" value="MVS,AES" />
+    <sharedfeat name="compatibility" value="MVS,AES" />
+    <part name="cart" interface="neo_cart">
+      <dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="84f82a3a" sha1="622a1b48d19f0c9f493998c3c9753a2d53d2eeb3" />
+      </dataarea>
+      <dataarea name="fixed" size="0x020000">
+        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="d98ea34c" sha1="e257d5e7fff8e7a6ddc1083d65970adf54c72c37" />
+      </dataarea>
+      <dataarea name="sprites" size="0x800000">
+        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x020000" crc="294d7658" sha1="bbe0e3fc56bfaac91297823adf2fc69b3c051469" />
+        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x020000" crc="d6d36c97" sha1="d2cfbf641c6f44dad38a82871a3059396769a5a4" />
+      </dataarea>
+      <dataarea name="audiocpu" size="0x020000">
+        <rom name="mzs_driver.m1" offset="0x000000" size="0x010000" crc="a76fe676" sha1="d90f3afd8fd62cb80e84d0fb1f464fa6f8e1a02e" />
+      </dataarea>
+      <dataarea name="ymsnd" size="0x400000">
+        <rom name="scorpion.v1" offset="0x000000" size="0x020000" crc="b5ba89c4" sha1="aabbdaff58fd0480aed61344fdcb09a10cd0fe38" />
+      </dataarea>
+    </part>
+  </software>
+</softwarelist>
