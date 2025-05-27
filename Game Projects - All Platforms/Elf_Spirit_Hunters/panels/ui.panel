@@ -1,11 +1,12 @@
 {
   "DataVersion": 6,
   "FirstCopper": 0,
+  "Copper24": false,
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
   "FadeInMusic": false,
   "FadeOutMusic": false,
-  "TalkpadFont": "defaultfont_black",
+  "TalkpadFont": "",
   "TalkpadX": 8,
   "TalkpadY": 16,
   "TalkpadWidth": 272,
@@ -29,9 +30,12 @@
       "CounterImage1": "elf_lives.png",
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": true,
+      "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 5
+      "MaxValue": 5,
+      "CanBeRightToLeft": true
     },
     {
       "PanelElementType": 1,
@@ -44,9 +48,12 @@
       "CounterImage1": "chest_full.png",
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": true,
+      "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 3
+      "MaxValue": 4,
+      "CanBeRightToLeft": true
     },
     {
       "PanelElementType": 1,
@@ -59,9 +66,12 @@
       "CounterImage1": "elf_dead.png",
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": true,
+      "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 5
+      "MaxValue": 5,
+      "CanBeRightToLeft": true
     },
     {
       "PanelElementType": 1,
@@ -74,9 +84,12 @@
       "CounterImage1": "chest_lives.png",
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": true,
+      "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 3
+      "MaxValue": 4,
+      "CanBeRightToLeft": true
     },
     {
       "PanelElementType": 2,
@@ -89,9 +102,12 @@
       "CounterImage1": "battery_lives.png",
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": true,
+      "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 80
+      "MaxValue": 80,
+      "CanBeRightToLeft": true
     },
     {
       "PanelElementType": 0,
@@ -104,12 +120,33 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 32767
+      "MaxValue": 32767,
+      "CanBeRightToLeft": false
+    },
+    {
+      "PanelElementType": 3,
+      "Variable": "status_text",
+      "X": 8,
+      "Y": 16,
+      "NumberFont": null,
+      "Font": "defaultfont_black",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 9,
+      "CanBeRightToLeft": false
     }
   ],
-  "GFXMode": "BP5",
+  "GFXMode": "BP4",
   "PanelSlot": "Bottom",
   "PanelOptionSound": "none",
   "OverlapsGameView": false,
@@ -122,10 +159,10 @@
   "CenterAdjust_MegaDrive": 16,
   "MegaDrivePaletteLines": {
     "Start": 3,
-    "Talkpad": 0,
-    "FireIndicator": 0,
-    "ChoiceIndicator": 0,
-    "NumberFont": 0,
+    "Talkpad": 3,
+    "FireIndicator": 3,
+    "ChoiceIndicator": 3,
+    "NumberFont": 3,
     "Total": 1
   },
   "NeoGeoPaletteLines": {
@@ -141,17 +178,26 @@
   "SliceMode": "Unsliced",
   "PanelSlices": [
     {
+      "Top": 0,
+      "IsForeground": false,
+      "InitialOffset": 0.0,
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
+      "IsCloud": false,
+      "InitialCloudOffset": 0.0,
+      "CloudAnimLeft": -0.5,
+      "CloudAnimIdle": 0.0,
+      "CloudAnimRight": 0.5,
       "Pseudo3DDistance": 0.0,
-      "Pseudo3DSpeed": 0.0,
-      "Top": 0
+      "Pseudo3DSpeed": 0.0
     }
   ],
   "ParallaxOverlayPath": null,
   "Gap": 2,
   "MarsRenderMode": "ForegroundAlpha16bit",
   "OnType": null,
-  "IsRightAligned": false
+  "IsRightAligned": false,
+  "MDPlane": 1,
+  "ParallaxLineDivisions": 1
 }

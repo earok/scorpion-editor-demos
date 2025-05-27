@@ -1,7 +1,6 @@
-Compiled on Wednesday, 10 July 2024 9:36:44 p.m.
-Version string: SE2024.1.240710.14.52.EX
+Compiled on Thursday, 8 May 2025 7:29:27 p.m.
+Version string: SE2024.2.250507.23.16.EX
 
-ImageFrames: 18
 ImageFrame Data Size: 826
 Actor Count: 4
 Actor Data Size: 720
@@ -9,24 +8,26 @@ Animations Count: 14
 Animations Data Size: 224
 AnimationFrame Count: 33
 AnimationFrame Data Size: 528
-Project virtual machine (codeblocks) Original size 8542 Crunched size 8542
-Panel  Original size 3118 Crunched size 3118
+Project virtual machine (codeblocks) Original size 8798 Crunched size 8798
+Panel  Original size 3130 Crunched size 3130
 Project blocks Original size 340 Crunched size 340
 Images Original size 826 Crunched size 826
 Project actors Original size 720 Crunched size 720
 Map block data for new_map Original size 288 Crunched size 288
-Header data for map new_map Original size 8000 Crunched size 8000
+Map actor data for new_map Original size 112 Crunched size 27
+Header data for map new_map Original size 844 Crunched size 844
 Map tile data  new_map Original size 288 Crunched size 288
-Tile data for map new_map (mem restrictions:None) Original size 896 Crunched size 896
-Map event data for new_map Original size 40 Crunched size 40
+Tile data for map new_map (mem restrictions:None) Original size 448 Crunched size 448
+Map event data for new_map Original size 44 Crunched size 44
 Get Y lookup table new_map Original size 64 Crunched size 64
 Map path node data for new_map Original size 12 Crunched size 12
+Project name table Original size 8 Crunched size 8
 Animations Original size 224 Crunched size 224
 Animation Frames Original size 528 Crunched size 528
 Project sound Original size 28 Crunched size 28
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 2902 Crunched size 2902
-Var Data Original size 14 Crunched size 14
+Project Header Original size 3266 Crunched size 3266
+Var Data Original size 50 Crunched size 50
 Attack Data Original size 176 Crunched size 176
 Teleporters Original size 8 Crunched size 8
 
@@ -34,49 +35,47 @@ Teleporters Original size 8 Crunched size 8
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 RAM reserved for level tiles: (largest level: new_map): 576
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 
-Total: 14408 bytes
-
-=== Possibly unused Actors ===
-ninja
+Total: 9800 bytes
 
 === Codeblocks by compiled size ===
-load_level: 528
-do_teleport: 404
+load_level: 510
+do_teleport: 382
+pre_startup: 316
 flipscreen_smooth: 310 (Unused?)
 ninja_autogen_attack: 308
-pre_startup: 298
 flipxymove: 278 (Unused?)
+handle_block_hit: 270
 set_yresolution: 256 (Unused?)
-handle_block_hit: 228
+load_next_level: 252 (Unused?)
 block_find: 206 (Unused?)
 waitforframes: 194
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
 handle_barrel_hit_floor: 170
 flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
 snap_to_screen: 158 (Unused?)
-startup: 156
-pre_quit: 152 (Unused?)
-try_fall_barrel: 150
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 pause: 138 (Unused?)
+try_fall_barrel: 136
+startup: 134
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-handle_block_top_hit: 84
 spawn_barrel: 82
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 78
 load_music_finish: 76
@@ -93,11 +92,11 @@ unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
 regenerate_screen: 58
-zzz_update_temp: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 quit: 50
 regenerate_screen_wait: 46
+handle_block_top_hit: 42 (Unused?)
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)

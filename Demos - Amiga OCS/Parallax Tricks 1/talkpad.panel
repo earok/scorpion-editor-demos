@@ -1,6 +1,7 @@
 {
   "DataVersion": 6,
   "FirstCopper": 0,
+  "Copper24": false,
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
   "FadeInMusic": false,
@@ -10,6 +11,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 288,
   "TalkpadHeight": 16,
+  "OverrideGamePalette": true,
   "PanelImagePath": "talkpad.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
@@ -18,9 +20,8 @@
   "Options": [],
   "Elements": [],
   "GFXMode": "BP5",
-  "PanelSlot": "Middle",
+  "PanelSlot": "Bottom",
   "PanelOptionSound": "none",
-  "PanelOptionSoundMD": null,
   "OverlapsGameView": false,
   "CenterAdjustments": {
     "0": 0,
@@ -29,23 +30,47 @@
     "3": 0
   },
   "CenterAdjust_MegaDrive": 0,
-  "PaletteLines_MegaDrive": 1,
-  "StartingPaletteLine_MegaDrive": 3,
-  "TalkpadPalLine": 0,
-  "FireIndicatorPalLine": 0,
-  "ChoiceIndicatorPalLine": 0,
-  "NumberFontPaletteLine": 0,
+  "MegaDrivePaletteLines": {
+    "Start": 3,
+    "Talkpad": 0,
+    "FireIndicator": 0,
+    "ChoiceIndicator": 0,
+    "NumberFont": 0,
+    "Total": 1
+  },
+  "NeoGeoPaletteLines": {
+    "Start": 15,
+    "Talkpad": 0,
+    "FireIndicator": 0,
+    "ChoiceIndicator": 0,
+    "NumberFont": 0,
+    "Total": 1
+  },
   "ParallaxMultiplierX": 0.5,
   "ParallaxMultiplierY": 0.0,
   "SliceMode": "Unsliced",
   "PanelSlices": [
     {
+      "Top": 0,
+      "IsForeground": false,
+      "InitialOffset": 0.0,
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
-      "Top": 0
+      "IsCloud": false,
+      "InitialCloudOffset": 0.0,
+      "CloudAnimLeft": -0.5,
+      "CloudAnimIdle": 0.0,
+      "CloudAnimRight": 0.5,
+      "Pseudo3DDistance": 0.0,
+      "Pseudo3DSpeed": 0.0
     }
   ],
   "ParallaxOverlayPath": null,
-  "Gap": 4
+  "Gap": 4,
+  "MarsRenderMode": "ForegroundAlpha16bit",
+  "OnType": null,
+  "IsRightAligned": false,
+  "MDPlane": 1,
+  "ParallaxLineDivisions": 1
 }

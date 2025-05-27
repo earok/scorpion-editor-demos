@@ -20,11 +20,10 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "X position relative to the camera",
-      "Variable": "actor_var4",
-      "Expression": "actor_var4 + actor_var1",
+      "Variable": "actor_origin_x",
+      "Expression": "actor_origin_x + actor_var1",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -81,7 +80,16 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -105,7 +113,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -162,9 +169,10 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "actor_var4",
+          "LeftSide": "actor_origin_x",
           "Comparison": "LessThanOrEqual",
           "RightSide": "-32",
           "ComparisonNext": "End",
@@ -190,11 +198,10 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "actor_var4",
-      "Expression": "actor_var4 + 32",
+      "Variable": "actor_origin_x",
+      "Expression": "actor_origin_x + 32",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -251,6 +258,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -283,7 +291,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -340,6 +347,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     }
   ]

@@ -32,4 +32,9 @@
       <property name="Name" value="puff" type="string" />
     </properties>
   </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="neo_geo_parallax" type="string" />
+    </properties>
+  </tile>
 </tileset>

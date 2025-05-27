@@ -1,4 +1,4 @@
-# Scorpion Editor 2024.1 and sample games
+# Scorpion Editor 2024.2 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports multiple 68K platforms:
 
@@ -15,7 +15,7 @@ Special thanks to our generous Patreon backers that have made Scorpion possible,
 (If I've missed your name on the list - please get in touch on Patreon)
 
 
-<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2024.1</a>
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2024.2</a>
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
@@ -50,6 +50,8 @@ The editor and engine itself is not open source - all of the included demos are.
 	- https://opengameart.org/content/ninja-throwing-items-kit-32x32
 
 * Big Ship demo reuses assets from Amigo the Fox demo, as well as the ship from https://opengameart.org/content/rpg-sprite-sheet
+
+* Brixx by Zooperdan
 
 * Bullet hell demo uses art from the Love 2D sample shoot em up game. https://github.com/mieki256/love2d_stg_sample02
 
@@ -94,9 +96,9 @@ The editor and engine itself is not open source - all of the included demos are.
  	
 * RepairWare demo ported from the game by Sergio Cornaga.
 
-* Slope Demo uses Midi sprite ( https://opengameart.org/content/old-midi-sprite ) by Kelvin Shadewing and Surt's Plastic Shamtastic (https://opengameart.org/content/plastic-shamtastic) pack
+* Snek by Zooperdan
 
-* Snake sample derived from https://opengameart.org/content/snake-game-assets by Clear_code
+* Slope Demo uses Midi sprite ( https://opengameart.org/content/old-midi-sprite ) by Kelvin Shadewing and Surt's Plastic Shamtastic (https://opengameart.org/content/plastic-shamtastic) pack
 
 * Super Go Down The Hole is ported from the GameMaker game by Sergio Cornaga, featuring music by JMD.
 

@@ -2,10 +2,10 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
   "Recycle": "Never",
-  "MoveType": "cpu_parallaxlock",
+  "MoveType": "cpu_cameralock",
   "MaxEntities": 0,
   "NudgeX": 0,
-  "NudgeY": 0,
+  "NudgeY": 48,
   "Idles": {
     "UpLeft": "",
     "Up": "",
@@ -153,13 +153,13 @@
   "Vars": [
     "0",
     "0",
-    "-48",
     "0",
-    "48",
+    "0",
+    "0",
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 4,
+  "DataVersion": 6,
   "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
@@ -191,8 +191,12 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": 1
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 1,
+  "MaxTimelineFrames": 50
 }

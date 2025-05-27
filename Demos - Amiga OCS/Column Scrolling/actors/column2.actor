@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "up",
   "Recycle": "Never",
-  "MoveType": "cpu_ignoretiles",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
@@ -131,7 +131,7 @@
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
-  "Flags": 0,
+  "Flags": "ghostThruWalls",
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
@@ -159,7 +159,7 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 4,
+  "DataVersion": 6,
   "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
@@ -191,8 +191,12 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": 1
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 1,
+  "MaxTimelineFrames": 50
 }

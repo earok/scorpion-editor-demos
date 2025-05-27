@@ -1,9 +1,9 @@
-Compiled on Wednesday, 17 July 2024 3:01:53 p.m.
-Version string: SE2024.1.240716.23.57.EX
+Compiled on Sunday, 25 May 2025 8:41:53 p.m.
+Version string: SE2024.2.250518.20.03.EX
 
 === Misc ===
-ImageFrames: 54
-ImageFrame Data Size: 2376
+ImageFrames: 67
+ImageFrame Data Size: 2948
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 14
@@ -22,23 +22,27 @@ AnimationFrame Count: 68
 AnimationFrame Data Size: 1088
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 6
-Attack Data Size: 528
-Misc data size: 14
+Attack Data: 5
+Attack Data Size: 440
+Misc data size: 104
 === Image optimisations ===
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Panel scorepanel Original size 5672 Crunched size 736
-Panel talkpad Original size 25640 Crunched size 5434
-Panel titlepanel Original size 71194 Crunched size 12632
-Project virtual machine (codeblocks) Original size 14996 Crunched size 4012
-Header data for map map Original size 8000 Crunched size 304
-Tile data for map map (mem restrictions:No_Blocks) Original size 8068 Crunched size 2430
-Background for map map Original size 1396 Crunched size 82
-Asset bundle 0 (Core project asset bundle) Original size 22262 Crunched size 9874
+Panel (background color #222) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel scorepanel Original size 3136 Crunched size 276
+Panel bobs scorepanel Original size 860 Crunched size 254
+Panel talkpad Original size 4336 Crunched size 1312
+Panel bobs talkpad Original size 11724 Crunched size 2890
+Panel titlepanel Original size 48004 Crunched size 7980
+Panel bobs titlepanel Original size 23148 Crunched size 5212
+Project virtual machine (codeblocks) Original size 15484 Crunched size 4162
+Map actor data for map Original size 84 Crunched size 80
+Header data for map map Original size 844 Crunched size 204
+Tile data for map map (mem restrictions:No_Blocks) Original size 8072 Crunched size 2430
+Asset bundle 0 (Core project asset bundle) Original size 22264 Crunched size 9874
 Asset bundle 1 (map) Original size 104768 Crunched size 49872
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1194
-Project Data Original size 7426 Crunched size 2082
+Project Header Original size 4408 Crunched size 1234
+Project Data Original size 8000 Crunched size 2230
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -48,45 +52,43 @@ For chip:
 Map gfx (level gfx bundle 1): 104768
 Music memory (): 0
 BP Buffer memory: 132960
-core sfx/gfx memory: 22262
+Core sfx/gfx memory: 22264
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 8068
-Map background memory: 1396
-EXE memory: 217056
-vm memory: 14996
-project memory: 7426
+Map actor cache memory: 0
+Map data memory: 8072
+Map background memory: 1296
+EXE memory: 204056
+vm memory: 15484
+project memory: 8000
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 359318
-Accounted memory other: 368246
-Accounted memory total: 727564
-
-=== Possibly unused Actors ===
-seasonchanger
-spawner_player2
+Accounted memory chip: 359320
+Accounted memory other: 351604
+Accounted memory total: 710924
 
 === Codeblocks by compiled size ===
-startup: 976
-season_next: 680
-load_level: 568
-fallbottom: 518
-do_teleport: 424
+startup: 1160
+season_next: 698
+load_level: 550
+fallbottom: 530
+pre_startup: 422
+do_teleport: 402
 update_season: 372
 pumpkin_hit: 370
-pre_startup: 354
 spring1_autogen_attack: 336
 flipscreen_smooth: 310 (Unused?)
 summer1_autogen_attack: 292
 autumn1_autogen_attack: 286
 winter1_autogen_attack: 286
 flipxymove: 278 (Unused?)
+load_next_level: 252 (Unused?)
 shoot_lazer_dir: 232
 snowball_hit: 216
 block_find: 206 (Unused?)
@@ -95,35 +97,35 @@ push_actor: 202
 push_player: 200
 waitforframes: 194
 check_talkpad: 192
-null_autogen_attack: 184
+pause: 184 (Unused?)
 block_count: 178 (Unused?)
-pause: 176 (Unused?)
-reset_seasonchanger: 168
+reset_seasonchanger: 174
 flipymove: 162 (Unused?)
+pre_quit: 160
 shoot_snowball: 160
 snap_to_screen: 158 (Unused?)
-pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
-orb_bottom: 134
+orb_bottom: 140
 AUTOGEN_OUTOFSCREEN_keep_onscreen_keep_onscreen_destroy_actor_destroy_actor: 130
 AUTOGEN_OUTOFSCREEN_orb_left_orb_right_orb_top_orb_bottom: 130
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
+orb_left: 124
+orb_right: 124
+orb_top: 124
 pre_load_level: 122
 shoot_lazer: 122
-orb_left: 118
-orb_right: 118
-orb_top: 118
 shoot_pumpkin: 118
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
 AUTOGEN_OUTOFSCREEN_fallbottom_fallbottom_None_fallbottom: 106
 AUTOGEN_OUTOFSCREEN_keep_onscreen_keep_onscreen_None_destroy_actor: 106
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_destroy_actor: 106
+waitforfireup: 102
 collider_with_player: 100
+waitforfiredown: 98
 spawn_player2: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)

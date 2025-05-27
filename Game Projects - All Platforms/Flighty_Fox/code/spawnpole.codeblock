@@ -24,7 +24,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -81,7 +80,16 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "DiceSides": "6",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -105,7 +113,6 @@
       "Expression": "48",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -162,6 +169,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "6",
       "Conditions": [
         {
           "LeftSide": "",
@@ -173,15 +181,17 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "DiceMinSide": "0"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "RollDice",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
-      "LevelOperationType": "SpawnOnBlock",
-      "ActorOperationType": "SetSpeed",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
@@ -191,23 +201,22 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "48",
+      "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 4,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "48",
-      "YPosition": "4",
+      "XPosition": "",
+      "YPosition": "",
       "TeleportName": "none",
       "XFloat": null,
-      "YFloat": "-1.0",
-      "ActorType": "pole2 - 1 + dice",
+      "YFloat": null,
+      "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "0",
-      "PushYPixels": "0",
+      "PushXPixels": "",
+      "PushYPixels": "",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
@@ -229,7 +238,7 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": "224",
+      "YRes": "",
       "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
@@ -244,22 +253,15 @@
         "b": 0,
         "a": 255
       },
-      "Sound": "none",
-      "Music": "none",
+      "Sound": "",
+      "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ]
+      "DiceSides": "6",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -283,7 +285,6 @@
       "Expression": "48",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -293,7 +294,7 @@
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": "-1.0",
-      "ActorType": "pole2 - 1 + dice",
+      "ActorType": "pole1 + dice",
       "Animation": "none",
       "PushXPixels": "0",
       "PushYPixels": "0",
@@ -340,6 +341,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "6",
       "Conditions": [
         {
           "LeftSide": "",
@@ -372,7 +374,6 @@
       "Expression": "spawnedpoles + 1",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -429,6 +430,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "6",
       "Conditions": [
         {
           "LeftSide": "",

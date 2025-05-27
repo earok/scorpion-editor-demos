@@ -1,6 +1,7 @@
 {
   "DataVersion": 6,
   "FirstCopper": 0,
+  "Copper24": false,
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
   "FadeInMusic": false,
@@ -29,9 +30,12 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 999
+      "MaxValue": 999,
+      "CanBeRightToLeft": false
     },
     {
       "PanelElementType": 0,
@@ -44,9 +48,12 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 999
+      "MaxValue": 999,
+      "CanBeRightToLeft": false
     }
   ],
   "GFXMode": "BP5",
@@ -81,17 +88,26 @@
   "SliceMode": "Unsliced",
   "PanelSlices": [
     {
+      "Top": 0,
+      "IsForeground": false,
+      "InitialOffset": 0.0,
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
+      "IsCloud": false,
+      "InitialCloudOffset": 0.0,
+      "CloudAnimLeft": -0.5,
+      "CloudAnimIdle": 0.0,
+      "CloudAnimRight": 0.5,
       "Pseudo3DDistance": 0.0,
-      "Pseudo3DSpeed": 0.0,
-      "Top": 0
+      "Pseudo3DSpeed": 0.0
     }
   ],
   "ParallaxOverlayPath": null,
   "Gap": 4,
   "MarsRenderMode": "ForegroundAlpha16bit",
   "OnType": null,
-  "IsRightAligned": false
+  "IsRightAligned": false,
+  "MDPlane": 1,
+  "ParallaxLineDivisions": 1
 }

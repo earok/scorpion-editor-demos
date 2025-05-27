@@ -3,20 +3,20 @@
 <softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
   <software name="ladder">
     <description>Scorpion Engine game for Neo Geo</description>
-    <year>2024</year>
+    <year>2025</year>
     <publisher>PixelGlass</publisher>
     <sharedfeat name="release" value="MVS,AES" />
     <sharedfeat name="compatibility" value="MVS,AES" />
     <part name="cart" interface="neo_cart">
       <dataarea name="maincpu" width="16" endianness="big" size="0x100000">
-        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="164fb066" sha1="d6485ae93f84fe0a5fa5866346a5d02d0e87741e" />
+        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="880fb43a" sha1="90e7823bc508bab254d0ac9885ad108c7c540d91" />
       </dataarea>
       <dataarea name="fixed" size="0x020000">
-        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="eff964d1" sha1="824a8e980fe781a2e8bef9683636941ff36af07e" />
+        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="c7dc3860" sha1="be52e4663919c50e9c27fd4599fcff23411716f3" />
       </dataarea>
       <dataarea name="sprites" size="0x800000">
-        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x020000" crc="1ee40e25" sha1="ff172b44de21440388df9618c4880eaf13ff8852" />
-        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x020000" crc="38f85fb7" sha1="88fefb721174af4c7c618f9b370186e6338f5d95" />
+        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x020000" crc="9fe8e5d4" sha1="c679b18e448358c4e9bd5fc77ea4373d4fce69fc" />
+        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x020000" crc="f0ea27d6" sha1="96f12dca91946f30fc4aced46d493d1b96e006eb" />
       </dataarea>
       <dataarea name="audiocpu" size="0x020000">
         <rom name="mzs_driver.m1" offset="0x000000" size="0x010000" crc="be9b2861" sha1="73fcdb56593fe06ef93b1a3bbf94d3b79f1d192c" />

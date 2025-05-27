@@ -1,7 +1,6 @@
-Compiled on Wednesday, 17 July 2024 1:23:45 p.m.
-Version string: SE2024.1.240716.23.57.EX
+Compiled on Sunday, 25 May 2025 10:04:48 p.m.
+Version string: SE2024.2.250518.20.03.EX
 
-ImageFrames: 83
 ImageFrame Data Size: 3656
 Actor Count: 16
 Actor Data Size: 2880
@@ -10,35 +9,36 @@ Animations Data Size: 592
 AnimationFrame Count: 60
 AnimationFrame Data Size: 960
 Music file song Original size 78332 Crunched size 46572
-Project virtual machine (codeblocks) Original size 13276 Crunched size 13276
-Panel  Original size 3118 Crunched size 3118
-Panel md_sky1 Original size 1118 Crunched size 1118
-Panel md_sky2 Original size 1118 Crunched size 1118
-Panel pnl_title Original size 2798 Crunched size 2798
+Project virtual machine (codeblocks) Original size 13332 Crunched size 13332
+Panel  Original size 3130 Crunched size 3130
+Panel pnl_title Original size 2810 Crunched size 2810
 Project blocks Original size 884 Crunched size 884
 Images Original size 3656 Crunched size 3656
 Project actors Original size 2880 Crunched size 2880
 Map block data for level1 Original size 6100 Crunched size 6100
-Header data for map level1 Original size 8000 Crunched size 8000
+Map actor data for level1 Original size 560 Crunched size 105
+Header data for map level1 Original size 844 Crunched size 844
 Map tile data  level1 Original size 6100 Crunched size 6100
-Tile data for map level1 (mem restrictions:None) Original size 23040 Crunched size 23040
-Map event data for level1 Original size 72 Crunched size 72
+Tile data for map level1 (mem restrictions:None) Original size 11520 Crunched size 11520
+Map event data for level1 Original size 76 Crunched size 76
 Get Y lookup table level1 Original size 488 Crunched size 488
 Map path node data for level1 Original size 12 Crunched size 12
 Map block data for level2 Original size 5220 Crunched size 5220
-Header data for map level2 Original size 8000 Crunched size 8000
+Map actor data for level2 Original size 1008 Crunched size 138
+Header data for map level2 Original size 844 Crunched size 844
 Map tile data  level2 Original size 5220 Crunched size 5220
-Tile data for map level2 (mem restrictions:None) Original size 16016 Crunched size 16016
-Map event data for level2 Original size 40 Crunched size 40
+Tile data for map level2 (mem restrictions:None) Original size 8008 Crunched size 8008
+Map event data for level2 Original size 44 Crunched size 44
 Get Y lookup table level2 Original size 72 Crunched size 72
 Map path node data for level2 Original size 12 Crunched size 12
+Project name table Original size 292 Crunched size 292
 Animations Original size 592 Crunched size 592
 Animation Frames Original size 960 Crunched size 960
 Project sound Original size 196 Crunched size 196
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 2902 Crunched size 2902
-Var Data Original size 42 Crunched size 42
-Attack Data Original size 528 Crunched size 528
+Project Header Original size 3266 Crunched size 3266
+Var Data Original size 140 Crunched size 140
+Attack Data Original size 440 Crunched size 440
 Teleporters Original size 16 Crunched size 16
 Commands for Joystick 1 Original size 12 Crunched size 12
 
@@ -46,44 +46,32 @@ Commands for Joystick 1 Original size 12 Crunched size 12
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 RAM reserved for level tiles: (largest level: level1): 12200
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 
-Total: 26032 bytes
-
-=== Possibly unused blocks ===
-underwaterburgerrock
-
-=== Possibly unused Actors ===
-bigfish
-bird
-frog
-merman
-ringshot
-scorpion
-smallfish
+Total: 21424 bytes
 
 === Codeblocks by compiled size ===
-restart_level: 1724
-load_level: 528
-do_teleport: 404
+restart_level: 1680
+load_level: 510
+do_teleport: 382
+pre_startup: 316
 flipscreen_smooth: 310 (Unused?)
-pre_startup: 298
 alexkidd_autogen_attack: 292
 alexkidd_swim_autogen_attack: 286
 flipxymove: 278 (Unused?)
 set_yresolution: 256 (Unused?)
+load_next_level: 252 (Unused?)
 on_enterwater: 226
 block_find: 206 (Unused?)
-startup: 196
+startup: 204
 waitforframes: 194
-alexkidd_motorcycle_autogen_attack: 184
 block_count: 178 (Unused?)
 on_playerkill: 178
 check_talkpad: 172 (Unused?)
 flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
 snap_to_screen: 158
 on_hardblockcollide: 154
-pre_quit: 152 (Unused?)
 on_blockhit: 148
 on_blockhit_mysterycontainer: 148
 on_blockhit_starcontainer: 148
@@ -95,24 +83,25 @@ pause: 138 (Unused?)
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 on_finishlevel: 128
 on_entered_checkpoint: 124
-spawnbrokenblock: 124
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
 on_rockcollide: 112
 swapsky: 112 (Unused?)
-waitforfiredown: 110
+spawnbrokenblock: 110
 unload_panel: 106
+waitforfireup: 102
 blockcheck_hit: 102 (Unused?)
+waitforfiredown: 98
 on_punch: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 autogen_alexkidd_punch_jump_l_0: 90
-autogen_alexkidd_swim_attack_r_0: 90
 autogen_alexkidd_swim_attack_l_0: 90
+autogen_alexkidd_swim_attack_r_0: 90
 fadeout: 88
 autogen_alexkidd_punch_jump_r_0: 88
 pre_anim5: 86 (Unused?)
@@ -135,7 +124,6 @@ on_frogjump: 64
 load_music: 62
 unload_panel_bottom: 62
 unload_panel_top: 62
-zzz_cameratrack: 62 (Unused?)
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
 regenerate_screen: 58

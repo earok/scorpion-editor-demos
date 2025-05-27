@@ -46,4 +46,19 @@
       <property name="Name" value="plane_dead" type="string" />
     </properties>
   </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="neogeo_ground_parallax" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="neogeo_tree_parallax" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="neogeo_cloud_parallax" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -1,9 +1,9 @@
-Compiled on Wednesday, 10 July 2024 9:57:08 p.m.
-Version string: SE2024.1.240710.14.52.EX
+Compiled on Thursday, 8 May 2025 8:31:55 p.m.
+Version string: SE2024.2.250507.23.16.EX
 
 === Misc ===
-ImageFrames: 13
-ImageFrame Data Size: 572
+ImageFrames: 21
+ImageFrame Data Size: 924
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 2
@@ -22,67 +22,66 @@ AnimationFrame Count: 22
 AnimationFrame Data Size: 352
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 2
-Attack Data Size: 176
-Misc data size: 14
+Attack Data: 1
+Attack Data Size: 88
+Misc data size: 32
 === Image optimisations ===
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Project virtual machine (codeblocks) Original size 9616 Crunched size 2590
-Header data for map new_map Original size 8000 Crunched size 232
-Tile data for map new_map (mem restrictions:None) Original size 1636 Crunched size 186
-Background for map new_map Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 4220 Crunched size 994
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Project virtual machine (codeblocks) Original size 9820 Crunched size 2636
+Map actor data for new_map Original size 28 Crunched size 28
+Header data for map new_map Original size 844 Crunched size 140
+Tile data for map new_map (mem restrictions:None) Original size 1640 Crunched size 188
+Asset bundle 0 (Core project asset bundle) Original size 5112 Crunched size 1084
 Asset bundle 1 (new_map) Original size 254 Crunched size 254
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1192
-Project Data Original size 1734 Crunched size 436
+Project Header Original size 4408 Crunched size 1232
+Project Data Original size 2016 Crunched size 486
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 55172
+Map gfx (Panel: scorpion_eng_splashscreen): 36792
 Music memory (): 0
 BP Buffer memory: 104832
-core sfx/gfx memory: 4220
+Core sfx/gfx memory: 5112
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 1636
-Map background memory: 1396
-EXE memory: 217016
-vm memory: 9616
-project memory: 1734
+Map actor cache memory: 0
+Map data memory: 1640
+Map background memory: 1296
+EXE memory: 203968
+vm memory: 9820
+project memory: 2016
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 263552
-Accounted memory other: 350702
-Accounted memory total: 614254
-
-=== Possibly unused Actors ===
-new_actor
+Accounted memory chip: 246064
+Accounted memory other: 333436
+Accounted memory total: 579500
 
 === Codeblocks by compiled size ===
-load_level: 568
-do_teleport: 424
-pre_startup: 354
+load_level: 550
+pre_startup: 422
+do_teleport: 402
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
+load_next_level: 252 (Unused?)
 block_find: 206 (Unused?)
-set_yresolution: 202 (Unused?)
+set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-new_actor_autogen_attack: 184
+pause: 184
 block_count: 178 (Unused?)
-pause: 176
-startup: 166
 flipymove: 162 (Unused?)
+pre_quit: 160
 snap_to_screen: 158 (Unused?)
 autogen_hero_idle_l_0: 154
 autogen_hero_idle_l_1: 154
@@ -90,7 +89,6 @@ autogen_hero_idle_l_2: 154
 autogen_hero_idle_l_3: 154
 autogen_hero_idle_l_4: 154
 autogen_hero_idle_l_9: 154
-pre_quit: 152
 autogen_hero_idle_r_0: 152
 autogen_hero_idle_r_1: 152
 autogen_hero_idle_r_2: 152
@@ -98,14 +96,16 @@ autogen_hero_idle_r_3: 152
 autogen_hero_idle_r_4: 152
 autogen_hero_idle_r_9: 152
 load_panel: 146
+startup: 144
 flipxmove: 142 (Unused?)
 unload_level: 142
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)

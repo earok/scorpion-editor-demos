@@ -1,7 +1,6 @@
-Compiled on Wednesday, 10 July 2024 9:44:30 p.m.
-Version string: SE2024.1.240710.14.52.EX
+Compiled on Thursday, 8 May 2025 7:49:30 p.m.
+Version string: SE2024.2.250507.23.16.EX
 
-ImageFrames: 20
 ImageFrame Data Size: 890
 Actor Count: 7
 Actor Data Size: 1260
@@ -9,25 +8,26 @@ Animations Count: 15
 Animations Data Size: 240
 AnimationFrame Count: 23
 AnimationFrame Data Size: 368
-Project virtual machine (codeblocks) Original size 10476 Crunched size 10476
-Panel  Original size 3118 Crunched size 3118
-Panel parallax_panel Original size 1086 Crunched size 1086
+Project virtual machine (codeblocks) Original size 10660 Crunched size 10660
+Panel  Original size 3130 Crunched size 3130
 Project blocks Original size 68 Crunched size 68
 Images Original size 890 Crunched size 890
 Project actors Original size 1260 Crunched size 1260
 Map block data for level1 Original size 1056 Crunched size 1056
-Header data for map level1 Original size 8000 Crunched size 8000
+Map actor data for level1 Original size 28 Crunched size 12
+Header data for map level1 Original size 844 Crunched size 844
 Map tile data  level1 Original size 1056 Crunched size 1056
-Tile data for map level1 (mem restrictions:None) Original size 3584 Crunched size 3584
-Map event data for level1 Original size 40 Crunched size 40
+Tile data for map level1 (mem restrictions:None) Original size 1792 Crunched size 1792
+Map event data for level1 Original size 44 Crunched size 44
 Get Y lookup table level1 Original size 64 Crunched size 64
 Map path node data for level1 Original size 12 Crunched size 12
+Project name table Original size 180 Crunched size 180
 Animations Original size 240 Crunched size 240
 Animation Frames Original size 368 Crunched size 368
 Project sound Original size 28 Crunched size 28
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 2902 Crunched size 2902
-Var Data Original size 42 Crunched size 42
+Project Header Original size 3266 Crunched size 3266
+Var Data Original size 86 Crunched size 86
 Attack Data Original size 264 Crunched size 264
 Teleporters Original size 8 Crunched size 8
 
@@ -35,47 +35,45 @@ Teleporters Original size 8 Crunched size 8
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 RAM reserved for level tiles: (largest level: level1): 2112
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 
-Total: 15944 bytes
-
-=== Possibly unused Actors ===
-player
+Total: 11336 bytes
 
 === Codeblocks by compiled size ===
-startup: 532
-load_level: 528
+load_level: 510
+startup: 510
 handler_spinner: 436
-autogen_anim_player_shot_r_0: 428
 autogen_anim_player_shot_l_0: 428
-do_teleport: 404
-level1code: 342
+autogen_anim_player_shot_r_0: 428
+do_teleport: 382
+level1code: 318
+pre_startup: 316
 flipscreen_smooth: 310 (Unused?)
-pre_startup: 298
 player_autogen_attack: 286
 flipxymove: 278 (Unused?)
 set_yresolution: 256
+load_next_level: 252 (Unused?)
+player_shot: 216 (Unused?)
 block_find: 206 (Unused?)
 waitforframes: 194
-player_shot: 188 (Unused?)
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
 flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
 snap_to_screen: 158
-pre_quit: 152 (Unused?)
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
-spawn_wave: 142 (Unused?)
 pause: 138 (Unused?)
-handler_drone: 138
+spawn_wave: 130 (Unused?)
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
 projectile_hit: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -105,7 +103,7 @@ regenerate_screen_wait: 46
 spawn_player: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
-player_handler: 36
+player_handler: 36 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32

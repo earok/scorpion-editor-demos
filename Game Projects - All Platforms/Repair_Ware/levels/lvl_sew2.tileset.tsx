@@ -12,6 +12,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -26,6 +35,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -40,6 +58,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -54,6 +81,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -68,6 +104,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -82,6 +127,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -96,6 +150,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -110,6 +173,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -124,6 +196,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -138,6 +219,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -152,6 +242,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -166,6 +265,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -180,6 +288,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -194,6 +311,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -208,6 +334,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -222,6 +357,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -236,6 +380,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -250,6 +403,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -264,6 +426,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -278,6 +449,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -292,6 +472,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -306,6 +495,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -320,6 +518,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -334,6 +541,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -348,6 +564,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -362,6 +587,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -376,6 +610,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -390,6 +633,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -404,6 +656,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -418,6 +679,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -432,6 +702,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -446,6 +725,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -460,6 +748,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -474,6 +771,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -488,6 +794,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -502,6 +817,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -516,6 +840,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -530,6 +863,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -544,6 +886,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -558,6 +909,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -572,6 +932,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -586,6 +955,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -600,6 +978,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -614,6 +1001,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -628,6 +1024,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -642,6 +1047,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -656,6 +1070,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -670,6 +1093,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -684,6 +1116,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -698,6 +1139,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -712,6 +1162,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -726,6 +1185,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -740,6 +1208,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -754,6 +1231,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -768,6 +1254,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -782,6 +1277,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -796,6 +1300,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -810,6 +1323,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -824,6 +1346,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -838,6 +1369,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -852,6 +1392,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -866,6 +1415,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -880,6 +1438,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -894,6 +1461,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -908,6 +1484,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -922,6 +1507,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -936,6 +1530,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -950,6 +1553,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -964,6 +1576,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -978,6 +1599,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -992,6 +1622,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1006,6 +1645,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1020,6 +1668,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1034,6 +1691,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1048,6 +1714,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1062,6 +1737,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1076,6 +1760,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1090,6 +1783,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1104,6 +1806,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1118,6 +1829,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1132,6 +1852,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1146,6 +1875,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1160,6 +1898,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1174,6 +1921,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1188,6 +1944,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1202,6 +1967,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1216,6 +1990,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1230,6 +2013,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1244,6 +2036,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1258,6 +2059,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1272,6 +2082,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1286,6 +2105,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1300,6 +2128,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1314,6 +2151,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1328,6 +2174,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1342,6 +2197,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1356,6 +2220,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1370,6 +2243,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1384,6 +2266,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1398,6 +2289,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1412,6 +2312,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1426,6 +2335,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1440,6 +2358,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1454,6 +2381,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1468,6 +2404,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1482,6 +2427,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1496,6 +2450,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1510,6 +2473,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1524,6 +2496,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1538,6 +2519,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1552,6 +2542,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1566,6 +2565,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1580,6 +2588,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1594,6 +2611,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1608,6 +2634,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1622,6 +2657,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1636,6 +2680,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1650,6 +2703,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1664,6 +2726,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1678,6 +2749,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1692,6 +2772,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1706,6 +2795,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1720,6 +2818,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1734,6 +2841,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1748,6 +2864,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1762,6 +2887,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1776,6 +2910,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1790,6 +2933,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1804,6 +2956,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1818,6 +2979,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1832,6 +3002,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1846,6 +3025,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1860,6 +3048,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1874,6 +3071,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1888,6 +3094,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1902,6 +3117,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1916,6 +3140,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1930,6 +3163,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1944,6 +3186,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1958,6 +3209,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1972,6 +3232,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1986,6 +3255,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2000,6 +3278,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2014,6 +3301,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2028,6 +3324,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2042,6 +3347,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2056,6 +3370,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2070,6 +3393,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2084,6 +3416,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2098,6 +3439,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2112,6 +3462,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2126,6 +3485,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2140,6 +3508,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2154,6 +3531,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2168,6 +3554,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2182,6 +3577,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2196,6 +3600,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2210,6 +3623,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2224,6 +3646,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2238,6 +3669,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2252,6 +3692,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2266,6 +3715,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2280,6 +3738,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2294,6 +3761,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2308,6 +3784,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2322,6 +3807,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2336,6 +3830,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2350,6 +3853,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2364,6 +3876,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2378,6 +3899,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2392,6 +3922,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2406,6 +3945,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2420,6 +3968,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2434,6 +3991,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2448,6 +4014,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2462,6 +4037,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2476,6 +4060,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2490,6 +4083,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2504,6 +4106,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2518,6 +4129,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2532,6 +4152,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2546,6 +4175,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2560,6 +4198,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2574,6 +4221,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2588,6 +4244,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2602,6 +4267,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2616,6 +4290,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2630,6 +4313,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2644,6 +4336,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2658,6 +4359,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2672,6 +4382,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2686,6 +4405,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2700,6 +4428,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2714,6 +4451,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2728,6 +4474,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2742,6 +4497,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2756,6 +4520,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2770,6 +4543,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2784,6 +4566,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2798,6 +4589,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2812,6 +4612,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2826,6 +4635,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2840,6 +4658,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2854,6 +4681,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2868,6 +4704,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2882,6 +4727,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2896,6 +4750,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2910,6 +4773,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2924,6 +4796,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2938,6 +4819,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2952,6 +4842,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2966,6 +4865,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2980,6 +4888,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2994,6 +4911,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3008,6 +4934,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3022,6 +4957,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3036,6 +4980,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3050,6 +5003,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3064,6 +5026,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3078,6 +5049,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3092,6 +5072,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3106,6 +5095,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3120,6 +5118,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3134,6 +5141,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3148,6 +5164,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3162,6 +5187,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3176,6 +5210,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3190,6 +5233,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3204,6 +5256,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3218,6 +5279,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3232,6 +5302,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3246,6 +5325,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3260,6 +5348,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3274,6 +5371,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3288,6 +5394,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3302,6 +5417,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3316,6 +5440,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3330,6 +5463,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3344,6 +5486,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3358,6 +5509,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3372,6 +5532,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3386,6 +5555,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3400,6 +5578,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3414,6 +5601,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3428,6 +5624,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3442,6 +5647,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3456,6 +5670,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3470,6 +5693,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3484,6 +5716,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3498,6 +5739,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3512,6 +5762,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3526,6 +5785,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3540,6 +5808,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3554,6 +5831,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3568,6 +5854,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3582,6 +5877,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3596,6 +5900,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3610,6 +5923,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3624,6 +5946,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3638,6 +5969,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3652,6 +5992,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3666,6 +6015,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3680,6 +6038,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3694,6 +6061,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3708,6 +6084,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3722,6 +6107,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3736,6 +6130,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3750,6 +6153,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3764,6 +6176,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3778,6 +6199,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3792,6 +6222,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3806,6 +6245,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3820,6 +6268,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3834,6 +6291,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3848,6 +6314,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3862,6 +6337,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3876,6 +6360,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3890,6 +6383,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3904,6 +6406,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3918,6 +6429,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3932,6 +6452,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3946,6 +6475,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3960,6 +6498,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3974,6 +6521,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3988,6 +6544,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4002,6 +6567,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4016,6 +6590,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4030,6 +6613,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4044,6 +6636,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4058,6 +6659,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4072,6 +6682,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4086,6 +6705,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4100,6 +6728,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4114,6 +6751,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4128,6 +6774,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4142,6 +6797,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4156,6 +6820,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4170,6 +6843,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4184,6 +6866,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4198,6 +6889,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4212,6 +6912,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4226,6 +6935,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4240,6 +6958,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4254,6 +6981,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4268,6 +7004,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4282,6 +7027,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4296,6 +7050,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4310,6 +7073,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4324,6 +7096,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4338,6 +7119,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4352,6 +7142,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4366,6 +7165,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4380,6 +7188,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4394,6 +7211,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4408,6 +7234,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4422,6 +7257,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4436,6 +7280,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4450,6 +7303,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4464,6 +7326,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4478,6 +7349,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4492,6 +7372,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4506,6 +7395,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4520,6 +7418,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4534,6 +7441,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4548,6 +7464,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4562,6 +7487,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4576,6 +7510,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4590,6 +7533,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4604,6 +7556,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4618,6 +7579,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4632,6 +7602,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4646,6 +7625,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4660,6 +7648,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4674,6 +7671,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4688,6 +7694,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4702,6 +7717,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4716,6 +7740,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4730,6 +7763,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4744,6 +7786,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4758,6 +7809,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4772,6 +7832,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4786,6 +7855,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4800,6 +7878,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4814,6 +7901,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4828,6 +7924,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4842,6 +7947,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4856,6 +7970,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4870,6 +7993,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4884,6 +8016,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4898,6 +8039,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4912,6 +8062,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4926,6 +8085,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4940,6 +8108,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4954,6 +8131,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4968,6 +8154,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4982,6 +8177,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4996,6 +8200,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5010,6 +8223,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5024,6 +8246,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5038,6 +8269,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5052,6 +8292,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5066,6 +8315,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5080,6 +8338,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5094,6 +8361,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5108,6 +8384,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5122,6 +8407,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5136,6 +8430,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5150,6 +8453,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5164,6 +8476,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5178,6 +8499,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5192,6 +8522,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5206,6 +8545,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5220,6 +8568,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5234,6 +8591,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5248,6 +8614,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5262,6 +8637,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5276,6 +8660,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5290,6 +8683,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5304,6 +8706,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5318,6 +8729,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5332,6 +8752,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5346,6 +8775,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5360,6 +8798,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5374,6 +8821,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5388,6 +8844,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5402,6 +8867,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5416,6 +8890,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5430,6 +8913,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5444,6 +8936,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5458,6 +8959,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5472,6 +8982,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5486,6 +9005,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5500,6 +9028,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5514,6 +9051,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5528,6 +9074,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5542,6 +9097,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5556,6 +9120,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5570,6 +9143,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5584,6 +9166,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5598,6 +9189,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5612,6 +9212,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5626,6 +9235,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5640,6 +9258,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5654,6 +9281,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5668,6 +9304,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5682,6 +9327,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5696,6 +9350,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5710,6 +9373,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5724,6 +9396,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5738,6 +9419,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5752,6 +9442,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5766,6 +9465,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5780,6 +9488,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5794,6 +9511,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5808,6 +9534,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5822,6 +9557,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5836,6 +9580,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5850,6 +9603,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5864,6 +9626,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5878,6 +9649,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5892,6 +9672,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5906,6 +9695,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5920,6 +9718,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5934,6 +9741,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5948,6 +9764,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5962,6 +9787,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5976,6 +9810,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -5990,6 +9833,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6004,6 +9856,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6018,6 +9879,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6032,6 +9902,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6046,6 +9925,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6060,6 +9948,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6074,6 +9971,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6088,6 +9994,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6102,6 +10017,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6116,6 +10040,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6130,6 +10063,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6144,6 +10086,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6158,6 +10109,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6172,6 +10132,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6186,6 +10155,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6200,6 +10178,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6214,6 +10201,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6228,6 +10224,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6242,6 +10247,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6256,6 +10270,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6270,6 +10293,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6284,6 +10316,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6298,6 +10339,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6312,6 +10362,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6326,6 +10385,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6340,6 +10408,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6354,6 +10431,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6368,6 +10454,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6382,6 +10477,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6396,6 +10500,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6410,6 +10523,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6424,6 +10546,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6438,6 +10569,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6452,6 +10592,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6466,6 +10615,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6480,6 +10638,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6494,6 +10661,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6508,6 +10684,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6522,6 +10707,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6536,6 +10730,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6550,6 +10753,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6564,6 +10776,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6578,6 +10799,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6592,6 +10822,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6606,6 +10845,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6620,6 +10868,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6634,6 +10891,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6648,6 +10914,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6662,6 +10937,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6676,6 +10960,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6690,6 +10983,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6704,6 +11006,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6718,6 +11029,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6732,6 +11052,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6746,6 +11075,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6760,6 +11098,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6774,6 +11121,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6788,6 +11144,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6802,6 +11167,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6816,6 +11190,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6830,6 +11213,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6844,6 +11236,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6858,6 +11259,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6872,6 +11282,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6886,6 +11305,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6900,6 +11328,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6914,6 +11351,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6928,6 +11374,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6942,6 +11397,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6956,6 +11420,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6970,6 +11443,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6984,6 +11466,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -6998,6 +11489,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7012,6 +11512,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7026,6 +11535,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7040,6 +11558,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7054,6 +11581,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7068,6 +11604,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7082,6 +11627,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7096,6 +11650,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7110,6 +11673,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7124,6 +11696,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7138,6 +11719,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7152,6 +11742,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7166,6 +11765,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7180,6 +11788,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7194,6 +11811,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7208,6 +11834,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7222,6 +11857,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7236,6 +11880,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7250,6 +11903,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7264,6 +11926,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7278,6 +11949,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7292,6 +11972,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7306,6 +11995,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7320,6 +12018,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7334,6 +12041,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7348,6 +12064,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7362,6 +12087,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7376,6 +12110,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7390,6 +12133,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7404,6 +12156,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7418,6 +12179,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7432,6 +12202,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7446,6 +12225,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7460,6 +12248,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7474,6 +12271,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7488,6 +12294,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7502,6 +12317,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7516,6 +12340,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7530,6 +12363,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7544,6 +12386,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7558,6 +12409,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7572,6 +12432,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7586,6 +12455,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7600,6 +12478,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7614,6 +12501,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7628,6 +12524,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7642,6 +12547,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7656,6 +12570,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7670,6 +12593,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7684,6 +12616,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7698,6 +12639,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7712,6 +12662,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7726,6 +12685,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7740,6 +12708,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7754,6 +12731,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7768,6 +12754,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7782,6 +12777,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7796,6 +12800,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7810,6 +12823,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7824,6 +12846,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7838,6 +12869,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7852,6 +12892,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7866,6 +12915,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7880,6 +12938,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7894,6 +12961,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7908,6 +12984,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7922,6 +13007,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7936,6 +13030,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7950,6 +13053,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7964,6 +13076,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7978,6 +13099,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -7992,6 +13122,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8006,6 +13145,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8020,6 +13168,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8034,6 +13191,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8048,6 +13214,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8062,6 +13237,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8076,6 +13260,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8090,6 +13283,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8104,6 +13306,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8118,6 +13329,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8132,6 +13352,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8146,6 +13375,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8160,6 +13398,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8174,6 +13421,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8188,6 +13444,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8202,6 +13467,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8216,6 +13490,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8230,6 +13513,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8244,6 +13536,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8258,6 +13559,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8272,6 +13582,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8286,6 +13605,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8300,6 +13628,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8314,6 +13651,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8328,6 +13674,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8342,6 +13697,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8356,6 +13720,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8370,6 +13743,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8384,6 +13766,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8398,6 +13789,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8412,6 +13812,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8426,6 +13835,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8440,6 +13858,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8454,6 +13881,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8468,6 +13904,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8482,6 +13927,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8496,6 +13950,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8510,6 +13973,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8524,6 +13996,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8538,6 +14019,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8552,6 +14042,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8566,6 +14065,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8580,6 +14088,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8594,6 +14111,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8608,6 +14134,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8622,6 +14157,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8636,6 +14180,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8650,6 +14203,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8664,6 +14226,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8678,6 +14249,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8692,6 +14272,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8706,6 +14295,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8720,6 +14318,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8734,6 +14341,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8748,6 +14364,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8762,6 +14387,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8776,6 +14410,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8790,6 +14433,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8804,6 +14456,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8818,6 +14479,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8832,6 +14502,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8846,6 +14525,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8860,6 +14548,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8874,6 +14571,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8888,6 +14594,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8902,6 +14617,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8916,6 +14640,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8930,6 +14663,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8944,6 +14686,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8958,6 +14709,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8972,6 +14732,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -8986,6 +14755,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9000,6 +14778,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9014,6 +14801,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9028,6 +14824,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9042,6 +14847,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9056,6 +14870,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9070,6 +14893,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9084,6 +14916,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9098,6 +14939,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9112,6 +14962,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9126,6 +14985,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9140,6 +15008,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9154,6 +15031,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9168,6 +15054,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9182,6 +15077,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9196,6 +15100,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9210,6 +15123,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9224,6 +15146,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9238,6 +15169,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9252,6 +15192,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9266,6 +15215,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9280,6 +15238,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9294,6 +15261,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9308,6 +15284,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9322,6 +15307,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9336,6 +15330,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9350,6 +15353,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9364,6 +15376,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9378,6 +15399,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9392,6 +15422,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9406,6 +15445,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9420,6 +15468,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9434,6 +15491,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9448,6 +15514,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9462,6 +15537,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9476,6 +15560,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9490,6 +15583,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9504,6 +15606,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9518,6 +15629,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9532,6 +15652,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9546,6 +15675,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9560,6 +15698,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9574,6 +15721,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9588,6 +15744,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9602,6 +15767,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9616,6 +15790,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9630,6 +15813,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9644,6 +15836,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9658,6 +15859,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9672,6 +15882,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9686,6 +15905,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9700,6 +15928,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9714,6 +15951,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9728,6 +15974,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9742,6 +15997,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9756,6 +16020,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9770,6 +16043,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9784,6 +16066,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9798,6 +16089,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9812,6 +16112,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9826,6 +16135,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9840,6 +16158,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9854,6 +16181,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9868,6 +16204,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9882,6 +16227,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9896,6 +16250,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9910,6 +16273,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9924,6 +16296,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9938,6 +16319,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9952,6 +16342,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9966,6 +16365,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9980,6 +16388,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -9994,6 +16411,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10008,6 +16434,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10022,6 +16457,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10036,6 +16480,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10050,6 +16503,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10064,6 +16526,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10078,6 +16549,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10092,6 +16572,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10106,6 +16595,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10120,6 +16618,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10134,6 +16641,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10148,6 +16664,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10162,6 +16687,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10176,6 +16710,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10190,6 +16733,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10204,6 +16756,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10218,6 +16779,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10232,6 +16802,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10246,6 +16825,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10260,6 +16848,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10274,6 +16871,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10288,6 +16894,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10302,6 +16917,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10316,6 +16940,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10330,6 +16963,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10344,6 +16986,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10358,6 +17009,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10372,6 +17032,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10386,6 +17055,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10400,6 +17078,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10414,6 +17101,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10428,6 +17124,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10442,6 +17147,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10456,6 +17170,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10470,6 +17193,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10484,6 +17216,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10498,6 +17239,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10512,6 +17262,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10526,6 +17285,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10540,6 +17308,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10554,6 +17331,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10568,6 +17354,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10582,6 +17377,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10596,6 +17400,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10610,6 +17423,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10624,6 +17446,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10638,6 +17469,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10652,6 +17492,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10666,6 +17515,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10680,6 +17538,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10694,6 +17561,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10708,6 +17584,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10722,6 +17607,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10736,6 +17630,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10750,6 +17653,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10764,6 +17676,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10778,6 +17699,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10792,6 +17722,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10806,6 +17745,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10820,6 +17768,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10834,6 +17791,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10848,6 +17814,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10862,6 +17837,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10876,6 +17860,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10890,6 +17883,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10904,6 +17906,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10918,6 +17929,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10932,6 +17952,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10946,6 +17975,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10960,6 +17998,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10974,6 +18021,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -10988,6 +18044,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11002,6 +18067,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11016,6 +18090,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11030,6 +18113,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11044,6 +18136,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11058,6 +18159,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11072,6 +18182,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11086,6 +18205,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11100,6 +18228,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11114,6 +18251,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11128,6 +18274,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11142,6 +18297,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11156,6 +18320,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11170,6 +18343,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11184,6 +18366,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11198,6 +18389,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11212,6 +18412,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11226,6 +18435,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11240,6 +18458,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11254,6 +18481,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11268,6 +18504,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11282,6 +18527,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11296,6 +18550,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11310,6 +18573,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11324,6 +18596,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11338,6 +18619,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11352,6 +18642,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11366,6 +18665,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11380,6 +18688,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11394,6 +18711,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11408,6 +18734,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11422,6 +18757,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11436,6 +18780,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11450,6 +18803,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11464,6 +18826,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11478,6 +18849,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11492,6 +18872,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11506,6 +18895,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11520,6 +18918,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11534,6 +18941,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11548,6 +18964,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11562,6 +18987,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11576,6 +19010,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11590,6 +19033,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11604,6 +19056,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11618,6 +19079,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11632,6 +19102,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11646,6 +19125,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11660,6 +19148,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11674,6 +19171,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11688,6 +19194,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11702,6 +19217,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11716,6 +19240,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11730,6 +19263,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11744,6 +19286,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11758,6 +19309,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11772,6 +19332,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11786,6 +19355,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11800,6 +19378,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11814,6 +19401,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11828,6 +19424,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11842,6 +19447,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11856,6 +19470,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11870,6 +19493,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11884,6 +19516,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11898,6 +19539,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11912,6 +19562,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11926,6 +19585,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11940,6 +19608,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11954,6 +19631,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11968,6 +19654,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11982,6 +19677,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -11996,6 +19700,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12010,6 +19723,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12024,6 +19746,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12038,6 +19769,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12052,6 +19792,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12066,6 +19815,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12080,6 +19838,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -12094,6 +19861,15 @@
       <property name="MD_Palette_TL" value="1" type="string" />
       <property name="MD_Palette_TR" value="1" type="string" />
       <property name="Neo_Palette" type="string" />
+      <property name="MD_FG_Priority_TL" value="True" type="bool" />
+      <property name="MD_FG_Priority_TR" value="True" type="bool" />
+      <property name="MD_FG_Priority_BL" value="True" type="bool" />
+      <property name="MD_FG_Priority_BR" value="True" type="bool" />
+      <property name="MD_BG_Priority_TL" value="False" type="bool" />
+      <property name="MD_BG_Priority_TR" value="False" type="bool" />
+      <property name="MD_BG_Priority_BL" value="False" type="bool" />
+      <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_AutoAnim" value="False" type="bool" />
     </properties>
     <animation />
   </tile>

@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MoveType": "cpu_platform",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 16,
   "NudgeY": 16,
@@ -105,16 +105,16 @@
   ],
   "CollBox": {
     "X": -16,
-    "Y": -33,
+    "Y": -32,
     "Width": 32,
-    "Height": 33
+    "Height": 32
   },
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
-  "SpeedUp": 2.0,
-  "SpeedDown": 3.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 0.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
@@ -131,14 +131,14 @@
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
-  "Flags": "rideablePlatform",
+  "Flags": "rideablePlatform, onspawnAfterRecycle",
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
   "DivertSpawn": "",
-  "DivertPlayerCollision": "",
+  "DivertPlayerCollision": "separate_player_from_actor",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
@@ -148,7 +148,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "elephant_handler",
+  "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
@@ -159,18 +159,44 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 4,
+  "DataVersion": 6,
   "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
-    "TimelineFrames": null,
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
     "TimelineEvents": {},
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": true,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": 2
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 2,
+  "MaxTimelineFrames": 50
 }

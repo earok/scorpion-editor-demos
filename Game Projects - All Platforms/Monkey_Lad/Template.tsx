@@ -63,4 +63,14 @@
       <property name="Name" value="alexkidd_motorcycle" type="string" />
     </properties>
   </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="neo_sky_1" type="string" />
+    </properties>
+  </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="neo_sky_2" type="string" />
+    </properties>
+  </tile>
 </tileset>

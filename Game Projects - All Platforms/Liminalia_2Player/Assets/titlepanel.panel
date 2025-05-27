@@ -1,6 +1,7 @@
 {
   "DataVersion": 6,
   "FirstCopper": 0,
+  "Copper24": false,
   "FadeInFrames": 50,
   "FadeOutFrames": 50,
   "FadeInMusic": false,
@@ -10,6 +11,7 @@
   "TalkpadY": 192,
   "TalkpadWidth": 296,
   "TalkpadHeight": 16,
+  "OverrideGamePalette": true,
   "PanelImagePath": "titlepanel.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
@@ -26,7 +28,8 @@
       "Down": null,
       "Columns": 1,
       "FrameDelay": 5,
-      "PaletteLine": 2
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15
     },
     {
       "X": 16,
@@ -38,7 +41,8 @@
       "Down": null,
       "Columns": 1,
       "FrameDelay": 5,
-      "PaletteLine": 2
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15
     },
     {
       "X": 16,
@@ -50,7 +54,8 @@
       "Down": null,
       "Columns": 1,
       "FrameDelay": 5,
-      "PaletteLine": 2
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15
     }
   ],
   "Elements": [
@@ -64,9 +69,31 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 99
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 99,
+      "CanBeRightToLeft": false
+    },
+    {
+      "PanelElementType": 3,
+      "Variable": "credit_text",
+      "X": 8,
+      "Y": 193,
+      "NumberFont": null,
+      "Font": "new_font",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 9,
+      "CanBeRightToLeft": false
     }
   ],
   "GFXMode": "BP5",
@@ -80,27 +107,47 @@
     "3": 0
   },
   "CenterAdjust_MegaDrive": 0,
-  "PaletteLines_MegaDrive": 1,
-  "StartingPaletteLine_MegaDrive": 0,
-  "TalkpadPalLine": 2,
-  "FireIndicatorPalLine": 0,
-  "ChoiceIndicatorPalLine": 0,
-  "NumberFontPaletteLine": 0,
+  "MegaDrivePaletteLines": {
+    "Start": 0,
+    "Talkpad": 0,
+    "FireIndicator": 0,
+    "ChoiceIndicator": 0,
+    "NumberFont": 0,
+    "Total": 1
+  },
+  "NeoGeoPaletteLines": {
+    "Start": 14,
+    "Talkpad": 0,
+    "FireIndicator": 0,
+    "ChoiceIndicator": 0,
+    "NumberFont": 0,
+    "Total": 1
+  },
   "ParallaxMultiplierX": 0.5,
   "ParallaxMultiplierY": 0.0,
   "SliceMode": "Unsliced",
   "PanelSlices": [
     {
+      "Top": 0,
+      "IsForeground": false,
+      "InitialOffset": 0.0,
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
+      "IsCloud": false,
+      "InitialCloudOffset": 0.0,
+      "CloudAnimLeft": -0.5,
+      "CloudAnimIdle": 0.0,
+      "CloudAnimRight": 0.5,
       "Pseudo3DDistance": 0.0,
-      "Pseudo3DSpeed": 0.0,
-      "Top": 0
+      "Pseudo3DSpeed": 0.0
     }
   ],
   "ParallaxOverlayPath": null,
   "Gap": 4,
   "MarsRenderMode": "ForegroundAlpha16bit",
-  "OnType": null
+  "OnType": null,
+  "IsRightAligned": false,
+  "MDPlane": 1,
+  "ParallaxLineDivisions": 1
 }

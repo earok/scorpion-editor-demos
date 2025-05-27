@@ -1,21 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="80" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="1">
- <properties>
-  <property name="padding_bottom" type="int" value="5"/>
-  <property name="padding_right" type="int" value="0"/>
-  <property name="padding_top" type="int" value="5"/>
- </properties>
- <tileset firstgid="1" source="../Actors.tsx"/>
- <tileset firstgid="257" source="../Blocks.tsx"/>
- <tileset firstgid="513" source="background.tileset.tsx"/>
- <layer id="7" name="background" width="80" height="14">
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="80" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="10" nextobjectid="1" compressionlevel="0">
   <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
+    <property name="padding_bottom" type="int" value="5" />
+    <property name="padding_right" type="int" value="0" />
+    <property name="padding_top" type="int" value="5" />
+    <property name="amiga_panel" type="string" value="" />
   </properties>
-  <data encoding="csv">
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
+  <tileset firstgid="513" source="background.tileset.tsx" />
+  <layer id="7" name="background" width="80" height="14">
+    <data encoding="csv">
 531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,
 531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,
 531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,531,
@@ -31,15 +26,15 @@
 629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,
 629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629,629
 </data>
- </layer>
- <layer id="8" name="soil" width="80" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="8" name="soil" width="80" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,562,563,580,580,580,580,545,561,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,611,579,579,579,579,579,579,612,545,561,0,0,0,0,
@@ -55,15 +50,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="1" name="map" width="80" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="1" name="map" width="80" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,562,563,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -79,15 +74,15 @@
 0,0,0,0,0,0,626,0,0,0,0,0,0,0,0,0,0,595,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,595,625,0,0,0,0,0,0,0,0,0,0,0,626,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,595,0,0,0,0,0,0,0,625,0,0,0,0,0,0,0,0,0,595,595,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="9" name="grass" width="80" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="9" name="grass" width="80" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -103,15 +98,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="2" name="objects" width="80" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="2" name="objects" width="80" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -127,15 +122,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,261,0,0,261,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,261,262,262,261,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="3" name="foreground" width="80" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="true"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="3" name="foreground" width="80" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -151,6 +146,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <objectgroup id="5" name="events"/>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+    </properties>
+  </layer>
+  <objectgroup id="5" name="events" />
 </map>

@@ -1,9 +1,9 @@
-Compiled on Wednesday, 10 July 2024 9:46:57 p.m.
-Version string: SE2024.1.240710.14.52.EX
+Compiled on Saturday, 10 May 2025 5:18:30 p.m.
+Version string: SE2024.2.250510.16.56.EX
 
 === Misc ===
-ImageFrames: 20
-ImageFrame Data Size: 880
+ImageFrames: 23
+ImageFrame Data Size: 1012
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 7
@@ -24,82 +24,84 @@ Sprites: 16
 Sprites Data Size: 224
 Attack Data: 2
 Attack Data Size: 176
-Misc data size: 28
+Misc data size: 68
 === Image optimisations ===
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Project virtual machine (codeblocks) Original size 8898 Crunched size 2758
-Header data for map new_map Original size 8000 Crunched size 256
-Tile data for map new_map (mem restrictions:None) Original size 3344 Crunched size 690
-Background for map new_map Original size 1396 Crunched size 82
-Asset bundle 0 (Core project asset bundle) Original size 12308 Crunched size 3864
-Asset bundle 1 (new_map) Original size 9930 Crunched size 2134
+Panel (background color #598) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel hud Original size 3104 Crunched size 172
+Panel bobs hud Original size 7912 Crunched size 1836
+Project virtual machine (codeblocks) Original size 9532 Crunched size 2972
+Map actor data for new_map Original size 84 Crunched size 80
+Header data for map new_map Original size 844 Crunched size 154
+Tile data for map new_map (mem restrictions:None) Original size 3348 Crunched size 776
+Asset bundle 0 (Core project asset bundle) Original size 12308 Crunched size 3872
+Asset bundle 1 (new_map) Original size 12242 Crunched size 2496
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1188
-Project Data Original size 3410 Crunched size 958
+Project Header Original size 4408 Crunched size 1228
+Project Data Original size 3582 Crunched size 1024
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 55172
+Map gfx (Panel: scorpion_eng_splashscreen): 36792
 Music memory (): 0
 BP Buffer memory: 131520
-core sfx/gfx memory: 12308
+Core sfx/gfx memory: 12308
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 3344
-Map background memory: 1396
-EXE memory: 217016
-vm memory: 8898
-project memory: 3410
+Map actor cache memory: 0
+Map data memory: 3348
+Map background memory: 1296
+EXE memory: 203968
+vm memory: 9532
+project memory: 3582
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 298328
-Accounted memory other: 353368
-Accounted memory total: 651696
-
-=== Possibly unused Actors ===
-platform_actor
-platform_actor_specialparent
-static_king
+Accounted memory chip: 279948
+Accounted memory other: 336422
+Accounted memory total: 616370
 
 === Codeblocks by compiled size ===
-load_level: 568
-king_handler: 442
-do_teleport: 424
-pre_startup: 354
+load_level: 550
+king_handler: 498
+pre_startup: 422
+do_teleport: 402
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
-king_ladder_handler: 222
+load_next_level: 252 (Unused?)
+king_ladder_handler: 232
 block_find: 206 (Unused?)
-set_yresolution: 202 (Unused?)
+set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-king_autogen_attack: 184
+king_autogen_attack: 190
+pause: 184 (Unused?)
 block_count: 178 (Unused?)
-pause: 176 (Unused?)
-startup: 174
+startup: 170
 flipymove: 162 (Unused?)
+pre_quit: 160
 snap_to_screen: 158
-pre_quit: 152
 load_panel: 146
+toggle_snap: 144
 flipxmove: 142 (Unused?)
 unload_level: 142
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_startup: 130
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
+waitforfireup: 102
 platform_orbit: 100
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)

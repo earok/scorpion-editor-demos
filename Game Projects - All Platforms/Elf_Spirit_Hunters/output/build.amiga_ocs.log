@@ -1,9 +1,9 @@
-Compiled on Wednesday, 17 July 2024 2:04:00 p.m.
-Version string: SE2024.1.240716.23.57.EX
+Compiled on Sunday, 25 May 2025 8:13:58 p.m.
+Version string: SE2024.2.250518.20.03.EX
 
 === Misc ===
-ImageFrames: 43
-ImageFrame Data Size: 1892
+ImageFrames: 45
+ImageFrame Data Size: 1980
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 25
@@ -22,106 +22,111 @@ AnimationFrame Count: 46
 AnimationFrame Data Size: 736
 Sprites: 13
 Sprites Data Size: 182
-Attack Data: 3
-Attack Data Size: 264
-Misc data size: 98
+Attack Data: 2
+Attack Data Size: 176
+Misc data size: 194
 === Image optimisations ===
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Panel emptypanel Original size 52972 Crunched size 2286
-Panel main_panel Original size 47472 Crunched size 4562
-Panel store Original size 53652 Crunched size 5016
-Panel title_panel Original size 47472 Crunched size 14622
-Panel ui Original size 17276 Crunched size 2356
-Project virtual machine (codeblocks) Original size 17624 Crunched size 5734
-Header data for map map Original size 8000 Crunched size 254
-Tile data for map map (mem restrictions:None) Original size 12104 Crunched size 1660
-Background for map map Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 109893 Crunched size 43108
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel emptypanel Original size 38136 Crunched size 1036
+Panel bobs emptypanel Original size 4406 Crunched size 1536
+Panel main_panel Original size 37632 Crunched size 4320
+Panel store Original size 38084 Crunched size 3254
+Panel bobs store Original size 6492 Crunched size 1712
+Panel title_panel Original size 46592 Crunched size 14620
+Panel ui Original size 6624 Crunched size 594
+Panel bobs ui Original size 7810 Crunched size 1690
+Project virtual machine (codeblocks) Original size 19140 Crunched size 5996
+Header data for map map Original size 844 Crunched size 170
+Tile data for map map (mem restrictions:None) Original size 12140 Crunched size 1674
+Asset bundle 0 (Core project asset bundle) Original size 109955 Crunched size 43132
 Asset bundle 1 (map) Original size 16334 Crunched size 3468
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1208
-Project Data Original size 8734 Crunched size 2016
+Project Header Original size 4408 Crunched size 1240
+Project Data Original size 8830 Crunched size 2116
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 55172
+Map gfx (Panel: title_panel): 46592
 Music memory (): 0
-BP Buffer memory: 100000
-core sfx/gfx memory: 109893
+BP Buffer memory: 96096
+Core sfx/gfx memory: 109955
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
-Map cache memory: 1660
-Map header cache memory: 254
-Map data memory: 12104
-Map background memory: 1396
-EXE memory: 217056
-vm memory: 17624
-project memory: 8734
+Map cache memory: 1674
+Map header cache memory: 170
+Map actor cache memory: 0
+Map data memory: 12140
+Map background memory: 1296
+EXE memory: 204056
+vm memory: 19140
+project memory: 8830
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 364393
-Accounted memory other: 378132
-Accounted memory total: 742525
+Accounted memory chip: 351971
+Accounted memory other: 362002
+Accounted memory total: 713973
 
 === Codeblocks by compiled size ===
-game_loop: 2624
-store_selection: 1148
-load_level: 568
-game_over_bank: 492
-beam_cross: 472
+game_loop: 3068
+store_selection: 1512
+game_over_bank: 642
+load_level: 550
+beam_cross: 502
 activate: 464
-random_dir: 438
-startup: 426
-do_teleport: 424
-manager_heart: 404
+startup: 460
+manager_heart: 458
+random_dir: 444
+pre_startup: 422
+do_teleport: 402
 manager: 400
 beam_collision: 388
-pre_startup: 354
+store_manager: 368
 beam_test_side: 342
 flipscreen_smooth: 310 (Unused?)
+battery_drain: 302
 flipxymove: 278 (Unused?)
-battery_drain: 272
-store_manager: 260
+load_next_level: 252 (Unused?)
 hunt: 226
 block_find: 206 (Unused?)
-set_yresolution: 202 (Unused?)
+set_yresolution: 202
 drop_chest: 200
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-elves_carry_autogen_attack: 184
-restart: 180 (Unused?)
+pause: 184
 block_count: 178 (Unused?)
-pause: 176
 flipymove: 162 (Unused?)
+pre_quit: 160
 snap_to_screen: 158 (Unused?)
-pre_quit: 152
+restart: 158 (Unused?)
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 flipxlook: 134
 destroyed_block: 130
+hunt_kill: 130
 destroy_all_blocks: 128
+restart_this_level: 128 (Unused?)
 celebrate: 128
-hunt_kill: 124
+game_over: 128
 pre_load_level: 122
 chest_close: 118
-waitforfireup: 114
+return_to_northpole: 114
 fadein: 112
-waitforfiredown: 110
 chest_open: 110
 unload_panel: 106
-game_over: 104
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
-return_to_northpole: 90
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86

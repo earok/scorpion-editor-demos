@@ -1,13 +1,13 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "right",
+  "DefaultLookDir": "upleft",
   "Recycle": "Default",
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 15,
   "Idles": {
-    "UpLeft": "",
+    "UpLeft": "enemy_bird_l",
     "Up": "",
     "UpRight": "",
     "Left": "enemy_bird_l",
@@ -159,18 +159,65 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 4,
+  "DataVersion": 6,
   "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
-    "TimelineFrames": null,
+    "TimelineFrames": {
+      "58": {
+        "X": 31,
+        "Y": 18,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      },
+      "150": {
+        "X": 58,
+        "Y": 6,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
     "TimelineEvents": {},
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": 8
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 8,
+  "MaxTimelineFrames": 150
 }
