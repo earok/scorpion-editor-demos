@@ -1,3 +1,5 @@
+NEW: Check out the [wiki](https://github.com/earok/scorpion-editor-demos/wiki/). It's still a work in progress but contains deep dives on many aspects of Scorpion Engine. It's a good place to start if you're new to Scorpion or need more detail about certain topics such as optimizations and recycling.
+
 # Scorpion Editor 2024.2 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports multiple 68K platforms:
