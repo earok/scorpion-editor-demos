@@ -1,3 +1,5 @@
+NEW: Check out the [wiki](https://github.com/earok/scorpion-editor-demos/wiki/). It's still a work in progress but contains deep dives on many aspects of Scorpion Engine. It's a good place to start if you're new to Scorpion or need more detail about certain topics such as optimizations and recycling.
+
 # Scorpion Editor 2024.2 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports multiple 68K platforms:
@@ -10,7 +12,7 @@ Scorpion Engine is sponsored by BitBeamCannon and DragonBox.de
 
 Special thanks to our generous Patreon backers that have made Scorpion possible, including:
 
-[Acidbottle](https://acidbottle.itch.io/), [Alexis Chacon](https://weapon121.itch.io/), aZtOcKdOg, [CRIAPOLIS](https://twitter.com/_fabdigital_), Cyberian, Daniel Voelkel, [DomKid](https://z-team.itch.io/), Dustin Smith, Goldblat Alex, Iain McNulty, Jacek Nockowski, Jim Weinhart, John Kevan, [Lemming880](https://lemming880.itch.io/), Mahen, [Marcus Fernström](https://marcusfernstrom.com), Master Linkuei (P.H.G.F), Matteo Trevisan, Michael Jurisch, Mixel, [msmalik681](https://www.youtube.com/channel/UCifkM8Bw0ltxy3AghXhDhAA), Nigel Critten, Ole Johnny Devik, [Predseda](https://www.lemonamiga.com), Rainer Koschnick, Raptor Games, [Rigid Ire](https://x.com/RigidIre), The Amiga Show, Yado
+[Acidbottle](https://acidbottle.itch.io/), [Alexis Chacon](https://weapon121.itch.io/), aZtOcKdOg,  [C64portal.pl](https://C64portal.pl), [CRIAPOLIS](https://twitter.com/_fabdigital_), Cyberian, Daniel Voelkel, [DomKid](https://z-team.itch.io/), Dustin Smith, Goldblat Alex, Iain McNulty, Jacek Nockowski, Jim Weinhart, John Kevan, [Lemming880](https://lemming880.itch.io/), Mahen, [Marcus Fernström](https://marcusfernstrom.com), Master Linkuei (P.H.G.F), Matteo Trevisan, Michael Jurisch, Mixel, [msmalik681](https://www.youtube.com/channel/UCifkM8Bw0ltxy3AghXhDhAA), Nigel Critten, Ole Johnny Devik, [Predseda](https://www.lemonamiga.com), Rainer Koschnick, Raptor Games, [Rigid Ire](https://x.com/RigidIre), The Amiga Show, Yado
 
 (If I've missed your name on the list - please get in touch on Patreon)
 
