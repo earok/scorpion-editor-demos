@@ -1,1 +1,1 @@
-game.exe
+game

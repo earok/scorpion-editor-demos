@@ -1,11 +1,11 @@
-Compiled on Sunday, 25 May 2025 9:02:28 p.m.
-Version string: SE2024.2.250518.20.03.EX
+Compiled on Friday, 9 January 2026 11:47:02 a.m.
+Version string: SE2025.0.260109.11.20.EX
 
 === Misc ===
 ImageFrames: 166
-ImageFrame Data Size: 7304
+ImageFrame Data Size: 7968
 Maps and Asset Bundles Count: 4
-Maps and Asset Bundles Data Size: 48
+Maps and Asset Bundles Data Size: 0
 Actor Count: 29
 Actor Data Size: 5220
 Block Count: 19
@@ -20,88 +20,122 @@ Animations Count: 51
 Animations Data Size: 816
 AnimationFrame Count: 167
 AnimationFrame Data Size: 2672
-Sprites: 77
-Sprites Data Size: 1078
-Attack Data: 2
-Attack Data Size: 176
-Misc data size: 176
-=== Image optimisations ===
-Music file vampire_ninjas_in_1_001124 Original size 20900 Crunched size 8204
-Panel (background color #000) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
-Panel healthbar Original size 3424 Crunched size 194
-Panel bobs healthbar Original size 104 Crunched size 94
-Panel theend Original size 10752 Crunched size 278
-Panel title Original size 46648 Crunched size 8464
-Panel bobs title Original size 904 Crunched size 280
-Project virtual machine (codeblocks) Original size 13680 Crunched size 3720
-Map actor data for map Original size 140 Crunched size 102
-Header data for map map Original size 844 Crunched size 180
-Tile data for map map (mem restrictions:None) Original size 10940 Crunched size 756
-Map actor data for map2 Original size 336 Crunched size 152
-Header data for map map2 Original size 844 Crunched size 184
-Tile data for map map2 (mem restrictions:None) Original size 48992 Crunched size 3692
-Map actor data for map3 Original size 56 Crunched size 56
-Header data for map map3 Original size 844 Crunched size 178
-Tile data for map map3 (mem restrictions:None) Original size 2620 Crunched size 422
-Asset bundle 0 (Core project asset bundle) Original size 137256 Crunched size 50992
-Asset bundle 1 (map) Original size 5156 Crunched size 1938
-Asset bundle 2 (map2) Original size 17822 Crunched size 2930
-Asset bundle 3 (map3) Original size 4688 Crunched size 1736
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4408 Crunched size 1244
-Project Data Original size 19156 Crunched size 5872
-Project virtual machine redirects Original size 4 Crunched size 4
+Sprites: 81
+Sprites Data Size: 1134
+Attack Data: 4
+Attack Data Size: 352
+Misc data size: 254
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   MC01 |      508 |     1028 |   Implode | Music data vampire_ninjas_in_1_001124
+   MS01 |     1536 |     7224 |   Implode | Music samples vampire_ninjas_in_1_001124
+   PL05 |     8760 |       76 |   Implode | Panel (background color #000)
+   PL01 |     8836 |     3380 |   Implode | Panel scorpion_eng_splashscreen
+   PL02 |    12216 |      192 |   Implode | Panel healthbar
+   PC02 |    12408 |       94 |   Implode | Panel bobs healthbar
+   PL03 |    12502 |      278 |   Implode | Panel theend
+   PL04 |    12780 |     8460 |   Implode | Panel title
+   PC04 |    21240 |      180 |   Implode | Panel bobs title
+   VC00 |    21420 |     3826 |   Implode | Project virtual machine (codeblocks)
+   MA01 |    25246 |      102 |   Implode | Map actor data for map
+   MH01 |    25348 |      180 |   Implode | Header data for map map
+   MD01 |    25528 |      752 |   Implode | Tile data for map map (mem restrictions:None)
+   MA02 |    26280 |      152 |   Implode | Map actor data for map2
+   MH02 |    26432 |      184 |   Implode | Header data for map map2
+   MD02 |    26616 |     3644 |   Implode | Tile data for map map2 (mem restrictions:None)
+   MA03 |    30260 |       56 |  NoCrunch | Map actor data for map3
+   MH03 |    30316 |      178 |   Implode | Header data for map map3
+   MD03 |    30494 |      418 |   Implode | Tile data for map map3 (mem restrictions:None)
+   AB00 |    30912 |    51450 |   Implode | Asset bundle 0 (Core project asset bundle)
+   AB01 |    82362 |     1952 |   Implode | Asset bundle 1 (map)
+   AB02 |    84314 |     2938 |   Implode | Asset bundle 2 (map2)
+   AB03 |    87252 |     1746 |   Implode | Asset bundle 3 (map3)
+   DB00 |    88998 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    89000 |     1226 |   Implode | Project Header
+   PD01 |    90226 |       12 |  NoCrunch | Project Custom Collisions
+   PD00 |    90238 |     6250 |   Implode | Project Data
+   VR00 |    96488 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   51450 |   165250 |  (69%) | Asset bundle 0 (Core project asset bundle)
+    8460 |    46640 |  (82%) | Panel title
+    7224 |     7528 |   (5%) | Music samples vampire_ninjas_in_1_001124
+    6250 |    20082 |  (69%) | Project Data
+    3826 |    14526 |  (74%) | Project virtual machine (codeblocks)
+    3644 |    49000 |  (93%) | Tile data for map map2 (mem restrictions:None)
+    3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
+    2938 |    18104 |  (84%) | Asset bundle 2 (map2)
+    1952 |     5600 |  (66%) | Asset bundle 1 (map)
+    1746 |     5120 |  (66%) | Asset bundle 3 (map3)
+    1226 |     4376 |  (72%) | Project Header
+    1028 |    13372 |  (93%) | Music data vampire_ninjas_in_1_001124
+     752 |    10948 |  (94%) | Tile data for map map (mem restrictions:None)
+     418 |     2628 |  (85%) | Tile data for map map3 (mem restrictions:None)
+     278 |    10744 |  (98%) | Panel theend
+     192 |     3416 |  (95%) | Panel healthbar
+     184 |      848 |  (79%) | Header data for map map2
+     180 |      976 |  (82%) | Panel bobs title
+     180 |      848 |  (79%) | Header data for map map
+     178 |      848 |  (80%) | Header data for map map3
+     152 |      336 |  (55%) | Map actor data for map2
+     102 |      140 |  (28%) | Map actor data for map
+      94 |      104 |  (10%) | Panel bobs healthbar
+      76 |     1296 |  (95%) | Panel (background color #000)
+      56 |       56 |        | Map actor data for map3
+      12 |       12 |        | Project Custom Collisions
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: title): 46648
-Music memory (vampire_ninjas_in_1_001124): 20900
+Map gfx (Panel: title): 46640
+Music sample (vampire_ninjas_in_1_001124): 7528
 BP Buffer memory: 112800
-Core sfx/gfx memory: 137256
+Core sfx/gfx memory: 165250
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
-Map cache memory: 3692
-Map header cache memory: 184
-Map actor cache memory: 152
-Map data memory: 48992
+Map data memory: 49000
 Map background memory: 1296
-EXE memory: 204056
-vm memory: 13680
-project memory: 19156
-memory reserved for active actors on screen (32): 4616
+EXE memory: 219736
+vm memory: 14526
+project memory: 20082
+Music data (vampire_ninjas_in_1_001124): 13372
+memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 416932
-Accounted memory other: 405904
-Accounted memory total: 822836
+Accounted memory chip: 444918
+Accounted memory other: 419784
+Accounted memory total: 864702
 
 === Possibly unused sound effects ===
 jumpa
 push
 
 === Codeblocks by compiled size ===
-load_level: 550
-startup: 540
-on_eleblock_collide: 450 (Unused?)
-pre_startup: 422
-do_teleport: 402
-on_exit: 386
+load_level: 676
+startup: 548
+on_eleblock_collide: 482 (Unused?)
+pre_startup: 438
+on_exit: 402
 walljump: 332
+do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
 function_bomblava: 308
 on_angerduck_collide: 300
 flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
 on_buttonpress: 258
-load_next_level: 252 (Unused?)
+freemem: 256
 on_duck_collide: 240
 slime_collide: 230
-block_find: 206 (Unused?)
+block_find: 210 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 endcutscene_theend: 194
@@ -109,34 +143,35 @@ check_talkpad: 192 (Unused?)
 pause: 184 (Unused?)
 block_count: 178 (Unused?)
 flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+endcutscene: 162
 pre_quit: 160
-snap_to_screen: 158 (Unused?)
-endcutscene: 154
-load_panel: 146
 on_hurt: 146
 flipxmove: 142
-unload_level: 142
 duck_decision: 142
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
 on_buglazer_collide: 126
-pre_load_level: 122
 on_hatcollect: 122
+unload_level: 118
 endcutscene_guyleft: 116
 slime_slide: 114
-fadein: 112
 endcutscene_dark2: 110
 on_barsopen: 110
-unload_panel: 106
-waitforfireup: 102
-waitforfiredown: 98
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+unload_panel: 102
+waitforfiredown: 102
 endcutscene_endbow: 98
-load_panel_bottom: 96 (Unused?)
+load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
 on_glovecollect: 90
-fadeout: 88
-pre_anim5: 86 (Unused?)
+pre_load_level: 86
 waitforfirehit: 86
 duck_die_finish: 84
 on_bomb: 84
@@ -144,6 +179,7 @@ on_buglazer_hitground: 84
 load_music: 78
 endcutscene_finaljump: 78
 endcutscene_landed: 78
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -155,31 +191,29 @@ flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 on_buglazer_shoot: 72
-quit: 70
 on_duck_spawn: 70
 player_hit_lava: 70
 jump_actor: 66 (Unused?)
-load_panel_finish: 66
 on_buglazer_hit: 64
 on_hurtstars_end: 64
-unload_panel_bottom: 62
-unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
+quit: 60
 destroy_actor: 58
-regenerate_screen: 58
 duck_cooldown: 58
 endcutscene_dark1: 58
 endcutscene_inbed: 58
 on_end_walkcycle: 58
+freemem_hard: 54 (Unused?)
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 separate_player_from_actor: 52
-regenerate_screen_wait: 46
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
-block_coll_passthru: 32 (Unused?)
-clear_block_collision: 32
-vm_registers: 26 (Unused?)
+block_coll_passthru: 32
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

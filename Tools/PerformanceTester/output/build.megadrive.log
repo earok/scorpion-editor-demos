@@ -1,112 +1,148 @@
-Compiled on Thursday, 8 May 2025 7:19:39 p.m.
-Version string: SE2024.2.250507.23.16.EX
+Compiled on Thursday, 8 January 2026 1:54:39 p.m.
+Version string: SE2025.0.260108.12.53.EX
 
-ImageFrame Data Size: 96
+ImageFrame Data Size: 120
 Actor Count: 2
 Actor Data Size: 360
 Animations Count: 3
 Animations Data Size: 48
 AnimationFrame Count: 6
 AnimationFrame Data Size: 96
-Default MD font Original size 2048 Crunched size 2048
-Project virtual machine (codeblocks) Original size 10424 Crunched size 10424
-Panel  Original size 10362 Crunched size 10362
-Panel md_parallax Original size 6028 Crunched size 6028
-Font for panel 2 Original size 2048 Crunched size 2048
-Panel talkpad Original size 1050 Crunched size 1050
-Project blocks Original size 68 Crunched size 68
-Images Original size 96 Crunched size 96
-Project actors Original size 360 Crunched size 360
-Project patterns Original size 4 Crunched size 4
-Map tile data  level1 Original size 456 Crunched size 36
-Tile data for map level1 (mem restrictions:None) Original size 560 Crunched size 560
-Pattern data for 1 Original size 28 Crunched size 28
-Map event data for level1 Original size 44 Crunched size 44
-Get Y lookup table level1 Original size 76 Crunched size 76
-Map path node data for level1 Original size 12 Crunched size 12
-Header data for map level1 Original size 844 Crunched size 844
-Map block data for level1 Original size 456 Crunched size 6
-Project name table Original size 56 Crunched size 56
-Streamed project patterns Original size 544 Crunched size 544
-Animations Original size 48 Crunched size 48
-Animation Frames Original size 96 Crunched size 96
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 3266 Crunched size 3266
-Var Data Original size 32 Crunched size 32
-Attack Data Original size 88 Crunched size 88
-Teleporters Original size 8 Crunched size 8
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   FN00 |   122740 |     2048 |  NoCrunch | Default MD font
+   VC00 |   124788 |    11160 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   135948 |    10364 |  NoCrunch | Panel 
+   PL02 |   146312 |     6030 |  NoCrunch | Panel md_parallax
+   FN03 |   152342 |     2048 |  NoCrunch | Font for panel 3
+   PL03 |   154390 |     1052 |  NoCrunch | Panel talkpad
+   PB00 |   155442 |       68 |  NoCrunch | Project blocks
+   PI00 |   155510 |      120 |  NoCrunch | Images
+   PA00 |   155630 |      360 |  NoCrunch | Project actors
+   PP00 |   155990 |        4 |  NoCrunch | Project patterns
+   MT01 |   155994 |       36 |       ZX0 | Map tile data  level1
+   MD01 |   156030 |      560 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
+   PP01 |   156590 |       24 |  NoCrunch | Pattern data for level1
+   ME01 |   156614 |       44 |  NoCrunch | Map event data for level1
+   MY01 |   156658 |       76 |  NoCrunch | Get Y lookup table level1
+   MN01 |   156734 |       20 |  NoCrunch | Map path node data for level1
+   MH01 |   156754 |      848 |  NoCrunch | Header data for map level1
+   ML01 |   157602 |        6 |       ZX0 | Map block data for level1
+   NT00 |   157608 |       72 |  NoCrunch | Project name table
+   PP-1 |   157680 |      544 |  NoCrunch | Streamed project patterns
+   PN00 |   158224 |       48 |  NoCrunch | Animations
+   PF00 |   158272 |       96 |  NoCrunch | Animation Frames
+   DB00 |   158368 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   158370 |    11482 |  NoCrunch | Project Header
+   PD01 |   169852 |        4 |  NoCrunch | Project Custom Collisions
+   PV00 |   169856 |       38 |  NoCrunch | Var Data
+   AT00 |   169894 |      176 |  NoCrunch | Attack Data
+   PE00 |   170070 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   11482 |    11482 |        | Project Header
+   11160 |    11160 |        | Project virtual machine (codeblocks)
+   10364 |    10364 |        | Panel 
+    6030 |     6030 |        | Panel md_parallax
+    2048 |     2048 |        | Default MD font
+    2048 |     2048 |        | Font for panel 3
+    1052 |     1052 |        | Panel talkpad
+     848 |      848 |        | Header data for map level1
+     560 |      560 |        | Tile data for map level1 (mem restrictions:None)
+     544 |      544 |        | Streamed project patterns
+     360 |      360 |        | Project actors
+     176 |      176 |        | Attack Data
+     120 |      120 |        | Images
+      96 |       96 |        | Animation Frames
+      76 |       76 |        | Get Y lookup table level1
+      72 |       72 |        | Project name table
+      68 |       68 |        | Project blocks
+      48 |       48 |        | Animations
+      44 |       44 |        | Map event data for level1
+      38 |       38 |        | Var Data
+      36 |      456 |  (93%) | Map tile data  level1
+      24 |       24 |        | Pattern data for level1
+      20 |       20 |        | Map path node data for level1
+       8 |        8 |        | Teleporters
+       6 |      456 |  (99%) | Map block data for level1
+       4 |        4 |        | Project patterns
+       4 |        4 |        | Project Custom Collisions
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 RAM reserved for level tiles: (largest level: level1): 912
-memory reserved for active actors on screen (32): 4616
+memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 
-Total: 10136 bytes
+Total: 10584 bytes
 
 === Codeblocks by compiled size ===
-load_level: 510
+load_level: 636
+pre_startup: 392
 set_yresolution: 390 (Unused?)
-do_teleport: 382
-pre_startup: 360
 flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
 flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
 loop: 256
-load_next_level: 252 (Unused?)
-block_find: 206 (Unused?)
-startup: 202
+block_find: 210 (Unused?)
+startup: 210
 waitforframes: 194
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
 flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
 pre_quit: 160 (Unused?)
-snap_to_screen: 158 (Unused?)
-load_panel: 146
-oncollide: 144
+oncollide: 154
 flipxmove: 142 (Unused?)
-unload_level: 142
 pause: 138 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
-pre_load_level: 122
-fadein: 112
-unload_panel: 106
-waitforfireup: 102
-waitforfiredown: 98
-load_panel_bottom: 96 (Unused?)
-load_panel_top: 96 (Unused?)
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
 onlanded: 96
 destroy_child_actors: 94 (Unused?)
-fadeout: 88
-pre_anim5: 86 (Unused?)
+pre_load_level: 86
 waitforfirehit: 86
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76
 wrap_screen_right: 76 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-load_music: 70 (Unused?)
+load_music: 70
 jump_actor: 66 (Unused?)
-load_panel_finish: 66
-unload_panel_bottom: 62
-unload_panel_top: 62
+waitforfiredown: 64
+waitforfireup: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
-regenerate_screen: 58
+onupdate: 56
+freemem_hard: 54 (Unused?)
 AUTOGEN_OUTOFSCREEN_None_None_None_wrap_screen_bottom: 54
-onupdate: 54
 destroy_block: 52 (Unused?)
-return: 52 (Unused?)
-quit: 50 (Unused?)
-regenerate_screen_wait: 46
+return: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 spawn: 38
 block_coll_force: 32 (Unused?)
-block_coll_passthru: 32 (Unused?)
-clear_block_collision: 32
-vm_registers: 26 (Unused?)
+block_coll_passthru: 32
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
 set_ntsc: 26
 vm_constants_tile_properties: 26 (Unused?)

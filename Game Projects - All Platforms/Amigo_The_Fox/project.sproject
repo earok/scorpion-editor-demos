@@ -95,7 +95,7 @@
       "Neo_Select": false,
       "OnPress": "nextlevel",
       "OnRelease": null,
-      "buttonState": 8
+      "buttonState": 128
     },
     {
       "Compiler": "neogeo",
@@ -126,7 +126,7 @@
       "Neo_Select": false,
       "OnPress": "pause",
       "OnRelease": null,
-      "buttonState": 16
+      "buttonState": 256
     },
     {
       "Compiler": "neogeo",
@@ -157,7 +157,7 @@
       "Neo_Select": true,
       "OnPress": "nextlevel",
       "OnRelease": null,
-      "buttonState": 32
+      "buttonState": 512
     },
     {
       "Compiler": "amiga",
@@ -246,6 +246,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "song": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {
@@ -330,9 +337,9 @@
   "ReadCD32Buttons": false,
   "ReadMD6Buttons": true,
   "MDRegion": "Universal",
-  "MDSoundDriver": "XGM",
+  "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": "",
-  "SafetyRails": false,
-  "NGH": 21317
+  "SafetyRails": true,
+  "VDPColor": false
 }

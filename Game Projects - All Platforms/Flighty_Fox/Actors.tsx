@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="actors" tilewidth="16" tileheight="16" tilecount="256" columns="0">
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
@@ -44,21 +44,6 @@
   <tile id="8">
     <properties>
       <property name="Name" value="plane_dead" type="string" />
-    </properties>
-  </tile>
-  <tile id="9">
-    <properties>
-      <property name="Name" value="neogeo_ground_parallax" type="string" />
-    </properties>
-  </tile>
-  <tile id="10">
-    <properties>
-      <property name="Name" value="neogeo_tree_parallax" type="string" />
-    </properties>
-  </tile>
-  <tile id="11">
-    <properties>
-      <property name="Name" value="neogeo_cloud_parallax" type="string" />
     </properties>
   </tile>
 </tileset>

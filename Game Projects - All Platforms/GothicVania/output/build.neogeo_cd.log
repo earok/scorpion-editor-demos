@@ -1,5 +1,5 @@
-Compiled on Friday, 28 February 2025 7:57:31 p.m.
-Version string: SE2024.2.250227.17.42.EX
+Compiled on Sunday, 14 December 2025 6:53:39 p.m.
+Version string: SE2025.0.251213.21.42.EX
 
 ImageFrame Data Size: 8212
 Actor Count: 14
@@ -8,96 +8,124 @@ Animations Count: 29
 Animations Data Size: 464
 AnimationFrame Count: 108
 AnimationFrame Data Size: 1728
-Project virtual machine (codeblocks) Original size 11074 Crunched size 11074
-Panel  Original size 3130 Crunched size 3130
-Panel title Original size 3130 Crunched size 3130
-Project blocks Original size 476 Crunched size 476
-Images Original size 8212 Crunched size 8212
-Project actors Original size 2520 Crunched size 2520
-Map block data for map_new Original size 6342 Crunched size 6342
-Map actor data for map_new Original size 560 Crunched size 99
-Header data for map map_new Original size 844 Crunched size 844
-Map tile data  map_new Original size 6342 Crunched size 6342
-Tile data for map map_new (mem restrictions:None) Original size 8400 Crunched size 8400
-Map event data for map_new Original size 76 Crunched size 76
-Get Y lookup table map_new Original size 84 Crunched size 84
-Map path node data for map_new Original size 132 Crunched size 132
-Project name table Original size 1564 Crunched size 1564
-Animations Original size 464 Crunched size 464
-Animation Frames Original size 1728 Crunched size 1728
-Project sound Original size 168 Crunched size 168
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 3262 Crunched size 3262
-Var Data Original size 176 Crunched size 176
-Attack Data Original size 352 Crunched size 352
-Teleporters Original size 8 Crunched size 8
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   107490 |    11418 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   118908 |     2012 |  NoCrunch | Panel 
+   PL02 |   120920 |     2012 |  NoCrunch | Panel title
+   PB00 |   122932 |      476 |  NoCrunch | Project blocks
+   PI00 |   123408 |     8212 |  NoCrunch | Images
+   PA00 |   131620 |     2520 |  NoCrunch | Project actors
+   ML01 |   134140 |       88 |       ZX0 | Map block data for map_new
+   MA01 |   134228 |      100 |       ZX0 | Map actor data for map_new
+   MH01 |   134328 |      848 |  NoCrunch | Header data for map map_new
+   MT01 |   135176 |       96 |       ZX0 | Map tile data  map_new
+   MD01 |   135272 |     8400 |  NoCrunch | Tile data for map map_new (mem restrictions:None)
+   ME01 |   143672 |       76 |  NoCrunch | Map event data for map_new
+   MY01 |   143748 |       84 |  NoCrunch | Get Y lookup table map_new
+   MN01 |   143832 |      220 |  NoCrunch | Map path node data for map_new
+   NT00 |   144052 |     1664 |  NoCrunch | Project name table
+   PN00 |   145716 |      464 |  NoCrunch | Animations
+   PF00 |   146180 |     1728 |  NoCrunch | Animation Frames
+   PS00 |   147908 |      168 |  NoCrunch | Project sound
+   DB00 |   148076 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   148078 |     3290 |  NoCrunch | Project Header
+   PV00 |   151368 |      200 |  NoCrunch | Var Data
+   AT00 |   151568 |      440 |  NoCrunch | Attack Data
+   PE00 |   152008 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   11418 |    11418 |        | Project virtual machine (codeblocks)
+    8400 |     8400 |        | Tile data for map map_new (mem restrictions:None)
+    8212 |     8212 |        | Images
+    3290 |     3290 |        | Project Header
+    2520 |     2520 |        | Project actors
+    2012 |     2012 |        | Panel 
+    2012 |     2012 |        | Panel title
+    1728 |     1728 |        | Animation Frames
+    1664 |     1664 |        | Project name table
+     848 |      848 |        | Header data for map map_new
+     476 |      476 |        | Project blocks
+     464 |      464 |        | Animations
+     440 |      440 |        | Attack Data
+     220 |      220 |        | Map path node data for map_new
+     200 |      200 |        | Var Data
+     168 |      168 |        | Project sound
+     100 |      560 |  (83%) | Map actor data for map_new
+      96 |     6342 |  (99%) | Map tile data  map_new
+      88 |     6342 |  (99%) | Map block data for map_new
+      84 |       84 |        | Get Y lookup table map_new
+      76 |       76 |        | Map event data for map_new
+       8 |        8 |        | Teleporters
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 RAM reserved for level tiles: (largest level: map_new): 12684
-memory reserved for active actors on screen (32): 4616
+memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 
-Total: 21908 bytes
+Total: 22356 bytes
 
 === Possibly unused sound effects ===
 hurt
 jump
 
 === Codeblocks by compiled size ===
-load_level: 510
-do_teleport: 382
-pre_startup: 316
+load_level: 636
+pre_startup: 348
 flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
 flipxymove: 278 (Unused?)
+player_hurt_handler: 272
+load_next_level: 268 (Unused?)
 set_yresolution: 256
-player_hurt_handler: 254
-load_next_level: 252 (Unused?)
 hero_autogen_attack: 242
-block_find: 206 (Unused?)
-reset_level: 206
+freemem: 236
+reset_level: 214
+block_find: 210 (Unused?)
 waitforframes: 194
 on_hurt_player: 190
-hero_crouch_autogen_attack: 184
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
 flipymove: 162 (Unused?)
-snap_to_screen: 158 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
 player_control_handler: 158
-pre_quit: 152 (Unused?)
-load_panel: 146
 flipxmove: 142
-unload_level: 142
 bg_handler: 140 (Unused?)
 on_spawn_skeleton: 140
 pause: 138 (Unused?)
-startup: 130
+restart_this_level: 136 (Unused?)
+load_panel: 134
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
 on_skeleton_risen: 126
-pre_load_level: 122
-fadein: 112
-unload_panel: 106
-player_handler: 106
-waitforfireup: 102
-waitforfiredown: 98
-load_panel_bottom: 96 (Unused?)
-load_panel_top: 96 (Unused?)
+unload_level: 118
+startup: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+player_handler: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
 autogen_hero_attack_l_1: 90
 autogen_hero_attack_l_2: 90
 autogen_hero_attack_l_3: 90
-on_kill_enemy: 90
 on_try_spawn_skeleton_left: 90
 on_try_spawn_skeleton_right: 90
 player_crouch_handler: 90
-fadeout: 88
 autogen_hero_attack_r_2: 88
 autogen_hero_attack_r_3: 88
-pre_anim5: 86 (Unused?)
+pre_load_level: 86
 waitforfirehit: 86
 autogen_hero_attack_r_1: 86
+on_kill_enemy: 84
 AUTOGEN_OUTOFSCREEN_on_leave_left_on_leave_right_None_None: 78
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -105,38 +133,37 @@ flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 jump_actor: 66
-load_panel_finish: 66
-load_music: 62 (Unused?)
-unload_panel_bottom: 62
-unload_panel_top: 62
+waitforfiredown: 64
+load_music: 62
+waitforfireup: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
-regenerate_screen: 58
-autogen_hero_fall_l_1: 58
 key_attack_pressed: 58 (Unused?)
+freemem_hard: 54 (Unused?)
 AUTOGEN_OUTOFSCREEN_None_None_None_reset_level: 54
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-quit: 50 (Unused?)
-regenerate_screen_wait: 46
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 on_leave_left: 46
 on_leave_right: 46
 set_actor_invisible: 46
 key_up_pressed: 44 (Unused?)
 freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 key_down_pressed: 38 (Unused?)
 key_left_pressed: 38 (Unused?)
 key_right_pressed: 38 (Unused?)
 block_coll_force: 32 (Unused?)
-block_coll_passthru: 32 (Unused?)
-clear_block_collision: 32
+block_coll_passthru: 32
 key_down_released: 32 (Unused?)
 key_left_released: 32 (Unused?)
 key_right_released: 32 (Unused?)
 key_up_released: 32 (Unused?)
-vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
 set_ntsc: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
 color_off: 26 (Unused?)

@@ -16198,11 +16198,13 @@
    <property name="MD_Palette_BR" value="0"/>
    <property name="MD_Palette_TL" value="0"/>
    <property name="MD_Palette_TR" value="0"/>
-   <property name="Neo_AutoAnim" type="bool" value="false"/>
+   <property name="Neo_AutoAnim" type="bool" value="true"/>
    <property name="Neo_Palette" value=""/>
    <property name="OnAnimFrame" value=""/>
   </properties>
   <animation>
+   <frame tileid="703" duration="600"/>
+   <frame tileid="704" duration="600"/>
    <frame tileid="703" duration="600"/>
    <frame tileid="704" duration="600"/>
   </animation>

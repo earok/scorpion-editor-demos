@@ -1,5 +1,5 @@
-Compiled on Thursday, 8 May 2025 7:25:08 p.m.
-Version string: SE2024.2.250507.23.16.EX
+Compiled on Tuesday, 1 July 2025 5:41:33 p.m.
+Version string: SE2025.0.250630.12.20.EX
 
 ImageFrame Data Size: 30
 Actor Count: 2
@@ -8,27 +8,30 @@ Animations Count: 2
 Animations Data Size: 32
 AnimationFrame Count: 5
 AnimationFrame Data Size: 80
-Project virtual machine (codeblocks) Original size 11286 Crunched size 11286
-Panel  Original size 3130 Crunched size 3130
-Project blocks Original size 68 Crunched size 68
-Images Original size 30 Crunched size 30
-Project actors Original size 360 Crunched size 360
-Map block data for new_map Original size 1298 Crunched size 1298
-Header data for map new_map Original size 844 Crunched size 844
-Map tile data  new_map Original size 1298 Crunched size 1298
-Tile data for map new_map (mem restrictions:None) Original size 2280 Crunched size 2280
-Map event data for new_map Original size 44 Crunched size 44
-Get Y lookup table new_map Original size 236 Crunched size 236
-Map path node data for new_map Original size 12 Crunched size 12
-Project name table Original size 584 Crunched size 584
-Animations Original size 32 Crunched size 32
-Animation Frames Original size 80 Crunched size 80
-Project sound Original size 28 Crunched size 28
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 3266 Crunched size 3266
-Var Data Original size 32 Crunched size 32
-Attack Data Original size 88 Crunched size 88
-Teleporters Original size 8 Crunched size 8
+
+=== Data Sizes ===
+    Size | Crunch | Detail
+   11060 |        | Project virtual machine (codeblocks)
+    3262 |        | Project Header
+    2280 |        | Tile data for map new_map (mem restrictions:None)
+    2010 |        | Panel 
+    1298 |        | Map block data for new_map
+    1298 |        | Map tile data  new_map
+     844 |        | Header data for map new_map
+     584 |        | Project name table
+     360 |        | Project actors
+     236 |        | Get Y lookup table new_map
+      88 |        | Attack Data
+      80 |        | Animation Frames
+      68 |        | Project blocks
+      44 |        | Map event data for new_map
+      32 |        | Animations
+      32 |        | Var Data
+      30 |        | Images
+      28 |        | Project sound
+      12 |        | Map path node data for new_map
+       8 |        | Teleporters
+       2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -41,13 +44,13 @@ Total: 11820 bytes
 === Codeblocks by compiled size ===
 tests: 2532
 startup: 670
-load_level: 510
-do_teleport: 382
+load_level: 610
 pre_startup: 316
 flipscreen_smooth: 310 (Unused?)
+load_next_level: 292 (Unused?)
+do_teleport: 280
 flipxymove: 278 (Unused?)
 set_yresolution: 256 (Unused?)
-load_next_level: 252 (Unused?)
 block_find: 206 (Unused?)
 waitforframes: 194
 block_count: 178 (Unused?)
@@ -56,25 +59,24 @@ flipymove: 162 (Unused?)
 pre_quit: 160 (Unused?)
 snap_to_screen: 158 (Unused?)
 assert_fraction: 152
-load_panel: 146
+restart_this_level: 148 (Unused?)
 flipxmove: 142 (Unused?)
-unload_level: 142
 assert: 140
 assert_long: 140
 pause: 138 (Unused?)
+load_panel: 134
+unload_level: 130
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
 pre_load_level: 122
-fadein: 112
-unload_panel: 106
+fadein: 108
+unload_panel: 102
 waitforfireup: 102
 waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
-fadeout: 88
-pre_anim5: 86 (Unused?)
 waitforfirehit: 86
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -82,18 +84,16 @@ flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 jump_actor: 66 (Unused?)
-load_panel_finish: 66
 load_music: 62 (Unused?)
-unload_panel_bottom: 62
-unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
-regenerate_screen: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-quit: 50 (Unused?)
-regenerate_screen_wait: 46
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)

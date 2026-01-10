@@ -1,11 +1,11 @@
-Compiled on Thursday, 8 May 2025 8:55:59 p.m.
-Version string: SE2024.2.250507.23.16.EX
+Compiled on Thursday, 8 January 2026 5:48:02 p.m.
+Version string: SE2025.0.260108.14.19.EX
 
 === Misc ===
-ImageFrames: 22
-ImageFrame Data Size: 968
+ImageFrames: 17
+ImageFrame Data Size: 816
 Maps and Asset Bundles Count: 2
-Maps and Asset Bundles Data Size: 24
+Maps and Asset Bundles Data Size: 0
 Actor Count: 2
 Actor Data Size: 360
 Block Count: 5
@@ -16,93 +16,117 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 11
-Animations Data Size: 176
-AnimationFrame Count: 23
-AnimationFrame Data Size: 368
+Animations Count: 10
+Animations Data Size: 160
+AnimationFrame Count: 18
+AnimationFrame Data Size: 288
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 1
-Attack Data Size: 88
-Misc data size: 32
-=== Image optimisations ===
-Panel (background color #000) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
-Project virtual machine (codeblocks) Original size 8294 Crunched size 2526
-Map actor data for map Original size 28 Crunched size 28
-Header data for map map Original size 844 Crunched size 144
-Tile data for map map (mem restrictions:None) Original size 2016 Crunched size 430
-Asset bundle 0 (Core project asset bundle) Original size 4862 Crunched size 1624
-Asset bundle 1 (map) Original size 7608 Crunched size 1438
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4408 Crunched size 1230
-Project Data Original size 2408 Crunched size 524
-Project virtual machine redirects Original size 4 Crunched size 4
+Attack Data: 2
+Attack Data Size: 176
+Misc data size: 38
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   PL02 |      220 |       16 |       ZX0 | Panel (background color #000)
+   PL01 |      236 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   VC00 |     2710 |     2190 |       ZX0 | Project virtual machine (codeblocks)
+   MA01 |     4900 |       12 |       ZX0 | Map actor data for map
+   MH01 |     4912 |       92 |       ZX0 | Header data for map map
+   MD01 |     5004 |      266 |       ZX0 | Tile data for map map (mem restrictions:None)
+   AB00 |     5270 |     1310 |       ZX0 | Asset bundle 0 (Core project asset bundle)
+   AB01 |     6580 |     1180 |       ZX0 | Asset bundle 1 (map)
+   DB00 |     7760 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |     7762 |      992 |       ZX0 | Project Header
+   PD00 |     8754 |      344 |       ZX0 | Project Data
+   VR00 |     9098 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+    2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
+    2190 |     9178 |  (77%) | Project virtual machine (codeblocks)
+    1310 |     4864 |  (74%) | Asset bundle 0 (Core project asset bundle)
+    1180 |     9600 |  (88%) | Asset bundle 1 (map)
+     992 |     4376 |  (78%) | Project Header
+     344 |     2230 |  (85%) | Project Data
+     266 |     2024 |  (87%) | Tile data for map map (mem restrictions:None)
+      92 |      848 |  (90%) | Header data for map map
+      16 |     1296 |  (99%) | Panel (background color #000)
+      12 |       28 |  (58%) | Map actor data for map
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 36792
-Music memory (): 0
+Map gfx (Panel: scorpion_eng_splashscreen): 36784
+Music sample (): 0
 BP Buffer memory: 78624
-Core sfx/gfx memory: 4862
+Core sfx/gfx memory: 4864
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map actor cache memory: 0
-Map data memory: 2016
+Map data memory: 2024
 Map background memory: 1296
-EXE memory: 203968
-vm memory: 8294
-project memory: 2408
-memory reserved for active actors on screen (32): 4616
+EXE memory: 219736
+vm memory: 9178
+project memory: 2230
+Music data (): 0
+memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 219606
-Accounted memory other: 332678
-Accounted memory total: 552284
+Accounted memory chip: 219600
+Accounted memory other: 349608
+Accounted memory total: 569208
+
+=== Possibly unused animations ===
+anim_down_l
+anim_down_r
+anim_up_l
+anim_up_r
 
 === Codeblocks by compiled size ===
-load_level: 550
-pre_startup: 422
-do_teleport: 402
+load_level: 676
+pre_startup: 438
+do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
-load_next_level: 252 (Unused?)
-block_find: 206 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+block_find: 210 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pause: 184 (Unused?)
+player_autogen_attack: 184
 block_count: 178 (Unused?)
 flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
 pre_quit: 160
-snap_to_screen: 158 (Unused?)
-load_panel: 146
 flipxmove: 142 (Unused?)
-unload_level: 142
+restart_this_level: 136 (Unused?)
+startup: 136
+load_panel: 134
+stop_sfx: 130
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
-startup: 128
-pre_load_level: 122
-fadein: 112
-unload_panel: 106
-waitforfireup: 102
-waitforfiredown: 98
-load_panel_bottom: 96 (Unused?)
-load_panel_top: 96 (Unused?)
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+unload_panel: 102
+waitforfiredown: 102
+load_panel_bottom: 96
+load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
-autogen_test_0: 90
-fadeout: 88
-pre_anim5: 86 (Unused?)
+pre_load_level: 86
 waitforfirehit: 86
 function_changecolor: 80
-load_music: 78 (Unused?)
+load_music: 78
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -110,17 +134,16 @@ set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-quit: 70 (Unused?)
 jump_actor: 66 (Unused?)
-load_panel_finish: 66
-unload_panel_bottom: 62
-unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
+quit: 60 (Unused?)
 destroy_actor: 58
-regenerate_screen: 58
+freemem_hard: 54 (Unused?)
 destroy_block: 52
 return: 52 (Unused?)
-regenerate_screen_wait: 46
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 block_blue: 38
@@ -128,8 +151,7 @@ block_green: 38
 block_red: 38
 block_yellow: 38
 block_coll_force: 32 (Unused?)
-block_coll_passthru: 32 (Unused?)
-clear_block_collision: 32
-vm_registers: 26 (Unused?)
+block_coll_passthru: 32
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

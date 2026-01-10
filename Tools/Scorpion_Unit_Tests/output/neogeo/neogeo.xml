@@ -8,21 +8,21 @@
     <sharedfeat name="release" value="MVS,AES" />
     <sharedfeat name="compatibility" value="MVS,AES" />
     <part name="cart" interface="neo_cart">
-      <dataarea name="maincpu" width="16" endianness="big" size="0x100000">
-        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="54022d4" sha1="184ef0311453b1506497c492acb8f8eb5c06c176" />
+      <dataarea name="maincpu" width="16" endianness="big" size="0x080000">
+        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="621be300" sha1="4e23191341a04ba3588f374341e3b60da94aee52" />
       </dataarea>
       <dataarea name="fixed" size="0x020000">
-        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="f16ea574" sha1="47243c844e4bc2f435f37fda9d0b69a044d4b00a" />
+        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="e9e72a18" sha1="f7f766192cb4b5a9444824943d9122d7901950df" />
       </dataarea>
-      <dataarea name="sprites" size="0x800000">
-        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x020000" crc="d2a0aa00" sha1="cbab6b5e6c811139e93f3b50b971e0027f687052" />
-        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x020000" crc="d74261f4" sha1="86905d6cf1e66781d1b13cab8d541c92619fe9be" />
+      <dataarea name="sprites" size="0x040000">
+        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x020000" crc="36f8eed3" sha1="d2d8dc4488b8ac8e6e685afaeaeb3998919979d2" />
+        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x020000" crc="b8e951bb" sha1="38deb54fe07098694fa9ce9d6bebc078aa37831d" />
       </dataarea>
-      <dataarea name="audiocpu" size="0x020000">
-        <rom name="mzs_driver.m1" offset="0x000000" size="0x010000" crc="be9b2861" sha1="73fcdb56593fe06ef93b1a3bbf94d3b79f1d192c" />
+      <dataarea name="audiocpu" size="0x040000">
+        <rom name="mzs_driver.m1" offset="0x000000" size="0x040000" crc="df8a234" sha1="44e9e55c5d1889338a702b29e7876b7c3a6812f4" />
       </dataarea>
-      <dataarea name="ymsnd" size="0x400000">
-        <rom name="scorpion.v1" offset="0x000000" size="0x020000" crc="7ee8cdcd" sha1="67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19" />
+      <dataarea name="ymsnd" size="0x040000">
+        <rom name="scorpion.v1" offset="0x000000" size="0x040000" crc="e20eea22" sha1="2e000fa7e85759c7f4c254d4d9c33ef481e459a7" />
       </dataarea>
     </part>
   </software>

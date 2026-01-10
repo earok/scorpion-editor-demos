@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
- <tileset firstgid="1" source="../Actors.tsx"/>
- <tileset firstgid="257" source="../Blocks.tsx"/>
- <tileset firstgid="513" source="new_tileset.tileset.tsx"/>
- <layer id="1" name="map" width="16" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
+  <properties />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
+  <tileset firstgid="513" source="new_tileset.tileset.tsx" />
+  <layer id="1" name="map" width="16" height="14">
+    <data encoding="csv">
 514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,
 514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,
 514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,
@@ -26,15 +21,16 @@
 514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513
 </data>
- </layer>
- <layer id="2" name="blocks" width="16" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="2" name="blocks" width="16" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -50,15 +46,16 @@
 261,261,260,0,0,0,0,0,257,259,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="3" name="actors" width="16" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="3" name="actors" width="16" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -74,15 +71,16 @@
 0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="4" name="foreground" width="16" height="14">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="true"/>
-   <property name="megadrive" type="bool" value="true"/>
-   <property name="neogeo" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="4" name="foreground" width="16" height="14">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -98,6 +96,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <objectgroup id="6" name="events"/>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
+    </properties>
+  </layer>
+  <objectgroup id="6" name="events" />
 </map>

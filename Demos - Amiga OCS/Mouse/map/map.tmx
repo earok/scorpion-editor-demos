@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="1" compressionlevel="0">
-  <properties />
-  <tileset firstgid="1" source="../Actors.tsx" />
-  <tileset firstgid="257" source="../Blocks.tsx" />
-  <tileset firstgid="513" source="map.tileset.tsx" />
-  <layer id="1" name="map" width="16" height="14">
-    <data encoding="csv">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" source="../Actors.tsx"/>
+ <tileset firstgid="257" source="../Blocks.tsx"/>
+ <tileset firstgid="513" source="map.tileset.tsx"/>
+ <layer id="1" name="map" width="16" height="14">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+   <property name="megadrive" type="bool" value="true"/>
+   <property name="pico" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 513,513,513,513,513,513,513,513,513,513,514,513,513,513,513,513,
 515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,
 531,531,532,533,534,531,531,531,531,535,536,537,538,531,531,531,
@@ -21,20 +26,44 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
-      <property name="megadrive" type="bool" value="true" />
-      <property name="pico" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="2" name="objects" width="16" height="14">
-    <data encoding="csv">
+ </layer>
+ <layer id="2" name="objects" width="16" height="14">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+   <property name="megadrive" type="bool" value="true"/>
+   <property name="pico" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,257,0,0,0,257,0,0,0,257,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,257,0,0,0,257,0,0,0,0,257,0,0,0,
 0,0,0,0,0,0,0,1,0,0,0,0,4,0,0,0,
+0,257,0,0,0,257,0,0,0,257,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,257,0,0,0,257,0,0,0,0,257,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="foreground" width="16" height="14">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="true"/>
+   <property name="megadrive" type="bool" value="true"/>
+   <property name="pico" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -45,36 +74,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
-      <property name="megadrive" type="bool" value="true" />
-      <property name="pico" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="3" name="foreground" width="16" height="14">
-    <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-</data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="True" />
-      <property name="megadrive" type="bool" value="true" />
-      <property name="pico" type="bool" value="true" />
-    </properties>
-  </layer>
-  <objectgroup id="5" name="events" />
+ </layer>
+ <objectgroup id="5" name="events"/>
 </map>

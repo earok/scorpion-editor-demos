@@ -1,6 +1,6 @@
 NEW: Check out the [wiki](https://github.com/earok/scorpion-editor-demos/wiki/). It's still a work in progress but contains deep dives on many aspects of Scorpion Engine. It's a good place to start if you're new to Scorpion or need more detail about certain topics such as optimizations and recycling.
 
-# Scorpion Editor 2024.2 and sample games
+# Scorpion Editor 2025.0 and sample games
 
 The Scorpion Engine is the world's first game creation engine and IDE that supports multiple 68K platforms:
 
@@ -17,7 +17,7 @@ Special thanks to our generous Patreon backers that have made Scorpion possible,
 (If I've missed your name on the list - please get in touch on Patreon)
 
 
-<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2024.2</a>
+<a id="raw-url" href="https://github.com/earok/scorpion-editor-demos/archive/refs/heads/master.zip">DOWNLOAD 2025.0</a>
 
 Support us on <a id="raw-url" href="https://patreon.com/scorpionengine">Patreon</a>
 
@@ -44,8 +44,6 @@ The editor and engine itself is not open source - all of the included demos are.
 	
 * Anim5 demo uses PixelGlass logo and music by Tsak
 	
-* Bad Apple is an adaptaton of the popular Touhou project demo, with music by JMD
-
 * Barrel demo:
 	- https://opengameart.org/content/barrels-1
 	- https://opengameart.org/content/ninja-animated-0
@@ -113,8 +111,6 @@ The editor and engine itself is not open source - all of the included demos are.
 * Vertical parallax AGA reuses some of the Amigo the Fox assets, as well as art assets derived from https://opengameart.org/content/seamless-blue-256x256 and https://opengameart.org/content/cloud-set
 
 * WHDLoad slave based on Generic 3.1 Kickstart WHDLoad slave by JOTD and Wepl
-
-[EXE2ADF](https://www.exe2adf.com/) by Bonefish
 
 [FS-UAE](https://fs-uae.net/) by Frode Solheim
 

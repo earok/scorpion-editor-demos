@@ -1,11 +1,11 @@
-Compiled on Thursday, 8 May 2025 7:18:12 p.m.
-Version string: SE2024.2.250507.23.16.EX
+Compiled on Thursday, 8 January 2026 1:57:08 p.m.
+Version string: SE2025.0.260108.12.53.EX
 
 === Misc ===
 ImageFrames: 5
-ImageFrame Data Size: 220
+ImageFrame Data Size: 240
 Maps and Asset Bundles Count: 2
-Maps and Asset Bundles Data Size: 24
+Maps and Asset Bundles Data Size: 0
 Actor Count: 2
 Actor Data Size: 360
 Block Count: 1
@@ -22,117 +22,138 @@ AnimationFrame Count: 6
 AnimationFrame Data Size: 96
 Sprites: 3
 Sprites Data Size: 42
-Attack Data: 1
-Attack Data Size: 88
-Misc data size: 32
-=== Image optimisations ===
-Panel (background color #5AF) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
-Parallax for background level1_plx Original size 56970 Crunched size 56970
-Panel (background)level1_plx Original size 2028 Crunched size 2028
-Panel talkpad Original size 4864 Crunched size 4864
-Panel bobs talkpad Original size 6326 Crunched size 6326
-Project virtual machine (codeblocks) Original size 36966 Crunched size 36966
-Header data for map level1 Original size 844 Crunched size 844
-Tile data for map level1 (mem restrictions:No_Blocks) Original size 2048 Crunched size 2048
-Asset bundle 0 (Core project asset bundle) Original size 1248 Crunched size 1248
-Asset bundle 1 (level1) Original size 832 Crunched size 832
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4408 Crunched size 4408
-Project Data Original size 1016 Crunched size 1016
-Project virtual machine redirects Original size 24 Crunched size 24
+Attack Data: 2
+Attack Data Size: 176
+Misc data size: 38
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   PL04 |      292 |     1296 |  NoCrunch | Panel (background color #5AF)
+   PL01 |     1588 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   MP02 |     4062 |    57600 |  NoCrunch | Parallax for background level1_plx
+   PL02 |    61662 |     2068 |  NoCrunch | Panel (background)level1_plx
+   PL03 |    63730 |     4864 |  NoCrunch | Panel talkpad
+   PC03 |    68594 |     6364 |  NoCrunch | Panel bobs talkpad
+   VC00 |    74958 |     9514 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |    84472 |      848 |  NoCrunch | Header data for map level1
+   MD01 |    85320 |     2056 |  NoCrunch | Tile data for map level1 (mem restrictions:No_Blocks)
+   AB00 |    87376 |     1248 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    88624 |     1024 |  NoCrunch | Asset bundle 1 (level1)
+   DB00 |    89648 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    89650 |     4376 |  NoCrunch | Project Header
+   PD01 |    94026 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |    94030 |     1106 |  NoCrunch | Project Data
+   VR00 |    95136 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   57600 |    57600 |        | Parallax for background level1_plx
+    9514 |     9514 |        | Project virtual machine (codeblocks)
+    6364 |     6364 |        | Panel bobs talkpad
+    4864 |     4864 |        | Panel talkpad
+    4376 |     4376 |        | Project Header
+    2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
+    2068 |     2068 |        | Panel (background)level1_plx
+    2056 |     2056 |        | Tile data for map level1 (mem restrictions:No_Blocks)
+    1296 |     1296 |        | Panel (background color #5AF)
+    1248 |     1248 |        | Asset bundle 0 (Core project asset bundle)
+    1106 |     1106 |        | Project Data
+    1024 |     1024 |        | Asset bundle 1 (level1)
+     848 |      848 |        | Header data for map level1
+       4 |        4 |        | Project Custom Collisions
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 36792
-Music memory (): 0
+Map gfx (Panel: scorpion_eng_splashscreen): 36784
+Music sample (): 0
 BP Buffer memory: 92736
 Core sfx/gfx memory: 1248
-Parallax memory: 56970
+Parallax memory: 57600
 OS/other estimated: 99328
 
 For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map actor cache memory: 0
-Map data memory: 2048
-Map background memory: 2028
-EXE memory: 203968
-vm memory: 36966
-project memory: 1016
-memory reserved for active actors on screen (64): 9224
+Map data memory: 2056
+Map background memory: 2068
+EXE memory: 219736
+vm memory: 9514
+project memory: 1106
+Music data (): 0
+memory reserved for active actors on screen (64): 10120
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 287074
-Accounted memory other: 365330
-Accounted memory total: 652404
+Accounted memory chip: 287696
+Accounted memory other: 354680
+Accounted memory total: 642376
 
 === Codeblocks by compiled size ===
-load_level: 2988
-pre_startup: 2660
-waitforframes: 1490
-do_teleport: 1358
-flipscreen_smooth: 1342 (Unused?)
-pause: 1320 (Unused?)
-block_find: 1308 (Unused?)
-flipxymove: 1262 (Unused?)
-loop: 1112
-block_count: 1054 (Unused?)
-set_yresolution: 950
-unload_level: 832
-snap_to_screen: 820 (Unused?)
-load_panel: 774
-check_talkpad: 730 (Unused?)
-unload_panel: 722
-fadein: 668
-flipymove: 616 (Unused?)
-load_panel_bottom: 592 (Unused?)
-oncollide: 584
-pre_quit: 574
-load_panel_top: 562 (Unused?)
-waitforfireup: 534
-flipxmove: 532 (Unused?)
-waitforfiredown: 532
-load_next_level: 520 (Unused?)
-startup: 518
-fadeout: 484
-set_ntsc: 466 (Unused?)
-destroy_all_blocks: 450 (Unused?)
-pre_load_level: 442
-onlanded: 436
-load_music_finish: 420
-load_music: 400 (Unused?)
-unload_panel_bottom: 380
-load_panel_finish: 370
-unload_panel_top: 362
-AUTOGEN_OUTOFSCREEN_None_None_None_wrap_screen_bottom: 338
-waitforfirehit: 316
-destroy_child_actors: 298 (Unused?)
-wrap_screen_bottom: 268
-pre_anim5: 266 (Unused?)
-wrap_screen_right: 264 (Unused?)
-wrap_screen_left: 250 (Unused?)
-wrap_screen_top: 248 (Unused?)
-regenerate_screen: 238
-regenerate_screen_wait: 234
-block_coll_passthru: 224 (Unused?)
-block_coll_force: 216 (Unused?)
-onupdate: 202
-restart_this_level: 194 (Unused?)
-vm_constants_tile_properties: 178 (Unused?)
-destroy_all_actors: 160 (Unused?)
-flipscreen: 158 (Unused?)
-jump_actor: 132 (Unused?)
-quit: 118 (Unused?)
-destroy_block: 110 (Unused?)
-destroy_actor: 100
-clear_block_collision: 96
-unfreeze_actor: 84 (Unused?)
-freeze_actor: 80 (Unused?)
-return: 80 (Unused?)
-spawn: 80
-debug_breakpoint: 70 (Unused?)
-vm_registers: 26 (Unused?)
+load_level: 676
+pre_startup: 438
+do_teleport: 320
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+loop: 276
+load_next_level: 268 (Unused?)
+freemem: 256
+block_find: 210 (Unused?)
+startup: 210
+set_yresolution: 202
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+pause: 184 (Unused?)
+block_count: 178 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160
+oncollide: 154
+flipxmove: 142 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+unload_panel: 102
+waitforfiredown: 102
+load_panel_bottom: 96
+load_panel_top: 96
+onlanded: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+load_music: 78
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76
+wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+destroy_all_actors: 60 (Unused?)
+quit: 60 (Unused?)
+destroy_actor: 58
+onupdate: 56
+freemem_hard: 54 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_None_None_wrap_screen_bottom: 54
+destroy_block: 52 (Unused?)
+return: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+spawn: 38
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "upright",
   "Recycle": "Never",
   "MoveType": "cpu",
   "MaxEntities": 0,
@@ -9,7 +9,7 @@
   "Idles": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "",
+    "UpRight": "base_anim",
     "Left": "scale_anim",
     "Right": "",
     "DownLeft": "",
@@ -20,7 +20,7 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "",
+    "Left": "base_anim",
     "Right": "",
     "DownLeft": "",
     "Down": "",
@@ -122,14 +122,14 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
-  "CollType_Right": "block",
-  "CollType_Up": "none",
-  "CollType_Down": "block",
-  "Player": null,
-  "BlockCollider": null,
+  "CollType_Left": "bounce",
+  "CollType_Right": "bounce",
+  "CollType_Up": "bounce",
+  "CollType_Down": "bounce",
+  "Player": true,
+  "BlockCollider": false,
   "CanRidePlatform": null,
-  "Camera": null,
+  "Camera": false,
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
@@ -137,18 +137,18 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "",
+  "DivertSpawn": "none",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
-  "DivertOutOfScreenLeft": "",
-  "DivertOutOfScreenRight": "",
-  "DivertOutOfScreenUp": "",
-  "DivertOutOfScreenDown": "",
+  "DivertOutOfScreenLeft": "none",
+  "DivertOutOfScreenRight": "none",
+  "DivertOutOfScreenUp": "none",
+  "DivertOutOfScreenDown": "none",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "scaler",
+  "DivertTimer": "handler",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
@@ -158,13 +158,35 @@
     "0",
     "0"
   ],
-  "ControlPort": 0,
-  "DataVersion": 6,
+  "ControlPort": 1,
+  "DataVersion": 8,
   "ActorTag": "None",
-  "AutoSpawn": null,
+  "AutoSpawn": false,
   "AutoNavigate": false,
   "ActorTimeline": {
-    "TimelineFrames": null,
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
     "TimelineEvents": {},
     "PingPong": false
   },

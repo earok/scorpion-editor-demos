@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "amiga_ocs",
+  "TargetPlatform": "megadrive",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DataVersion": 3,
@@ -64,7 +64,7 @@
       "Neo_Select": false,
       "OnPress": "",
       "OnRelease": "restartlevel",
-      "buttonState": 8
+      "buttonState": 128
     },
     {
       "Compiler": "amiga",
@@ -157,7 +157,7 @@
       "Neo_Select": false,
       "OnPress": "go_to_next_level",
       "OnRelease": null,
-      "buttonState": 16
+      "buttonState": 256
     }
   ],
   "AnimationMetaData": {},
@@ -188,6 +188,13 @@
       "LinkedMap": "",
       "RepeatDelay": 25,
       "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "dor_castle_00121": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
       "Priority": 0,
       "Channel": null
     }
@@ -233,5 +240,5 @@
   "SplashScreenFrames": 50,
   "TestLevel": null,
   "SafetyRails": true,
-  "NGH": 21317
+  "VDPColor": false
 }

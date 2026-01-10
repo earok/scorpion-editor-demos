@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="300" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="14" nextobjectid="9" compressionlevel="0">
   <properties>
+    <property name="amiga_panel" value="map_new_plx" />
     <property name="divert_timer" value="" />
-    <property name="md_parallax" type="string" value="md_background" />
+    <property name="md_parallax" value="md_background" />
     <property name="override_palette" type="file" value="" />
     <property name="padding_bottom" type="int" value="5" />
-    <property name="parallax_path" type="file" />
+    <property name="parallax_path" type="file" value="" />
     <property name="solid_bottom" type="bool" value="false" />
-    <property name="amiga_panel" type="string" value="map_new_plx" />
   </properties>
   <tileset firstgid="1" source="../../../Actors.tsx" />
   <tileset firstgid="257" source="../../../Blocks.tsx" />
@@ -33,13 +33,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="false" />
       <property name="megadrive_32x" type="bool" value="false" />
       <property name="neogeo" type="bool" value="false" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="false" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="12" name="ramps" width="300" height="14">
@@ -61,13 +63,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="true" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="7" name="background" width="300" height="14">
@@ -89,13 +93,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="false" />
       <property name="megadrive_32x" type="bool" value="false" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="true" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="1" name="midground" width="300" height="14">
@@ -117,13 +123,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="true" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="300" height="14">
@@ -145,13 +153,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="true" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="slopes" width="300" height="14">
@@ -173,13 +183,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="true" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="300" height="14">
@@ -201,13 +213,15 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_aga_trackdisk" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
       <property name="megadrive" type="bool" value="true" />
       <property name="megadrive_32x" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
       <property name="neogeo_cd" type="bool" value="true" />
-      <property name="amiga_aga_trackdisk" type="bool" value="true" />
+      <property name="neogeo_mvs" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events">

@@ -1,5 +1,5 @@
 @echo off
 
 cd editor
-start "" "Scorpion Editor - 2024.2.exe"
+start "" "Scorpion Editor - 2025.0.exe"
 exit
