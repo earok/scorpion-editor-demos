@@ -1,0 +1,17 @@
+Constant Song_Start=0
+Constant Song_StageComplete=16
+Constant Song_Water=17
+Constant CheckpointNA=0
+Constant CheckpointLand=1
+Constant CheckpointWater=2
+Variable word CheckpointX=0
+Variable word CheckpointY=0
+Variable word CheckpointType=0
+Variable word Ammo=0
+Variable word CurrentLevel=0
+[amiga_all] Screen Height=192 Frames=0
+CameraBox L=16 R=16 U=16 D=16 LookL=0 LookR=0 LookU=0 LookD=0
+Set checkpointtype=CheckpointNA
+Panel pnl_title Frames=0 ForFire
+Set currentlevel=level1
+Goto restart_level

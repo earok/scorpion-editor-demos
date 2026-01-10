@@ -1,0 +1,13 @@
+Variable word fadered=0
+Set fadered=fadered + 16
+If fadered > 255
+    Set fadered=0
+End
+Set red=fadered
+Set green=0
+Set blue=0
+If IsAmiga
+    WriteColor 31
+Else
+    WriteColor 49
+End

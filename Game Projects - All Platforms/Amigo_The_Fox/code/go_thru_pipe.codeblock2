@@ -1,0 +1,22 @@
+If block_type == exit_left
+    Goto nextlevel
+End
+FadeOut
+CameraFollow !LR MaxCamera=8
+Set block_x=pipe_x + 1 //Move the cursor to the block to the right of this
+Set block_y=pipe_y
+Label pipetryagain
+FindBlock block_type //Find the next block matching the one under this cursor
+Set block_x=block_x - 1
+If block_type == pipe_down_left or block_type == pipe_up_right
+    Set block_x=block_x + 1
+    Goto pipetryagain //This is another entrance pipe. We want to find the exit pipe
+End
+PlayerPosition X=block_x + 1 * 16 Y=block_y * 16
+GoSub function_centercamera
+//Move block pointer down 1 to test if we're emerging from a bottom pipe
+Set block_y=block_y + 1
+If tile_properties btst TileBit_Solid
+    Goto fn_up_out_pipe
+End
+Goto fn_down_out_pipe

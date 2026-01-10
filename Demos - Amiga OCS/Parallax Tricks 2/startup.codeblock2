@@ -1,0 +1,13 @@
+If IsNTSC == false
+    Screen Height=240 Frames=0
+End
+Level map
+SpawnOnBlock ground_actor X=0 Y=0
+While true
+    If camera_x >= 384
+        CameraPosition X=0 ResetMovement
+    Else
+        CameraPosition X=camera_x + 1 ResetMovement
+    End
+    Yield 1
+End

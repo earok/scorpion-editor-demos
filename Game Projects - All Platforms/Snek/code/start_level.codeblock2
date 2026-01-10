@@ -1,0 +1,48 @@
+Level none
+GoSub reset_variables
+Level levels[current_level] PanelTop=top_panel
+[megadrive_or_neogeo] CameraPosition Y=mapheight - yres - 16 ResetMovement
+MusicResume
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Set block_x=0
+Set block_y=0
+FindBlock gold_door_ns_block
+If block_x and block_y
+    Set gold_door_x=block_x
+    Set gold_door_y=block_y
+    Set gold_door_orientation=0
+Else
+    FindBlock gold_door_ew_block
+    If block_x and block_y
+        Set gold_door_x=block_x
+        Set gold_door_y=block_y
+        Set gold_door_orientation=1
+    End
+End
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//=== Count number of moveable crate targets in this level
+CountBlock crate_target_block block_count
+Set crate_targets_count=block_count
+//=== Iterate through crate targets and store their location before setting them to none
+For index From 0 To crate_targets_count
+    FindBlock crate_target_block
+    Set crate_targets_x[index]=block_x
+    Set crate_targets_y[index]=block_y
+    SetBlock none X=block_x Y=block_y
+End
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//=== Count number of pickups placed in the level
+Set pickups_left=level_pickup_counts[current_level]
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SetBlock exit_west_block X=0 Y=8
+Set player_update=0
+Set player_direction=1
+Set player_controls_disabled=1
+Set player_last_direction=player_direction
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Yield 10
+GoSub show_level_intro_dialog
+SetBlock none X=0 Y=8
+Spawn exit_west_actor X=0 Y=128
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Set last_level=current_level

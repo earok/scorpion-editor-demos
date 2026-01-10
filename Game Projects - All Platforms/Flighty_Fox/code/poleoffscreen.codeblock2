@@ -1,0 +1,13 @@
+ActorType none ResetMovement ResetAnimation
+Set spawnedpoles=spawnedpoles - 1
+If playerisdead == true
+    If spawnedpoles <= 0
+        SpawnOnBlock plane_idle X=23 Y=6
+    End
+    Return
+End
+Set score=score + 1
+Sound coincollect Period=0
+If score > best
+    Set best=score
+End

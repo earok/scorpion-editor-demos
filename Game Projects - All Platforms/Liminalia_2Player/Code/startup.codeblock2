@@ -1,0 +1,67 @@
+Variable word season=1
+Variable word score1=0
+Variable word score2=0
+Variable word creditcounter=200
+Variable word scoretarget=12
+Variable word collectorbs=true
+String credit_text="................"
+Talkpad talkpad
+ControlMode joys_2
+# ControlMode joys_2
+# Goto startgame
+Set season=1
+Set score1=0
+Set score2=0
+Roll 4 Into creditcounter
+Set creditcounter=creditcounter * 4
+CameraFollow ! MaxCamera=8
+[amiga_all] Screen Height=192 Frames=0
+Level none
+PanelBottom none
+StringClear credit_text
+Panel titlepanel Frames=0
+While true
+    If control1fire == button_hit
+        If option == 0
+            Set collectorbs=true
+            Goto startgame
+        End
+        If option == 1
+            Set collectorbs=false
+            Goto startgame
+        End
+        If option == 2
+            Set scoretarget=scoretarget + 4
+            If scoretarget > 40
+                Set scoretarget=4
+            End
+        End
+        If option == 3
+            Quit="3"
+        End
+    End
+    Wait 1
+    Set creditcounter=creditcounter + 1
+    If creditcounter == 50
+        StringSet credit_text="Sean F"
+    End
+    If creditcounter == 100
+        StringSet credit_text=" Pheebs"
+    End
+    If creditcounter == 150
+        StringSet credit_text="James L"
+    End
+    If creditcounter == 200
+        StringSet credit_text=" Erik H"
+        Set creditcounter=1
+    End
+End
+Label startgame
+PanelBottom none
+Panel none Frames=0
+Wait 1
+PanelBottom scorepanel
+Level map
+CameraPosition X=season * 256 ResetMovement
+# SetBlock Tile_Solid X=16 Y=3
+# SetBlock Tile_Platform X=17 Y=3

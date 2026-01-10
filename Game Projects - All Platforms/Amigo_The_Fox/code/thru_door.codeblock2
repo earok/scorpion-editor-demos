@@ -1,0 +1,23 @@
+Variable word DoorX=0
+Variable word DoorY=0
+If player_xspeed
+    Return
+End
+If player_yspeed
+    Return
+End
+Set doorx=block_x - 1
+Set doory=block_y - 1
+SetBlock door_tl X=doorx Y=doory
+SetBlock door_tr X=doorx + 1 Y=doory
+SetBlock door_bl X=doorx Y=doory + 1
+SetBlock door_br X=doorx + 1 Y=doory + 1
+Wait 15
+PlayerType none ResetMovement ResetAnimation
+Wait 15
+SetBlock none X=doorx Y=doory
+SetBlock none X=doorx + 1 Y=doory
+SetBlock none X=doorx Y=doory + 1
+SetBlock none X=doorx + 1 Y=doory + 1
+Wait 15
+Goto nextlevel

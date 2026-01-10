@@ -1,0 +1,9 @@
+Set actor_var1=actor_var1 - 1
+If actor_var1 > 0
+    Return //We want to continue the out animation a few more times
+End
+If actor_type == plant_red
+    ActorAnimation anim_plantred_down Frame=0
+    Return
+End
+ActorAnimation anim_plant_down Frame=0

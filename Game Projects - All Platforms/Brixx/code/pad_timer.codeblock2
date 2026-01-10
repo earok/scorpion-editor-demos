@@ -1,0 +1,17 @@
+Set control2_mousex=control1_x * 5 + control2_mousex
+If control2_mousex > 224
+    Set control2_mousex=224
+End
+If control2_mousex < 32
+    Set control2_mousex=32
+End
+Set player_x=control2_mousex
+
+If pad_mode == #PAD_MODE_GUNS
+    If control2fire and shoot_counter > #SHOOT_DELAY
+        Set shoot_counter=0
+        Spawn bullet_actor X=player_x - 8 Y=player_y - 6
+        Spawn bullet_actor X=player_x + 8 Y=player_y - 6
+    End
+    Set shoot_counter=shoot_counter + 1
+End

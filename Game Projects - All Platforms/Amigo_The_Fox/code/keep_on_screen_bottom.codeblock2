@@ -1,0 +1,8 @@
+If actor_yspeed <= 0
+    //We are moving upwards
+    Return
+End
+If actor_y >= camera_y + yres + 16
+    ActorSpeed Y=0.0 Angle=0
+    ActorPosition Y=camera_y + yres + 16
+End

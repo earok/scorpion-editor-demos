@@ -1,0 +1,9 @@
+If isvulnerable
+    Sound manhurt Period=0
+    Set health=health - 1
+    If health <= 0
+        Goto startup
+    End
+    Set isvulnerable=false
+    PlayerSpawnChild hurt_stars
+End

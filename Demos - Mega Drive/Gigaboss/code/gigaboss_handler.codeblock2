@@ -1,0 +1,15 @@
+//Camera management
+Set gigaboss_x=256 - actor_x //Panel center x
+Set gigaboss_y=128 - actor_y //Panel center y
+Set gigaboss_tread=gigaboss_tread - player_controly
+//Tread management
+If gigaboss_tread > 6
+    Set gigaboss_tread=1
+ElseIf gigaboss_tread <= 0
+    Set gigaboss_tread=6
+End
+//Gun management
+Set gigaboss_gun=gigaboss_gun + 1
+If gigaboss_gun > 6
+    Set gigaboss_gun=1
+End

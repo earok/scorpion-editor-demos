@@ -1,0 +1,17 @@
+Set player_update=0
+Set player_controls_disabled=1
+Sound died
+PanelBottom bottom_panel_retry_leave
+While True
+    If control1fire
+        If option == 0
+            PanelBottom none
+            Goto start_level
+        End
+        If option == 1
+            PanelBottom none
+            Goto leave_game
+        End
+    End
+    Yield 1
+End

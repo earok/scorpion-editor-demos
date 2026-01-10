@@ -1,0 +1,7 @@
+If player_update
+    Set player_update=0
+    Sound explode
+    Spawn explosion_actor X=player_x + 8 Y=player_y + 8
+    Yield 50
+    Goto player_died
+End

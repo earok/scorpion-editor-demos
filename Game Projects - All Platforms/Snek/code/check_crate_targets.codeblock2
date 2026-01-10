@@ -1,0 +1,22 @@
+Set num_crates_placed=0
+ForEachActor actor_type == crate_actor Goto count_placed_crates
+If num_crates_placed == crate_targets_count
+    SetBlock none X=gold_door_x Y=gold_door_y
+    Spawn gold_door_actor X=gold_door_x*16 Y=gold_door_y*16
+    If gold_door_orientation == 0 //north/south
+        NewAnimation gold_door_ns_open_anim Frame=0
+    Else
+        NewAnimation gold_door_ew_open_anim Frame=0
+    End
+    Set all_crates_placed=1
+Else
+    If all_crates_placed
+        Spawn gold_door_actor X=gold_door_x*16 Y=gold_door_y*16
+        If gold_door_orientation == 0 //north/south
+            NewAnimation gold_door_ns_close_anim Frame=0
+        Else
+            NewAnimation gold_door_ew_close_anim Frame=0
+        End
+        Set all_crates_placed=0
+    End
+End

@@ -1,0 +1,167 @@
+Compiled on Thursday, 8 January 2026 9:08:23 p.m.
+Version string: SE2025.0.260108.18.37.EX
+
+ImageFrame Data Size: 2500
+Actor Count: 25
+Actor Data Size: 4500
+Animations Count: 23
+Animations Data Size: 368
+AnimationFrame Count: 46
+AnimationFrame Data Size: 736
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   107956 |    19900 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   127856 |     2012 |  NoCrunch | Panel 
+   PL02 |   129868 |     2012 |  NoCrunch | Panel emptypanel
+   PL03 |   131880 |     2012 |  NoCrunch | Panel main_panel
+   PL04 |   133892 |     2464 |  NoCrunch | Panel store
+   PL05 |   136356 |     2012 |  NoCrunch | Panel title_panel
+   PL06 |   138368 |     1404 |  NoCrunch | Panel ui
+   PB00 |   139772 |      408 |  NoCrunch | Project blocks
+   PI00 |   140180 |     2500 |  NoCrunch | Images
+   PA00 |   142680 |     4500 |  NoCrunch | Project actors
+   ML01 |   147180 |      102 |       ZX0 | Map block data for map
+   MH01 |   147282 |      848 |  NoCrunch | Header data for map map
+   MT01 |   148130 |       70 |       ZX0 | Map tile data  map
+   MD01 |   148200 |     4000 |  NoCrunch | Tile data for map map (mem restrictions:None)
+   ME01 |   152200 |       76 |  NoCrunch | Map event data for map
+   MY01 |   152276 |      408 |  NoCrunch | Get Y lookup table map
+   MN01 |   152684 |       20 |  NoCrunch | Map path node data for map
+   NT00 |   152704 |      628 |  NoCrunch | Project name table
+   PN00 |   153332 |      368 |  NoCrunch | Animations
+   PF00 |   153700 |      736 |  NoCrunch | Animation Frames
+   PS00 |   154436 |      252 |  NoCrunch | Project sound
+   DB00 |   154688 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   154690 |    11482 |  NoCrunch | Project Header
+   PV00 |   166172 |      236 |  NoCrunch | Var Data
+   AT00 |   166408 |      264 |  NoCrunch | Attack Data
+   PE00 |   166672 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   19900 |    19900 |        | Project virtual machine (codeblocks)
+   11482 |    11482 |        | Project Header
+    4500 |     4500 |        | Project actors
+    4000 |     4000 |        | Tile data for map map (mem restrictions:None)
+    2500 |     2500 |        | Images
+    2464 |     2464 |        | Panel store
+    2012 |     2012 |        | Panel 
+    2012 |     2012 |        | Panel emptypanel
+    2012 |     2012 |        | Panel main_panel
+    2012 |     2012 |        | Panel title_panel
+    1404 |     1404 |        | Panel ui
+     848 |      848 |        | Header data for map map
+     736 |      736 |        | Animation Frames
+     628 |      628 |        | Project name table
+     408 |      408 |        | Project blocks
+     408 |      408 |        | Get Y lookup table map
+     368 |      368 |        | Animations
+     264 |      264 |        | Attack Data
+     252 |      252 |        | Project sound
+     236 |      236 |        | Var Data
+     102 |     2244 |  (96%) | Map block data for map
+      76 |       76 |        | Map event data for map
+      70 |     2244 |  (97%) | Map tile data  map
+      20 |       20 |        | Map path node data for map
+       8 |        8 |        | Teleporters
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+NeoGeo BIOS memory: 3328
+RAM reserved for level tiles: (largest level: map): 4488
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+
+Total: 17488 bytes
+
+=== Codeblocks by compiled size ===
+game_loop: 3068
+store_selection: 1446
+game_over_bank: 642
+load_level: 636
+beam_cross: 502
+activate: 464
+manager_heart: 458
+startup: 452
+random_dir: 444
+manager: 400
+beam_collision: 388
+store_manager: 370
+pre_startup: 348
+beam_test_side: 342
+flipscreen_smooth: 310 (Unused?)
+battery_drain: 302
+do_teleport: 300
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+set_yresolution: 256 (Unused?)
+hunt: 226
+block_find: 210 (Unused?)
+drop_chest: 200
+waitforframes: 194
+block_count: 178 (Unused?)
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
+restart: 154 (Unused?)
+flipxmove: 142 (Unused?)
+pause: 138 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+flipxlook: 134
+stop_sfx: 130
+destroyed_block: 130
+hunt_kill: 130
+destroy_all_blocks: 128 (Unused?)
+celebrate: 128
+game_over: 128
+unload_level: 118
+chest_close: 118
+return_to_northpole: 114
+chest_open: 110
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+waitforfiredown: 64
+chest_collision_left: 64
+chest_collision_right: 64
+load_music: 62
+waitforfireup: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+kill_elf: 58
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+beam_sfx: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+turn_right: 46
+freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

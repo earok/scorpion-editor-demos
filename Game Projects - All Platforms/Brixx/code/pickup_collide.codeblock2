@@ -1,0 +1,28 @@
+If actor_var1 == 0 //three balls
+    If balls_alive == 1
+        GoSub spawn_extra_ball
+        GoSub spawn_extra_ball
+    ElseIf balls_alive == 2
+        GoSub spawn_extra_ball
+    End
+ElseIf actor_var1 == 1 //1up
+    Set lives=lives+1
+    Sound 1up
+ElseIf actor_var1 == 2 //faster speed
+    Set current_ball_speed=#BALL_SPEED_FAST
+ElseIf actor_var1 == 3 //gun
+    Set pad_mode=#PAD_MODE_GUNS
+    PlayerAnimation pad_anim Frame=1
+    Set shoot_counter=500
+ElseIf actor_var1 == 4 //reset pad
+    GoSub reset_pad_state
+ElseIf actor_var1 == 5 //wrecking ball
+ElseIf actor_var1 == 6 //100 points
+    Set score=score+100
+    Sound pickup_points
+ElseIf actor_var1 == 7 //small pad
+    Set pad_mode=#PAD_MODE_SMALL
+    PlayerAnimation pad_anim Frame=0
+    PlayerType pad_small_actor ResetMovement ResetAnimation
+End
+ActorType none ResetMovement ResetAnimation

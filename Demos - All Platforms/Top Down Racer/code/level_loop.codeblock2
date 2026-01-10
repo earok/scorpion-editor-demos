@@ -1,0 +1,6 @@
+If camera_y < 32 //Need a buffer of at least 32 pixels from the top
+    Roll 2 //Choose a random road exit
+    //Note - currently warping left/right is slow and will skip a frame, but warping up/down is faster
+    CameraPosition X=dice - 1 * 256 Y=48 * 16 + Camera_y Warp
+    //48 is a multiple of 16, the Y Buffer size in the Project tab, which is absolutely vital
+End

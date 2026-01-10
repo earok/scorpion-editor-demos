@@ -1,0 +1,29 @@
+//This is the loop that runs for the sewing level
+CameraPosition X=Level3_Part * 256 ResetMovement
+If level3_part == 0
+    If control1_x != 0 //If joystick is left or right
+        Set level3_part=1
+    End
+End
+If level3_part == 1
+    If control1_y < 0 //Joystick is up
+        Set level3_part=2
+    End
+End
+If level3_part == 2
+    If control1_x != 0
+        Set level3_part=3
+    End
+End
+If level3_part == 3
+    If control1_y < 0
+        Goto level3_win //We've won
+    End
+End
+Set lvl_timer_left=lvl_timer_left - 1
+If lvl_timer_left <= 0
+    Level none
+    Goto level4
+End
+Wait 1
+Goto level3_loop

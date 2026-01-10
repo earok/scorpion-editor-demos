@@ -1,0 +1,8 @@
+If control1fire == button_hit
+    PlayerSpeed Y=-3.0 Angle=0
+    Sound spring Period=0
+End
+If spawndelay == 0
+    GoSub spawnpole
+End
+Set spawndelay=spawndelay - 1

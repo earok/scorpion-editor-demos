@@ -1,0 +1,15 @@
+Set block_x=actor_x / 16
+Set block_y=actor_y / 16
+If actor_yspeed == 0
+    If player_x > actor_x - 16
+        If player_x < actor_x + 16
+            If player_y == actor_y - 9
+                SetBlock none
+                ActorSpeed Y=5.0 Angle=5
+                Return
+            End
+        End
+    End
+    SetBlock block_fall
+    ActorType none ResetMovement ResetAnimation
+End

@@ -1,0 +1,47 @@
+Variable word dev_mode=0
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Player directions
+//0 = north
+//1 = east
+//2 = south
+//3 = west
+Variable word player_direction=0
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Constant #SLOW_SPEED=0
+Constant #NORMAL_SPEED=1
+Constant #FAST_SPEED=2
+Constant #TURBO_SPEED=3
+Constant #MAX_HEALTH=5
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Variable word gold_door_orientation=0 //0 = north/south, 1=east/west
+Variable word num_crates_placed=0
+Variable word all_crates_placed=0
+Variable word block_count=0
+Variable word current_block=0
+Variable word crate_targets_count=0
+Variable word gold_door_x=0
+Variable word gold_door_y=0
+Variable word snake_tail_x=0
+Variable word snake_tail_y=0
+Variable word snake_tail_direction=0
+Variable word player_update=0
+Variable word player_controls_disabled=0
+Variable word player_speed_mode=0
+Variable word player_move_counter=0
+Variable word player_length=0
+Variable word player_new_length=0
+Variable word player_last_direction=0
+Variable word picked_up_count=0
+Variable word pickups_left=0
+Variable word index=0
+Variable word prev_index=0
+Variable word rx=0
+Variable word ry=0
+Variable word bk=0
+Variable word current_level=0
+Variable word last_level=0
+Array byte levels[20]
+Array byte level_pickup_counts[20]
+Array byte speed_delays[3]
+Array byte crate_targets_x[10]
+Array byte crate_targets_y[10]

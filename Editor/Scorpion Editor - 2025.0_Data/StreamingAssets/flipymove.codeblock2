@@ -1,0 +1,8 @@
+//Reverses an actor's Y direction
+ActorDirection resume_moving
+If lookmask_up btst actor_lookdir
+    Set actor_lookdir=actor_lookdir + 6
+ElseIf lookmask_down btst actor_lookdir
+    Set actor_lookdir=actor_lookdir - 6
+End
+ActorDirection resume_moving

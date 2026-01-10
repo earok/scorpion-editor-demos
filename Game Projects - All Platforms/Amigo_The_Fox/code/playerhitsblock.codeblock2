@@ -1,0 +1,9 @@
+If player_yspeed < 0 //Player is moving up
+    If player_x +6 > block_x * 16 //Player is x aligned with block
+        If player_x - 6 < block_x * 16 + 15 //Player is x aligned with block
+            PlayerSpeed Y=0.0
+            Set hitpowerlevel=power
+            Goto block_bump
+        End
+    End
+End

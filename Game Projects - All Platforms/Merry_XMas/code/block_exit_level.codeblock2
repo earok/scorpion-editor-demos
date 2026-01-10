@@ -1,0 +1,7 @@
+If player_yspeed >= 1 and presents_to_deliver == 0
+    PlayerType level_exit_actor ResetMovement ResetAnimation
+    Sound balloon_start_riding_1 Period=0
+    PlayerDirection move_upright
+    SetBlock none
+    SetBlock none X=block_x + 1 Y=block_y
+End

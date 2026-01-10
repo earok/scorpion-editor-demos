@@ -1,0 +1,9 @@
+Variable word camera_offset=0
+//Fix the camera jiggling when starting and stopping
+CameraPosition X=player_x Center ResetMovement
+If camera_x < 0
+    CameraPosition X=0 ResetMovement
+End
+//Wrap the background sprites
+Set camera_offset=camera_x / actor_var1 & 0xff
+Set actor_x=camera_x + 255 - camera_offset

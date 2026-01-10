@@ -1,0 +1,186 @@
+Set value=-25 / 10
+Set expected=-2
+GoSub assert
+Set value=25 / -10
+Set expected=-2
+GoSub assert
+Set value=123 >> 4
+Set expected=7
+GoSub assert
+Set value=17 << 4
+Set expected=272
+GoSub assert
+Set value=0x0F | 0xF0
+Set expected=255
+GoSub assert
+Set value=0xAF ^ 0xFA
+Set expected=85
+GoSub assert
+Set value=7 ^ arrayindex
+Set expected=3
+GoSub assert
+Set value=0b1111 & 0b0110
+Set expected=6
+GoSub assert
+Set value=testconst_hex
+Set expected=0xff
+GoSub assert
+Set value=testconst_bin
+Set expected=0b1010
+GoSub assert
+Set value=-testconst_bin
+Set expected=-10
+GoSub assert
+Set value=1 << test_bitshift | 1
+Set expected=257
+GoSub assert
+Set value=1024 >> test_bitshift
+Set expected=4
+GoSub assert
+Set value=0b1111 & test_bitshift
+Set expected=8
+GoSub assert
+Set value=0b1111 | test_bitshift
+Set expected=0b1111
+GoSub assert
+Set value=64 / test_bitshift
+Set expected=8
+GoSub assert
+Set value=100 % test_bitshift
+Set expected=4
+GoSub assert
+Set value=100 * test_bitshift
+Set expected=800
+GoSub assert
+Set value=100 - test_bitshift
+Set expected=92
+GoSub assert
+Set value=-test_bitshift
+Set expected=-8
+GoSub assert
+Set value=100 + test_bitshift
+Set expected=108
+GoSub assert
+Set value=test_bitshift
+Set expected=8
+GoSub assert
+Set value=100 % 8
+Set expected=4
+GoSub assert
+Set value=8 * 8
+Set expected=64
+GoSub assert
+Set value=2 + 2
+Set expected=4
+GoSub assert
+Set value=8 - 4
+Set expected=4
+GoSub assert
+Set value=logic_speed
+Set expected=25
+GoSub assert
+Set value=target_speed
+Set expected=50
+GoSub assert
+Set value=camera_x
+Set expected=0
+GoSub assert
+Absolute value=-5
+Set expected=5
+GoSub assert
+DistanceManhattan value X2=3 Y2=4
+Set expected=7
+GoSub assert
+DistanceExact value X2=3 Y2=4
+Set expected=5
+GoSub assert
+SquareRoot value=9
+Set expected=3
+GoSub assert
+[amiga_all] Set value=player_animation
+[amiga_all] Set expected=new_anim
+[amiga_all] GoSub assert
+[amiga_all] Set value=player_frame
+[amiga_all] Set expected=2
+[amiga_all] GoSub assert
+Set value=myarray[3]
+Set expected=3
+GoSub assert
+Set value=myarray[arrayindex]
+Set expected=120
+GoSub assert
+Set value=myarray[arrayindex2]
+Set expected=120
+GoSub assert
+Set value=new_var5
+Set expected=-1
+GoSub assert
+Set value=-10 * new_var5
+Set expected=10
+GoSub assert
+Set value=-10 / new_var5
+Set expected=10
+GoSub assert
+Set value_frac=1
+Set expected_frac=1
+GoSub assert_fraction
+Set value_frac=0.5 + 0.5
+Set expected_frac=1
+GoSub assert_fraction
+Set value_frac=0.25 + 0.25
+Set expected_frac=0.5
+GoSub assert_fraction
+Set value_frac=2 * 0.25
+Set expected_frac=0.5
+GoSub assert_fraction
+Set value_frac=0.25 * 2
+Set expected_frac=0.5
+GoSub assert_fraction
+Set value_frac=1 / 2.0
+Set expected_frac=0.5
+GoSub assert_fraction
+Set value_frac=1 / -2.0
+Set expected_frac=-0.5
+GoSub assert_fraction
+Set value_frac=test_frac
+Set expected_frac=0.5
+GoSub assert_fraction
+Set value_frac=test_frac + test_frac + test_frac.
+Set expected_frac=1.5
+GoSub assert_fraction
+Set value_frac=test_frac. * test_frac.
+Set expected_frac=0.25
+GoSub assert_fraction
+Set value_long=0x400000
+Set expected_long=0x400000
+GoSub assert_long
+Set value_long=0
+Set expected_long=0
+GoSub assert_long
+Set value_alias=67
+Set expected=67
+GoSub assert
+DistanceManhattan value_alias X2=-3 Y2=-4
+Set expected=7
+GoSub assert
+DistanceExact value_alias X2=-3 Y2=-4
+Set expected=5
+GoSub assert
+Set value_frac=myfracarray[3].
+Set expected_frac=5.5
+GoSub assert_fraction
+Set value_frac=2.75 / expected_frac //2.75 / 5.5 = 0.5
+Set expected_frac=0.5
+GoSub assert_fraction
+Set value_frac=0.5 * negative_var
+Set expected_frac=-0.5
+GoSub assert_fraction
+Set value=16
+
+
+Set value=value>>3
+Set expected=2
+GoSub Assert
+Set value=value<<3
+Set expected=16
+GoSub Assert

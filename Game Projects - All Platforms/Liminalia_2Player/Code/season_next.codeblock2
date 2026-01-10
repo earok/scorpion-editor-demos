@@ -1,0 +1,34 @@
+If player_isonplatform == true
+    Return
+End
+If collectorbs == true
+    If player_controller == 1
+        Set score1=score1 + 1
+        If score1 >= scoretarget
+            Say "PLAYER ONE IS THE WINNER" Frames=0
+            Goto startup
+        End
+    ElseIf player_controller == 2
+        Set score2=score2 + 1
+        If score2 >= scoretarget
+            Say "PLAYER TWO IS THE WINNER" Frames=0
+            Goto startup
+        End
+    End
+End
+GoSub update_season
+Roll 256
+ActorPosition X=camera_x + dice
+If actor_y > 96+16
+    ActorPosition Y=16
+End
+ActorPosition Y=192+48
+While camera_x > season * 256
+    CameraPosition X=camera_x - 16 ResetMovement Warp
+    Wait 1
+End
+While camera_x < season * 256
+    CameraPosition X=camera_x + 16 ResetMovement Warp
+    Wait 1
+End
+# FadeIn

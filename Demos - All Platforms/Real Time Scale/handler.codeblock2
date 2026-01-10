@@ -1,0 +1,20 @@
+Variable word rotation=0
+Variable word axis=0
+Variable word frame=0
+Set rotation=rotation + 4
+If rotation >= 360
+    Set rotation=rotation - 360
+    Set axis=1 - axis
+End
+If rotation == 180
+    Set frame=1 - frame
+    PlayerAnimation base_anim Frame=frame
+End
+Rotate rotation X=127.99 XVar=math_x YVar=math_y
+If axis
+    Set player_shrink_x=math_x. + 128
+    Set player_shrink_y=255
+Else
+    Set player_shrink_x=255
+    Set player_shrink_y=math_x. + 128
+End

@@ -1,0 +1,34 @@
+Roll 5
+If dice == 1
+    //We don't want to change direction
+ElseIf dice == 2
+    //We want to flip left/right
+    If lookmask_left btst actor_lookdir
+        Set actor_lookdir=actor_lookdir + 2
+    Else
+        Set actor_lookdir=actor_lookdir - 2
+    End
+ElseIf dice == 3
+    //We want to flip up down
+    If lookmask_up btst actor_lookdir
+        Set actor_lookdir=actor_lookdir + 6
+    Else
+        Set actor_lookdir=actor_lookdir - 6
+    End
+ElseIf dice == 4
+    //We want to flip left/right only towards center
+    If lookmask_left btst actor_lookdir
+        If actor_x < 144
+            Set actor_lookdir=actor_lookdir + 2
+        End
+    Else
+        If actor_x > 144
+            Set actor_lookdir=actor_lookdir - 2
+        End
+    End
+ElseIf dice == 5
+    //We want to move down only
+    If lookmask_up btst actor_lookdir
+        Set actor_lookdir=actor_lookdir + 6
+    End
+End

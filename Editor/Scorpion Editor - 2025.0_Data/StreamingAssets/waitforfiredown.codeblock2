@@ -1,0 +1,8 @@
+//Waits for the player to hold down fire
+Advanced RefreshFrame
+While control1_buttons & mask_truebuttons == 0 //Wait for player to press button
+    Advanced RefreshFrame
+    [amiga_all] If keyboardrawcode == 0x40 //Player has just pressed space
+        [amiga_all] Return
+    [amiga_all] End
+End

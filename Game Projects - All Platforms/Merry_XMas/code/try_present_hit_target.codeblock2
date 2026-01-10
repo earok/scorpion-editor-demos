@@ -1,0 +1,13 @@
+ForEachActor actor_type == rudolph Goto try_crush_reindeer
+If block_type == block_present_target
+    //Pushed present into target
+    NewType none ResetMovement ResetAnimation
+    Set presents_to_deliver=presents_to_deliver - 1
+    Sound fruit_collect_1 Period=0
+    SetBlock none
+ElseIf block_type >= block_fire_1 and block_type <= block_fire_4
+    //Pushed present into fire
+    NewType puff ResetMovement ResetAnimation
+Else
+    SetBlock block_temp_solid
+End

@@ -1,0 +1,26 @@
+If best > savedbest
+    Set savedbest=best
+    Save savedata 0
+End
+Set playerisdead=false
+Set spawnedpoles=0
+CameraPosition X=0 Y=48 ResetMovement
+While camera_x < 256
+    CameraPosition X=camera_x + 4 ResetMovement
+    ActorYield 1
+End
+While control1fire == 0
+    ActorYield 1
+End
+Set score=0
+While camera_x < 512
+    CameraPosition X=camera_x + 4 ResetMovement
+    PlayerPosition X=player_x + 2
+    If player_x < camera_x + 32
+        PlayerPosition X=camera_x + 32
+    End
+    ActorYield 1
+End
+PlayerType plane ResetMovement ResetAnimation
+PlayerDirection move_up
+Sound spring Period=0

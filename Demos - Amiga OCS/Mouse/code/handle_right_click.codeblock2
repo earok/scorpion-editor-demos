@@ -1,0 +1,21 @@
+//Check grenade cooldown
+If player_var1 > 0
+    Set player_var1=player_var1 - 1
+    Return
+End
+//If we get to here, grenade is ready
+If player_controller == 2 //Is the mouse controller 2 (port 1)
+    //Use the jump variable on control2 (port 1) for right button logic
+    If control2jump != button_hit //We only throw grenades on button hit, not if we're holding button down
+        Return
+    End
+Else
+    //Use the jump variable on control1 (port 2) for right button logic
+    If control1jump != button_hit //We only throw grenades on button hit, not if we're holding button down
+        Return
+    End
+End
+//If we get to here, throw grenade
+Set player_var1=25
+PlayerSpawnChild explosion_actor
+Goto pixel_perfect_test

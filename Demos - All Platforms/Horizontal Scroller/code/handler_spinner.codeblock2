@@ -1,0 +1,29 @@
+If actor_lookdir == look_left
+    If actor_x < player_x
+        If actor_y < player_y
+            ActorDirection move_down
+        Else
+            ActorDirection move_up
+        End
+    End
+ElseIf actor_lookdir == look_up
+    If actor_y < player_y
+        If actor_x < player_x
+            ActorDirection move_right
+        Else
+            ActorDirection move_left
+        End
+    End
+ElseIf actor_lookdir == look_right
+    If actor_x > camera_x + 256 + 32
+        ActorType none ResetMovement ResetAnimation
+    End
+ElseIf actor_lookdir == look_down
+    If actor_y > player_y
+        If actor_x < player_x
+            ActorDirection move_right
+        Else
+            ActorDirection move_left
+        End
+    End
+End

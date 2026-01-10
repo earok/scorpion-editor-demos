@@ -1,0 +1,13 @@
+Variable word Level3_Part=0
+//Level three is a "quick time event" type sewing game.
+//There's no bobs - the level uses it's own palette. At no point is game control passed over to the scorpion game engine
+Set lvl_timer_left=LevelTimeMax
+Set level3_part=0
+Roll 2 //Select normal or flipped level
+If dice == 1
+    Level lvl_sew
+End
+If dice == 2
+    Level lvl_sew2
+End
+Goto level3_loop

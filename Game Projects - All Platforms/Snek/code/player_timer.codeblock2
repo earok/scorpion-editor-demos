@@ -1,0 +1,146 @@
+If player_update == 0
+    Return
+End
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Set player_move_counter=player_move_counter + 1
+If player_move_counter > speed_delays[player_speed_mode]
+    Set player_move_counter=0
+    If player_x / 16 < 20
+        //====== Change current block to snake block
+        If player_direction == 0 or player_direction == 2
+            SetBlock snake_block_ns X=player_x/16 Y=player_y/16
+        Else
+            SetBlock snake_block_ew X=player_x/16 Y=player_y/16
+        End
+        //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        //====== Add corner blocks if direction has changed since last frame
+        If player_direction != player_last_direction
+            If player_last_direction == 0
+                If player_direction == 1
+                    SetBlock snake_block_corner_1 X=player_x/16 Y=player_y/16
+                Else
+                    SetBlock snake_block_corner_2 X=player_x/16 Y=player_y/16
+                End
+            ElseIf player_last_direction == 2
+                If player_direction == 1
+                    SetBlock snake_block_corner_4 X=player_x/16 Y=player_y/16
+                Else
+                    SetBlock snake_block_corner_3 X=player_x/16 Y=player_y/16
+                End
+            ElseIf player_last_direction == 1
+                If player_direction == 2
+                    SetBlock snake_block_corner_2 X=player_x/16 Y=player_y/16
+                Else
+                    SetBlock snake_block_corner_3 X=player_x/16 Y=player_y/16
+                End
+            ElseIf player_last_direction == 3
+                If player_direction == 2
+                    SetBlock snake_block_corner_1 X=player_x/16 Y=player_y/16
+                Else
+                    SetBlock snake_block_corner_4 X=player_x/16 Y=player_y/16
+                End
+            End
+        End
+    End
+    //====== Move the snake tail pointer (and delete the last block) IF we're not growing
+    //====== If we are growing, we just want to skip the tail move
+    If player_length < player_new_length
+        Set player_length=player_length + 1
+    Else
+        If snake_tail_x < 0 or snake_tail_x >= 20
+            //The snake tail is still offscreen
+            Set snake_tail_x=snake_tail_x + 1
+            Set snake_tail_direction=snake_block_tail_4
+        Else
+            GetBlock snake_tail_direction X=snake_tail_x Y=snake_tail_y
+            SetBlock none
+            If snake_tail_direction == snake_block_tail_1
+                Set snake_tail_y=snake_tail_y + 1
+            ElseIf snake_tail_direction == snake_block_tail_2
+                Set snake_tail_x=snake_tail_x - 1
+            ElseIf snake_tail_direction == snake_block_tail_3
+                Set snake_tail_y=snake_tail_y - 1
+            ElseIf snake_tail_direction == snake_block_tail_4
+                Set snake_tail_x=snake_tail_x + 1
+            End
+        End
+        //====== Draw the tail of the snake at the last segment
+        If snake_tail_x < 0 or snake_tail_x >= 20
+            //The snake tail is still offscreen
+        Else
+            GetBlock current_block X=snake_tail_x Y=snake_tail_y
+            If current_block == snake_block_corner_1 //South-East
+                If snake_tail_direction == snake_block_tail_3 //Entering from south
+                    Set snake_tail_direction=snake_block_tail_4 //Go east
+                Else
+                    Set snake_tail_direction=snake_block_tail_1 //Go south
+                End
+            ElseIf current_block == snake_block_corner_2 //South-West
+                If snake_tail_direction == snake_block_tail_3 //Entering from south
+                    Set snake_tail_direction=snake_block_tail_2 //Go west
+                Else
+                    Set snake_tail_direction=snake_block_tail_1 //Go south
+                End
+            ElseIf current_block == snake_block_corner_3 //North-West
+                If snake_tail_direction == snake_block_tail_1 //Entering from North
+                    Set snake_tail_direction=snake_block_tail_2 //Go west
+                Else
+                    Set snake_tail_direction=snake_block_tail_3 //Go north
+                End
+            ElseIf current_block == snake_block_corner_4 //North-East
+                If snake_tail_direction == snake_block_tail_1 //Entering from North
+                    Set snake_tail_direction=snake_block_tail_4 //Go east
+                Else
+                    Set snake_tail_direction=snake_block_tail_3 //Go north
+                End
+            End
+            SetBlock snake_tail_direction
+        End
+    End
+    //====== Store the last direction the snake was moving before new input happened
+    Set player_last_direction=player_direction
+    //====== Move snake head according to player's direction
+    If player_direction == 0
+        Set player_y=player_y - 16
+    ElseIf player_direction == 1
+        Set player_x=player_x + 16
+    ElseIf player_direction == 2
+        Set player_y=player_y + 16
+    ElseIf player_direction == 3
+        Set player_x=player_x - 16
+    End
+    GoSub player_head_switch
+    //====== When snake has exited to the east, check if the whole snake has left the screen
+    Variable word bounds=0
+    Set bounds=player_length*16
+    If player_x > 320 + bounds
+        Goto level_completed
+    End
+End
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//====== Handle direction changes when joystick has been moved
+//====== Also prevent snake from reversing into itself
+If player_controls_disabled == 0
+    If player_controly > 0
+        If player_last_direction != 0
+            Set player_direction=2
+        End
+    ElseIf player_controly < 0
+        If player_last_direction != 2
+            Set player_direction=0
+        End
+    ElseIf player_controlx > 0
+        If player_last_direction != 3
+            Set player_direction=1
+        End
+    ElseIf player_controlx < 0
+        If player_last_direction != 1
+            Set player_direction=3
+        End
+    End
+End
+//====== Disable player controls if the snake is about to leave the east exit
+If player_x > 304
+    Set player_controls_disabled=1
+    Set player_speed_mode=#TURBO_SPEED
+End

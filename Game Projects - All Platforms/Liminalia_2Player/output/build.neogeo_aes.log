@@ -1,0 +1,172 @@
+Compiled on Thursday, 8 January 2026 9:43:04 p.m.
+Version string: SE2025.0.260108.21.26.EX
+
+ImageFrame Data Size: 1796
+Actor Count: 14
+Actor Data Size: 2520
+Animations Count: 42
+Animations Data Size: 672
+AnimationFrame Count: 68
+AnimationFrame Data Size: 1088
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   107938 |    16292 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   124230 |     2012 |  NoCrunch | Panel 
+   PL02 |   126242 |     1020 |  NoCrunch | Panel scorepanel
+   PL03 |   127262 |      956 |  NoCrunch | Panel talkpad
+   PL04 |   128218 |     2160 |  NoCrunch | Panel titlepanel
+   PB00 |   130378 |       68 |  NoCrunch | Project blocks
+   PI00 |   130446 |     1796 |  NoCrunch | Images
+   PA00 |   132242 |     2520 |  NoCrunch | Project actors
+   ML01 |   134762 |        8 |       ZX0 | Map block data for map
+   MA01 |   134770 |       26 |       ZX0 | Map actor data for map
+   MH01 |   134796 |      848 |  NoCrunch | Header data for map map
+   MT01 |   135644 |       70 |       ZX0 | Map tile data  map
+   MD01 |   135714 |     2688 |  NoCrunch | Tile data for map map (mem restrictions:None)
+   ME01 |   138402 |       44 |  NoCrunch | Map event data for map
+   MY01 |   138446 |       80 |  NoCrunch | Get Y lookup table map
+   MN01 |   138526 |       20 |  NoCrunch | Map path node data for map
+   NT00 |   138546 |     2300 |  NoCrunch | Project name table
+   PN00 |   140846 |      672 |  NoCrunch | Animations
+   PF00 |   141518 |     1088 |  NoCrunch | Animation Frames
+   PS00 |   142606 |      112 |  NoCrunch | Project sound
+   DB00 |   142718 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   142720 |    11482 |  NoCrunch | Project Header
+   PV00 |   154202 |      146 |  NoCrunch | Var Data
+   AT00 |   154348 |      440 |  NoCrunch | Attack Data
+   PE00 |   154788 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   16292 |    16292 |        | Project virtual machine (codeblocks)
+   11482 |    11482 |        | Project Header
+    2688 |     2688 |        | Tile data for map map (mem restrictions:None)
+    2520 |     2520 |        | Project actors
+    2300 |     2300 |        | Project name table
+    2160 |     2160 |        | Panel titlepanel
+    2012 |     2012 |        | Panel 
+    1796 |     1796 |        | Images
+    1088 |     1088 |        | Animation Frames
+    1020 |     1020 |        | Panel scorepanel
+     956 |      956 |        | Panel talkpad
+     848 |      848 |        | Header data for map map
+     672 |      672 |        | Animations
+     440 |      440 |        | Attack Data
+     146 |      146 |        | Var Data
+     112 |      112 |        | Project sound
+      80 |       80 |        | Get Y lookup table map
+      70 |     1960 |  (97%) | Map tile data  map
+      68 |       68 |        | Project blocks
+      44 |       44 |        | Map event data for map
+      26 |       84 |  (70%) | Map actor data for map
+      20 |       20 |        | Map path node data for map
+       8 |     1960 | (100%) | Map block data for map
+       8 |        8 |        | Teleporters
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+NeoGeo BIOS memory: 3328
+RAM reserved for level tiles: (largest level: map): 3920
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+
+Total: 16920 bytes
+
+=== Codeblocks by compiled size ===
+startup: 1110
+season_next: 700
+load_level: 636
+fallbottom: 530
+pumpkin_hit: 388
+update_season: 372
+pre_startup: 348
+spring1_autogen_attack: 336
+flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
+summer1_autogen_attack: 292
+autumn1_autogen_attack: 286
+winter1_autogen_attack: 286
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+set_yresolution: 256 (Unused?)
+shoot_lazer_dir: 232
+snowball_hit: 216
+block_find: 210 (Unused?)
+push_actor: 202
+push_player: 200
+waitforframes: 194
+block_count: 178 (Unused?)
+reset_seasonchanger: 174
+check_talkpad: 172
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
+shoot_snowball: 160
+flipxmove: 142 (Unused?)
+orb_bottom: 140
+pause: 138 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
+AUTOGEN_OUTOFSCREEN_keep_onscreen_keep_onscreen_destroy_actor_destroy_actor: 130
+AUTOGEN_OUTOFSCREEN_orb_left_orb_right_orb_top_orb_bottom: 130
+destroy_all_blocks: 128 (Unused?)
+orb_left: 124
+orb_right: 124
+orb_top: 124
+shoot_lazer: 122
+unload_level: 118
+shoot_pumpkin: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+AUTOGEN_OUTOFSCREEN_fallbottom_fallbottom_None_fallbottom: 106
+AUTOGEN_OUTOFSCREEN_keep_onscreen_keep_onscreen_None_destroy_actor: 106
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_destroy_actor: 106
+unload_panel: 102
+collider_with_player: 100
+spawn_player2: 98
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+keep_onscreen: 82
+jump1: 80 (Unused?)
+jump2: 80 (Unused?)
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+wrap_bottom: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+wrap_top: 66 (Unused?)
+waitforfiredown: 64
+wrap_left: 64 (Unused?)
+wrap_right: 64 (Unused?)
+load_music: 62
+waitforfireup: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+pumpkin_vanish: 58
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

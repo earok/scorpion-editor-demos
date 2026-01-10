@@ -1,0 +1,20 @@
+If projectile_tag == enemy
+    Return
+End
+If state == state_beamcross
+    Return
+End
+If projectile_x - actor_x > 48
+    Return
+End
+Sound gsfx_34_battery_out Period=0
+ForEachActor actor_type Goto activate
+StringSet status_text="Don't cross the joy beams!"
+Set hurt_elves=hurt_elves + 2
+Set state=state_beamcross
+ActorYield 50
+ForEachActor actor_type == beam_l Goto destroy_actor
+ForEachActor actor_type == beam_r Goto destroy_actor
+ForEachActor actor_type == left_elf_idle Goto kill_elf
+ForEachActor actor_type == right_elf_idle Goto kill_elf
+Set state=state_failed

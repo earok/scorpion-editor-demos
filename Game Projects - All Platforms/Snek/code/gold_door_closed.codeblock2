@@ -1,0 +1,6 @@
+If gold_door_orientation == 0 //north/south
+    SetBlock gold_door_ns_block X=actor_x/16 Y=actor_y/16
+Else
+    SetBlock gold_door_ew_block X=actor_x/16 Y=actor_y/16
+End
+ActorType none ResetMovement ResetAnimation

@@ -1,0 +1,8 @@
+If player_x - 8 < block_x * 16 + 15
+    If player_x + 8 > block_x * 16 //Player is x aligned with block
+        If player_yspeed > 0
+            SpawnOnBlock fx_musiccover
+            SetBlock none
+        End
+    End
+End

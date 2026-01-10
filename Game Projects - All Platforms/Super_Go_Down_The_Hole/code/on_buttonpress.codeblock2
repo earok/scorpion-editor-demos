@@ -1,0 +1,17 @@
+Constant bars_x=152
+Constant bars_y=30
+Constant lavaypos=4
+Constant lavaxpos_1=165
+Constant lavaxpos_2=170
+SetBlock block_button_down
+SetBlock none X=bars_x Y=bars_y + 1
+SetBlock none X=bars_x Y=bars_y
+SpawnOnBlock bars X=bars_x Y=bars_y
+Sound barsopen Period=0
+Set mansaved=true
+Set lavay=lavaypos
+Set lavax=lavaxpos_1
+GoSub function_bomblava
+Set lavax=lavaxpos_2
+GoSub function_bomblava
+ForEachActor actor_type == hook Goto destroy_actor

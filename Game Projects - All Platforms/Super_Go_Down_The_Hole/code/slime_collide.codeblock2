@@ -1,0 +1,14 @@
+If player_y < actor_y
+    If player_yspeed > 0
+        Set player_yspeed=-3
+        If actor_type == green_slime
+            Set actor_xspeed=0
+            ActorType green_slime_dead ResetMovement ResetAnimation
+        End
+        If actor_type == red_slime
+            ActorSpawnChild hurt_stars
+        End
+    End
+    Return
+End
+Goto on_hurt

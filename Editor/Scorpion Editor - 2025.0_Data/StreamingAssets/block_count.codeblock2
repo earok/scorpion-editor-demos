@@ -1,0 +1,13 @@
+//Use with the level->block count command
+Set math_y=0
+Set mapwidthtiles=mapwidthtiles - 1 //Temporarily subtract 1 for a faster loop
+Set mapheighttiles=mapheighttiles - 1 //Important because there could be a MASSIVE number of tiles to loop through!
+For block_x From 0 To mapwidthtiles
+    For block_y From 0 To mapheighttiles
+        If block_type == math_x
+            Set math_y=math_y + 1
+        End
+    End
+End
+Set mapwidthtiles=mapwidthtiles + 1
+Set mapheighttiles=mapheighttiles + 1

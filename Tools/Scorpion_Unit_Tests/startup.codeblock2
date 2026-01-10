@@ -1,0 +1,70 @@
+Variable word all_and_tests_passed=0
+Variable word all_or_tests_passed=0
+Variable word all_both_tests_passed=0
+Variable word usedchip=0
+Variable word usedother=0
+Variable word negative_var=-1
+Array byte myarray[10]
+Array fraction myfracarray[5]
+Variable word arrayindex=4
+Variable word arrayindex2=2
+Variable word test=0
+Variable word value=0
+Variable word expected=0
+Alias value_alias=value
+Alias expected_alias=expected
+Alias defined_delay=actor_var2
+Constant testconst_hex=0xff
+Constant testconst_bin=0b1010
+Variable word test_bitshift=8 //Should be 8
+Variable byte bytevariable=0
+//Just some tests to verify math is working as expected
+Set value_long=200000
+If value_long > 300000
+    Quit="Long compare error"
+End
+Set bytevariable=1
+If bytevariable != 1
+    Quit="Byte compare error {bytevariable}"
+End
+[amiga_all] Level new_map
+[amiga_all] Spawn new_actor X=0 Y=0
+[amiga_all] PlayerAnimation new_anim Frame=2
+Set new_var5=-1
+Set myarray[3]=3
+Set myfracarray[3]=5.5
+Set myarray[9]=myarray[3] - 1
+Set myarray[arrayindex]=120
+Set myarray[arrayindex2]=myarray[arrayindex]
+GoSub tests
+//Misc checks below
+If true == true and false == true
+    Quit="AND check failed"
+End
+If true == true and false == false
+    Set all_and_tests_passed=true
+End
+If true == false or false == false
+    Set all_or_tests_passed=true
+End
+If true == true and true == false or false == false
+    Set all_both_tests_passed=true
+End
+If all_and_tests_passed == false
+    Quit="AND check failed 2"
+End
+If all_or_tests_passed == false
+    Quit="OR check failed 2"
+End
+If all_both_tests_passed == false
+    Quit="OR and AND check failed"
+End
+Set block_x=50
+Set math_x=5.1234
+Set math_x=50
+If block_x != math_x
+    Quit="Word+Fraction comparison failed"
+End
+Set usedchip=512 - chipram
+Set usedother=512 - otherram
+Quit="All {test} tests passed !!! {usedchip} : {usedother}"

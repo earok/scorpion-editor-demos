@@ -1,0 +1,9 @@
+ForEachActor actor_type == pickup_actor Goto destroy_actor
+ForEachActor actor_type == bullet_actor Goto destroy_actor
+GoSub reset_pad_state
+Spawn get_ready_actor X=130 Y=140
+Yield 100
+NewType none ResetMovement ResetAnimation
+Set balls_alive=1
+Spawn ball_actor X=player_x Y=244
+NewSpeed Y=-current_ball_speed Angle=12

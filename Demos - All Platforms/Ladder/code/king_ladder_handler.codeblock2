@@ -1,0 +1,18 @@
+GetBlock currentblock X=player_x / 16 Y=player_y / 16
+If currentblock != ladder //If we're not on the ladder
+    If currentblock != ladder_platform //If we're not on the ladder
+        PlayerSpeed Y=0.0 Angle=0 //Prevent jump at top of ladder
+        Goto getoffladder //Get off the ladder
+    End
+End
+If can_getoff_ladder == false //Prevent climbing off a ladder until joystick is idle for one frame
+    If control1_x != 0 //If we're pressing left or right
+        Return
+    End
+    Set can_getoff_ladder=true
+End
+If snap
+    If control1_x != 0 //If we're pressing left or right
+        Goto getoffladder //Get off the ladder
+    End
+End

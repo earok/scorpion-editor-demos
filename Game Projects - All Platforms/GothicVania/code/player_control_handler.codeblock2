@@ -1,0 +1,26 @@
+Variable word left_key=0
+Variable word right_key=0
+Variable word down_key=0
+Variable word up_key=0
+Variable word attack_key=0
+Variable word jump_hit=0
+If left_key
+    Set control1_x=-1
+ElseIf right_key
+    Set control1_x=1
+End
+If up_key
+    Set control1_y=-1
+    If jump_hit
+        Set control1jump=button_hit
+        Set jump_hit=0
+    Else
+        Set control1jump=button_down
+    End
+ElseIf down_key
+    Set control1_y=1
+End
+If attack_key
+    Set control1fire=1
+    Set attack_key=0
+End

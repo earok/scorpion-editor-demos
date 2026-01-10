@@ -1,0 +1,370 @@
+Compiled on Thursday, 8 January 2026 9:50:12 p.m.
+Version string: SE2025.0.260108.21.26.EX
+
+ImageFrame Data Size: 3362
+Actor Count: 8
+Actor Data Size: 1440
+Animations Count: 18
+Animations Data Size: 288
+AnimationFrame Count: 57
+AnimationFrame Data Size: 912
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   109774 |    12110 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   121884 |     2012 |  NoCrunch | Panel 
+   PB00 |   123896 |      816 |  NoCrunch | Project blocks
+   PI00 |   124712 |     3362 |  NoCrunch | Images
+   PA00 |   128074 |     1440 |  NoCrunch | Project actors
+   ML01 |   129514 |       12 |       ZX0 | Map block data for level00
+   MA01 |   129526 |       12 |       ZX0 | Map actor data for level00
+   MH01 |   129538 |      848 |  NoCrunch | Header data for map level00
+   MT01 |   130386 |       80 |       ZX0 | Map tile data  level00
+   MD01 |   130466 |     1120 |  NoCrunch | Tile data for map level00 (mem restrictions:None)
+   ME01 |   131586 |       44 |  NoCrunch | Map event data for level00
+   MY01 |   131630 |       80 |  NoCrunch | Get Y lookup table level00
+   MN01 |   131710 |       20 |  NoCrunch | Map path node data for level00
+   ML02 |   131730 |       22 |       ZX0 | Map block data for level01
+   MA02 |   131752 |       20 |       ZX0 | Map actor data for level01
+   MH02 |   131772 |      848 |  NoCrunch | Header data for map level01
+   MT02 |   132620 |       64 |       ZX0 | Map tile data  level01
+   MD02 |   132684 |     1120 |  NoCrunch | Tile data for map level01 (mem restrictions:None)
+   ME02 |   133804 |       44 |  NoCrunch | Map event data for level01
+   MY02 |   133848 |       80 |  NoCrunch | Get Y lookup table level01
+   MN02 |   133928 |       20 |  NoCrunch | Map path node data for level01
+   ML03 |   133948 |       16 |       ZX0 | Map block data for level02
+   MA03 |   133964 |       20 |       ZX0 | Map actor data for level02
+   MH03 |   133984 |      848 |  NoCrunch | Header data for map level02
+   MT03 |   134832 |       56 |       ZX0 | Map tile data  level02
+   MD03 |   134888 |     1120 |  NoCrunch | Tile data for map level02 (mem restrictions:None)
+   ME03 |   136008 |       44 |  NoCrunch | Map event data for level02
+   MY03 |   136052 |       80 |  NoCrunch | Get Y lookup table level02
+   MN03 |   136132 |       20 |  NoCrunch | Map path node data for level02
+   ML04 |   136152 |       24 |       ZX0 | Map block data for level03
+   MA04 |   136176 |       22 |       ZX0 | Map actor data for level03
+   MH04 |   136198 |      848 |  NoCrunch | Header data for map level03
+   MT04 |   137046 |       70 |       ZX0 | Map tile data  level03
+   MD04 |   137116 |     1120 |  NoCrunch | Tile data for map level03 (mem restrictions:None)
+   ME04 |   138236 |       44 |  NoCrunch | Map event data for level03
+   MY04 |   138280 |       80 |  NoCrunch | Get Y lookup table level03
+   MN04 |   138360 |       20 |  NoCrunch | Map path node data for level03
+   ML05 |   138380 |       26 |       ZX0 | Map block data for level04
+   MA05 |   138406 |       20 |       ZX0 | Map actor data for level04
+   MH05 |   138426 |      848 |  NoCrunch | Header data for map level04
+   MT05 |   139274 |       68 |       ZX0 | Map tile data  level04
+   MD05 |   139342 |     1120 |  NoCrunch | Tile data for map level04 (mem restrictions:None)
+   ME05 |   140462 |       44 |  NoCrunch | Map event data for level04
+   MY05 |   140506 |       80 |  NoCrunch | Get Y lookup table level04
+   MN05 |   140586 |       20 |  NoCrunch | Map path node data for level04
+   ML06 |   140606 |       22 |       ZX0 | Map block data for level05
+   MA06 |   140628 |       20 |       ZX0 | Map actor data for level05
+   MH06 |   140648 |      848 |  NoCrunch | Header data for map level05
+   MT06 |   141496 |       54 |       ZX0 | Map tile data  level05
+   MD06 |   141550 |     1120 |  NoCrunch | Tile data for map level05 (mem restrictions:None)
+   ME06 |   142670 |       44 |  NoCrunch | Map event data for level05
+   MY06 |   142714 |       80 |  NoCrunch | Get Y lookup table level05
+   MN06 |   142794 |       20 |  NoCrunch | Map path node data for level05
+   ML07 |   142814 |       30 |       ZX0 | Map block data for level06
+   MA07 |   142844 |       20 |       ZX0 | Map actor data for level06
+   MH07 |   142864 |      848 |  NoCrunch | Header data for map level06
+   MT07 |   143712 |       78 |       ZX0 | Map tile data  level06
+   MD07 |   143790 |     1120 |  NoCrunch | Tile data for map level06 (mem restrictions:None)
+   ME07 |   144910 |       44 |  NoCrunch | Map event data for level06
+   MY07 |   144954 |       80 |  NoCrunch | Get Y lookup table level06
+   MN07 |   145034 |       20 |  NoCrunch | Map path node data for level06
+   ML08 |   145054 |       40 |       ZX0 | Map block data for level07
+   MA08 |   145094 |       20 |       ZX0 | Map actor data for level07
+   MH08 |   145114 |      848 |  NoCrunch | Header data for map level07
+   MT08 |   145962 |       88 |       ZX0 | Map tile data  level07
+   MD08 |   146050 |     1120 |  NoCrunch | Tile data for map level07 (mem restrictions:None)
+   ME08 |   147170 |       44 |  NoCrunch | Map event data for level07
+   MY08 |   147214 |       80 |  NoCrunch | Get Y lookup table level07
+   MN08 |   147294 |       20 |  NoCrunch | Map path node data for level07
+   ML09 |   147314 |       28 |       ZX0 | Map block data for level08
+   MA09 |   147342 |       20 |       ZX0 | Map actor data for level08
+   MH09 |   147362 |      848 |  NoCrunch | Header data for map level08
+   MT09 |   148210 |       74 |       ZX0 | Map tile data  level08
+   MD09 |   148284 |     1120 |  NoCrunch | Tile data for map level08 (mem restrictions:None)
+   ME09 |   149404 |       44 |  NoCrunch | Map event data for level08
+   MY09 |   149448 |       80 |  NoCrunch | Get Y lookup table level08
+   MN09 |   149528 |       20 |  NoCrunch | Map path node data for level08
+   ML10 |   149548 |       42 |       ZX0 | Map block data for level09
+   MA10 |   149590 |       36 |       ZX0 | Map actor data for level09
+   MH10 |   149626 |      848 |  NoCrunch | Header data for map level09
+   MT10 |   150474 |      170 |       ZX0 | Map tile data  level09
+   MD10 |   150644 |     3360 |  NoCrunch | Tile data for map level09 (mem restrictions:None)
+   ME10 |   154004 |       44 |  NoCrunch | Map event data for level09
+   MY10 |   154048 |       80 |  NoCrunch | Get Y lookup table level09
+   MN10 |   154128 |       20 |  NoCrunch | Map path node data for level09
+   ML11 |   154148 |       32 |       ZX0 | Map block data for level10
+   MA11 |   154180 |       20 |       ZX0 | Map actor data for level10
+   MH11 |   154200 |      848 |  NoCrunch | Header data for map level10
+   MT11 |   155048 |       86 |       ZX0 | Map tile data  level10
+   MD11 |   155134 |     1120 |  NoCrunch | Tile data for map level10 (mem restrictions:None)
+   ME11 |   156254 |       44 |  NoCrunch | Map event data for level10
+   MY11 |   156298 |       80 |  NoCrunch | Get Y lookup table level10
+   MN11 |   156378 |       20 |  NoCrunch | Map path node data for level10
+   ML12 |   156398 |       48 |       ZX0 | Map block data for level11
+   MA12 |   156446 |       20 |       ZX0 | Map actor data for level11
+   MH12 |   156466 |      848 |  NoCrunch | Header data for map level11
+   MT12 |   157314 |      108 |       ZX0 | Map tile data  level11
+   MD12 |   157422 |     1120 |  NoCrunch | Tile data for map level11 (mem restrictions:None)
+   ME12 |   158542 |       44 |  NoCrunch | Map event data for level11
+   MY12 |   158586 |       80 |  NoCrunch | Get Y lookup table level11
+   MN12 |   158666 |       20 |  NoCrunch | Map path node data for level11
+   ML13 |   158686 |       28 |       ZX0 | Map block data for level12
+   MA13 |   158714 |       20 |       ZX0 | Map actor data for level12
+   MH13 |   158734 |      848 |  NoCrunch | Header data for map level12
+   MT13 |   159582 |       96 |       ZX0 | Map tile data  level12
+   MD13 |   159678 |     1120 |  NoCrunch | Tile data for map level12 (mem restrictions:None)
+   ME13 |   160798 |       44 |  NoCrunch | Map event data for level12
+   MY13 |   160842 |       80 |  NoCrunch | Get Y lookup table level12
+   MN13 |   160922 |       20 |  NoCrunch | Map path node data for level12
+   ML14 |   160942 |        6 |       ZX0 | Map block data for level99
+   MA14 |   160948 |       12 |       ZX0 | Map actor data for level99
+   MH14 |   160960 |      848 |  NoCrunch | Header data for map level99
+   MT14 |   161808 |       56 |       ZX0 | Map tile data  level99
+   MD14 |   161864 |     1120 |  NoCrunch | Tile data for map level99 (mem restrictions:None)
+   ME14 |   162984 |       44 |  NoCrunch | Map event data for level99
+   MY14 |   163028 |       80 |  NoCrunch | Get Y lookup table level99
+   MN14 |   163108 |       20 |  NoCrunch | Map path node data for level99
+   NT00 |   163128 |      104 |  NoCrunch | Project name table
+   PN00 |   163232 |      288 |  NoCrunch | Animations
+   PF00 |   163520 |      912 |  NoCrunch | Animation Frames
+   PS00 |   164432 |      168 |  NoCrunch | Project sound
+   DB00 |   164600 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   164602 |    11482 |  NoCrunch | Project Header
+   PV00 |   176084 |      110 |  NoCrunch | Var Data
+   AT00 |   176194 |      176 |  NoCrunch | Attack Data
+   PE00 |   176370 |        8 |  NoCrunch | Teleporters
+   CM00 |   176378 |       12 |  NoCrunch | Commands for Joystick 1
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   12110 |    12110 |        | Project virtual machine (codeblocks)
+   11482 |    11482 |        | Project Header
+    3362 |     3362 |        | Images
+    3360 |     3360 |        | Tile data for map level09 (mem restrictions:None)
+    2012 |     2012 |        | Panel 
+    1440 |     1440 |        | Project actors
+    1120 |     1120 |        | Tile data for map level00 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level01 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level02 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level03 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level04 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level05 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level06 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level07 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level08 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level10 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level11 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level12 (mem restrictions:None)
+    1120 |     1120 |        | Tile data for map level99 (mem restrictions:None)
+     912 |      912 |        | Animation Frames
+     848 |      848 |        | Header data for map level00
+     848 |      848 |        | Header data for map level01
+     848 |      848 |        | Header data for map level02
+     848 |      848 |        | Header data for map level03
+     848 |      848 |        | Header data for map level04
+     848 |      848 |        | Header data for map level05
+     848 |      848 |        | Header data for map level06
+     848 |      848 |        | Header data for map level07
+     848 |      848 |        | Header data for map level08
+     848 |      848 |        | Header data for map level09
+     848 |      848 |        | Header data for map level10
+     848 |      848 |        | Header data for map level11
+     848 |      848 |        | Header data for map level12
+     848 |      848 |        | Header data for map level99
+     816 |      816 |        | Project blocks
+     288 |      288 |        | Animations
+     176 |      176 |        | Attack Data
+     170 |     2520 |  (94%) | Map tile data  level09
+     168 |      168 |        | Project sound
+     110 |      110 |        | Var Data
+     108 |      920 |  (89%) | Map tile data  level11
+     104 |      104 |        | Project name table
+      96 |      920 |  (90%) | Map tile data  level12
+      88 |      920 |  (91%) | Map tile data  level07
+      86 |      920 |  (91%) | Map tile data  level10
+      80 |      920 |  (92%) | Map tile data  level00
+      80 |       80 |        | Get Y lookup table level00
+      80 |       80 |        | Get Y lookup table level01
+      80 |       80 |        | Get Y lookup table level02
+      80 |       80 |        | Get Y lookup table level03
+      80 |       80 |        | Get Y lookup table level04
+      80 |       80 |        | Get Y lookup table level05
+      80 |       80 |        | Get Y lookup table level06
+      80 |       80 |        | Get Y lookup table level07
+      80 |       80 |        | Get Y lookup table level08
+      80 |       80 |        | Get Y lookup table level09
+      80 |       80 |        | Get Y lookup table level10
+      80 |       80 |        | Get Y lookup table level11
+      80 |       80 |        | Get Y lookup table level12
+      80 |       80 |        | Get Y lookup table level99
+      78 |      920 |  (92%) | Map tile data  level06
+      74 |      920 |  (92%) | Map tile data  level08
+      70 |      920 |  (93%) | Map tile data  level03
+      68 |      920 |  (93%) | Map tile data  level04
+      64 |      920 |  (94%) | Map tile data  level01
+      56 |      920 |  (94%) | Map tile data  level02
+      56 |      920 |  (94%) | Map tile data  level99
+      54 |      920 |  (95%) | Map tile data  level05
+      48 |      920 |  (95%) | Map block data for level11
+      44 |       44 |        | Map event data for level00
+      44 |       44 |        | Map event data for level01
+      44 |       44 |        | Map event data for level02
+      44 |       44 |        | Map event data for level03
+      44 |       44 |        | Map event data for level04
+      44 |       44 |        | Map event data for level05
+      44 |       44 |        | Map event data for level06
+      44 |       44 |        | Map event data for level07
+      44 |       44 |        | Map event data for level08
+      44 |       44 |        | Map event data for level09
+      44 |       44 |        | Map event data for level10
+      44 |       44 |        | Map event data for level11
+      44 |       44 |        | Map event data for level12
+      44 |       44 |        | Map event data for level99
+      42 |     2520 |  (99%) | Map block data for level09
+      40 |      920 |  (96%) | Map block data for level07
+      36 |      140 |  (75%) | Map actor data for level09
+      32 |      920 |  (97%) | Map block data for level10
+      30 |      920 |  (97%) | Map block data for level06
+      28 |      920 |  (97%) | Map block data for level08
+      28 |      920 |  (97%) | Map block data for level12
+      26 |      920 |  (98%) | Map block data for level04
+      24 |      920 |  (98%) | Map block data for level03
+      22 |      920 |  (98%) | Map block data for level01
+      22 |       56 |  (61%) | Map actor data for level03
+      22 |      920 |  (98%) | Map block data for level05
+      20 |       20 |        | Map path node data for level00
+      20 |       56 |  (65%) | Map actor data for level01
+      20 |       20 |        | Map path node data for level01
+      20 |       56 |  (65%) | Map actor data for level02
+      20 |       20 |        | Map path node data for level02
+      20 |       20 |        | Map path node data for level03
+      20 |       56 |  (65%) | Map actor data for level04
+      20 |       20 |        | Map path node data for level04
+      20 |       56 |  (65%) | Map actor data for level05
+      20 |       20 |        | Map path node data for level05
+      20 |       56 |  (65%) | Map actor data for level06
+      20 |       20 |        | Map path node data for level06
+      20 |       56 |  (65%) | Map actor data for level07
+      20 |       20 |        | Map path node data for level07
+      20 |       56 |  (65%) | Map actor data for level08
+      20 |       20 |        | Map path node data for level08
+      20 |       20 |        | Map path node data for level09
+      20 |       56 |  (65%) | Map actor data for level10
+      20 |       20 |        | Map path node data for level10
+      20 |       56 |  (65%) | Map actor data for level11
+      20 |       20 |        | Map path node data for level11
+      20 |       56 |  (65%) | Map actor data for level12
+      20 |       20 |        | Map path node data for level12
+      20 |       20 |        | Map path node data for level99
+      16 |      920 |  (99%) | Map block data for level02
+      12 |      920 |  (99%) | Map block data for level00
+      12 |       28 |  (58%) | Map actor data for level00
+      12 |       28 |  (58%) | Map actor data for level99
+      12 |       12 |        | Commands for Joystick 1
+       8 |        8 |        | Teleporters
+       6 |      920 | (100%) | Map block data for level99
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+NeoGeo BIOS memory: 3328
+RAM reserved for level tiles: (largest level: level09): 5040
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+
+Total: 18040 bytes
+
+=== Possibly unused sound effects ===
+dor_castle_00121
+
+=== Codeblocks by compiled size ===
+try_push_block: 670
+load_level: 636
+block_stop: 466
+pre_startup: 348
+flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
+flipxymove: 278 (Unused?)
+try_present_hit_target: 270
+load_next_level: 268 (Unused?)
+freemem: 256
+set_yresolution: 256 (Unused?)
+block_find: 210 (Unused?)
+restartlevel: 198
+waitforframes: 194
+block_exit_level: 188
+block_count: 178
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
+flipxmove: 142 (Unused?)
+pause: 138 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
+AUTOGEN_OUTOFSCREEN_try_next_level_try_next_level_try_next_level_try_next_level: 130
+destroy_all_blocks: 128 (Unused?)
+unload_level: 118
+rudolph_at_exit: 114
+convert_present_to_block: 112
+try_crush_reindeer: 110
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
+convert_block_to_present: 96
+destroy_child_actors: 94 (Unused?)
+present_down: 94
+present_left: 94
+present_right: 94
+santa_update_handler: 90
+pre_load_level: 86
+waitforfirehit: 86
+puff_of_smoke_end: 80
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+waitforfiredown: 64
+load_music: 62
+waitforfireup: 62
+freeze_test: 62 (Unused?)
+destroy_all_actors: 60 (Unused?)
+go_to_next_level: 60
+destroy_actor: 58
+change_to_puff: 58
+santa_hit_fire: 58
+freemem_hard: 54 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_None_None_restartlevel: 54
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+autogen_anim_smoke_puff_0: 52
+autogen_santa_jump_l_0: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+try_next_level: 50
+resume_movement: 46
+startup: 44
+freeze_actor: 40
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+autogen_rudolph_falling_l_0: 38
+fall_straight_down: 38
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

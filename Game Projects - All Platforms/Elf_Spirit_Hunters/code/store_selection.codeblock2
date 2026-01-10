@@ -1,0 +1,60 @@
+Wait 0
+Sound gsfx_38_coin Period=0
+If option == 0 //Hire elf
+    If cash >= elf_cost
+        If max_elves < 5
+            Set max_elves=max_elves + 1
+            Set cash=cash - elf_cost
+        End
+    End
+ElseIf option == 1 //Fire elf
+    If max_elves > 0
+        Set max_elves=max_elves - 1
+        Set cash=cash + elf_cost
+    End
+ElseIf option == 2 //Buy chest
+    If cash >= chest_cost
+        If max_chests < 3
+            Set max_chests=max_chests + 1
+            Set cash=cash - chest_cost
+        End
+    End
+ElseIf option == 3 //Sell chest
+    If max_chests > 0
+        Set max_chests=max_chests - 1
+        Set cash=cash + chest_cost
+    End
+ElseIf option == 4 //Buy battery
+    If cash >= battery_cost
+        If max_battery < 10
+            Set max_battery=max_battery + 1
+            Set cash=cash - battery_cost
+        End
+    End
+ElseIf option == 5 //Sell battery
+    If max_battery > 0
+        Set max_battery=max_battery - 1
+        Set cash=cash + battery_cost
+    End
+ElseIf option == 6 //Let's go!
+    If max_elves < 2
+        Set option=0
+        StringSet status_text="You need at least two elves!"
+        Goto store_selection
+    End
+    If max_chests < 1
+        Set option=2
+        StringSet status_text="You need at least one chest!"
+        Goto store_selection
+    End
+    If max_battery < 1
+        Set option=4
+        StringSet status_text="You need at least one battery!"
+        Goto store_selection
+    End
+    Set battery_bar=max_battery * 8
+    StringClear status_text
+    Level map PanelBottom=ui
+    Goto game_loop
+End
+Goto store_selection

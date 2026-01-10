@@ -1,0 +1,15 @@
+Variable word cycle_offset=0
+Variable word palette_offset=0
+Set cycle_offset=cycle_offset + 1
+If cycle_offset >= 4
+    Set cycle_offset=0
+End
+Set palette_offset=cycle_offset + 12
+SetColor palette_offset #7799C3
+GoSub increase_palette_offset
+SetColor palette_offset #2769C3
+GoSub increase_palette_offset
+SetColor palette_offset #7799C3
+GoSub increase_palette_offset
+SetColor palette_offset #A1C5DA
+GoSub increase_palette_offset

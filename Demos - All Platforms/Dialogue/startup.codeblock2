@@ -1,0 +1,50 @@
+Talkpad dialogue_talkpad
+String myname="PLACEHOLDERWITHENOUGHSPAC"
+Variable word repeated=0
+StringClear myname
+StringSet myname="Scorpion Engine"
+Say "Hi! My name is {myname}." Frames=300 ForFire
+Talkpad dialogue_talkpad2
+Say "This is a simple sample to demonstrate printing strings" Frames=0
+[amiga_all] If isaga == true
+    [amiga_all] Say "This is an AGA Amiga" Frames=0
+[amiga_all] Else
+    [amiga_all] Say "I can't find the AGA chipset" Frames=0
+[amiga_all] End
+[megadrive] If IsNTSC
+    [megadrive] Say "This appears to be a Sega Genesis or Japan Mega Drive" Frames=0 ForFire
+[megadrive] Else
+    [megadrive] Say "This appears to be European Mega Drive" Frames=0
+[megadrive] End
+[neogeo] Say "This appears to be a Neo Geo" Frames=0
+Say "I'm going to try loading a save file" Frames=0
+Load savedata 0
+If loaded == true
+    Say "Loaded file. Last random number was {lastdice}" Frames=0
+Else
+    Say "Could not load file (first time running this program?)" Frames=0
+End
+Roll 99
+Say "I'm going to pick a number between 1 and 99...<5><br>{Dice}" Frames=0
+Say "Use < br > for<br>line<br>breaks!" Frames=0
+Say "use < 1 ><10> to < 5 ><20> to insert <30> delays <40> in <50> text!" Frames=0 ForFire
+[megadrive] Say "<pl0>white <pl1>red <pl2>green <pl3>blue" Frames=0 ForFire
+Say "<col16>Manually set<col8><row1>X and Y<col0><row2>position!" Frames=0 ForFire
+Say "Next is a demo of choices.<br>Yes to repeat<br>No to quit.<br>" Frames=0
+Choice "Yes!" repeat
+Choice "Yes! Again!" repeat repeated
+Choice "No!" quitgame
+Label repeat
+Set repeated=true
+Goto startup
+Label quitgame
+Say "I'm going to try saving that number - {dice} - to disk for next time" Frames=0
+Set lastdice=dice
+Save savedata 0
+If saved == true
+    Say "Save successful!" Frames=0
+Else
+    Say "Could not save!" Frames=0
+    [neogeo] Say "On NeoGeo, you may need to attach a save cart to save" Frames=0
+End
+Quit="We can also print a quit message. Last dice roll was {dice}."

@@ -1,0 +1,24 @@
+Variable word flash_fx_index=0
+Variable word flash_fx_brightness=0
+//Set every color to white
+Set flash_fx_index=1
+Set flash_fx_brightness=255
+While flash_fx_brightness >= 0
+    Set flash_fx_index=1
+    While flash_fx_index <= 27
+        ReadColor flash_fx_index
+        If red < flash_fx_brightness //If this color needs to be brightened
+            Set red=flash_fx_brightness
+        End
+        If green < flash_fx_brightness //If this color needs to be brightened
+            Set green=flash_fx_brightness
+        End
+        If blue < flash_fx_brightness //If this color needs to be brightened
+            Set blue=flash_fx_brightness
+        End
+        WriteColor flash_fx_index
+        Set flash_fx_index=flash_fx_index + 1
+    End
+    Set flash_fx_brightness=flash_fx_brightness - 8
+    Yield 1
+End

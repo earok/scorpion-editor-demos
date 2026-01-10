@@ -1,0 +1,14 @@
+Variable word RainTimer=0
+Variable word RainOffset=0
+//In level 2, we play as a cat and have to get into shelter
+//You just need to move the cat to a certain position, and then you're done
+//There's left/right flips of this level for variety
+Roll 2 //Select whether flipped or not
+If dice == 1
+    Level lvl_cat
+End
+If dice == 2
+    Level lvl_cat2
+End
+GoSub animate_rain
+Set lvl_timer_left=LevelTimeMax

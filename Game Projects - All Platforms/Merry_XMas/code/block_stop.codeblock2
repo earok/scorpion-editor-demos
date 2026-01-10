@@ -1,0 +1,26 @@
+Variable word tile_data=0
+Variable word block_data=0
+GetBlockAtPixel block_data X=actor_x Y=actor_y
+ActorAnimation none Frame=0
+If block_data == block_temp_solid
+    SetBlock none
+End
+GetTileProperties tile_data X=actor_x / 16 Y=actor_y / 16 + 1 //Test that the block underneath is solid
+If tile_data btst tilebit_solid
+    Goto convert_present_to_block
+Else
+    //If the block underneath is not solid, check that the left and right blocks are (if it has gotten stuck)
+    GetTileProperties tile_data X=actor_x / 16 - 1 Y=actor_y / 16 //Left block...
+    If tile_data btst tilebit_solid
+        //Left block is solid, check right side
+        GetTileProperties tile_data X=actor_x / 16 + 1 Y=actor_y / 16 //Left block...
+        If tile_data btst tilebit_solid
+            //Both sides are solid, so the present is now stuck!
+            Goto convert_present_to_block
+        End
+    End
+    //If we get to here, the block isn't stuck, it's free falling. Spawn replacement actor
+    Spawn present_moving X=actor_x / 16 * 16 + 8 Y=actor_y / 16 * 16 + 15
+    ActorType none ResetMovement ResetAnimation
+    Goto present_down
+End

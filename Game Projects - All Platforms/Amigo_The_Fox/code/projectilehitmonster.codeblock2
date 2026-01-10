@@ -1,0 +1,20 @@
+If projectile_type == fireball
+    ProjectileType fx_pop ResetMovement ResetAnimation
+End
+If projectile_type == fx_blockcover
+    Goto flipmonster
+End
+If projectile_type == fx_brickcover
+    Goto flipmonster
+End
+If projectile_type == turtlered_shell
+    If projectile_xspeed != 0
+        Goto killmonster
+    End
+End
+If projectile_type == turtleshell
+    If projectile_xspeed != 0
+        Goto killmonster
+    End
+End
+Goto killmonster

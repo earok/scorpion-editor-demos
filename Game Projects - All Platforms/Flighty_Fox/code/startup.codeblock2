@@ -1,0 +1,17 @@
+Variable word spawnedpoles=0
+Variable word playerisdead=false
+Variable word score=0
+Variable word best=0
+Load savedata 0
+If loaded == true
+    Set best=savedbest
+End
+[amiga_all] Music song
+[neogeo] MusicCD song
+[amiga_all] Screen Height=160 Frames=0
+CameraFollow ! MaxCamera=8
+Level level1 PanelBottom=ui
+SpawnOnBlock plane_idle X=23 Y=6
+[neogeo] Spawn neogeo_ground_parallax
+[neogeo] Spawn neogeo_tree_parallax
+[neogeo] Spawn neogeo_cloud_parallax

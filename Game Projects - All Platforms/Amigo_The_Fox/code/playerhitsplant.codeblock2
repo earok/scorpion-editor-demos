@@ -1,0 +1,7 @@
+If player_var1 > 0
+    Goto killmonster
+End
+If actor_var1 > 0 //Only hurt the player when above ground
+    Goto hurtplayer
+    Sound hurt Period=0
+End

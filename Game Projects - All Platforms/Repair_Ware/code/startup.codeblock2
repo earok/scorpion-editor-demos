@@ -1,0 +1,21 @@
+Constant LevelTimeMax=250 //Five seconds max per level
+Variable word LVL1_Success=false
+Variable word LVL2_Success=false
+Variable word LVL3_Success=false
+Variable word LVL4_Success=false
+Variable word LVL_Timer_Left=0
+Variable word LVL_Score=0
+Variable word loop_counter_x=0
+Variable word loop_counter_y=0
+//This is the code that runs on startup
+[amiga_all] Screen Height=144 Frames=0
+CameraFollow ! MaxCamera=8
+Set lvl1_success=false
+Set lvl2_success=false
+Set lvl3_success=false
+Set lvl4_success=false
+Panel title Frames=0
+Sound snd_repair Period=0
+Wait 0
+Panel none Frames=0
+Goto level1

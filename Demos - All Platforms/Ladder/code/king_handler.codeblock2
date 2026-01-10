@@ -1,0 +1,38 @@
+Variable word currentblock=0
+Variable word ladder_x=0
+Variable word ladder_width=4
+Set ladder_x=actor_x & tilemask + 8 //Get the center X of tile we're standing on
+If control1_y < 0 or snap == false //If we're holding joystick up
+    If player_x < ladder_x - ladder_width //Too far to the left of center?
+        Return
+    ElseIf player_x > ladder_x + ladder_width //Too far to the right of center?
+        Return
+    End
+    //Try to get on ladder
+    GetBlockAtPixel currentblock X=actor_x Y=actor_y //What block are we over?
+    If currentblock == ladder
+        If actor_x > ladder_x //Are we on the right of the ladder?
+            If control1_x > 0 //Are we pressing right?
+                Return //Don't get on the ladder
+            End
+        Else //Are we on the left of the ladder?
+            If control1_x < 0 //Are we pressing left?
+                Return //Don't get on the ladder
+            End
+        End
+        If snap
+            PlayerPosition X=ladder_x //Get on the ladder
+        End
+        Goto getonladder //Get on the ladder
+    End
+ElseIf control1_y > 0 //If we're holding joystick down
+    GetBlockAtPixel currentblock X=actor_x Y=actor_y + 16 //What block are we above?
+    If currentblock == ladder_platform
+        If snap
+            PlayerPosition X=ladder_x Y=player_y + 1 //Get on the ladder
+        Else
+            PlayerPosition Y=player_y + 1 //Get on the ladder
+        End
+        Goto getonladder //Get on the ladder
+    End
+End

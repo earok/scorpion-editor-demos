@@ -1,0 +1,11 @@
+GoSub unload_panel
+FadeOut
+Set level=0 //Flag the level as unloaded
+Set background=0 //Flag the level as unloaded
+Advanced ReloadLevel
+Set mapwidth=0
+Set mapheight=0
+Set mapwidthtiles=0
+Set mapheighttiles=0
+CameraPosition //Wait until the level is unloaded before we move the camera
+Advanced RegenerateScreen

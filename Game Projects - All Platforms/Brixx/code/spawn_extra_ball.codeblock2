@@ -1,0 +1,5 @@
+Set balls_alive=balls_alive + 1
+Roll 40 Into dice_roll
+Spawn ball_actor X=player_x Y=244-dice_roll
+Roll 24 Into dice_roll
+NewSpeed Y=-current_ball_speed Angle=dice_roll-12

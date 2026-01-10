@@ -1,0 +1,8 @@
+Variable fraction value_frac=0
+Variable fraction expected_frac=0
+Variable fraction test_frac=0.5
+Set test=test + 1
+If value_frac + 0.0 != expected_frac + 0.0
+    Set line=test * 3
+    Quit="Test {test} failed at line {line}. Expected {expected_frac} Actual {value_frac}"
+End

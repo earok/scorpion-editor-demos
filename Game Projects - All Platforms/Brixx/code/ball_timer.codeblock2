@@ -1,0 +1,13 @@
+Spawn ball_trail_actor X=actor_x Y=actor_y
+If actor_y > 256
+    ActorType none ResetMovement ResetAnimation
+    Sound ball_dead
+    Set balls_alive=balls_alive-1
+    If balls_alive <= 0
+        Set lives=lives-1
+        If lives <= 0
+            Goto gameover
+        End
+        Goto spawn_ball
+    End
+End

@@ -1,0 +1,10 @@
+Constant TileBit_HasBlock=7 //Does this tile have a block?
+Constant TileBit_Spare2=6 //Does this tile have a block with a slope?
+Constant TileBit_HasForeground=5 //Does this tile have a foreground?
+Constant TileBit_HasAnimation=4 //Does this tile have an animation?
+Constant TileBit_Spare=3 //Does this tile have the spare bit set?
+Constant TileBit_AIBlock=2 //Does this tile have the "AI Block" flag set?
+Constant TileBit_Platform=1 //Is this tile a platform?
+Constant TileBit_Solid=0 //Is this tile solid?
+Constant TileMask_Occupied=0x83 //Mask for the tile having a block/solid/platform
+//Use conditions like "tileproperty bittest tilebit_solid" to check the property under block_x and block_y

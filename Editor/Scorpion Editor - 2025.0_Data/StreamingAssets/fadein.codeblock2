@@ -1,0 +1,10 @@
+//Fades in from black
+If level
+    Set forcefadeout=false //Begin the fade in
+    Set brightness=-5 //Set to completely black
+    Advanced ClearImageBuffers
+    Advanced RegenerateScreen
+    While brightness < -1 //Wait for the background to be rendered before continuing
+        Wait 1
+    End
+End

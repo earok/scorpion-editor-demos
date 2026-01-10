@@ -1,0 +1,22 @@
+Constant #PAD_MODE_REGULAR=0
+Constant #PAD_MODE_GUNS=1
+Constant #PAD_MODE_SMALL=2
+Constant #BALL_MODE_REGULAR=0
+Constant #BALL_MODE_WRECKING_BALL=1
+Constant #SHOOT_DELAY=20
+Constant #BALL_SPEED_NORMAL=3
+Constant #BALL_SPEED_FAST=5
+
+Variable word current_ball_speed=0
+Variable word current_level=0
+Variable word shoot_counter=0
+Variable word pad_mode=0
+Variable word ball_mode=0
+Variable word dice_roll=0
+Variable word blocks_left=0
+Variable word balls_alive=0
+Variable word score=0
+Variable word lives=0
+Array byte pickup_type[20]
+Array byte pickup_probability[20]
+Array word maps[3]

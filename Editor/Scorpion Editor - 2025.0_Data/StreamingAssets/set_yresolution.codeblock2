@@ -1,0 +1,26 @@
+If newvalue == yres
+    Return
+End
+If level
+    Quit="Cannot change yres while level loaded"
+End
+Set yres=newvalue
+If yres < 1
+    Set yres=1
+End
+If yres > yresmax
+    Set yres=yresmax
+End
+[neogeo] If yres & 0xf
+    [neogeo] Quit="Y resolution must be multiples of 16 on Neo Geo"
+[neogeo] End
+[megadrive] If yres == 240
+    [megadrive] If IsNTSC
+        [megadrive] Quit="Y Resolution of 240 is not supported on NTSC Mega Drive"
+    [megadrive] End
+[megadrive] Else
+    [megadrive] If yres != 224
+        [megadrive] Quit="Y Resolution of {yres} is not supported on Mega Drive, only 224 (any) and 240 (pal)"
+    [megadrive] End
+[megadrive] End
+Set spawnarea_height=yres + 32

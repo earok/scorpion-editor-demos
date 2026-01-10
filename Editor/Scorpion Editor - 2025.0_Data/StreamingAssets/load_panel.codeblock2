@@ -1,0 +1,11 @@
+If panel != newvalue
+    GoSub unload_panel
+    If level
+        GoSub fadeout
+    End
+    If newvalue
+        Advanced RegenerateScreen
+        Set panel=newvalue
+        GoSub load_panel_finish
+    End
+End

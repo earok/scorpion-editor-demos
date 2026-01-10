@@ -1,0 +1,17 @@
+If actor_type == left_elf_idle
+    ActorType left_elf_activated ResetMovement ResetAnimation
+    ActorSpawnChild beam_l
+    NewPosition X=actor_x + 32 Y=actor_y - 72
+ElseIf actor_type == right_elf
+    ActorType right_elf_activated ResetMovement ResetAnimation
+    ActorSpawnChild beam_r
+    NewPosition X=actor_x - 32 Y=actor_y - 72
+ElseIf actor_type == left_elf_activated
+    ActorType left_elf_idle ResetMovement ResetAnimation
+ElseIf actor_type == right_elf_activated
+    ActorType right_elf_idle ResetMovement ResetAnimation
+ElseIf actor_type == left_elf
+    ActorType left_elf_idle ResetMovement ResetAnimation
+ElseIf actor_type == right_elf_idle
+    ActorType right_elf ResetMovement ResetAnimation
+End

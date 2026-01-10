@@ -1,0 +1,24 @@
+If maxred >= 128 and maxgreen >= 128 and maxblue >= 128
+    Return
+End
+Set maxred=maxred + 8
+Set maxgreen=maxgreen + 4
+Set maxblue=maxblue + 4
+If maxred >= 128
+    Set maxred=128
+End
+If maxgreen >= 128
+    Set maxgreen=128
+End
+If maxblue >= 128
+    Set maxblue=128
+End
+Set palette_index=1
+While palette_index <= 27
+    ReadColor palette_index
+    Set red=red * maxred >> 7
+    Set green=green * maxgreen >> 7
+    Set blue=blue * maxblue >> 7
+    WriteColor palette_index
+    Set palette_index=palette_index + 1
+End

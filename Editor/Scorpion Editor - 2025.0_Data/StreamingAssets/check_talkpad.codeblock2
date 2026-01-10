@@ -1,0 +1,9 @@
+//Checks that there is a valid talkpad before displaying text
+If panel_talkpad == 0
+    Quit="Runtime Error: no loaded talkpad"
+End
+//Wait until we're fully faded in
+While forcefadeout == false and level and brightness < fadetime
+    Wait 1
+End
+GoSub waitforfireup

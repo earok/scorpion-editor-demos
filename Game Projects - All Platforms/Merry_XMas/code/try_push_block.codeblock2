@@ -1,0 +1,66 @@
+Variable word present_x=0
+Variable word present_y=0
+Set present_x=block_x
+Set present_y=block_y
+Set block_y=block_y - 1
+If block_type == block_present
+    //The block above has a present on it so don't allow a push
+    Return
+End
+Set block_y=present_y
+If player_y / 16 == block_y //If the player is on the same tile row as the block
+    If control1_x //The player is pushing
+        If player_isonplatform //The player is standing on the ground
+            If control1_x < 0
+                //Check for pushing left
+                GetTileProperties tile_data X=actor_x / 16 - 2 Y=actor_y / 16
+                If tile_data btst tilebit_solid
+                    Return
+                End
+            Else
+                //Check for pushing right
+                GetTileProperties tile_data X=actor_x / 16 + 2 Y=actor_y / 16
+                If tile_data btst tilebit_solid
+                    Return
+                End
+                
+            End
+            Set block_x=present_x
+            Set block_y=present_y
+            Set block_collision=false
+            GoSub convert_block_to_present
+            ActorPosition X=actor_x + control1_x
+            If control1_x > 0
+                Goto present_right
+            Else
+                Goto present_left
+            End
+        End
+    End
+ElseIf player_y / 16 == block_y - 1 //The player is above the block
+    # If player_x / 16 != present_x
+        # //If the player isn't aligned with the block, we need to do a check to make sure that we aren't destroying two in one jump
+        # Set block_x=player_x / 16
+        # Set block_y=player_y / 16 + 1
+        # If block_type == block_present
+            # //We're standing over two blocks at once, but this one is not the center one
+            # Return
+        # End
+        # Set block_x=present_x
+        # Set block_y=present_y
+    # End
+    If player_yspeed >= 2 //The player is falling fast
+        GetTileProperties tile_data X=block_x Y=block_y + 1 //Underneath block
+        If tile_data btst0 tilebit_solid //There is nothing underneath this block
+            Set block_x=present_x
+            Set block_y=present_y
+            GoSub convert_block_to_present
+            GoSub present_down
+        Else
+            //This present is on solid ground so we want to crush it
+            Spawn present_destroy X=present_x * 16 + 8 Y=present_y * 16 + 15
+            SetBlock none X=present_x Y=present_y
+        End
+        Set jump_trigger=true
+    End
+End

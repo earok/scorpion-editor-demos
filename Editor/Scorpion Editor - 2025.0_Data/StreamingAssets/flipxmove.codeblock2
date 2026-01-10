@@ -1,0 +1,7 @@
+//Reverses an actor's X direction
+If lookmask_left btst actor_lookdir
+    Set actor_lookdir=actor_lookdir + 2
+ElseIf lookmask_right btst actor_lookdir
+    Set actor_lookdir=actor_lookdir - 2
+End
+ActorDirection resume_moving

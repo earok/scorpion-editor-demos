@@ -1,0 +1,12 @@
+If player_y < actor_y
+    If player_yspeed > 0
+        Sound hit1 Period=-3
+        Set player_yspeed=-3
+        Set duckdamage=duckdamage + 1
+        ActorType duck_anger ResetMovement ResetAnimation
+        If duckdamage >= maxduckdamage
+            ActorType duck_die ResetMovement ResetAnimation
+            Sound hit2 Period=-3
+        End
+    End
+End

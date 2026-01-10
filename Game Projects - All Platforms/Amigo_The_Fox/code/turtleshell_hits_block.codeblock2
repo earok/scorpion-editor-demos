@@ -1,0 +1,18 @@
+If projectile_y / 16 != block_y
+    Return
+End
+If projectile_type == turtlered_shell
+    Goto finish_turtleshellhitblock
+End
+If projectile_type == turtleshell
+    Goto finish_turtleshellhitblock
+End
+Return
+Label finish_turtleshellhitblock
+Set hitpowerlevel=power_big
+If actor_xspeed > 0
+    ActorSpeed X=-3.0 Y=0.0 Angle=0
+    Goto block_bump
+End
+ActorSpeed X=3.0 Y=0.0 Angle=0
+Goto block_bump

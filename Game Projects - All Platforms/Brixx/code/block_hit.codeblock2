@@ -1,0 +1,33 @@
+If block_type == block_1
+    Set blocks_left=blocks_left-1
+    Set score=score+10
+    SetBlock none
+    Spawn brick_crumble_actor X=block_x*16+8 Y=block_y*16+8
+    Sound brick_crumble
+    If blocks_left <= 0
+        Goto level_complete
+    End
+    GoSub spawn_pickup
+    Return
+End
+If block_type == block_2_a
+    SetBlock block_2_b
+    Sound blipp
+    Return
+End
+If block_type == block_2_b
+    SetBlock block_2_c
+    Sound blipp
+    Return
+End
+If block_type == block_2_c
+    Set score=score+100
+    Set blocks_left=blocks_left-1
+    SetBlock none
+    Sound blipp
+    If blocks_left <= 0
+        Goto level_complete
+    End
+    GoSub spawn_pickup
+    Return
+End

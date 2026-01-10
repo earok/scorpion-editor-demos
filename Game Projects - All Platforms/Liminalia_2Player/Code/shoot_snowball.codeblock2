@@ -1,0 +1,8 @@
+ActorSpawnChild snowball
+Set new_controller=actor_controller
+If lookmask_left btst actor_lookdir
+    NewDirection move_upleft
+Else
+    NewDirection move_upright
+End
+Sound sndshot Period=0

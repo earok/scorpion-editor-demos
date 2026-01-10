@@ -1,0 +1,22 @@
+Variable word delta_x=0
+Variable word delta_y=0
+Constant beamwidth=12
+Variable word beam_x=0
+If projectile_type == heart
+    ProjectileDirection move_down
+    ProjectileAnimation actor_var5 Frame=0
+    ProjectilePosition X=actor_x + projectile_x / 2 Y=actor_y + projectile_y / 2
+    Set captured=true
+    ForEachActor actor_type Goto celebrate
+    ActorType none ResetMovement ResetAnimation
+End
+Set delta_y=projectile_y - actor_y / 2
+If projectile_type == beam_l
+    Set beam_x=projectile_x + delta_y
+    Set delta_x=beam_x - actor_x
+    Goto beam_test_side
+ElseIf projectile_type == beam_r
+    Set beam_x=projectile_x - delta_y
+    Set delta_x=beam_x - actor_x
+    Goto beam_test_side
+End

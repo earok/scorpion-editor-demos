@@ -1,0 +1,29 @@
+Variable word state=0
+Constant state_carry=0
+Constant state_dropped_1=1
+Constant state_dropped_2=2
+Constant state_beam=3
+Constant state_failed=-2
+Constant state_success=-1
+Constant state_waiting=4
+Variable word captured=0
+Constant state_beamcross=5
+If control1fire != button_hit //Fire is either held or not pressed
+    Return
+End
+If state == state_carry
+    ForEachActor actor_type == elves_carry Goto drop_chest
+    Set state=state_dropped_1
+ElseIf state == state_dropped_1
+    ForEachActor actor_type Goto activate
+    Set state=state_dropped_2
+ElseIf state == state_dropped_2
+    ForEachActor actor_type Goto activate
+    Set state=state_beam
+ElseIf state == state_beam
+    ForEachActor actor_type Goto activate
+    ForEachActor actor_type == chest_dropped Goto chest_open
+    ForEachActor actor_type == beam_l Goto destroy_actor
+    ForEachActor actor_type == beam_r Goto destroy_actor
+    Set state=state_waiting //Change to success if actually hit
+End

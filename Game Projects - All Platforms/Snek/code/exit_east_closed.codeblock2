@@ -1,0 +1,11 @@
+SetBlock exit_east_block X=19 Y=8
+ActorType none ResetMovement ResetAnimation
+Sound level_complete
+GoSub show_level_complete_dialog
+Yield 10
+If current_level == 5
+    Goto congratulations
+Else
+    Set current_level=current_level+1
+    Goto start_level
+End

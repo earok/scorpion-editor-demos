@@ -1,0 +1,29 @@
+If player_yspeed < 0
+    Return
+End
+Sound hurt Period=0
+If player_y < actor_y
+    PlayerSpeed Y=1.0 Angle=BounceSpeed
+    If actor_xspeed != 0
+        ActorSpeed X=0.0 Angle=0
+        Return
+    End
+End
+If player_y >= actor_y
+    If actor_xspeed > 0
+        If player_x > actor_x
+            Goto hurtplayer
+        End
+    End
+    If actor_xspeed < 0
+        If player_x < actor_x
+            Goto hurtplayer
+        End
+    End
+End
+If player_x <= actor_x
+    ActorSpeed X=3.0 Angle=3
+End
+If player_x > actor_x
+    ActorSpeed X=-3.0 Angle=-3
+End

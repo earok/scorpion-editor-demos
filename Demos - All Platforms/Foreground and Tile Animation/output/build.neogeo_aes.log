@@ -1,0 +1,132 @@
+Compiled on Thursday, 8 January 2026 1:06:59 p.m.
+Version string: SE2025.0.260108.12.53.EX
+
+ImageFrame Data Size: 300
+Actor Count: 2
+Actor Data Size: 360
+Animations Count: 9
+Animations Data Size: 144
+AnimationFrame Count: 12
+AnimationFrame Data Size: 192
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   107884 |     9184 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   117068 |     2012 |  NoCrunch | Panel 
+   PB00 |   119080 |      476 |  NoCrunch | Project blocks
+   PI00 |   119556 |      300 |  NoCrunch | Images
+   PA00 |   119856 |      360 |  NoCrunch | Project actors
+   ML01 |   120216 |       20 |       ZX0 | Map block data for map1
+   MA01 |   120236 |       12 |       ZX0 | Map actor data for map1
+   MH01 |   120248 |      848 |  NoCrunch | Header data for map map1
+   MT01 |   121096 |       68 |       ZX0 | Map tile data  map1
+   MD01 |   121164 |     1024 |  NoCrunch | Tile data for map map1 (mem restrictions:None)
+   ME01 |   122188 |       44 |  NoCrunch | Map event data for map1
+   MY01 |   122232 |       76 |  NoCrunch | Get Y lookup table map1
+   MN01 |   122308 |       20 |  NoCrunch | Map path node data for map1
+   NT00 |   122328 |      476 |  NoCrunch | Project name table
+   PN00 |   122804 |      144 |  NoCrunch | Animations
+   PF00 |   122948 |      192 |  NoCrunch | Animation Frames
+   PS00 |   123140 |       28 |  NoCrunch | Project sound
+   DB00 |   123168 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   123170 |    11482 |  NoCrunch | Project Header
+   PV00 |   134652 |       38 |  NoCrunch | Var Data
+   AT00 |   134690 |      176 |  NoCrunch | Attack Data
+   PE00 |   134866 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   11482 |    11482 |        | Project Header
+    9184 |     9184 |        | Project virtual machine (codeblocks)
+    2012 |     2012 |        | Panel 
+    1024 |     1024 |        | Tile data for map map1 (mem restrictions:None)
+     848 |      848 |        | Header data for map map1
+     476 |      476 |        | Project blocks
+     476 |      476 |        | Project name table
+     360 |      360 |        | Project actors
+     300 |      300 |        | Images
+     192 |      192 |        | Animation Frames
+     176 |      176 |        | Attack Data
+     144 |      144 |        | Animations
+      76 |       76 |        | Get Y lookup table map1
+      68 |      646 |  (90%) | Map tile data  map1
+      44 |       44 |        | Map event data for map1
+      38 |       38 |        | Var Data
+      28 |       28 |        | Project sound
+      20 |      646 |  (97%) | Map block data for map1
+      20 |       20 |        | Map path node data for map1
+      12 |       28 |  (58%) | Map actor data for map1
+       8 |        8 |        | Teleporters
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+NeoGeo BIOS memory: 3328
+RAM reserved for level tiles: (largest level: map1): 1292
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+
+Total: 14292 bytes
+
+=== Codeblocks by compiled size ===
+load_level: 636
+handle_train: 370
+pre_startup: 348
+flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+set_yresolution: 256 (Unused?)
+block_find: 210 (Unused?)
+waitforframes: 194
+block_count: 178 (Unused?)
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
+flipxmove: 142 (Unused?)
+pause: 138 (Unused?)
+restart_this_level: 136 (Unused?)
+startup: 136
+load_panel: 134
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+waitforfiredown: 64
+load_music: 62
+waitforfireup: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+freemem_hard: 54 (Unused?)
+destroy_block: 52
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

@@ -1,0 +1,60 @@
+Variable word dest_x=0
+Variable word dest_y=0
+Variable word abs_x_delta=0
+Variable word abs_y_delta=0
+Variable word shift=0
+Variable word offset=0
+ActorDirection stop_moving //Stop moving by default unless the path is clear
+//Work out how far we need to go
+Set block_x=actor_x >> 4
+Set block_y=actor_y >> 4
+Set dest_x=player_x >> 4
+Set dest_y=player_y >> 4
+Absolute abs_x_delta=dest_x - block_x
+Absolute abs_y_delta=dest_y - block_y
+If abs_x_delta > abs_y_delta
+    If abs_x_delta > 0
+        //Path find horizontally
+        Set shift=player_y - actor_y / abs_x_delta
+        Set offset=actor_y
+        While block_x != dest_x
+            If tile_properties btst tilebit_solid
+                Return //Solid
+            End
+            Set offset=offset + shift
+            Set block_y=offset >> 4
+            If tile_properties btst tilebit_solid
+                Return //Solid
+            End
+            If block_x < dest_x
+                Set block_x=block_x + 1
+            Else
+                Set block_x=block_x - 1
+            End
+        End
+    End
+Else
+    If abs_y_delta > 0
+        //Path find vertically
+        Set shift=player_x - actor_x / abs_y_delta
+        Set offset=actor_x
+        While block_y != dest_y
+            If tile_properties btst tilebit_solid
+                Return //Solid
+            End
+            Set offset=offset + shift
+            Set block_x=offset >> 4
+            If tile_properties btst tilebit_solid
+                Return //Solid
+            End
+            If block_y < dest_y
+                Set block_y=block_y + 1
+            Else
+                Set block_y=block_y - 1
+            End
+        End
+    End
+End
+//If we get through everything, we can see the player
+ActorLookAt X=player_x Y=player_y
+ActorDirection resume_moving

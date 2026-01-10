@@ -1,0 +1,21 @@
+Sound sndcoin Period=0
+If player_type == autumn1
+    Set season=2
+    PlayerType winter1 ResetMovement ResetAnimation
+    Return
+End
+If player_type == winter1
+    Set season=3
+    PlayerType spring1 ResetMovement ResetAnimation
+    Return
+End
+If player_type == spring1
+    Set season=4
+    PlayerType summer1 ResetMovement ResetAnimation
+    Return
+End
+If player_type == summer1
+    Set season=1
+    PlayerType autumn1 ResetMovement ResetAnimation
+    Return
+End

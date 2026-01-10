@@ -1,0 +1,26 @@
+Variable word health=5
+Variable word hashat=false
+Variable word spawndarkness=true
+Variable word hasglove=true
+Variable word isvulnerable=true
+Variable word duckdamage=0
+Constant maxduckdamage=4
+Variable word mansaved=false
+Level none
+Set spawndarkness=true
+Set health=5
+Set isvulnerable=true
+Set hasglove=false
+Set hashat=false
+Set mansaved=false
+Set duckdamage=0
+PanelTop none
+Panel title Frames=0 ForFire
+Panel none Frames=0
+If option == 1
+    Quit
+End
+[amiga_all] Level map Music=vampire_ninjas_in_1_001124 PanelTop=healthbar
+[megadrive_or_neogeo] Level map PanelTop=healthbar
+[neogeo] MusicCD vampire_ninjas_in_1_001124
+PlayerAnimation sleep Frame=0

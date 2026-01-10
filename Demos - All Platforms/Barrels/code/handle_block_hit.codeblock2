@@ -1,0 +1,13 @@
+If projectile_type == falling_barrel
+    Return
+End
+ProjectileType none ResetMovement ResetAnimation
+If block_type == barrel_bottom_3hp
+    SetBlock barrel_bottom_2hp
+ElseIf block_type == barrel_bottom_2hp
+    SetBlock barrel_bottom_1hp
+ElseIf block_type == barrel_bottom_1hp
+    SetBlock none
+    SetBlock none Y=block_y - 1
+    Goto try_fall_barrel
+End

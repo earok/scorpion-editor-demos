@@ -1,0 +1,8 @@
+//Waits for the player to release fire
+Advanced RefreshFrame
+[amiga_all] While keyboardrawcode == 0x40 //Wait for player to lift spacebar
+    [amiga_all] Return
+[amiga_all] End
+While control1_buttons & mask_truebuttons //Wait for player to lift button
+    Advanced RefreshFrame
+End

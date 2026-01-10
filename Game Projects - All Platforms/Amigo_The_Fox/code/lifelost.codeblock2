@@ -1,0 +1,14 @@
+Variable word temp=0
+If level == 0
+    Set temp=actor_type
+    Quit="player_id is {temp} actor count is {actor_count}"
+End
+Sound hurt Period=0
+Level none
+ActorType none ResetMovement ResetAnimation
+Set lives=lives - 1
+Set power=0
+If lives <= 0
+    Goto gameover
+End
+Goto startlevel

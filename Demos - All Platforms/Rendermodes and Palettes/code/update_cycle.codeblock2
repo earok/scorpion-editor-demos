@@ -1,0 +1,58 @@
+If brightness < fadetime
+    Return
+End
+Variable word target_red=255
+Variable word target_blue=255
+Variable word target_green=255
+
+If red_on == 0
+    Set target_red=target_red - 8
+    If target_red < 0
+        Set target_red=0
+    End
+Else
+    Set target_red=target_red + 8
+    If target_red > 255
+        Set target_red=255
+    End
+End
+
+If green_on == 0
+    Set target_green=target_green - 8
+    If target_green < 0
+        Set target_green=0
+    End
+Else
+    Set target_green=target_green + 8
+    If target_green > 255
+        Set target_green=255
+    End
+End
+
+If blue_on == 0
+    Set target_blue=target_blue - 8
+    If target_blue < 0
+        Set target_blue=0
+    End
+Else
+    Set target_blue=target_blue + 8
+    If target_blue > 255
+        Set target_blue=255
+    End
+End
+
+Set color_index=1
+While color_index < 16
+    ReadColor color_index
+    If red > target_red
+        Set red=target_red
+    End
+    If green > target_green
+        Set green=target_green
+    End
+    If blue > target_blue
+        Set blue=target_blue
+    End
+    WriteColor color_index
+    Set color_index=color_index + 1
+End

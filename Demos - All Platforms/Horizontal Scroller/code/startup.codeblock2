@@ -1,0 +1,11 @@
+Variable word spawny=0
+AttackControls player1 !1A
+CameraFollow ! MaxCamera=8
+If IsAmiga
+    Screen Height=208 Frames=0
+End
+CameraBounds L=0 R=MapWidth - 32 U=0 D=0
+Level level1
+ScrollSpeed X=0,5 ResetMovement
+[neogeo] Spawn neo_top X=0 Y=0
+[neogeo] Spawn neo_bottom X=0 Y=0

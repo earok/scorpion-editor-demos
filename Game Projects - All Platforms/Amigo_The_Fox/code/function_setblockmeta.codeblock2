@@ -1,0 +1,13 @@
+If block_type == block_brick
+    Return
+ElseIf block_type == block_coin_x01
+    Set thisblock=block_coin
+    SetBlock none
+ElseIf block_type >= block_coin_x02
+    If block_type <= block_coin_x10
+        Set morecoins=true
+        SetBlock block_type - 1
+        Set thisblock=block_coin
+        Return
+    End
+End

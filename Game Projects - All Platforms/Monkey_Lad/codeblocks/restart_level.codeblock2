@@ -1,0 +1,34 @@
+If currentlevel > Level2
+    Goto startup //We've finished the demo, go back to start
+End
+[amiga_all] Music song
+[amiga_all] MusicPos song_start
+[neogeo] MusicCD song
+Set ammo=0
+If currentlevel == level1
+    Level level1
+    [neogeo] PaletteSet "..\platform_assets\neogeo\neo_sky_1.png" 0 16 16
+    [neogeo] Spawn neo_sky_1 X=0 Y=0
+    CameraFollow !D MaxCamera=8
+End
+If currentlevel == level2
+    Level level2
+    [neogeo] PaletteSet "..\platform_assets\neogeo\neo_sky_2.png" 0 16 16
+    [neogeo] Spawn neo_sky_2 X=0 Y=0
+    CameraFollow !R MaxCamera=8
+End
+If checkpointtype != CheckpointNA
+    PlayerPosition X=CheckpointX Y=CheckpointY
+    PushStack Camera_follow
+    # //To fix, sometimes camera wrong on level 1
+    CameraPosition X=-128 + player_x Y=0 - YRes / 2 + player_y ResetMovement
+    PopStack camera_follow //Restore camera settings
+    PlayerType alexkidd ResetMovement ResetAnimation
+    If checkpointtype == CheckpointWater
+        Goto on_enterwater
+    End
+    If level == level1 //Fix bug where camera is badly aligned
+        CameraPosition X=0 ResetMovement
+        CameraFollow !D MaxCamera=8
+    End
+End

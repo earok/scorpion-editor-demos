@@ -1,0 +1,22 @@
+Set raintimer=raintimer - 1 //Update the rain
+If raintimer <= 0
+    Set raintimer=10 //Change this to update the rain 'framerate'
+    GoSub animate_rain
+End
+If lvl2_success == false //Have we won the level yet?
+    If level == lvl_cat
+        If player_x <= 64
+            GoSub level2_win
+        End
+    End
+    If level == lvl_cat2
+        If player_x >= 196
+            GoSub level2_win
+        End
+    End
+End
+Set lvl_timer_left=lvl_timer_left - 1
+If lvl_timer_left <= 0 //Time is up!
+    Level none
+    Goto level3
+End

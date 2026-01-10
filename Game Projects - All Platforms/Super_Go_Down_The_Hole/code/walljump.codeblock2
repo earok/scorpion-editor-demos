@@ -1,0 +1,19 @@
+If player_yspeed >= 0
+    Set player_yspeed=0
+    If control1jump == button_down
+        Goto try_walljump
+    End
+    If control1_x > 0
+        If hashat == true
+            PlayerAnimation climb_hat_r Frame=0
+            Return
+        End
+        PlayerAnimation climb_r Frame=0
+    ElseIf control1_x < 0
+        If hashat == true
+            PlayerAnimation climb_hat_l Frame=0
+            Return
+        End
+        PlayerAnimation climb_l Frame=0
+    End
+End

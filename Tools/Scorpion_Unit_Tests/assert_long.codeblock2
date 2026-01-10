@@ -1,0 +1,7 @@
+Variable long value_long=0
+Variable long expected_long=0
+Set test=test + 1
+If value_long != expected_long
+    Set line=test * 3
+    Quit="Test {test} failed at line {line}. Expected {expected_long} Actual {value_long}"
+End

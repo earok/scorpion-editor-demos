@@ -1,0 +1,8 @@
+[amiga_all] Set block_x=actor_x / 16
+[amiga_all] Set block_y=actor_y / 16
+[amiga_all] If block_type == 0
+    [amiga_all] SetBlock glitter1 X=actor_x / 16 Y=actor_y / 16
+[amiga_all] End
+[amiga_all] ActorType none ResetMovement ResetAnimation
+[megadrive] ActorType fx_glitter ResetMovement ResetAnimation
+[neogeo] ActorType fx_glitter ResetMovement ResetAnimation

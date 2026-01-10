@@ -1,0 +1,10 @@
+GoSub player_control_handler
+If player_isonplatform != false //Player is on a platform
+    PlayerType hero ResetMovement ResetAnimation
+    PlayerSpeed X=0.0 Y=0.0 Angle=hurt_direction
+    If hurt_direction == look_left
+        PlayerDirection look_left
+    Else
+        PlayerDirection look_right
+    End
+End

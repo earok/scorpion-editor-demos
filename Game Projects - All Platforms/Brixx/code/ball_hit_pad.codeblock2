@@ -1,0 +1,10 @@
+Variable word offset_angle=0
+Variable word ball_hit_offset_x=0
+Set ball_hit_offset_x=player_x - actor_x
+Set offset_angle=ball_hit_offset_x
+If offset_angle == 0
+    Roll 4 Into dice_roll
+    Set offset_angle=dice_roll-2
+End
+Sound wall_hit
+ActorSpeed Y=-current_ball_speed Angle=-offset_angle*2

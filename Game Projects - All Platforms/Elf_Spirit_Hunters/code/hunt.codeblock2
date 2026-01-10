@@ -1,0 +1,12 @@
+If actor_tag == enemy
+    If actor_type != actor_var4
+        ActorType actor_var4 ResetMovement ResetAnimation
+    End
+End
+If player_x > actor_x + 2
+    ActorDirection move_right
+ElseIf player_x < actor_x - 2
+    ActorDirection move_left
+Else
+    ActorDirection move_down
+End

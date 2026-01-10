@@ -1,0 +1,31 @@
+Constant Speed_Adjust=1 //Logic Speed / Output Speed
+Constant Frame_Adjust=1 //Output Speed / Logic Speed
+Constant True=-1 //Constant for true
+Constant False=0 //Constant for false
+Constant None=0 //Constant for none. Can be used for unloading levels etc
+Constant Button_None=0 //Constant for button is not being pressed (eg, if control1_fire = button_none)
+Constant Button_Down=-1 //Constant for button is being held (eg, if control1_fire = button_down)
+Constant Button_Hit=1 //Constant for button has just been pressed (eg, if control1_fire = button_hit)
+Constant Left=1 //Constant for camera left
+Constant Right=2 //Constant for camera right
+Constant Up=4 //Constant for camera up
+Constant Down=8 //Constant for camera down
+Constant Trigger_AttackAnimation=-1 //Set animation to this to trigger the attack anim
+Constant Trigger_CancelAnimation=-2 //Cancel the current animation
+Constant Trigger_AttackSound=-10 //Set sound to this to trigger the actor's attack sound
+Constant Trigger_JumpSound=-20 //Set sound to this to trigger the actor's jump sound
+Constant XRes=256 //Width of the screen (set at compile time)
+Constant TileMask=0xFFF0 //Use an AND operation to round to tile coordinates (eg actor_x & tilemask)
+Constant YResMax=256 //The maximum y resolution of the main game screen
+Constant AGARequired=false //Is AGA Required for this project?
+Constant IsOnPlatform_False=0 //Not on any kind of platform
+Constant IsOnPlatform_Flat=-1 //On a flat tile or block (not a slope)
+Constant IsOnPlatform_Slope=1 //On a slope
+Constant IsOnPlatform_PlatformActor=2 //On a platform actor
+Constant Logic_Speed=0 //The logical speed of the project
+Constant Target_Speed=0 //The output speed (framerate) of the project
+Constant IsTestingLevel=0 //Are we running in test level mode?
+Constant DisplayDirty_Flip=1 //Waiting for a buffer flip
+Constant DisplayDirty_Regenerate=2 //Waiting for the screen to regenerate
+Constant DisplayDirty_DMA=4 //Waiting for a DMA operation
+Constant LastLevel=0 //Constant for the last level in the game

@@ -1,0 +1,14 @@
+PlayerRenderMode RenderMode_Default
+Sound pipedown Period=0
+PlayerSpeed X=0.0 Y=0.0 Angle=0
+PlayerType static ResetMovement ResetAnimation
+If power == power_fire
+    PlayerAnimation anim_fire_indownpipe Frame=0
+ElseIf power == power_big
+    PlayerAnimation anim_big_indownpipe Frame=0
+Else
+    PlayerAnimation anim_small_indownpipe Frame=0
+End
+If forcefadeout
+    FadeIn
+End

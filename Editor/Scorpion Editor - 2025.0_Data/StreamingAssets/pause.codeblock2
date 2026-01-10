@@ -1,0 +1,33 @@
+//Pauses the game until the player unpauses it.
+While keyboardrawcode == 0x19
+    //Wait for the user to release the P key
+    Advanced RefreshFrame
+End
+[megadrive] While control1_buttons btst megadrive_start
+    [megadrive] //Wait for the user to release the Mega Drive "start" key
+    [megadrive] Advanced RefreshFrame
+[megadrive] End
+[neogeo] While control1_buttons btst neogeo_start
+    [neogeo] //Wait for the user to release the Neo Geo "start" key
+    [neogeo] Advanced RefreshFrame
+[neogeo] End
+[amiga_all] While control1_buttons btst cd32_play
+    [amiga_all] //Wait for the user to release the CD32 "play" key
+    [amiga_all] Advanced RefreshFrame
+[amiga_all] End
+While true //Wait until we've unpaused
+    Advanced RefreshFrame
+    [amiga_all] If keyboardrawcode == 0x19 //The player has pressed P
+        [amiga_all] Advanced FlushKeyboardEvents //Prevent pause from happening on a loop
+        [amiga_all] Return
+    [amiga_all] End
+    [megadrive] If control1_buttons btst megadrive_start //The player has pressed Mega Drive "start"
+        [megadrive] Return
+    [megadrive] End
+    [neogeo] If control1_buttons btst neogeo_start //The player has pressed NeoGeo "start"
+        [neogeo] Return
+    [neogeo] End
+    [amiga_all] If control1_buttons btst cd32_play //The player has pressed CD32 "play"
+        [amiga_all] Return
+    [amiga_all] End
+End

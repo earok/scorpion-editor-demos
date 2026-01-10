@@ -1,0 +1,19 @@
+StringSet status_text="Telegram from the Bank:"
+Yield 100
+StringSet status_text="The loan is now due."
+Yield 100
+If cash > 5500
+    Sound gsfx_29_good_news Period=0
+    Set cash=cash - 5500
+    StringSet status_text="Repaid in full. Thank you!"
+    Yield 100
+    StringSet status_text="You have ${cash} left over."
+    Yield 100
+    Goto game_over
+End
+Sound gsfx_32_bad_news Period=0
+StringSet status_text="You're unable to pay!"
+Yield 100
+StringSet status_text="We have to foreclose on your HQ."
+Yield 100
+Goto game_over

@@ -1,0 +1,10 @@
+Sound hurt Period=0
+If projectile_type == fx_blockcover
+    ActorSpeed Y=-2.0 Angle=-2
+    Return
+ElseIf projectile_type == fx_brickcover
+    ActorSpeed Y=-2.0 Angle=-2
+    Return
+End
+ActorType none ResetMovement ResetAnimation
+ActorSpawnChild turtle_dead

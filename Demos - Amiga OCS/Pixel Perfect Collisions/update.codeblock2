@@ -1,0 +1,15 @@
+Variable word masked_collisions=0
+//On Mega Drive and Amiga, only do this once per frame!
+[amiga_all] Set masked_collisions=ami_clxdat & 0x7E00
+[megadrive] Set masked_collisions=md_vdp_control & 0x20
+If masked_collisions == 0
+    //No collisions
+    SetColor 31 #54D224
+    SetColor 25 #04867C
+    [megadrive] Set md_vdp_control=0x8700 //Background color 0
+Else
+    //Some collisions
+    SetColor 31 #FFFFFF
+    SetColor 25 #FFFFFF
+    [megadrive] Set md_vdp_control=0x8701 //Background color 1
+End

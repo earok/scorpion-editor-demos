@@ -1,0 +1,22 @@
+If collectorbs == false
+    If actor_tag == 1
+        Set score2=score2 + 1
+        If score2 >= scoretarget
+            Say "PLAYER TWO IS THE WINNER!" Frames=100
+            Goto startup
+        End
+    End
+    If actor_tag == 2
+        Set score1=score1 + 1
+        If score1 >= scoretarget
+            Say "PLAYER ONE IS THE WINNER!" Frames=100
+            Goto startup
+        End
+    End
+End
+Sound snddie Period=0
+Set actor_var5=actor_type
+ActorType null ResetMovement ResetAnimation
+ActorYield 100
+ActorPosition X=season * 256 + 128 Y=0
+ActorType actor_var5 ResetMovement ResetAnimation

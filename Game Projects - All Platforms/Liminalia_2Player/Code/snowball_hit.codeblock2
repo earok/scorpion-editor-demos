@@ -1,0 +1,7 @@
+If actor_controller == player_controller
+    Return
+End
+PlayerPush pushtime X=-pushdist * 2 ResetMovement
+If actor_x < player_x
+    PlayerPush pushtime X=pushdist * 2 ResetMovement
+End

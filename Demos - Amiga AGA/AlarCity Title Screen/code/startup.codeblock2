@@ -1,0 +1,87 @@
+Level default_map
+While brightness < fadetime //Wait for level to fade in
+    Yield 1
+End
+Label restart
+CameraPosition X=32 Y=16 ResetMovement
+Advanced ClearImageBuffers
+Set frame_wait=2
+//=== Letter A ===
+SpawnOnBlock generic
+NewPosition X=84 Y=106
+NewAnimation letter_1 Frame=0
+SpawnOnBlock generic
+NewPosition X=0 Y=106
+NewAnimation flame_1 Frame=0
+Yield 2
+//=== Letter l ===
+SpawnOnBlock generic
+NewPosition X=106 Y=106
+NewAnimation letter_2 Frame=0
+SpawnOnBlock generic
+NewPosition X=106 Y=0
+NewAnimation flame_2 Frame=0
+Yield 4
+//=== Letter a ===
+SpawnOnBlock generic
+NewPosition X=121 Y=113
+NewAnimation letter_3 Frame=0
+SpawnOnBlock generic
+NewPosition X=121 Y=139
+NewAnimation flame_3 Frame=0
+Yield 4
+//=== Letter r ===
+SpawnOnBlock generic
+NewPosition X=143 Y=113
+NewAnimation letter_4 Frame=0
+SpawnOnBlock generic
+NewPosition X=143 Y=-4
+NewAnimation flame_3 Frame=0
+Yield 4
+//=== Letter c ===
+SpawnOnBlock generic
+NewPosition X=166 Y=106
+NewAnimation letter_5 Frame=0
+SpawnOnBlock generic
+NewPosition X=166 Y=139
+NewAnimation flame_3 Frame=0
+Yield 4
+//=== Letter i ===
+SpawnOnBlock generic
+NewPosition X=188 Y=106
+NewAnimation letter_6 Frame=0
+SpawnOnBlock generic
+NewPosition X=188 Y=0
+NewAnimation flame_6 Frame=0
+Yield 4
+//=== Letter t ===
+SpawnOnBlock generic
+NewPosition X=199 Y=106
+NewAnimation letter_7 Frame=0
+SpawnOnBlock generic
+NewPosition X=199 Y=139
+NewAnimation flame_7 Frame=0
+Yield 4
+//=== Letter y ===
+SpawnOnBlock generic
+NewPosition X=217 Y=113
+NewAnimation letter_8 Frame=0
+SpawnOnBlock generic
+NewPosition X=217 Y=-4
+NewAnimation flame_3 Frame=0
+Yield 6
+//=== Streak ===
+SpawnOnBlock generic
+NewPosition X=51 Y=125
+NewAnimation head Frame=0
+SpawnOnBlock generic
+NewPosition X=83 Y=136
+NewAnimation streak Frame=0
+Yield 6
+Set frame_wait=1
+While camera_y < 16 + 73
+    CameraPosition Y=camera_y + 2
+    Yield 1
+End
+Goto fade_from_white
+SetColor 0 #000000

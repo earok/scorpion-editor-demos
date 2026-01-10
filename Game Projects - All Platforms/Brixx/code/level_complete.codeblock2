@@ -1,0 +1,12 @@
+ForEachActor actor_type Goto destroy_actor
+Yield 50
+Sound level_complete
+Spawn level_complete_actor X=130 Y=140
+Yield 100
+NewType none ResetMovement ResetAnimation
+Set current_level=current_level + 1
+If current_level > 2
+    Goto you_win
+Else
+    Goto start_level
+End

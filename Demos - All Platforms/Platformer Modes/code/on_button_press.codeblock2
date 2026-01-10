@@ -1,0 +1,15 @@
+SetBlock none
+SetBlock button_pressed Y=block_y + 1
+If block_x == 1
+    JumpControls player1 !U2
+    PlayerType player_classic ResetMovement ResetAnimation
+ElseIf block_x == 7
+    JumpControls player1 !U2
+    PlayerType player_maryo ResetMovement ResetAnimation
+ElseIf block_x == 24
+    JumpControls player1 !U2
+    PlayerType player_sonyc ResetMovement ResetAnimation
+ElseIf block_x == 30
+    JumpControls player1 !U2NH
+    PlayerType player_jetpack ResetMovement ResetAnimation
+End

@@ -1,0 +1,10 @@
+Sound coincollect Period=0
+SpawnOnBlock fx_coincollected
+If morecoins == true
+    SpawnOnBlock fx_coincover
+ElseIf morecoins == false
+    SpawnOnBlock fx_blockcover
+End
+ActorSpeed Y=0.0
+SetBlock block_invisible
+Goto addcoin

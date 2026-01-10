@@ -1,0 +1,20 @@
+Variable word camera_movey=1
+Constant camera_movespeed=1
+Variable word camera_movex=1
+Roll 224
+ResetColor 6
+ResetColor 21
+SpawnOnBlock enemyshot
+NewPosition X=camera_x + 16 + dice Y=camera_y
+CameraPosition X=camera_x + camera_movex Y=camera_y + camera_movey Warp
+CameraPosition
+If camera_y > 120
+    Set camera_movey=0 - camera_movespeed
+ElseIf camera_y < 80
+    Set camera_movey=camera_movespeed
+End
+If camera_x > 160
+    Set camera_movex=0 - camera_movespeed
+ElseIf camera_x < 0
+    Set camera_movex=camera_movespeed
+End

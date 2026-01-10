@@ -1,0 +1,40 @@
+Set showtalkpad=false
+Set brightness=- 5
+Set forcefadeout=true
+Advanced RegenerateScreen
+Set autonum=0x8000 //Reset autonum to lowest possible value
+If level == 0
+    Quit="scorpion unknown error"
+End
+If level < 0
+    Set level=1
+End
+ScrollSpeed X=0 Y=0
+CameraPosition X=0 Y=0
+Advanced ReloadLevel
+If mapheight < yres
+    Quit="Error: Level needs to be at least as tall as the current Y Resolution value {yres}"
+End
+Set cameratargetx=xres / 2
+Set cameratargety=yres / 2
+Set mapwidthtiles=mapwidth / 16
+Set mapheighttiles=mapheight / 16
+If teleport //Teleported from another level
+    PopStack player_var6 //Stack is restored in backwards order
+    PopStack player_var5
+    PopStack player_var4
+    PopStack player_var3
+    PopStack player_var2
+    PopStack player_var1
+    PopStack player_type //Restore player type from other level
+    Teleport teleport
+End
+Set control1fire=false //reset controls
+Set control2fire=false
+Set control3fire=false
+Set control4fire=false
+Set control1jump=false
+Set control2jump=false
+Set control3jump=false
+Set control4jump=false
+Advanced RefreshCameraFollow //Snap the camera to the player

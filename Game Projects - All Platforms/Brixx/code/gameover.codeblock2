@@ -1,0 +1,8 @@
+ForEachActor actor_type Goto destroy_actor
+Yield 50
+Sound gameover Period=Note_C3
+Spawn gameover_actor X=130 Y=140
+Yield 200
+NewType none ResetMovement ResetAnimation
+Set current_level=0
+Goto start_level

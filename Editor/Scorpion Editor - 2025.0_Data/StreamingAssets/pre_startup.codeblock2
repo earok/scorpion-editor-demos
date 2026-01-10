@@ -1,0 +1,40 @@
+If chipram <= 0
+    Set chipram=0 - chipram //Reverse chipram to positive
+    Quit="Too much RAM used ({chipram} bytes). Consider reducing max active actors or largest map size."
+End
+//NTSC Detection on Mega Drive
+[megadrive] If md_vdp_control & 1 == 0
+    [megadrive] Set isntsc=true
+[megadrive] End
+[amiga_all] If IsAGA == false
+    [amiga_aga] Quit="AGA is required for this Game"
+    [amiga_all] Set highcolor=false
+[amiga_all] End
+[amiga_all] If isntsc
+    [amiga_all] Screen Height=200 //200 is max y resolution of ntsc on Amiga
+[amiga_all] End
+//Other defaults
+AttackControls player1 !1
+AttackControls player2 !1
+AttackControls player3 !1
+AttackControls player4 !1
+[amiga_all] JumpControls player1 !U2
+[megadrive] JumpControls player1 !2
+[neogeo] JumpControls player1 !2
+[amiga_all] JumpControls player2 !U2
+[megadrive] JumpControls player2 !2
+[neogeo] JumpControls player2 !2
+[amiga_all] JumpControls player3 !U
+[megadrive] JumpControls player3 !2
+[neogeo] JumpControls player3 !2
+[amiga_all] JumpControls player4 !U
+[megadrive] JumpControls player4 !2
+[neogeo] JumpControls player4 !2
+ParallaxPointer XVar=camera_x YVar=camera_y
+Set spawnarea_x=-16
+Set spawnarea_y=-16
+Set spawnarea_width=xres + 32
+Set spawnarea_height=yres + 32
+Set blocktime=10 * target_speed / logic_speed
+CameraFollow !LRUD MaxCamera=8
+Panel none

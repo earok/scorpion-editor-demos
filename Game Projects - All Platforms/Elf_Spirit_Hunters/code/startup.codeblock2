@@ -1,0 +1,35 @@
+Variable word max_elves=2
+Variable word max_chests=2
+Variable word max_battery=2
+Variable word elf_cost=400
+Variable word chest_cost=1000
+Variable word battery_cost=100
+Variable word day=23
+Variable word enemies_left=1
+Variable word level_y=0
+Variable word hurt_elves=0
+Variable word full_chests=0
+Variable word battery_bar=0
+Variable word cash=6200
+Variable word current_level=0
+Variable word current_enemy=0
+Variable word tempvariable=0
+String status_text=".................................."
+Set max_elves=5
+Set max_battery=10
+Set max_chests=3
+Set current_level=4
+PanelBottom none
+[amiga_all] Set camera_offset=0
+[megadrive] Set camera_offset=8
+[neogeo] Set camera_offset=8
+CameraFollow ! MaxCamera=8
+Panel title_panel Frames=0
+Sound gsfx_29_good_news Period=0
+Wait 0
+Sound gsfx_38_coin Period=0
+Panel main_panel Frames=0 ForFire
+Sound gsfx_38_coin Period=0
+Goto store_manager
+# Level map PanelBottom=ui
+# Goto game_loop

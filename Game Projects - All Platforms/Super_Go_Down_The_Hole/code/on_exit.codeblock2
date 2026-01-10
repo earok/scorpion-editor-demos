@@ -1,0 +1,18 @@
+Set isvulnerable=true
+If playerspawned == false
+    Return
+End
+If mansaved == true
+    Set playerspawned=false
+    Goto endcutscene
+End
+If level == map2
+    Set playerspawned=false
+    Level map
+    Return
+End
+If level == map
+    Set playerspawned=false
+    Level map2
+    Return
+End

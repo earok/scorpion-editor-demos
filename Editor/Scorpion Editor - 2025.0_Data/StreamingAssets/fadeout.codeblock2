@@ -1,0 +1,8 @@
+//Fades out to black
+If level
+    Set forcefadeout=true //Begin the fade out
+    While brightness > -5 //Wait until completely black
+        Advanced RefreshFrame
+    End
+    Advanced RegenerateScreen
+End

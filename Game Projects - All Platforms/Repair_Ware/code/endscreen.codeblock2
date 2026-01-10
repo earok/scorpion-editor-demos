@@ -1,0 +1,35 @@
+Variable word End_AnyFails=false
+Variable word End_RemoveBlock_X=0
+Variable word End_RemoveBlock_Y=0
+Set end_anyfails=false
+Level lvl_endscreen
+If lvl1_success == false
+    Set end_removeblock_x=4
+    Set end_removeblock_y=0
+    GoSub endscreen_removecorner
+End
+If lvl2_success == false
+    Set end_removeblock_x=8
+    Set end_removeblock_y=0
+    GoSub endscreen_removecorner
+End
+If lvl3_success == false
+    Set end_removeblock_x=4
+    Set end_removeblock_y=4
+    GoSub endscreen_removecorner
+End
+If lvl4_success == false
+    Set end_removeblock_x=8
+    Set end_removeblock_y=4
+    GoSub endscreen_removecorner
+End
+If end_anyfails == true //If there are any fails, we want to show the try again panel
+    PanelBottom tryagain
+End
+If end_anyfails == false
+    Sound snd_congrats Period=false
+End
+Wait 250
+Level none
+Set panel_bottom=none
+Goto startup

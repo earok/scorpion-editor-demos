@@ -1,0 +1,10 @@
+If player_type == plane_dead
+    Return
+End
+PlayerType plane_dead ResetMovement ResetAnimation
+Sound hurt Period=0
+Set playerisdead=true
+//Check to see if any poles have been spawned. If not, spawn one
+If spawnedpoles == 0
+    GoSub spawnpole
+End

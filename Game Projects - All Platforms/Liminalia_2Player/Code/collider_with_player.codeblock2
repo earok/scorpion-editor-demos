@@ -1,0 +1,9 @@
+Variable word playerpushdir=0
+Constant pushdist=24
+Constant pushtime=8
+Set playerpushdir=1
+If actor_x > player_x
+    Set playerpushdir=-1
+End
+GoSub push_actor
+GoSub push_player

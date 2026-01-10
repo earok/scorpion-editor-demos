@@ -1,0 +1,31 @@
+Variable word HoleX=0
+Variable word HoleY=0
+//In level one, we play as a spider and have to fix holes in the web
+//The "holes" are static blocks that are painted at a random location on the web
+//When the player overlaps with the hole, it deletes the hole
+//and instead spawns a short lived "webfix" object that simulates the hole being fixed
+Level lvl_spider
+Set lvl_score=0
+Set lvl_timer_left=LevelTimeMax
+Roll 4
+If dice == 1
+    Set holex=1
+    Set holey=1
+End
+If dice == 2
+    Set holex=13
+    Set holey=1
+End
+If dice == 3
+    Set holex=1
+    Set holey=6
+End
+If dice == 4
+    Set holex=13
+    Set holey=6
+End
+//At this part, we generate the four holes in the web
+SetBlock blk_webhole X=holex Y=holey
+SetBlock blk_webhole X=holex + 1 Y=holey
+SetBlock blk_webhole X=holex Y=holey + 1
+SetBlock blk_webhole X=holex + 1 Y=holey + 1

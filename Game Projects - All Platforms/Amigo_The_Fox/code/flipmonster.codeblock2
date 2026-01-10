@@ -1,0 +1,13 @@
+Sound hurt Period=0
+If actor_type == turtlered
+    ActorType turtlered_shell ResetMovement ResetAnimation
+ElseIf actor_type == turtle
+    ActorType turtleshell ResetMovement ResetAnimation
+ElseIf actor_type == spikey
+    ActorType fx_pop ResetMovement ResetAnimation
+ElseIf actor_type == goomba
+    ActorType goomba_flat ResetMovement ResetAnimation
+ElseIf actor_type == fish
+    ActorSpawnChild fish_dead
+    ActorType none ResetMovement ResetAnimation
+End

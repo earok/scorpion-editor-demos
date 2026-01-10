@@ -1,0 +1,9 @@
+Set offset=offset + 2 //Increase by an even number to change the scrolling speed
+//Loop through all 240 scanlines (only really 224 needed for NTSC)
+For index From 0 To 239
+    If offset >= 480 //Prevent from going out of memory
+        Set offset=offset - 480
+    End
+    Set HScrollBuffer[offset]=WaterArray[index]
+    Set offset=offset + 2
+End

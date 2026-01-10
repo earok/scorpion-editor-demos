@@ -1,0 +1,9 @@
+Schedule flash_fx_trigger 0
+Sound powerup Period=0
+Set player_var1=0
+Set power=power_fire
+GoSub reset_powerlevel
+PlayerRenderMode RenderMode_Flash
+GoSub spawnglitter_block
+PlayerYield 50
+PlayerRenderMode RenderMode_Default

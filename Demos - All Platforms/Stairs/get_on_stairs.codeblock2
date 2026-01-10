@@ -1,0 +1,10 @@
+//We are standing exactly over the stair start block
+If player_x / 16 == block_x
+    //We are holding the joystick up
+    If control1_y < 0
+        //We can only climb on from the left side of the base
+        If player_x % 16 < 8
+            PlayerPosition Y=player_y - 1
+        End
+    End
+End

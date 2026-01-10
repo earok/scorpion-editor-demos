@@ -1,0 +1,20 @@
+//Use with the level->block find command
+//We don't search from 0x0 because we may want to use find repeatedly. Just search from the one after the block pointer
+Set math_x2=block_x
+Set math_y2=block_y
+Label block_find_loop
+Set block_x=block_x + 1
+If block_x >= mapwidthtiles
+    Set block_y=block_y + 1
+    If block_y >= mapheighttiles
+        Set block_y=0
+    End
+    Set block_x=0
+End
+If block_type == math_x
+    Return //We've found the next matching block
+End
+If block_x == math_x2 and block_y == math_y2
+    Return //Could not find any matching blocks
+End
+Goto block_find_loop

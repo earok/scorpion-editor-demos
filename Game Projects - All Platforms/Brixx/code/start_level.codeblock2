@@ -1,0 +1,10 @@
+GoSub reset_variables
+[amiga_all] Screen Height=256 Frames=0
+[megadrive] Screen Height=224 Frames=0
+[amiga_all] ControlMode joys_and_mouse
+Level maps[current_level] PanelTop=top_panel
+CameraPosition Y=256 - YRes ResetMovement
+GoSub count_blocks
+Spawn pad_actor X=160 Y=250
+GoSub reset_pad_state
+Goto spawn_ball

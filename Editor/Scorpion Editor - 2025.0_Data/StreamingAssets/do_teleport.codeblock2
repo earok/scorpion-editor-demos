@@ -1,0 +1,16 @@
+//Triggers a teleport
+If newvalue <= 0
+    Quit="Runtime Error: Bad teleporter"
+End
+Set teleport=newvalue
+Advanced TeleportTrigger
+CameraPosition X=player_x Y=player_y Center
+If teleport //Teleport to different level
+    PushStack player_type //transfer player type between levels
+    PushStack player_var1
+    PushStack player_var2
+    PushStack player_var3
+    PushStack player_var4
+    PushStack player_var5
+    PushStack player_var6
+End

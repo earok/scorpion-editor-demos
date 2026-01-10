@@ -1,0 +1,56 @@
+Variable word start_angle=200
+Variable word shots_fired=0
+Variable word my_angle=0
+Variable word start_offset=-20
+Variable word shot_direction=0
+Variable word shot_rot=1
+While shots_fired <= 20
+    SpawnOnBlock enemyshot X=12 Y=9
+    Set my_angle=shots_fired * 16 + start_angle
+    NewSpeed Y=-8.0 Angle=my_angle
+    Rotate my_angle X=0 Y=start_offset XVar=math_x YVar=math_y
+    NewPosition X=new_x + math_x Y=new_y + math_y
+    NewNoClear False
+    Set shots_fired=shots_fired + 1
+End
+Yield 1
+While true
+    Yield 50
+    If shot_rot > 0
+        SpawnOnBlock enemyshot X=12 Y=9
+        Set my_angle=shot_direction * 16 + start_angle
+        NewSpeed Y=-8.0 Angle=my_angle
+        Rotate my_angle X=0 Y=start_offset XVar=math_x YVar=math_y
+        NewPosition X=new_x + math_x Y=new_y + math_y
+        NewNoClear False
+        NewRenderMode RenderMode_Shadow
+        SpawnOnBlock enemyshot X=12 Y=9
+        Set my_angle=shot_direction + shots_fired * 16 + start_angle
+        NewSpeed Y=-8.0 Angle=my_angle
+        Rotate my_angle X=0 Y=start_offset XVar=math_x YVar=math_y
+        NewPosition X=new_x + math_x Y=new_y + math_y
+        NewNoClear False
+    Else
+        SpawnOnBlock enemyshot X=12 Y=9
+        Set my_angle=shot_direction + shots_fired * 16 + start_angle
+        NewSpeed Y=-8.0 Angle=my_angle
+        Rotate my_angle X=0 Y=start_offset XVar=math_x YVar=math_y
+        NewPosition X=new_x + math_x Y=new_y + math_y
+        NewNoClear False
+        NewRenderMode RenderMode_Shadow
+        SpawnOnBlock enemyshot X=12 Y=9
+        Set my_angle=shot_direction * 16 + start_angle
+        NewSpeed Y=-8.0 Angle=my_angle
+        Rotate my_angle X=0 Y=start_offset XVar=math_x YVar=math_y
+        NewPosition X=new_x + math_x Y=new_y + math_y
+        NewNoClear False
+    End
+    Set shot_direction=shot_direction + shot_rot
+    If shot_direction > 2
+        Set shot_rot=-1
+        Set shot_direction=shot_direction + shot_rot
+    ElseIf shot_direction < -2
+        Set shot_rot=1
+        Set shot_direction=shot_direction + shot_rot
+    End
+End

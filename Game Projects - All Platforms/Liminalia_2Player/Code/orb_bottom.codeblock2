@@ -1,0 +1,8 @@
+If actor_yspeed > 0
+    Roll 2
+    If dice == 1
+        ActorDirection move_upleft
+        Return
+    End
+    ActorDirection move_upright
+End

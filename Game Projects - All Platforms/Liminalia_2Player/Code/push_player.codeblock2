@@ -1,0 +1,11 @@
+//actor can't push if below player
+If actor_y > player_y
+    Return
+End
+//If actor is on same line as player, only push if moving
+If actor_y == player_y
+    If actor_xspeed == 0
+        Return
+    End
+End
+PlayerPush pushtime X=playerpushdir * pushdist ResetMovement

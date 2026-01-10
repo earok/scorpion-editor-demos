@@ -1,0 +1,10 @@
+If panel
+    Advanced FadeOutPanel
+    Set panel=0 //Flag panel as unloaded
+    Advanced RegenerateScreen
+    If level //Reset level
+        Set brightness=-5
+        Advanced ReloadLevelGFX
+        GoSub fadein //Level GFX may require reload
+    End
+End

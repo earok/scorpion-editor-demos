@@ -1,0 +1,58 @@
+Variable word thisblock=0 //Used to store the special or override block type
+Variable word thisblocktag=0 //Used to store the block tag
+Variable word morecoins=0 //This block has more coins
+Variable word hitpowerlevel=0 //What strength did we hit this block?
+GetBlock thisblock
+Set thisblocktag=block_tag
+Set morecoins=false
+Set block_y=block_y - 1
+If block_type != 0
+    GetBlock thisblock
+    If thisblock == block_coincollect
+        //Coins are not metadata, get original block
+        GetBlock thisblock X=Block_X Y=Block_Y + 1
+        Set block_y=block_y - 1
+    Else
+        GoSub function_setblockmeta
+    End
+End
+Set block_y=block_y + 1
+If thisblock == powerup_special
+    SpawnOnBlock fx_blockcover
+    If power
+        SpawnOnBlock flower_spawn
+    Else
+        SpawnOnBlock big_mushroom_spawn
+    End
+    Sound coincollect Period=0
+ElseIf thisblock == powerup_star
+    SpawnOnBlock fx_blockcover
+    SpawnOnBlock star_spawn
+    Sound coincollect Period=0
+ElseIf thisblock == powerup_evilmushroom
+    SpawnOnBlock fx_blockcover
+    SpawnOnBlock evil_mushroom_spawn
+    Sound coincollect Period=0
+ElseIf thisblock == powerup_lifemushroom
+    SpawnOnBlock fx_blockcover
+    SpawnOnBlock life_mushroom_spawn
+    Sound coincollect Period=0
+ElseIf thisblock == powerup_coin
+    Goto player_collected_coin_fromblock
+ElseIf thisblock == block_hiddensecret
+    Goto player_collected_coin_fromblock
+ElseIf thisblock == block_coin
+    Goto player_collected_coin_fromblock
+ElseIf thisblocktag == brick
+    If hitpowerlevel
+        SetBlock none
+        SpawnOnBlock fx_brick_tl
+        SpawnOnBlock fx_brick_tr
+        SpawnOnBlock fx_brick_bl
+        SpawnOnBlock fx_brick_br
+        Sound breakbig Period=0
+    Else
+        SpawnOnBlock fx_brickcover
+        Sound hurt Period=0
+    End
+End

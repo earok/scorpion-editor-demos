@@ -1,0 +1,12 @@
+If player_type != alexkidd_swim
+    MusicPos song_water
+    Sound sndwater Period=0
+    PlayerType alexkidd_swim ResetMovement ResetAnimation
+    Label swim_movecameraright
+    If camera_x < player_x - 128
+        CameraPosition X=camera_x + 2 ResetMovement
+        Wait 1
+        Goto swim_movecameraright
+    End
+    CameraFollow !LRD MaxCamera=8
+End

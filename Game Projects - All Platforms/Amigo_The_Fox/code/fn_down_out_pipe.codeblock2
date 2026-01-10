@@ -1,0 +1,14 @@
+Sound pipedown Period=0
+PlayerSpeed X=0.0 Y=0.0 Angle=0
+PlayerPosition Y=player_y + 20
+PlayerDirection look_left
+If power == power_fire
+    PlayerAnimation anim_fire_outdownpipe Frame=0
+ElseIf power == power_big
+    PlayerAnimation anim_big_outdownpipe Frame=0
+Else
+    PlayerAnimation anim_small_outdownpipe Frame=0
+End
+If forcefadeout
+    FadeIn
+End

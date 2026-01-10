@@ -1,0 +1,11 @@
+If actor_isonplatform == false
+    Return
+End
+If actor_controller == player_controller
+    PlayerSpeed Y=-7.5 Angle=player_tag
+    Return
+End
+PlayerPush pushtime X=-pushdist * 2 ResetMovement
+If actor_x < player_x
+    PlayerPush pushtime X=pushdist * 2 ResetMovement
+End

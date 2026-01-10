@@ -1,0 +1,14 @@
+Variable word hurt_direction=0
+If lookmask_right btst player_lookdir
+    Set hurt_direction=look_right
+Else
+    Set hurt_direction=look_left
+End
+PlayerType hero_hurt ResetMovement ResetAnimation
+If player_x < actor_x //Player is on the LEFT of the actor
+    PlayerDirection move_upleft
+Else //Player is on the RIGHT of the actor
+    PlayerDirection move_upright
+End
+Set player_isonplatform=false
+PlayerPosition Y=player_y - 1

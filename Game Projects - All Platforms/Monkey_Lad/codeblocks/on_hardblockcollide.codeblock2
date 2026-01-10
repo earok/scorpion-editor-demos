@@ -1,0 +1,9 @@
+If player_type == alexkidd_motorcycle
+    If player_y >= block_y * 16
+        If player_y <= block_y * 16 + 39
+            PlayerSpawnChild killpuff
+            PlayerType alexkidd ResetMovement ResetAnimation
+            Set player_xspeed=0
+        End
+    End
+End

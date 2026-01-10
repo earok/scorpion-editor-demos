@@ -1,0 +1,17 @@
+Variable word palette_index=0
+Variable word maxred=128
+Variable word maxblue=128
+Variable word maxgreen=128
+SetBlock none
+Set maxred=128 >> 2
+Set maxgreen=128 >> 2
+Set maxblue=128 >> 1
+Set palette_index=1
+While palette_index <= 27
+    ReadColor palette_index
+    Set red=red >> 2
+    Set green=green >> 2
+    Set blue=blue >> 1
+    WriteColor palette_index
+    Set palette_index=palette_index + 1
+End

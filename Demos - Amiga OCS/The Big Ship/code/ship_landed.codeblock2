@@ -1,0 +1,15 @@
+//Tip - with the "On platform landed" event, if collided with a moving platform, you can reference it with "projectile"
+If projectile_type == ship_base
+    If projectile_x > 640
+        If lookmask_right btst projectile_lookdir
+            Set projectile_lookdir=projectile_lookdir - 2
+            ProjectileSpeed X=-0.5 Angle=0
+        End
+    End
+    If projectile_x < 384
+        If lookmask_left btst projectile_lookdir
+            Set projectile_lookdir=projectile_lookdir + 2
+            ProjectileSpeed X=0.5 Angle=0
+        End
+    End
+End

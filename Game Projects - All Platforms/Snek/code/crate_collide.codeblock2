@@ -1,0 +1,58 @@
+Variable word current_tile=0
+Set actor_var1=0 //Default to crate no longer on a target
+//====== Check if the destination tile to push crate is not a solid tile
+If player_last_direction == 0
+    GetTileProperties current_tile X=player_x/16 Y=player_y/16-1
+    If current_tile btst TileBit_Solid
+        Goto death_by_crate
+    Else
+        GetBlock current_block X=player_x/16 Y=player_y/16-1
+        If current_block != 0 and current_block != crate_target_block
+            Goto death_by_crate
+        End
+        Set actor_y=actor_y-16
+    End
+ElseIf player_last_direction == 1
+    GetTileProperties current_tile X=player_x/16+1 Y=player_y/16
+    If current_tile btst TileBit_Solid
+        Goto death_by_crate
+    Else
+        GetBlock current_block X=player_x/16+1 Y=player_y/16
+        If current_block != 0 and current_block != crate_target_block
+            Goto death_by_crate
+        End
+        Set actor_x=actor_x+16
+    End
+ElseIf player_last_direction == 2
+    GetTileProperties current_tile X=player_x/16 Y=player_y/16+1
+    If current_tile btst TileBit_Solid
+        Goto death_by_crate
+    Else
+        GetBlock current_block X=player_x/16 Y=player_y/16+1
+        If current_block != 0 and current_block != crate_target_block
+            Goto death_by_crate
+        End
+        Set actor_y=actor_y+16
+    End
+ElseIf player_last_direction == 3
+    GetTileProperties current_tile X=player_x/16-1 Y=player_y/16
+    If current_tile btst TileBit_Solid
+        Goto death_by_crate
+    Else
+        GetBlock current_block X=player_x/16-1 Y=player_y/16
+        If current_block != 0 and current_block != crate_target_block
+            Goto death_by_crate
+        End
+        Set actor_x=actor_x-16
+    End
+End
+GoSub is_crate_on_a_target
+GoSub check_crate_targets
+Return
+Label death_by_crate
+ActorType none ResetMovement ResetAnimation
+Set player_update=0
+Sound explode
+Spawn explosion_actor X=player_x + 8 Y=player_y + 8
+Yield 50
+Goto player_died

@@ -1,0 +1,15 @@
+Sound hurt Period=0
+If actor_type == goomba
+    ActorType goomba_die ResetMovement ResetAnimation
+    ActorSpeed Y=-5.0 Angle=-5
+ElseIf actor_type == turtlered
+    ActorType turtlered_dead ResetMovement ResetAnimation
+    ActorSpeed Y=-5.0 Angle=-5
+ElseIf actor_type == turtle
+    ActorType turtle_dead ResetMovement ResetAnimation
+    ActorSpeed Y=-5.0 Angle=-5
+ElseIf actor_type == fish
+    ActorType fish_dead ResetMovement ResetAnimation
+    ActorSpeed Y=-5.0 Angle=-5
+End
+ActorType fx_pop ResetMovement ResetAnimation

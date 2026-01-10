@@ -1,0 +1,18 @@
+Variable word score=0
+Variable word framesleft=100
+Variable word spawndelay=0
+Constant spawndelaymax=50
+While framesleft >= 0
+    Set frame_countdown=1
+    Set score=score + 1
+    Set spawndelay=spawndelay - 1
+    If spawndelay <= 0
+        Set spawndelay=spawndelaymax
+        SpawnOnBlock actor X=7 Y=2
+    End
+    Yield 1
+    Set framesleft=framesleft + frame_countdown
+End
+Print "Test complete. Score - {score}" bottom
+Wait 0
+Quit="Test complete. Score - {score}"

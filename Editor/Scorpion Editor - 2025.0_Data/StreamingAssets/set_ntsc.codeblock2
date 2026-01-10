@@ -1,0 +1,6 @@
+//On some models of Amiga, we can force NTSC or not
+[amiga_all] If IsNTSC
+    [amiga_all] Set ami_beamcon0=ami_beamcon0 & 0xFFDF
+[amiga_all] Else
+    [amiga_all] Set ami_beamcon0=ami_beamcon0 | 0x0020
+[amiga_all] End

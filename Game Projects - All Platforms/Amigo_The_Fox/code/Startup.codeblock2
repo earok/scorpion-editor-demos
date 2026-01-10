@@ -1,0 +1,25 @@
+Variable word Lives=3
+Variable word Coins=0
+Variable word Result=0
+Constant BounceSpeed=-7
+Variable word CurrentLevel=1
+Variable word Power=0 //The player's current power level
+Constant Power_Big=1
+Constant Power_Fire=2
+Variable word Pipe_X=0
+Variable word Pipe_Y=0
+JumpControls player1 !U2
+[amiga_all] MusicVol 40
+[amiga_all] Screen Y=0 Height=208 Frames=0
+[neogeo] Screen Height=208 Frames=0
+[megadrive] MusicVol 200
+[amiga_all] Music song
+[megadrive] Music song
+[neogeo] MusicCD song
+Panel ui_title Frames=0 ForFire
+Level none
+Set lives=3
+Set currentlevel=level1
+Set coins=0
+Panel none Frames=0
+Goto startlevel

@@ -1,0 +1,24 @@
+If actor_x < chest_x
+    ActorPosition X=actor_x + 1
+ElseIf actor_x > chest_x
+    ActorPosition X=actor_x - 1
+End
+If actor_lookdir == look_up
+    If actor_y < level_y + 24
+        ActorDirection move_down
+    End
+Else
+    If actor_y > level_y + 168
+        ActorType none ResetMovement ResetAnimation
+        ForEachActor actor_type == chest_dropped Goto chest_close
+        If captured == true
+            StringSet status_text="You got em!"
+            Set enemies_left=enemies_left - 1
+            Set full_chests=full_chests + 1
+            Set state=state_success
+        Else
+            StringSet status_text="Uh oh!"
+            ForEachActor actor_type Goto hunt
+        End
+    End
+End

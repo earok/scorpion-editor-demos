@@ -1,0 +1,156 @@
+Variable word timer=0
+Variable word temp=0
+Constant maxlevel=3
+Constant maxenemy=3
+Variable word elfdoor=0
+Variable word camera_offset=0
+ForEachActor actor_type Goto destroy_actor
+Set day=day + 1
+If camera_y < camera_offset
+    CameraPosition Y=camera_offset ResetMovement
+End
+While camera_y > 0 + camera_offset
+    CameraPosition Y=camera_y - 4 ResetMovement
+    Yield 1
+End
+//The elves walk in...
+If enemies_left <= 0
+    Sound gsfx_29_good_news Period=0
+    StringSet status_text="Telegram from Santa:"
+    Yield 100
+    StringSet status_text="Well done!"
+    Yield 100
+    StringSet status_text="Christmas can commence!"
+    Yield 100
+    Goto game_over_bank
+End
+If day >= 25
+    Sound gsfx_32_bad_news Period=0
+    StringSet status_text="Telegram from Santa:"
+    Yield 100
+    StringSet status_text="You didn't catch all the spirits!"
+    Yield 100
+    StringSet status_text="We need to cancel Christmas!"
+    Yield 100
+    Goto game_over_bank
+End
+//First thing - empty the chests
+If full_chests > 0
+    Set temp=full_chests * 500
+    Set full_chests=0
+    Set cash=cash + temp
+    StringSet status_text="Spirit capture bonus! ${temp}"
+    Sound gsfx_38_coin Period=0
+    Yield 50
+End
+If hurt_elves > 0
+    Set temp=hurt_elves * 100
+    Set hurt_elves=0
+    If cash < temp
+        //Game Over - not enough to heal elves
+        StringSet status_text="Not enough money to pay bills!"
+        Yield 100
+        Goto game_over
+    End
+    Set cash=cash - temp
+    StringSet status_text="Elf medical bills: -${temp}"
+    Sound gsfx_38_coin Period=0
+    Yield 50
+End
+If battery_bar < max_battery * 8
+    Set temp=max_battery * 8 - battery_bar
+    If cash < temp
+        //Game Over - not enough to heal elves
+        StringSet status_text="Not enough money to pay bills!"
+        Yield 100
+        Goto game_over
+    End
+    StringSet status_text="Charger bill: -${temp}"
+    While battery_bar < max_battery * 8
+        Set battery_bar=battery_bar + 1
+        Set cash=cash - 1
+        Sound gsfx_56_charging Period=0
+        Yield 1
+    End
+    Yield 50
+End
+Set timer=0
+Set elfdoor=0
+While timer < max_elves //Spawns our elves
+    Yield 25
+    Set timer=timer + 1
+    Spawn elf_walkin X=5 * 16 Y=7 * 16
+    NewPosition X=elfdoor * 16 * 4 + new_x
+    NewSpawnChild open_door
+    Sound gsfx_0_thud Period=0
+    StringSet status_text="Let's go!"
+    Set elfdoor=elfdoor + 1
+    If elfdoor > 2
+        Set elfdoor=2
+    End
+End
+Yield 100
+Label skip_north_pole
+StringSet status_text="December {day}. {enemies_left} Spirits left."
+Set level_y=224 * current_level
+If camera_y == level_y
+    FadeOut //Restarting the level!
+    ForEachActor actor_type Goto destroy_actor
+End
+If current_enemy == 0
+    Spawn enemy_rabbit X=9 * 16 Y=4 * 16 + level_y
+ElseIf current_enemy == 1
+    Spawn enemy_snowman X=9 * 16 Y=4 * 16 + level_y
+ElseIf current_enemy == 2
+    Spawn enemy_witch X=9 * 16 Y=4 * 16 + level_y
+ElseIf current_enemy == 3
+    Spawn enemy_pumpkin X=9 * 16 Y=4 * 16 + level_y
+End
+Spawn elves_carry X=2 * 16 Y=12 * 16 + level_y
+If camera_y == level_y
+    FadeIn
+End
+While camera_y < level_y + camera_offset
+    CameraPosition Y=camera_y + 4 ResetMovement
+    Yield 1
+End
+While camera_y > level_y + camera_offset
+    CameraPosition Y=camera_y - 4 ResetMovement
+    Yield 1
+End
+//The main game loop
+Set state=0
+Set captured=0
+While state >= 0
+    GoSub manager
+    Yield 1
+End
+If state == state_success
+    Sound gsfx_29_good_news Period=0
+    Set current_enemy=current_enemy + 1
+    If current_enemy > maxenemy
+        Set current_enemy=0
+    End
+    Set current_level=current_level + 1
+    If current_level > maxlevel
+        Set current_level=1
+    End
+Else
+    Sound gsfx_32_bad_news Period=0
+End
+Yield 50
+If enemies_left <= 0
+    StringSet status_text="All halloween spirits captured!"
+    Goto return_to_northpole
+ElseIf hurt_elves >= max_elves - 1
+    StringSet status_text="Too many elves injured.."
+    Goto return_to_northpole
+ElseIf full_chests >= max_chests
+    StringSet status_text="All chests are full..."
+    Goto return_to_northpole
+ElseIf battery_bar <= 0
+    StringSet status_text="Need to get a recharge..."
+    Goto return_to_northpole
+End
+Yield 50
+Goto skip_north_pole

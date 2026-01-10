@@ -1,0 +1,13 @@
+If seconds <= 0
+    If minutes <= 0
+        Return
+    End
+End
+Set seconds=seconds - 1
+If seconds < 0
+    Set seconds=0
+    If minutes > 0
+        Set minutes=minutes - 1
+        Set seconds=59
+    End
+End

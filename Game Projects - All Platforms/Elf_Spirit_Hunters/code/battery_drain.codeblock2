@@ -1,0 +1,10 @@
+Set battery_bar=battery_bar - 1
+If battery_bar > 0
+    Return
+End
+Sound gsfx_34_battery_out Period=0
+StringSet status_text="Whoops! Out of battery"
+Set state=state_failed
+ForEachActor actor_type Goto activate
+ForEachActor actor_type == beam_l Goto destroy_actor
+ForEachActor actor_type == beam_r Goto destroy_actor

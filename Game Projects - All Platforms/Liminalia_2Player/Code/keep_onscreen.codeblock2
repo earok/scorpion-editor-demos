@@ -1,0 +1,4 @@
+Variable word screenoffset=0
+Set screenoffset=actor_x / 256 * 256
+Set screenoffset=actor_x - screenoffset
+ActorPosition X=camera_x + screenoffset

@@ -1,0 +1,10 @@
+If player_var1
+    Goto killmonster
+End
+If actor_type != spikey
+    If player_yspeed > 0
+        PlayerSpeed Y=BounceSpeed Angle=0
+        Goto flipmonster
+    End
+End
+Goto hurtplayer

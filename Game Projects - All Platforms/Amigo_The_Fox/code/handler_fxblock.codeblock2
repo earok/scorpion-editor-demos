@@ -1,0 +1,8 @@
+If actor_type == fx_coincover
+    SetBlock block_coin X=Actor_X / 16 Y=Actor_Y / 16
+ElseIf actor_type == fx_blockcover
+    SetBlock block_empty X=Actor_X / 16 Y=Actor_Y / 16
+ElseIf actor_type == fx_brickcover
+    SetBlock block_brick X=Actor_X / 16 Y=Actor_Y / 16
+End
+ActorType none ResetMovement ResetAnimation

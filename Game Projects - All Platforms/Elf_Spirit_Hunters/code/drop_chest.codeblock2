@@ -1,0 +1,7 @@
+Variable word chest_x=0
+ActorType chest_dropped ResetMovement ResetAnimation
+ActorNoClear False
+Set chest_x=actor_x
+Spawn left_elf X=actor_x - 24 Y=actor_y
+Spawn right_elf_idle X=actor_x + 24 Y=actor_y
+Sound gsfx_0_thud Period=0

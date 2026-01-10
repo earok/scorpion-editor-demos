@@ -1,0 +1,12 @@
+If player_y <= actor_y - 31
+    Return
+End
+If player_x > actor_x
+    ActorPush 10 X=-16 ResetMovement
+    PlayerPosition X=actor_x + 21
+    PlayerSpeed X=0.0 Angle=actor_x
+Else
+    ActorPush 10 X=16 ResetMovement
+    PlayerPosition X=actor_x - 21
+    PlayerSpeed X=0.0 Angle=actor_x
+End

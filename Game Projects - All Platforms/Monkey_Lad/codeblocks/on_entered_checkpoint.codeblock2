@@ -1,0 +1,9 @@
+If player_type != alexkidd_swim
+    Set checkpointtype=CheckpointLand
+End
+If player_type == alexkidd_swim
+    Set checkpointtype=CheckpointWater
+End
+Set checkpointx=block_x * 16 + 8
+Set checkpointy=block_y * 16 + 8
+SetBlock none

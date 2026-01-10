@@ -1,0 +1,12 @@
+@ If player_rendermode == rendermode_blink //Player is invincible, do nothing
+    Return
+End
+If player_var1 > 0 //Player is invincible, do nothing
+    Return
+End
+Sound hurt Period=0
+If power
+    Set power=0
+    Goto player_invincible
+End
+Goto killplayer

@@ -1,0 +1,28 @@
+Constant sample_to_play=sample
+SetBlock none
+SetBlock button_pressed Y=block_y + 1
+If block_x == 3
+    Sound sample_to_play Period=Note_C3
+ElseIf block_x == 4
+    Sound sample_to_play Period=Note_C#3
+ElseIf block_x == 5
+    Sound sample_to_play Period=Note_D3
+ElseIf block_x == 6
+    Sound sample_to_play Period=Note_D#3
+ElseIf block_x == 7
+    Sound sample_to_play Period=Note_E3
+ElseIf block_x == 8
+    Sound sample_to_play Period=Note_F3
+ElseIf block_x == 9
+    Sound sample_to_play Period=Note_F#3
+ElseIf block_x == 10
+    Sound sample_to_play Period=Note_G3
+ElseIf block_x == 11
+    Sound sample_to_play Period=Note_G#3
+ElseIf block_x == 12
+    Sound sample_to_play Period=Note_A3
+ElseIf block_x == 13
+    Sound sample_to_play Period=Note_A#3
+ElseIf block_x == 14
+    Sound sample_to_play Period=Note_B3
+End

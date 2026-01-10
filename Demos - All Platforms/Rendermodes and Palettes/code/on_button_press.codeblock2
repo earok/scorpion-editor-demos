@@ -1,0 +1,27 @@
+Variable word red_on=1
+Variable word blue_on=1
+Variable word green_on=1
+Variable word color_index=0
+SetBlock none
+SetBlock button_pressed Y=block_y + 1
+If block_x == 1
+    PlayerRenderMode RenderMode_BlinkAlternative
+ElseIf block_x == 3
+    [amiga_all] PlayerRenderMode RenderMode_Flash
+    [megadrive_or_neogeo] PlayerRenderMode RenderMode_PaletteLine1Flash
+ElseIf block_x == 5
+    [amiga_all] PlayerRenderMode RenderMode_Highlight
+    [megadrive_or_neogeo] PlayerRenderMode RenderMode_PaletteLine1
+ElseIf block_x == 7
+    [amiga_all] PlayerRenderMode RenderMode_Invert
+    [megadrive_or_neogeo] PlayerRenderMode RenderMode_PaletteLine2
+ElseIf block_x == 9
+    [amiga_all] PlayerRenderMode RenderMode_Shadow
+    [megadrive_or_neogeo] PlayerRenderMode RenderMode_PaletteLine3
+ElseIf block_x == 24
+    Set red_on=1 - red_on
+ElseIf block_x == 26
+    Set green_on=1 - green_on
+ElseIf block_x == 28
+    Set blue_on=1 - blue_on
+End

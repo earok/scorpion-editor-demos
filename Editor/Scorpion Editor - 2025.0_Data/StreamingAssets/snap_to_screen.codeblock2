@@ -1,0 +1,13 @@
+//Snaps the actor into the screen bounds
+If actor_x <= camera_x
+    ActorPosition X=camera_x
+End
+If actor_x >= camera_x + XRes
+    ActorPosition X=camera_x  + XRes
+End
+If actor_y <= camera_y
+    ActorPosition Y=camera_y
+End
+If actor_y >= camera_y + yres
+    ActorPosition Y=camera_y + yres
+End

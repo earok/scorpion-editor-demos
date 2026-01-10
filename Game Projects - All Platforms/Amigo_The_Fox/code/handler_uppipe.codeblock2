@@ -1,0 +1,9 @@
+Set pipe_x=block_x
+Set pipe_y=block_y
+If player_x > pipe_x * 16 + 8
+    If control1_y < 0
+        GoSub fn_up_in_pipe
+        ActorYield 90
+        Goto go_thru_pipe
+    End
+End

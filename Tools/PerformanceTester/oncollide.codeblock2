@@ -1,0 +1,9 @@
+If actor_x > projectile_x
+    ActorDirection move_right
+    ProjectileDirection move_left
+Else
+    ActorDirection move_left
+    ProjectileDirection move_right
+End
+Set actor_timer=2 //Delay onupdate to allow actors to separate
+Set projectile_timer=2 //Delay onupdate to allow actors to separate

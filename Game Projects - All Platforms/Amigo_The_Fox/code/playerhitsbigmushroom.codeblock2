@@ -1,0 +1,35 @@
+Schedule flash_fx_trigger 0
+If actor_type == life_mushroom
+    ActorType none ResetMovement ResetAnimation
+    GoSub spawnglitter_actor
+    Set lives=lives + 1
+    Sound powerup Period=0
+    Return
+ElseIf actor_type == evil_mushroom
+    ActorType none ResetMovement ResetAnimation
+    GoSub spawnglitter_actor
+    Goto hurtplayer
+ElseIf actor_type == star
+    GoSub spawnglitter_actor
+    Sound powerup Period=0
+    Sound powerup Period=0
+    Set player_var1=100
+    [amiga_all] PlayerRenderMode RenderMode_Flash
+    [megadrive] PlayerRenderMode RenderMode_PaletteLine1Flash
+    While player_var1 > 0
+        PlayerYield 5
+        GoSub spawnglitter_player
+        Set player_var1=player_var1 - 1
+    End
+    PlayerRenderMode RenderMode_Default
+    Return
+End
+Sound powerup Period=0
+GoSub spawnglitter_actor
+Set power=power_big
+GoSub reset_powerlevel
+[amiga_all] PlayerRenderMode RenderMode_Flash
+[megadrive] PlayerRenderMode RenderMode_PaletteLine1Flash
+PlayerYield 100
+PlayerRenderMode RenderMode_Default
+Set player_var1=0

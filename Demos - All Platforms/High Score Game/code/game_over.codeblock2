@@ -1,0 +1,73 @@
+Level none
+PanelBottom none
+If playerscore <= score10
+    //We didn't get a high score
+    Goto game_start
+End
+StringClear playername
+//Using ASCII offset for each option
+Panel entry Frames=0 NoLevelUnload
+Wait 0 ForFire
+StringSetChar playername[0]=65 + option
+Wait 0 ForFire
+StringSetChar playername[1]=65 + option
+Wait 0 ForFire
+StringSetChar playername[2]=65 + option
+Set score10=playerscore
+StringSet name10="{playername}"
+If playerscore > score9
+    Set score10=score9
+    StringSet name10="{name9}"
+    Set score9=playerscore
+    StringSet name9="{playername}"
+End
+If playerscore > score8
+    Set score9=score8
+    StringSet name9="{name8}"
+    Set score8=playerscore
+    StringSet name8="{playername}"
+End
+If playerscore > score7
+    Set score8=score7
+    StringSet name8="{name7}"
+    Set score7=playerscore
+    StringSet name7="{playername}"
+End
+If playerscore > score6
+    Set score7=score6
+    StringSet name7="{name6}"
+    Set score6=playerscore
+    StringSet name6="{playername}"
+End
+If playerscore > score5
+    Set score6=score5
+    StringSet name6="{name5}"
+    Set score5=playerscore
+    StringSet name5="{playername}"
+End
+If playerscore > score4
+    Set score5=score4
+    StringSet name5="{name4}"
+    Set score4=playerscore
+    StringSet name4="{playername}"
+End
+If playerscore > score3
+    Set score4=score3
+    StringSet name4="{name3}"
+    Set score3=playerscore
+    StringSet name3="{playername}"
+End
+If playerscore > score2
+    Set score3=score2
+    StringSet name3="{name2}"
+    Set score2=playerscore
+    StringSet name2="{playername}"
+End
+If playerscore > score1
+    Set score2=score1
+    StringSet name2="{name1}"
+    Set score1=playerscore
+    StringSet name1="{playername}"
+End
+Save highscore 0
+Goto game_start

@@ -1,0 +1,7 @@
+If newvalue != panel_top
+    GoSub unload_panel_top
+    If newvalue
+        Set panel_top=newvalue
+        GoSub load_panel_finish //Wait for the screen to regenerate
+    End
+End

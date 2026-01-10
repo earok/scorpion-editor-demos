@@ -1,0 +1,12 @@
+Talkpad bottom_panel
+SpeakDelay 1
+[amiga_all] Screen Height=256 Frames=0
+GoSub declares
+GoSub init_variables
+If dev_mode == 0
+    Panel snek_panel Frames=0 ForFire
+    [amiga_all] Music snek
+    [neogeo] MusicCD snek
+    MusicPause
+End
+Goto start_level

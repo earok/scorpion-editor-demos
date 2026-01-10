@@ -1,0 +1,9 @@
+//Run this code every frame for the spider
+Set lvl_timer_left=lvl_timer_left - 1
+If lvl_timer_left <= 0 //Time is up
+    If lvl_score > 3 //Did we fix enough holes?
+        Set lvl1_success=true
+    End
+    Level none
+    Goto level2
+End

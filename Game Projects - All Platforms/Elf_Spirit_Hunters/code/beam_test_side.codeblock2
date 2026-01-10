@@ -1,0 +1,27 @@
+If delta_x > -beamwidth
+    If delta_x < beamwidth
+        If delta_x < 0
+            //right side of the beam
+            If lookmask_left btst actor_lookdir
+                Goto flipxlook
+            End
+            ActorPosition X=beam_x + beamwidth
+            If projectile_type == beam_l
+                ActorSpeed Y=1.0 Angle=0
+            Else
+                ActorSpeed Y=-1.0 Angle=0
+            End
+        Else
+            //left side of the beam
+            If lookmask_right btst actor_lookdir
+                Goto flipxlook
+            End
+            ActorPosition X=beam_x - beamwidth
+            If projectile_type == beam_l
+                ActorSpeed Y=-1.0 Angle=0
+            Else
+                ActorSpeed Y=1.0 Angle=0
+            End
+        End
+    End
+End

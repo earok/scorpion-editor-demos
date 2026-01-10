@@ -1,0 +1,152 @@
+Compiled on Thursday, 8 January 2026 6:09:39 p.m.
+Version string: SE2025.0.260108.14.19.EX
+
+ImageFrame Data Size: 30
+Actor Count: 2
+Actor Data Size: 360
+Animations Count: 2
+Animations Data Size: 32
+AnimationFrame Count: 3
+AnimationFrame Data Size: 48
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   MC00 |   123136 |      172 |  NoCrunch | XGM Null song
+   XG-1 |   123308 |      854 |  NoCrunch | XGM 68K Plugin Driver
+   XG00 |   124162 |     5888 |  NoCrunch | XGM Core Driver
+   XG01 |   122880 |      256 |  NoCrunch | XGM Null sound
+   PS00 |   122812 |       28 |  NoCrunch | Project sound
+   FN00 |   130050 |     2048 |  NoCrunch | Default MD font
+   VC00 |   132098 |    10802 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   142900 |    10364 |  NoCrunch | Panel 
+   PL02 |   153264 |    37052 |  NoCrunch | Panel boss_panel
+   PB00 |   190316 |       68 |  NoCrunch | Project blocks
+   PI00 |   122840 |       30 |  NoCrunch | Images
+   PA00 |   190384 |      360 |  NoCrunch | Project actors
+   PP00 |   122870 |        4 |  NoCrunch | Project patterns
+   MT01 |   190744 |       14 |       ZX0 | Map tile data  bossmap
+   MD01 |   190758 |      560 |  NoCrunch | Tile data for map bossmap (mem restrictions:None)
+   PP01 |   191318 |      768 |  NoCrunch | Pattern data for bossmap
+   ME01 |   192086 |       44 |  NoCrunch | Map event data for bossmap
+   MY01 |   192130 |       64 |  NoCrunch | Get Y lookup table bossmap
+   MN01 |   192194 |       20 |  NoCrunch | Map path node data for bossmap
+   MA01 |   192214 |       12 |       ZX0 | Map actor data for bossmap
+   MH01 |   192226 |      848 |  NoCrunch | Header data for map bossmap
+   ML01 |   193074 |        6 |       ZX0 | Map block data for bossmap
+   NT00 |   193080 |      576 |  NoCrunch | Project name table
+   PP-1 |   193656 |     8352 |  NoCrunch | Streamed project patterns
+   PN00 |   202008 |       32 |  NoCrunch | Animations
+   PF00 |   202040 |       48 |  NoCrunch | Animation Frames
+   DB00 |   122874 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   202088 |    11482 |  NoCrunch | Project Header
+   PV00 |   213570 |       38 |  NoCrunch | Var Data
+   AT00 |   213608 |      176 |  NoCrunch | Attack Data
+   PE00 |   213784 |        8 |  NoCrunch | Teleporters
+   CM00 |   213792 |       12 |  NoCrunch | Commands for Joystick 1
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   37052 |    37052 |        | Panel boss_panel
+   11482 |    11482 |        | Project Header
+   10802 |    10802 |        | Project virtual machine (codeblocks)
+   10364 |    10364 |        | Panel 
+    8352 |     8352 |        | Streamed project patterns
+    5888 |     5888 |        | XGM Core Driver
+    2048 |     2048 |        | Default MD font
+     854 |      854 |        | XGM 68K Plugin Driver
+     848 |      848 |        | Header data for map bossmap
+     768 |      768 |        | Pattern data for bossmap
+     576 |      576 |        | Project name table
+     560 |      560 |        | Tile data for map bossmap (mem restrictions:None)
+     360 |      360 |        | Project actors
+     256 |      256 |        | XGM Null sound
+     176 |      176 |        | Attack Data
+     172 |      172 |        | XGM Null song
+      68 |       68 |        | Project blocks
+      64 |       64 |        | Get Y lookup table bossmap
+      48 |       48 |        | Animation Frames
+      44 |       44 |        | Map event data for bossmap
+      38 |       38 |        | Var Data
+      32 |       32 |        | Animations
+      30 |       30 |        | Images
+      28 |       28 |        | Project sound
+      20 |       20 |        | Map path node data for bossmap
+      14 |      352 |  (97%) | Map tile data  bossmap
+      12 |       28 |  (58%) | Map actor data for bossmap
+      12 |       12 |        | Commands for Joystick 1
+       8 |        8 |        | Teleporters
+       6 |      352 |  (99%) | Map block data for bossmap
+       4 |        4 |        | Project patterns
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+RAM reserved for level tiles: (largest level: bossmap): 704
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+
+Total: 10376 bytes
+
+=== Codeblocks by compiled size ===
+load_level: 636
+pre_startup: 392
+set_yresolution: 390 (Unused?)
+flipscreen_smooth: 310 (Unused?)
+gigaboss_handler: 304
+do_teleport: 300
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+block_find: 210 (Unused?)
+waitforframes: 194
+block_count: 178 (Unused?)
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
+flipxmove: 142 (Unused?)
+pause: 138
+restart_this_level: 136 (Unused?)
+startup: 136
+load_panel: 134
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+load_music: 70
+jump_actor: 66 (Unused?)
+gigaboss_spawn: 66
+waitforfiredown: 64
+waitforfireup: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26
+vm_constants_tile_properties: 26 (Unused?)

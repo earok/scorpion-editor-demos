@@ -1,0 +1,8 @@
+If player_type == alexkidd_motorcycle
+    If player_y >= block_y << 4
+        If player_y <= block_y << 4 + 39
+            GoSub on_blockhit
+            Set block_collision=false
+        End
+    End
+End

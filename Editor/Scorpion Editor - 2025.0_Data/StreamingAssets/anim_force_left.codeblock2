@@ -1,0 +1,4 @@
+//Force an actor to play the left side of the current an auto flipped animation
+If actor_animationflags btst AnimFlag_AutoFlipRight
+    ActorAnimation actor_animation - 1 Frame=actor_frame
+End

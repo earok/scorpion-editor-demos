@@ -1,0 +1,30 @@
+Variable word column1_val=0
+Variable word column2_val=0
+Variable word column3_val=0
+Variable word column4_val=0
+Set column1_val=column1_val + 4
+Set column2_val=column2_val + 3
+Set column3_val=column3_val + 2
+Set column4_val=column4_val + 1
+If column1_val >= 16
+    Set column1_val=0
+End
+If column2_val >= 16
+    Set column2_val=0
+End
+If column3_val >= 16
+    Set column3_val=0
+End
+If column4_val >= 16
+    Set column4_val=0
+End
+ScrollColumn column1_val Index=0 BG
+ScrollColumn column1_val Index=15 BG
+ScrollColumn column2_val Index=1 BG
+ScrollColumn column2_val Index=14 BG
+ScrollColumn column3_val Index=2 BG
+ScrollColumn column3_val Index=13 BG
+ScrollColumn column4_val Index=3 BG
+ScrollColumn column4_val Index=12 BG
+Yield 1
+Goto column_scroll_loop

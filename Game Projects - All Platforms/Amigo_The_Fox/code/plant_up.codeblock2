@@ -1,0 +1,13 @@
+If actor_type == plant //Special case. Green plant does not ambush player
+    If player_x > actor_x - 16
+        If player_x < actor_x + 16
+            ActorAnimation anim_plant_hide Frame=0
+            Return
+        End
+    End
+End
+If actor_type == plant_red
+    ActorAnimation anim_plantred_up Frame=0
+    Return
+End
+ActorAnimation anim_plant_up Frame=0

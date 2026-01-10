@@ -1,0 +1,10 @@
+Array word WaterArray[240]
+Variable word index=0
+Variable word offset=0
+//SINE lookups are slow so just generate a table at the start of the game
+For index From 0 To 239
+    Rotate index * 3 X=0 Y=3 XVar=offset YVar=math_y
+    Set WaterArray[index]=offset
+End
+Set offset=0 //First index in HScrollRam for background is 1
+Level level1

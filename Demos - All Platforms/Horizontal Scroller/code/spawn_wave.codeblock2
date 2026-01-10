@@ -1,0 +1,9 @@
+Variable word spawn_number=0
+Variable word spawn_y=0
+Variable word spawn_type=0
+While spawn_number > 0
+    SpawnOnBlock spinner
+    NewPosition X=camera_x + 256 + 32 Y=spawn_y
+    Set spawn_number=spawn_number - 1
+    Yield 10
+End

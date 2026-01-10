@@ -1,0 +1,20 @@
+Set bighanddelay=bighanddelay + 1
+If bighanddelay > 50 //Slows down hand and prevents it from moving while the level is starting
+    Set bighanddelay=bighanddelay - 2
+    PlayerPosition X=player_x + 1
+    If player_x > 157 //End of the level
+        If player_y < 64 //Bad ending?
+            Level none
+            Goto level4_badending //Bad ending?
+        End
+        If player_y > 72 //Bad ending?
+            Level none
+            Goto level4_badending //Bad ending?
+        End
+        Set lvl4_success=true //Good ending!
+        Sound snd_heaven Period=0
+        Level none
+        Panel column_fix Frames=150
+        Goto endscreen
+    End
+End

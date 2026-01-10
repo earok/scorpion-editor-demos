@@ -1,0 +1,17 @@
+//Camera smoothly scrolls to the player's current screen
+While camera_x < Player_X / XRes * XRes
+    CameraPosition X=Camera_X + 4
+    Wait 1
+End
+While camera_x > Player_X / XRes * XRes
+    CameraPosition X=Camera_X - 4
+    Wait 1
+End
+While camera_y < Player_y / yres * yres
+    CameraPosition Y=Camera_Y + 4
+    Wait 1
+End
+While camera_y > Player_y / yres * yres
+    CameraPosition Y=Camera_Y - 4
+    Wait 1
+End
